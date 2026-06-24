@@ -1,0 +1,2278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal Square Market Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  :root{
+    --paper:#F2ECE0; --paper2:#EDE5D6; --card:#FBF8F1; --ink:#211C15; --ink2:#5C5346;
+    --rule:#D8CDB8; --rule2:#E6DDCB; --rust:#B0492A; --rust-soft:#D98A6B;
+    --teal:#2E5A5E; --teal-soft:#7FA7A6; --gold:#C09A45; --green:#4F7A47; --red:#A6422C;
+    --shadow:0 1px 0 rgba(33,28,21,.04), 0 12px 30px -18px rgba(33,28,21,.30);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  body{background:var(--paper); color:var(--ink); font-family:'Archivo',sans-serif; font-size:15px; line-height:1.5;
+    background-image:radial-gradient(rgba(33,28,21,.025) 1px, transparent 1px); background-size:4px 4px;}
+  .num{font-family:'Spline Sans Mono',monospace; font-variant-numeric:tabular-nums; letter-spacing:-.02em}
+  .wrap{max-width:1240px; margin:0 auto; padding:0 28px}
+  button{font-family:'Archivo',sans-serif; cursor:pointer}
+
+  header{border-bottom:2px solid var(--ink); padding:34px 0 0; background:linear-gradient(180deg,rgba(251,248,241,.5),transparent)}
+  .kicker{font-size:11.5px; letter-spacing:.32em; text-transform:uppercase; color:var(--rust); font-weight:600; display:flex; align-items:center; gap:10px}
+  .kicker::after{content:""; flex:1; height:1px; background:var(--rule)}
+  h1{font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,4.4vw,50px); line-height:1.03; letter-spacing:-.015em; margin:12px 0 6px}
+  h1 em{font-style:italic; color:var(--teal)}
+  .sub{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; color:var(--ink2); font-size:14px}
+  .sub b{color:var(--ink); font-weight:600}
+
+  .toolbar{display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:16px 0; margin-top:14px; border-top:1px solid var(--rule)}
+  .btn{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600; padding:8px 14px; border-radius:9px; border:1px solid var(--rule); background:var(--card); color:var(--ink); transition:.14s}
+  .btn:hover{border-color:var(--ink); transform:translateY(-1px)}
+  .btn .ic{font-size:14px}
+  .status{margin-left:auto; display:flex; align-items:center; gap:9px; font-size:12.5px; color:var(--ink2)}
+  .status .dot{width:8px;height:8px;border-radius:50%; background:var(--teal-soft)}
+  .status .dot.live{background:var(--green)} .status .dot.err{background:var(--red)}
+
+  .sec{margin:38px 0}
+  .sec-h{display:flex; align-items:baseline; gap:14px; margin-bottom:18px}
+  .sec-h .n{font-family:'Spline Sans Mono',monospace; font-size:12px; color:var(--rust); font-weight:600; padding-top:5px}
+  .sec-h h2{font-family:'Fraunces',serif; font-weight:500; font-size:25px; letter-spacing:-.01em}
+  .sec-h .note{margin-left:auto; font-size:12.5px; color:var(--ink2); max-width:360px; text-align:right; line-height:1.35}
+
+  .kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:14px}
+  .kpi{background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); position:relative; overflow:hidden}
+  .kpi::before{content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--teal)}
+  .kpi.hot::before{background:var(--rust)}
+  .kpi .lab{font-size:11px; letter-spacing:.07em; text-transform:uppercase; color:var(--ink2); font-weight:600}
+  .kpi .v{font-family:'Spline Sans Mono',monospace; font-size:29px; font-weight:500; margin-top:6px; letter-spacing:-.03em}
+  .kpi .v small{font-size:15px; color:var(--ink2)}
+  .kpi .meta{font-size:12px; color:var(--ink2); margin-top:3px}
+
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  .grid-2-3{display:grid; grid-template-columns:1.25fr 1fr; gap:18px}
+  .panel{background:var(--card); border:1px solid var(--rule); border-radius:16px; padding:20px 22px; box-shadow:var(--shadow)}
+  .panel h3{font-family:'Fraunces',serif; font-weight:500; font-size:18px; margin-bottom:3px}
+  .panel .ph{font-size:12.5px; color:var(--ink2); margin-bottom:16px}
+  .chart-box{position:relative; height:300px}
+  .chart-box.tall{height:330px}
+  #mapBox .leaflet-container{font-family:'Archivo',sans-serif;background:var(--paper2)}
+  .leaflet-popup-content-wrapper{background:var(--card);color:var(--ink);border-radius:10px;box-shadow:var(--shadow)}
+  .leaflet-popup-tip{background:var(--card)}
+  .ref-pin{background:transparent;border:0}
+  .mapctrl input::placeholder{color:var(--ink2)}
+  .pin-sug:hover{background:var(--paper2)}
+  .empty{display:flex; align-items:center; justify-content:center; height:100%; text-align:center; color:var(--ink2); font-size:13px; padding:0 30px; line-height:1.5}
+
+  .ctrls{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:16px}
+  .ctrls .lbl{font-size:12.5px; color:var(--ink2); font-weight:600}
+  .seg{display:inline-flex; background:var(--paper2); border:1px solid var(--rule); border-radius:10px; padding:3px; gap:2px}
+  .seg button{font-size:12.5px; font-weight:600; color:var(--ink2); background:none; border:none; padding:6px 13px; border-radius:7px; transition:.15s}
+  .seg button:hover{color:var(--ink)} .seg button.on{background:var(--ink); color:var(--paper)}
+
+  .tbl-wrap{overflow-x:auto; border:1px solid var(--rule); border-radius:14px; background:var(--card); box-shadow:var(--shadow)}
+  table{width:100%; border-collapse:collapse; font-size:13.5px; min-width:820px}
+  th,td{text-align:right; padding:10px 13px; white-space:nowrap}
+  th{font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink2); font-weight:600; border-bottom:1.5px solid var(--ink); cursor:pointer; user-select:none}
+  th:first-child,td:first-child{text-align:left} th.act,td.act{text-align:center;cursor:default}
+  th .ar{opacity:.35; font-size:9px; margin-left:3px} th.sorted .ar{opacity:1; color:var(--rust)}
+  tbody tr{border-bottom:1px solid var(--rule2)} tbody tr:last-child{border-bottom:none}
+  tbody tr:hover{background:var(--paper2)} tr.out{opacity:.5}
+  td .mono{font-family:'Spline Sans Mono',monospace}
+  .nm-sub{display:block; font-size:11px; color:var(--ink2); font-weight:400; margin-top:1px}
+  #tbl td.physcol{max-width:130px; white-space:normal}
+  #tbl td.conccol{max-width:140px; white-space:normal}
+  #tbl td.physcol .nm-sub, #tbl td.conccol .nm-sub{white-space:normal; line-height:1.35}
+  .nm-sub a{color:var(--teal); text-decoration:none} .nm-sub a:hover{text-decoration:underline}
+  .tag{font-size:10.5px; font-weight:600; padding:2px 7px; border-radius:5px; background:var(--rule2); color:var(--ink2)}
+  .chk{width:15px;height:15px; accent-color:var(--teal); cursor:pointer}
+
+  .insight{background:linear-gradient(135deg,var(--teal),#234547); color:#F2ECE0; border-radius:16px; padding:22px 24px; box-shadow:var(--shadow)}
+  .insight h3{font-family:'Fraunces',serif; font-weight:500; font-size:19px; margin-bottom:10px; color:#fff}
+  .insight ul{list-style:none; display:flex; flex-direction:column; gap:9px}
+  .insight li{font-size:13px; padding-left:18px; position:relative; line-height:1.45; color:rgba(242,236,224,.92)}
+  .insight li::before{content:"›"; position:absolute; left:0; color:var(--gold); font-weight:700}
+  .insight li b{color:var(--gold); font-weight:600}
+
+  .banner{background:rgba(192,154,69,.14); border:1px solid rgba(192,154,69,.4); color:#6b5418; border-radius:12px; padding:12px 16px; font-size:13px; margin-bottom:22px; line-height:1.5}
+  .banner b{color:#4a3a10}
+  footer{border-top:2px solid var(--ink); margin-top:46px; padding:22px 0 50px; color:var(--ink2); font-size:12px; line-height:1.6}
+  footer b{color:var(--ink)} footer code{font-family:'Spline Sans Mono'; background:var(--paper2); padding:1px 5px; border-radius:4px; font-size:11px}
+
+  .overlay{position:fixed; inset:0; background:rgba(33,28,21,.45); backdrop-filter:blur(3px); display:none; align-items:flex-start; justify-content:center; z-index:50; padding:40px 16px; overflow:auto}
+  .overlay.on{display:flex}
+  .modal{background:var(--paper); border:1px solid var(--rule); border-radius:18px; max-width:560px; width:100%; box-shadow:0 30px 80px -20px rgba(33,28,21,.6)}
+  .modal-h{display:flex; align-items:center; padding:18px 22px; border-bottom:1px solid var(--rule)}
+  .modal-h h3{font-family:'Fraunces',serif; font-weight:600; font-size:20px}
+  .modal-h .x{margin-left:auto; border:none; background:none; font-size:22px; color:var(--ink2); border-radius:8px; width:34px; height:34px}
+  .modal-h .x:hover{background:var(--rule2); color:var(--ink)}
+  .hint{font-size:12.5px; color:var(--ink2); padding:16px 22px 0; line-height:1.5} .hint code{font-family:'Spline Sans Mono'; background:var(--paper2); padding:1px 5px; border-radius:4px; font-size:11px}
+  .modal-b{padding:14px 22px} textarea.json,.modal-b input{width:100%; font-family:'Spline Sans Mono'; font-size:12px; border:1px solid var(--rule); border-radius:10px; padding:11px; background:var(--card); color:var(--ink)}
+  textarea.json{min-height:130px; resize:vertical}
+  .modal-f{display:flex; gap:10px; padding:14px 22px; border-top:1px solid var(--rule); background:var(--card); border-radius:0 0 18px 18px} .modal-f .spacer{flex:1}
+  .addgrid{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+  .addgrid label{display:flex; flex-direction:column; gap:5px; font-size:12px; font-weight:600; color:var(--ink2)}
+  .addgrid label:nth-child(1),.addgrid label:nth-child(2){grid-column:1/-1}
+  .addgrid input,.addgrid select{font-family:'Archivo'; font-size:13px; border:1px solid var(--rule); border-radius:9px; padding:9px 11px; background:var(--card); color:var(--ink); font-weight:400}
+  .addgrid .opt{font-weight:400; color:var(--teal-soft)}
+  .snip{margin-top:14px} .snip-h{display:flex; align-items:center; font-size:12px; color:var(--ink2); margin-bottom:6px} .snip-h code{font-family:'Spline Sans Mono'; font-size:11px}
+  .cpy{margin-left:auto; font-size:11px; font-weight:600; padding:4px 10px; border-radius:7px; border:1px solid var(--rule); background:var(--paper2); color:var(--ink)}
+  .cpy:hover{border-color:var(--ink)}
+  .snip pre{font-family:'Spline Sans Mono'; font-size:11.5px; background:var(--ink); color:#EDE5D6; border-radius:10px; padding:12px 14px; overflow-x:auto; white-space:pre; line-height:1.5}
+
+  @media(max-width:900px){ .kpis{grid-template-columns:repeat(2,1fr)} .grid2,.grid-2-3{grid-template-columns:1fr} .sec-h .note{display:none} }
+  @media(max-width:560px){ .wrap{padding:0 16px} .kpis{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Submarket Monitor &nbsp;·&nbsp; Journal Square, Jersey City NJ</div>
+    <h1>Journal&nbsp;Square <em>multifamily</em> monitor</h1>
+    <div class="sub" id="sub"></div>
+    <div class="toolbar">
+      <div class="status"><span class="dot" id="statusDot"></span><span id="statusText"></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="banner"></div>
+
+  <section class="sec"><div class="sec-h"><span class="n">01</span><h2>Submarket at a glance</h2>
+    <div class="note">Averages use buildings flagged <b>in-market</b> in the table below. Toggle one to reshape the view.</div></div>
+    <div class="kpis" id="kpiGrid"></div>
+  </section>
+
+  <section class="sec" id="secSurvey"><div class="sec-h"><span class="n">02</span><h2>Live market survey — selected market total</h2>
+    <div class="note">Live listings rolled up by type — asking min/avg/max, SF, $/SF, net-effective — recomputed from the buildings selected in section 7.</div></div>
+    <div class="panel"><h3>Selected market total</h3><div class="ph" id="lmsPh"></div><div class="tbl-wrap" style="box-shadow:none;border:1px solid var(--rule)"><div id="lmsTable"></div></div></div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><span class="n">03</span><h2>What's on the market right now</h2>
+    <div class="note">Live available units per building, and the advertised concession behind each.</div></div>
+    <div class="grid2">
+      <div class="panel"><h3>Available units by building</h3><div class="ph">As of the latest pull</div><div class="chart-box"><canvas id="availChart"></canvas></div></div>
+      <div class="panel"><h3>Concession by building</h3><div class="ph">Effective discount off asking, read from each building\u2019s site at pull time \u00b7 solid = stated term \u00b7 lighter = derived from same-unit gross-vs-net pricing</div><div class="chart-box"><canvas id="concChart"></canvas></div><div id="concUnq" class="ph" style="margin-top:10px"></div></div>
+    </div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><span class="n">04</span><h2>Market rents by unit type</h2>
+    <div class="note">Asking vs. net-effective across the set, and the trend as snapshots accumulate.</div></div>
+    <div class="grid2">
+      <div class="panel"><h3>Asking vs. net-effective</h3><div class="ph">Latest market snapshot · label above each bar = annualized $/SF</div><div class="chart-box"><canvas id="typeChart"></canvas></div></div>
+      <div class="panel"><h3>Rent &amp; availability over time</h3><div class="ph" id="trendPh"></div><div class="chart-box"><canvas id="trendChart"></canvas></div></div>
+    </div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><span class="n">05</span><h2>Rents by building</h2>
+    <div class="note">Per-building, per-type averages — populates once per-unit listings are ingested.</div></div>
+    <div class="ctrls"><span class="lbl">UNIT TYPE</span>
+      <div class="seg" id="unitSeg">
+        <button data-u="Studio">Studio</button><button data-u="1BR">1 BR</button>
+        <button data-u="2BR">2 BR</button><button data-u="3BR">3 BR</button><button data-u="All" class="on">All types</button>
+      </div>
+    </div>
+    <div class="panel"><h3 id="rbpTitle">Studio rent by building</h3><div class="ph">Solid = net-effective · shaded top = concession delta to market ask · label = net-eff $/SF, annualized — only where footage is published. No advertised concession → net = asking; \u2020 = special advertised but unquantified (listed price shown). This chart is the selected-type cut; section 07\u2019s $/SF is the all-types composite, so the figures differ by design.</div><div class="chart-box"><canvas id="rbpChart"></canvas></div></div>
+  </section>
+
+  <section class="sec" id="secUnitMix"><div class="sec-h"><span class="n">06</span><h2>Unit mix</h2>
+    <div class="note">Bedroom-type census across the comps with real unit-by-unit data. The market totals use the 9 sourced buildings; the by-building view below lets you inspect each one.</div></div>
+    <div class="grid-2-3">
+      <div class="panel"><h3>Sourced unit mix</h3><div class="ph" id="umPh"></div><div class="chart-box"><canvas id="umChart"></canvas></div></div>
+      <div class="panel"><h3>By type</h3><div class="ph">Units and share of the sourced base</div><div id="umTable"></div></div>
+    </div>
+    <div class="panel" style="margin-top:18px"><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <h3 style="margin:0">By building</h3>
+      <select id="umBldgSel" style="font:inherit;padding:7px 12px;border:1.5px solid var(--ink);border-radius:8px;background:#FBF8F1;color:var(--ink);max-width:320px"></select>
+    </div><div id="umBldgDetail" style="margin-top:14px"></div></div>
+  </section>
+
+
+  <section class="sec"><div class="sec-h"><span class="n">07</span><h2>The map</h2>
+    <div class="note">The competitive set on the ground. Marker size tracks building unit count; teal = in the market average, muted = excluded. Click a marker for the live read and its drill-down. Drop reference pins by address below.</div></div>
+    <div class="mapctrl" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 10px">
+      <div style="position:relative;flex:1 1 240px;min-width:200px">
+        <input id="pinAddr" type="text" autocomplete="off" placeholder="Address or place — e.g. 100 Sip Ave, Jersey City" style="width:100%;box-sizing:border-box;padding:7px 11px;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;font-size:13px">
+        <div id="pinSuggest" style="display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:1100;background:var(--card);border:1px solid var(--rule);border-radius:8px;box-shadow:var(--shadow);max-height:230px;overflow:auto"></div>
+      </div>
+      <button class="btn" id="addPin"><span class="ic">📍</span> Add pin</button>
+      <button class="btn" id="removePins">Remove pins</button>
+      <span id="pinMsg" class="ph" style="margin:0"></span>
+    </div>
+    <div class="panel" style="padding:10px"><div id="mapBox" style="height:480px;border-radius:10px;overflow:hidden"></div></div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><span class="n">08</span><h2>The building set</h2>
+    <div class="note">Click a column to sort. Toggle "in-market" to include/exclude from the averages above (view-only).</div></div>
+    <div class="tbl-wrap"><table id="tbl"><thead><tr>
+      <th class="act">In&nbsp;mkt</th><th data-k="name">Building</th><th data-k="units">Units</th>
+      <th data-k="available_now">Avail <span class="ar">▼</span></th><th data-k="avail_rate">Avail %</th>
+      <th data-k="mkt_psf">Mkt $/SF</th><th data-k="net_psf">Net-Eff $/SF</th>
+      <th data-k="phys_recorded">SF recorded</th>
+      <th data-k="concession_pct">Concession</th><th data-k="method">Source</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="sec"><div class="sec-h"><span class="n">09</span><h2>Read-out</h2></div>
+    <div class="insight"><h3>What the set is telling you</h3><ul id="insightList"></ul></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <b>Source.</b> This dashboard is a view of <code>dashboard_data.json</code>, exported from the market pipeline database (<code>python engine/pipeline.py export</code>). It refreshes automatically each day via the GitHub Actions pull (scrape → ingest → export → rebuild), which commits the updated data and page back to the repo. Edit the building set via <code>buildings_meta.json</code> + <code>pipeline.py seed</code>. <span id="foot"></span> Not investment advice.
+</div></footer>
+
+
+<script>
+const DATA = /*DATA_START*/{
+  "generated_at": "2026-06-24T16:38:07+00:00",
+  "as_of": "2026-06-23",
+  "buildings": [
+    {
+      "id": "baldwin_134",
+      "name": "134 Baldwin",
+      "units": 91,
+      "address": "134 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.7267119,
+      "lng": -74.0615797,
+      "phys_recorded": 7,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2021,
+      "stories": 8,
+      "mgmt": null,
+      "in_market": true,
+      "method": "network_api",
+      "source_url": "https://www.zillow.com/apartments/jersey-city-nj/134-baldwin-ave/Cjdy8R/",
+      "portal_url": null,
+      "available_now": 7,
+      "concession_text": null,
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "Studio": {
+          "count": 7,
+          "asking_avg": 2343,
+          "net_avg": null,
+          "sqft_avg": 570,
+          "asking_min": 2100,
+          "asking_max": 2499,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 49.41,
+          "net_psf": null,
+          "psf_n": 7
+        }
+      }
+    },
+    {
+      "id": "three_journal_square",
+      "name": "3 Journal Square",
+      "units": 240,
+      "address": "2935 John F Kennedy Blvd, Jersey City, NJ",
+      "lat": 40.7340143,
+      "lng": -74.0640563,
+      "phys_recorded": 7,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2017,
+      "stories": 13,
+      "mgmt": "Greystar",
+      "in_market": true,
+      "method": "network_api",
+      "source_url": "https://www.threejournalsquare.com/Floor-plans.aspx",
+      "portal_url": "https://sightmap.com/embed/d7p1mrk2pkx",
+      "available_now": 6,
+      "concession_text": null,
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 6,
+          "asking_avg": 3216,
+          "net_avg": null,
+          "sqft_avg": 720,
+          "asking_min": 3029,
+          "asking_max": 3409,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 53.64,
+          "net_psf": null,
+          "psf_n": 6
+        }
+      }
+    },
+    {
+      "id": "baldwin_345",
+      "name": "345 Baldwin",
+      "units": 116,
+      "address": "345 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.732921,
+      "lng": -74.055372,
+      "phys_recorded": 16,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.345baldwin.com/availability",
+      "portal_url": "https://availability.rosenyc.com/availability/noeelbmj/",
+      "available_now": 11,
+      "concession_text": "$2,100.00 Net Effective Rent",
+      "concession_pct": 0.125,
+      "conc_derived_pct": 0.1251,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 7,
+          "asking_avg": 3023,
+          "net_avg": 2645,
+          "sqft_avg": 641,
+          "asking_min": 2795,
+          "asking_max": 3200,
+          "net_min": 2445,
+          "net_max": 2800,
+          "asking_psf": 56.57,
+          "net_psf": 49.49,
+          "psf_n": 7
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 3800,
+          "net_avg": 3325,
+          "sqft_avg": 833,
+          "asking_min": 3800,
+          "asking_max": 3800,
+          "net_min": 3325,
+          "net_max": 3325,
+          "asking_psf": 54.74,
+          "net_psf": 47.9,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 3,
+          "asking_avg": 2427,
+          "net_avg": 2123,
+          "sqft_avg": 391,
+          "asking_min": 2400,
+          "asking_max": 2460,
+          "net_min": 2100,
+          "net_max": 2152,
+          "asking_psf": 74.48,
+          "net_psf": 65.16,
+          "psf_n": 3
+        }
+      }
+    },
+    {
+      "id": "summit_413",
+      "name": "413 Summit",
+      "units": 148,
+      "address": "413 Summit Ave, Jersey City, NJ",
+      "lat": 40.729691,
+      "lng": -74.062161,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.413summit.com/availability",
+      "portal_url": null,
+      "available_now": 2,
+      "concession_text": "*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",
+      "concession_pct": 0.0769,
+      "conc_derived_pct": 0.0769,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 2,
+          "asking_avg": 2795,
+          "net_avg": 2580,
+          "sqft_avg": null,
+          "asking_min": 2595,
+          "asking_max": 2995,
+          "net_min": 2395,
+          "net_max": 2765,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "summit_505",
+      "name": "505 Summit",
+      "units": 605,
+      "address": "505 Summit Ave, Jersey City, NJ",
+      "lat": 40.731121,
+      "lng": -74.060783,
+      "phys_recorded": 55,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": "Panepinto Properties",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.505summit.com/availability",
+      "portal_url": null,
+      "available_now": 39,
+      "concession_text": "GRAND OPENING: OFFERING UP TO 2.5 MONTHS FREE*",
+      "concession_pct": 0.1042,
+      "conc_derived_pct": 0.1167,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 20,
+          "asking_avg": 3975,
+          "net_avg": 3511,
+          "sqft_avg": 677,
+          "asking_min": 3656,
+          "asking_max": 4551,
+          "net_min": 3225,
+          "net_max": 4027,
+          "asking_psf": 70.82,
+          "net_psf": 62.55,
+          "psf_n": 20
+        },
+        "2BR": {
+          "count": 4,
+          "asking_avg": 5840,
+          "net_avg": 5181,
+          "sqft_avg": 1043,
+          "asking_min": 5601,
+          "asking_max": 6231,
+          "net_min": 4967,
+          "net_max": 5532,
+          "asking_psf": 67.88,
+          "net_psf": 60.23,
+          "psf_n": 4
+        },
+        "3BR": {
+          "count": 2,
+          "asking_avg": 6626,
+          "net_avg": 5886,
+          "sqft_avg": 1332,
+          "asking_min": 6401,
+          "asking_max": 6851,
+          "net_min": 5684,
+          "net_max": 6087,
+          "asking_psf": 59.79,
+          "net_psf": 53.11,
+          "psf_n": 2
+        },
+        "Studio": {
+          "count": 13,
+          "asking_avg": 3541,
+          "net_avg": 3122,
+          "sqft_avg": 545,
+          "asking_min": 3416,
+          "asking_max": 3706,
+          "net_min": 3010,
+          "net_max": 3270,
+          "asking_psf": 79.57,
+          "net_psf": 70.15,
+          "psf_n": 13
+        }
+      }
+    },
+    {
+      "id": "jordan_55",
+      "name": "55 Jordan",
+      "units": 267,
+      "address": "55 Jordan Ave, Jersey City, NJ",
+      "lat": 40.725602,
+      "lng": -74.06597,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "none",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.55jordan.com/availability",
+      "portal_url": "https://newdev.modernspacesnyc.com/Search/Frame?buildingId=635066",
+      "available_now": 4,
+      "concession_text": "Up to 3 mo free + no broker fee (term not stated)",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 2,
+          "asking_avg": 2688,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2675,
+          "asking_max": 2700,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2050,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2000,
+          "asking_max": 2100,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "four_twenty_five_summit",
+      "name": "Four Twenty Five Summit",
+      "units": 390,
+      "address": "425 Summit Ave, Jersey City, NJ",
+      "lat": 40.730042,
+      "lng": -74.061893,
+      "phys_recorded": 57,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2024,
+      "stories": 27,
+      "mgmt": "Rose Associates",
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://425summit.com/availability/",
+      "portal_url": "https://availability.rosenyc.com/availability/fnhqqlif/",
+      "available_now": 20,
+      "concession_text": "$2,384.38 Net Effective Rent",
+      "concession_pct": 0.125,
+      "conc_derived_pct": 0.1252,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 10,
+          "asking_avg": 3460,
+          "net_avg": 3026,
+          "sqft_avg": 652,
+          "asking_min": 3250,
+          "asking_max": 3570,
+          "net_min": 2843,
+          "net_max": 3123,
+          "asking_psf": 63.74,
+          "net_psf": 55.77,
+          "psf_n": 10
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 5050,
+          "net_avg": 4418,
+          "sqft_avg": 986,
+          "asking_min": 5050,
+          "asking_max": 5050,
+          "net_min": 4418,
+          "net_max": 4418,
+          "asking_psf": 61.46,
+          "net_psf": 53.77,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 9,
+          "asking_avg": 2977,
+          "net_avg": 2605,
+          "sqft_avg": 484,
+          "asking_min": 2725,
+          "asking_max": 3210,
+          "net_min": 2384,
+          "net_max": 2808,
+          "asking_psf": 74.77,
+          "net_psf": 65.41,
+          "psf_n": 9
+        }
+      }
+    },
+    {
+      "id": "urby",
+      "name": "Journal Square Urby",
+      "units": 317,
+      "address": "532 Summit Ave, Jersey City, NJ",
+      "lat": 40.732112,
+      "lng": -74.059383,
+      "phys_recorded": 21,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2024,
+      "stories": 25,
+      "mgmt": "Ironstate / Urby",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.urby.com/location/journal-square/availability",
+      "portal_url": null,
+      "available_now": 17,
+      "concession_text": "$2,885 */mo * Price includes concessions.",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 5,
+          "asking_avg": 3301,
+          "net_avg": null,
+          "sqft_avg": 523,
+          "asking_min": 3005,
+          "asking_max": 3515,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 80.19,
+          "net_psf": null,
+          "psf_n": 1
+        },
+        "2BR": {
+          "count": 6,
+          "asking_avg": 4745,
+          "net_avg": 4720,
+          "sqft_avg": 856,
+          "asking_min": 4525,
+          "asking_max": 4925,
+          "net_min": 4645,
+          "net_max": 4795,
+          "asking_psf": 66.96,
+          "net_psf": 66.34,
+          "psf_n": 4
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 5375,
+          "net_avg": null,
+          "sqft_avg": 892,
+          "asking_min": 5375,
+          "asking_max": 5375,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 72.31,
+          "net_psf": null,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 5,
+          "asking_avg": 2975,
+          "net_avg": 2930,
+          "sqft_avg": 446,
+          "asking_min": 2925,
+          "asking_max": 3075,
+          "net_min": 2885,
+          "net_max": 2975,
+          "asking_psf": 80.17,
+          "net_psf": 79.55,
+          "psf_n": 4
+        }
+      }
+    },
+    {
+      "id": "journal_squared",
+      "name": "Journal Squared",
+      "units": 1840,
+      "address": "615 Pavonia Ave, Jersey City, NJ",
+      "lat": 40.732315,
+      "lng": -74.060474,
+      "phys_recorded": 98,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2021,
+      "stories": 68,
+      "mgmt": "Kushner Real Estate Group",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.journalsquared.com/availabilities/",
+      "portal_url": null,
+      "available_now": 33,
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 12,
+          "asking_avg": 3432,
+          "net_avg": null,
+          "sqft_avg": 699,
+          "asking_min": 3145,
+          "asking_max": 3785,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 59.45,
+          "net_psf": null,
+          "psf_n": 12
+        },
+        "2BR": {
+          "count": 9,
+          "asking_avg": 4818,
+          "net_avg": null,
+          "sqft_avg": 1030,
+          "asking_min": 4690,
+          "asking_max": 5000,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 56.16,
+          "net_psf": null,
+          "psf_n": 9
+        },
+        "3BR": {
+          "count": 3,
+          "asking_avg": 6382,
+          "net_avg": null,
+          "sqft_avg": 1271,
+          "asking_min": 5700,
+          "asking_max": 6780,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 60.34,
+          "net_psf": null,
+          "psf_n": 3
+        },
+        "Studio": {
+          "count": 9,
+          "asking_avg": 3021,
+          "net_avg": null,
+          "sqft_avg": 504,
+          "asking_min": 2830,
+          "asking_max": 3250,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 72.24,
+          "net_psf": null,
+          "psf_n": 9
+        }
+      }
+    },
+    {
+      "id": "metrovue",
+      "name": "MetroVue",
+      "units": 124,
+      "address": "161 Van Wagenen Ave, Jersey City, NJ",
+      "lat": 40.735988,
+      "lng": -74.068748,
+      "phys_recorded": 10,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://metrovuejc.com/availability",
+      "portal_url": null,
+      "available_now": 6,
+      "concession_text": "Incentives offered \u2014 unquantified ('contact leasing')",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 6,
+          "asking_avg": 2866,
+          "net_avg": null,
+          "sqft_avg": 567,
+          "asking_min": 2750,
+          "asking_max": 3099,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 60.68,
+          "net_psf": null,
+          "psf_n": 6
+        }
+      }
+    },
+    {
+      "id": "orchard",
+      "name": "Orchard",
+      "units": 285,
+      "address": "55 Orchard St, Jersey City, NJ",
+      "lat": 40.724348,
+      "lng": -74.067117,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "none",
+      "year_built": 2024,
+      "stories": 16,
+      "mgmt": "Bushburg Properties",
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.orchardjc.com/availability",
+      "portal_url": "https://newdev.modernspacesnyc.com/Search/Frame",
+      "available_now": 7,
+      "concession_text": "1-2 mo free (14-mo) per Apr survey \u2014 no concession language on widget",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 3,
+          "asking_avg": 2853,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2715,
+          "asking_max": 2995,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "2BR": {
+          "count": 2,
+          "asking_avg": 3422,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 3250,
+          "asking_max": 3595,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2418,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2360,
+          "asking_max": 2475,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "greyson",
+      "name": "The Greyson",
+      "units": 622,
+      "address": "25 Cottage St, Jersey City, NJ",
+      "lat": 40.73418,
+      "lng": -74.060405,
+      "phys_recorded": 62,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 29,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.thegreyson.com/availability",
+      "portal_url": null,
+      "available_now": 14,
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "concession_pct": 0.0833,
+      "conc_derived_pct": 0.0833,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 5,
+          "asking_avg": 3635,
+          "net_avg": 3332,
+          "sqft_avg": 691,
+          "asking_min": 3310,
+          "asking_max": 3935,
+          "net_min": 3034,
+          "net_max": 3607,
+          "asking_psf": 63.2,
+          "net_psf": 57.93,
+          "psf_n": 5
+        },
+        "2BR": {
+          "count": 3,
+          "asking_avg": 5553,
+          "net_avg": 5091,
+          "sqft_avg": 950,
+          "asking_min": 5425,
+          "asking_max": 5625,
+          "net_min": 4973,
+          "net_max": 5156,
+          "asking_psf": 70.67,
+          "net_psf": 64.78,
+          "psf_n": 3
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 5550,
+          "net_avg": 5088,
+          "sqft_avg": 1103,
+          "asking_min": 5550,
+          "asking_max": 5550,
+          "net_min": 5088,
+          "net_max": 5088,
+          "asking_psf": 60.38,
+          "net_psf": 55.35,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 5,
+          "asking_avg": 2996,
+          "net_avg": 2746,
+          "sqft_avg": 423,
+          "asking_min": 2855,
+          "asking_max": 3190,
+          "net_min": 2617,
+          "net_max": 2924,
+          "asking_psf": 84.59,
+          "net_psf": 77.54,
+          "psf_n": 4
+        }
+      }
+    },
+    {
+      "id": "the_journal",
+      "name": "The Journal",
+      "units": 1723,
+      "address": "36 Journal Square, Jersey City, NJ",
+      "lat": 40.731008,
+      "lng": -74.062295,
+      "phys_recorded": 185,
+      "phys_modeled": true,
+      "phys_lines": 42,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.journaljc.com/availability",
+      "portal_url": null,
+      "available_now": 137,
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "concession_pct": 0.1,
+      "conc_derived_pct": 0.1001,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 75,
+          "asking_avg": 4018,
+          "net_avg": 3616,
+          "sqft_avg": 741,
+          "asking_min": 3550,
+          "asking_max": 5096,
+          "net_min": 3195,
+          "net_max": 4586,
+          "asking_psf": 65.56,
+          "net_psf": 59.0,
+          "psf_n": 75
+        },
+        "2BR": {
+          "count": 18,
+          "asking_avg": 5975,
+          "net_avg": 5377,
+          "sqft_avg": 1007,
+          "asking_min": 5496,
+          "asking_max": 6796,
+          "net_min": 4946,
+          "net_max": 6116,
+          "asking_psf": 71.25,
+          "net_psf": 64.12,
+          "psf_n": 18
+        },
+        "3BR": {
+          "count": 4,
+          "asking_avg": 6880,
+          "net_avg": 6192,
+          "sqft_avg": 1226,
+          "asking_min": 6120,
+          "asking_max": 7500,
+          "net_min": 5508,
+          "net_max": 6750,
+          "asking_psf": 67.38,
+          "net_psf": 60.64,
+          "psf_n": 4
+        },
+        "Studio": {
+          "count": 40,
+          "asking_avg": 3362,
+          "net_avg": 3025,
+          "sqft_avg": 443,
+          "asking_min": 2990,
+          "asking_max": 3630,
+          "net_min": 2691,
+          "net_max": 3267,
+          "asking_psf": 91.53,
+          "net_psf": 82.37,
+          "psf_n": 40
+        }
+      }
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-06-08",
+      "total_available": 326,
+      "by_type": {
+        "Studio": {
+          "asking": 2975,
+          "net": 2710
+        },
+        "1BR": {
+          "asking": 3503,
+          "net": 3188
+        },
+        "2BR": {
+          "asking": 4981,
+          "net": 4559
+        },
+        "3BR": {
+          "asking": 6273,
+          "net": 5699
+        }
+      },
+      "note": "Seed from June 8 2026 live pull (aggregate; per-unit rows pending ingest).",
+      "all_asking": 3631.0,
+      "all_net": 3305.0
+    },
+    {
+      "date": "2026-06-11",
+      "total_available": 301,
+      "by_type": {
+        "1BR": {
+          "asking": 3721.0,
+          "net": 3439.0
+        },
+        "2BR": {
+          "asking": 5043.0,
+          "net": 4933.0
+        },
+        "3BR": {
+          "asking": 6476.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3136.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3771.0,
+      "all_net": 3403.0
+    },
+    {
+      "date": "2026-06-12",
+      "total_available": 296,
+      "by_type": {
+        "1BR": {
+          "asking": 3692.0,
+          "net": 3420.0
+        },
+        "2BR": {
+          "asking": 5110.0,
+          "net": 5018.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3127.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3763.0,
+      "all_net": 3409.0
+    },
+    {
+      "date": "2026-06-13",
+      "total_available": 289,
+      "by_type": {
+        "1BR": {
+          "asking": 3695.0,
+          "net": 3423.0
+        },
+        "2BR": {
+          "asking": 5109.0,
+          "net": 5056.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3136.0,
+          "net": 2869.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3758.0,
+      "all_net": 3407.0
+    },
+    {
+      "date": "2026-06-14",
+      "total_available": 277,
+      "by_type": {
+        "1BR": {
+          "asking": 3686.0,
+          "net": 3427.0
+        },
+        "2BR": {
+          "asking": 5097.0,
+          "net": 5058.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3131.0,
+          "net": 2868.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3756.0,
+      "all_net": 3411.0
+    },
+    {
+      "date": "2026-06-15",
+      "total_available": 276,
+      "by_type": {
+        "1BR": {
+          "asking": 3672.0,
+          "net": 3422.0
+        },
+        "2BR": {
+          "asking": 5157.0,
+          "net": 5117.0
+        },
+        "3BR": {
+          "asking": 6675.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3132.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3757.0,
+      "all_net": 3427.0
+    },
+    {
+      "date": "2026-06-16",
+      "total_available": 306,
+      "by_type": {
+        "1BR": {
+          "asking": 3712.0,
+          "net": 3436.0
+        },
+        "2BR": {
+          "asking": 5255.0,
+          "net": 5012.0
+        },
+        "3BR": {
+          "asking": 6611.0,
+          "net": 6109.0
+        },
+        "Studio": {
+          "asking": 3135.0,
+          "net": 2857.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3845.0,
+      "all_net": 3511.0
+    },
+    {
+      "date": "2026-06-17",
+      "total_available": 298,
+      "by_type": {
+        "1BR": {
+          "asking": 3706.0,
+          "net": 3458.0
+        },
+        "2BR": {
+          "asking": 5261.0,
+          "net": 5031.0
+        },
+        "3BR": {
+          "asking": 6557.0,
+          "net": 6128.0
+        },
+        "Studio": {
+          "asking": 3157.0,
+          "net": 2880.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3876.0,
+      "all_net": 3553.0
+    },
+    {
+      "date": "2026-06-18",
+      "total_available": 302,
+      "by_type": {
+        "1BR": {
+          "asking": 3728.0,
+          "net": 3478.0
+        },
+        "2BR": {
+          "asking": 5276.0,
+          "net": 5059.0
+        },
+        "3BR": {
+          "asking": 6539.0,
+          "net": 6051.0
+        },
+        "Studio": {
+          "asking": 3095.0,
+          "net": 2877.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3867.0,
+      "all_net": 3583.0
+    },
+    {
+      "date": "2026-06-19",
+      "total_available": 296,
+      "by_type": {
+        "1BR": {
+          "asking": 3728.0,
+          "net": 3473.0
+        },
+        "2BR": {
+          "asking": 5276.0,
+          "net": 5132.0
+        },
+        "3BR": {
+          "asking": 6459.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3077.0,
+          "net": 2868.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3864.0,
+      "all_net": 3584.0
+    },
+    {
+      "date": "2026-06-20",
+      "total_available": 293,
+      "by_type": {
+        "1BR": {
+          "asking": 3719.0,
+          "net": 3470.0
+        },
+        "2BR": {
+          "asking": 5243.0,
+          "net": 5111.0
+        },
+        "3BR": {
+          "asking": 6462.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3093.0,
+          "net": 2870.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3854.0,
+      "all_net": 3575.0
+    },
+    {
+      "date": "2026-06-21",
+      "total_available": 283,
+      "by_type": {
+        "1BR": {
+          "asking": 3719.0,
+          "net": 3481.0
+        },
+        "2BR": {
+          "asking": 5185.0,
+          "net": 5102.0
+        },
+        "3BR": {
+          "asking": 6451.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3097.0,
+          "net": 2897.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3855.0,
+      "all_net": 3606.0
+    },
+    {
+      "date": "2026-06-22",
+      "total_available": 269,
+      "by_type": {
+        "1BR": {
+          "asking": 3714.0,
+          "net": 3466.0
+        },
+        "2BR": {
+          "asking": 5308.0,
+          "net": 5149.0
+        },
+        "3BR": {
+          "asking": 6428.0,
+          "net": 5980.0
+        },
+        "Studio": {
+          "asking": 3074.0,
+          "net": 2883.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3849.0,
+      "all_net": 3580.0
+    },
+    {
+      "date": "2026-06-23",
+      "total_available": 303,
+      "by_type": {
+        "1BR": {
+          "asking": 3716.0,
+          "net": 3462.0
+        },
+        "2BR": {
+          "asking": 5372.0,
+          "net": 5171.0
+        },
+        "3BR": {
+          "asking": 6440.0,
+          "net": 5947.0
+        },
+        "Studio": {
+          "asking": 3129.0,
+          "net": 2931.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3866.0,
+      "all_net": 3589.0
+    }
+  ],
+  "unit_mix": [
+    {
+      "building": "Journal Squared",
+      "studio": 414,
+      "br1": 1062,
+      "br2": 321,
+      "br3": 43,
+      "total": 1840,
+      "studio_pct": 0.225,
+      "br1_pct": 0.5772,
+      "br2_pct": 0.1745,
+      "br3_pct": 0.0234,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-152 plan-set three-phase table, marked preliminary; phases sum to as-built 538/704/598.",
+      "avg_sf": null
+    },
+    {
+      "building": "The Journal",
+      "studio": 493,
+      "br1": 972,
+      "br2": 222,
+      "br3": 36,
+      "total": 1723,
+      "studio_pct": 0.2861,
+      "br1_pct": 0.5641,
+      "br2_pct": 0.1288,
+      "br3_pct": 0.0209,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "The Greyson",
+      "studio": 255,
+      "br1": 305,
+      "br2": 49,
+      "br3": 13,
+      "total": 622,
+      "studio_pct": 0.41,
+      "br1_pct": 0.4904,
+      "br2_pct": 0.0788,
+      "br3_pct": 0.0209,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P22-190 amendment GDA (669 reduced to 622).",
+      "avg_sf": null
+    },
+    {
+      "building": "505 Summit",
+      "studio": 107,
+      "br1": 388,
+      "br2": 100,
+      "br3": 12,
+      "total": 607,
+      "studio_pct": 0.1763,
+      "br1_pct": 0.6392,
+      "br2_pct": 0.1647,
+      "br3_pct": 0.0198,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-144 principal points: 607 approved vs 605 marketed; 117 Jr-1BR folded into 1BR.",
+      "avg_sf": null
+    },
+    {
+      "building": "Four Twenty Five Summit",
+      "studio": 155,
+      "br1": 177,
+      "br2": 49,
+      "br3": 9,
+      "total": 390,
+      "studio_pct": 0.3974,
+      "br1_pct": 0.4538,
+      "br2_pct": 0.1256,
+      "br3_pct": 0.0231,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-140 amendment (390 units); 142 1BR + 35 1BR+den shown as 177 1BR.",
+      "avg_sf": null
+    },
+    {
+      "building": "Journal Square Urby",
+      "studio": 112,
+      "br1": 115,
+      "br2": 71,
+      "br3": 19,
+      "total": 317,
+      "studio_pct": 0.3533,
+      "br1_pct": 0.3628,
+      "br2_pct": 0.224,
+      "br3_pct": 0.0599,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "Orchard",
+      "studio": 85,
+      "br1": 116,
+      "br2": 66,
+      "br3": 18,
+      "total": 285,
+      "studio_pct": 0.2982,
+      "br1_pct": 0.407,
+      "br2_pct": 0.2316,
+      "br3_pct": 0.0632,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "3 Journal Square",
+      "studio": 89,
+      "br1": 115,
+      "br2": 31,
+      "br3": 5,
+      "total": 240,
+      "studio_pct": 0.3708,
+      "br1_pct": 0.4792,
+      "br2_pct": 0.1292,
+      "br3_pct": 0.0208,
+      "basis": "Sourced (operator unit-mix)",
+      "is_sourced": 1,
+      "note": "Unit Mix PID 167470 export (240 units). Avg SF/type: Studio 496, 1BR 742, 2BR 1152, 3BR 1260.",
+      "avg_sf": 714
+    },
+    {
+      "building": "MetroVue",
+      "studio": 25,
+      "br1": 91,
+      "br2": 7,
+      "br3": 1,
+      "total": 124,
+      "studio_pct": 0.2016,
+      "br1_pct": 0.7339,
+      "br2_pct": 0.0565,
+      "br3_pct": 0.0081,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "345 Baldwin",
+      "studio": 39,
+      "br1": 42,
+      "br2": 32,
+      "br3": 3,
+      "total": 116,
+      "studio_pct": 0.3362,
+      "br1_pct": 0.3621,
+      "br2_pct": 0.2759,
+      "br3_pct": 0.0259,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P20-153 amendment (P18-127 mix reconfigured).",
+      "avg_sf": null
+    },
+    {
+      "building": "55 Jordan",
+      "studio": 80,
+      "br1": 134,
+      "br2": 48,
+      "br3": 5,
+      "total": 267,
+      "studio_pct": 0.2996,
+      "br1_pct": 0.5019,
+      "br2_pct": 0.1798,
+      "br3_pct": 0.0187,
+      "basis": "Estimated",
+      "is_sourced": 0,
+      "note": "No application dataset found on the JC portal \u2014 mix estimated, not sourced.",
+      "avg_sf": null
+    },
+    {
+      "building": "413 Summit",
+      "studio": 37,
+      "br1": 81,
+      "br2": 27,
+      "br3": 3,
+      "total": 148,
+      "studio_pct": 0.25,
+      "br1_pct": 0.5473,
+      "br2_pct": 0.1824,
+      "br3_pct": 0.0203,
+      "basis": "Estimated",
+      "is_sourced": 0,
+      "note": "Case P20-081 located, documents pending \u2014 mix estimated, not sourced.",
+      "avg_sf": null
+    }
+  ],
+  "avg_unit_sf": [
+    {
+      "t": "Studio",
+      "n": 186,
+      "avg_sqft": 472.0,
+      "min_sqft": 374,
+      "max_sqft": 660
+    },
+    {
+      "t": "1BR",
+      "n": 241,
+      "avg_sqft": 694.0,
+      "min_sqft": 523,
+      "max_sqft": 965
+    },
+    {
+      "t": "2BR",
+      "n": 74,
+      "avg_sqft": 1000.0,
+      "min_sqft": 805,
+      "max_sqft": 1415
+    },
+    {
+      "t": "3BR",
+      "n": 17,
+      "avg_sqft": 1206.0,
+      "min_sqft": 892,
+      "max_sqft": 1415
+    }
+  ],
+  "data_quality": {
+    "checked_at": "2026-06-24T16:38:07+00:00",
+    "errors": [],
+    "warnings": [],
+    "quarantined_units": 0,
+    "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
+  },
+  "reference": {
+    "source": "Journal_Square_Unit_Database_5.xlsx",
+    "unit_mix_sourced": {
+      "label": "Unit mix \u2014 sourced only",
+      "buildings_sourced": 10,
+      "sourced_buildings": [
+        "Journal Squared",
+        "The Journal",
+        "Journal Square Urby",
+        "Four Twenty Five Summit",
+        "MetroVue",
+        "Orchard",
+        "The Greyson",
+        "505 Summit",
+        "345 Baldwin",
+        "3 Journal Square"
+      ],
+      "total_units": 6264,
+      "by_type": {
+        "Studio": {
+          "units": 1774,
+          "pct": 0.2832
+        },
+        "1BR": {
+          "units": 3383,
+          "pct": 0.5401
+        },
+        "2BR": {
+          "units": 948,
+          "pct": 0.1513
+        },
+        "3BR": {
+          "units": 159,
+          "pct": 0.0254
+        }
+      },
+      "note": "Bedroom-type census across the 10 comps with real unit-by-unit mix data: 4 from the client HelloData export (The Journal, Urby, MetroVue, Orchard), 5 recovered from Jersey City Planning Board approval records (Journal Squared, 425 Summit, The Greyson, 505 Summit, 345 Baldwin), and 3 Journal Square from an operator unit-mix export (PID 167470, 240 units). 413 Summit and 55 Jordan remain estimated and are excluded. Note: Journal Squared's mix is from a plan-set table marked preliminary, and 505 Summit's approved count is 607 vs 605 marketed."
+    },
+    "live_market_survey": {
+      "label": "Live market survey \u2014 selected market total",
+      "buildings_included": 11,
+      "rows": [
+        {
+          "type": "Studio",
+          "live": 112,
+          "ask_min": 2050,
+          "ask_avg": 2975,
+          "ask_max": 3681,
+          "sf": 450,
+          "psf": 79.33,
+          "net_avg": 2710,
+          "net_psf": 72.27
+        },
+        {
+          "type": "1BR",
+          "live": 152,
+          "ask_min": 2200,
+          "ask_avg": 3524,
+          "ask_max": 4601,
+          "sf": 648,
+          "psf": 65.26,
+          "net_avg": 3198,
+          "net_psf": 59.22
+        },
+        {
+          "type": "2BR",
+          "live": 47,
+          "ask_min": 2675,
+          "ask_avg": 4981,
+          "ask_max": 6955,
+          "sf": 965,
+          "psf": 61.94,
+          "net_avg": 4559,
+          "net_psf": 56.69
+        },
+        {
+          "type": "3BR",
+          "live": 10,
+          "ask_min": 5285,
+          "ask_avg": 6273,
+          "ask_max": 7556,
+          "sf": 1197,
+          "psf": 62.89,
+          "net_avg": 5699,
+          "net_psf": 57.13
+        },
+        {
+          "type": "All",
+          "live": 321,
+          "ask_min": 2050,
+          "ask_avg": 3631,
+          "ask_max": 7556,
+          "sf": 702,
+          "psf": 62.07,
+          "net_avg": 3305,
+          "net_psf": 56.5
+        }
+      ],
+      "note": "From the workbook's Live Market Survey tab (SELECTED MARKET TOTAL), 11 included buildings; CMPND co-living excluded. $/SF figures are annualized."
+    }
+  }
+}/*DATA_END*/;
+const UNITS=['Studio','1BR','2BR','3BR'];
+const C={ink:'#211C15',ink2:'#5C5346',rust:'#B0492A',rustS:'#D98A6B',teal:'#2E5A5E',tealS:'#7FA7A6',gold:'#C09A45',green:'#4F7A47'};
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const usd=v=>v==null?'—':'$'+Math.round(v).toLocaleString();
+const pct=v=>v==null?'—':(v*100).toFixed(1)+'%';
+const etTime=iso=>{const d=new Date(iso);return isNaN(d)?'':d.toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'})+' ET';};
+const fmtAsOf=d=>{if(!d)return'';const p=(''+d).split('-');return p.length===3?`${p[1]}/${p[2]}/${p[0]}`:d;};
+const etDateTime=iso=>{const d=new Date(iso);if(isNaN(d))return'';
+  const dt=d.toLocaleDateString('en-US',{timeZone:'America/New_York',month:'2-digit',day:'2-digit',year:'numeric'});
+  const tm=d.toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'});
+  return `${dt}, ${tm} ET`;};
+const shortName=n=>n.replace('Journal Square ','JSq ').replace('Four Twenty Five ','425 ');
+const mean=a=>{a=a.filter(v=>v!=null);return a.length?a.reduce((x,y)=>x+y,0)/a.length:null;};
+
+// BAKED_DATA is a fallback only (offline / file:// / fetch failure). The live
+// page fetches dashboard_data.json at load so it's never frozen by a missed bake.
+let DATA_SOURCE='baked';
+let data=JSON.parse(JSON.stringify(DATA));   // working copy (client-side in-market toggles)
+let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60};
+const CH={};
+function mk(id,cfg,plugins){if(plugins)cfg.plugins=plugins; if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg);}
+/* make a building-labelled chart clickable: click a bar OR its name → that building's detail page */
+function chartNav(ids){return (e,els,chart)=>{
+  let i=(els&&els.length)?els[0].index:null;
+  if(i==null){const ca=chart.chartArea;
+    if(chart.options.indexAxis==='y'){ if(e.x<ca.left) i=Math.round(chart.scales.y.getValueForPixel(e.y)); }
+    else { if(e.y>ca.bottom) i=Math.round(chart.scales.x.getValueForPixel(e.x)); }}
+  if(i==null||i<0||i>=ids.length||!ids[i])return;
+  location.href='building.html?b='+ids[i];};}
+function chartHover(){return (e,els,chart)=>{const ca=chart.chartArea; let on=!!(els&&els.length);
+  if(!on){ if(chart.options.indexAxis==='y') on=e.x<ca.left&&e.y>=ca.top&&e.y<=ca.bottom; else on=e.y>ca.bottom&&e.x>=ca.left&&e.x<=ca.right; }
+  if(chart.canvas) chart.canvas.style.cursor=on?'pointer':'default';};}
+const inMkt=()=>data.buildings.filter(b=>b.in_market);
+const hasByType=()=>data.buildings.some(b=>b.by_type);
+// Roll per-type rents up across a set of buildings (count-weighted). Drives the
+// survey, the by-type chart and the 1BR KPI so they react to the section-07 toggles.
+function aggByType(bs){
+  const o={}; let tn=0,ta=0,taN=0,tnt=0,tntN=0,tsf=0,tsfn=0;
+  UNITS.forEach(t=>{
+    let n=0,aw=0,an=0,nw=0,nn=0,sw=0,sn=0,amin=null,amax=null;
+    let apw=0,apn=0,npw=0,npn=0;   // $/SF accumulators, weighted by units that had both rent+SF
+    bs.forEach(b=>{const v=b.by_type&&b.by_type[t]; if(!v||!v.count)return;
+      n+=v.count;
+      if(v.asking_avg){ aw+=v.asking_avg*v.count; an+=v.count; }
+      if(v.net_avg){    nw+=v.net_avg*v.count;    nn+=v.count; }
+      if(v.sqft_avg){  sw+=v.sqft_avg*v.count; sn+=v.count; }
+      // per-unit $/SF: weight each building's value by how many units backed it (psf_n)
+      const pn=v.psf_n||0;
+      if(v.asking_psf!=null&&pn){ apw+=v.asking_psf*pn; apn+=pn; }
+      if(v.net_psf!=null&&pn){    npw+=v.net_psf*pn;    npn+=pn; }
+      if(v.asking_min!=null) amin=amin==null?v.asking_min:Math.min(amin,v.asking_min);
+      if(v.asking_max!=null) amax=amax==null?v.asking_max:Math.max(amax,v.asking_max);
+    });
+    if(n){ o[t]={count:n,asking:an?aw/an:null,net:nn?nw/nn:null,sf:sn?sw/sn:null,ask_min:amin,ask_max:amax,
+                 asking_psf:apn?apw/apn:null, net_psf:npn?npw/npn:null, psf_n:apn};
+      tn+=n; ta+=aw; taN+=an; tnt+=nw; tntN+=nn; tsf+=sw; tsfn+=sn; }
+  });
+  o.All = tn?{count:tn,asking:taN?ta/taN:null,net:tntN?tnt/tntN:null,sf:tsfn?tsf/tsfn:null}:null;
+  return o;
+}
+function setStatus(t,k){$('#statusText').textContent=t; $('#statusDot').className='dot'+(k?' '+k:'');}
+
+/* ---------- render ---------- */
+function renderReference(){
+  const ref=data.reference||{};
+  // ---- Unit mix (sourced) ----
+  const um=ref.unit_mix_sourced, secUM=document.getElementById('secUnitMix');
+  if(um){ secUM.style.display='';
+    const types=['Studio','1BR','2BR','3BR'], cols={Studio:C.teal,'1BR':C.tealS,'2BR':C.gold,'3BR':C.rustS};
+    const avgSF={}; (data.avg_unit_sf||[]).forEach(r=>{avgSF[r.t]={avg:Math.round(r.avg_sqft),n:r.n};});
+    const sfCell=t=>{const a=avgSF[t]; return a?a.avg.toLocaleString():'—';};
+    const liveAt=aggByType(inMkt());
+    const psfOf=(v,sf)=>(v&&sf)?v*12/sf:null;
+    const mixCalc=()=>{
+      let g1=0,n1=0,ws=0,rg=0,rn=0,sfw=0;
+      types.forEach(t=>{const v=liveAt[t], sh=(um.by_type[t]&&um.by_type[t].pct)||0;
+        if(v&&v.sf&&v.asking&&v.net&&sh){
+          g1+=sh*(v.asking*12/v.sf); n1+=sh*(v.net*12/v.sf); ws+=sh;          // per-unit basis
+          rg+=sh*v.asking*12; rn+=sh*v.net*12; sfw+=sh*v.sf;                  // portfolio basis
+        }});
+      if(!ws) return null;
+      return {puG:g1/ws, puN:n1/ws, pfG:rg/sfw, pfN:rn/sfw, cover:ws};
+    };
+    $('#umPh').textContent=`${um.total_units.toLocaleString()} units · ${um.buildings_sourced} buildings with real mix · fixed reference`;
+    mk('umChart',{type:'doughnut',data:{labels:types.map(t=>t.replace('BR',' BR')),
+      datasets:[{data:types.map(t=>um.by_type[t].units),backgroundColor:types.map(t=>cols[t]),borderWidth:2,borderColor:'#FBF8F1'}]},
+      options:{maintainAspectRatio:false,cutout:'60%',plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:14}},
+        tooltip:{callbacks:{label:c=>' '+c.label+': '+c.parsed.toLocaleString()+' ('+(um.by_type[types[c.dataIndex]].pct*100).toFixed(1)+'%)'}}}}});
+    const psfCell=v=>v==null?'—':'$'+v.toFixed(2);
+    const mTot=mixCalc();
+    $('#umTable').innerHTML='<table style="min-width:0"><thead><tr><th style="text-align:left">Type</th><th>Units</th><th>Share</th><th>Avg SF</th><th>Mkt $/SF</th><th>Net-Eff $/SF</th></tr></thead><tbody>'+
+      types.map(t=>{const v=liveAt[t];
+        return `<tr><td>${t.replace('BR',' BR')}</td><td class="mono">${um.by_type[t].units.toLocaleString()}</td><td class="mono">${(um.by_type[t].pct*100).toFixed(1)}%</td>`+
+        `<td class="mono">${sfCell(t)}</td><td class="mono">${psfCell(psfOf(v&&v.asking,v&&v.sf))}</td><td class="mono">${psfCell(psfOf(v&&v.net,v&&v.sf))}</td></tr>`;}).join('')+
+      `<tr style="border-top:1.5px solid var(--ink)"><td style="font-weight:700">Total (wtd)</td><td class="mono" style="font-weight:700">${um.total_units.toLocaleString()}</td><td class="mono">100%</td>`+
+      `<td class="mono" style="font-weight:700">${(()=>{let w=0,a=0;types.forEach(t=>{const sh=(um.by_type[t]&&um.by_type[t].pct)||0;if(avgSF[t]&&sh){w+=sh;a+=sh*avgSF[t].avg;}});return w?Math.round(a/w).toLocaleString():'—';})()}</td><td class="mono" style="font-weight:700">${mTot?psfCell(mTot.pfG):'—'}</td><td class="mono" style="font-weight:700">${mTot?psfCell(mTot.pfN):'—'}</td></tr></tbody></table>`+
+      `<div class="ph" style="margin:8px 0 0">Avg SF = mean recorded interior SF per type from the physical-attributes store (real unit-by-unit data, accruing as units list). $/SF columns are live, annualized averages by type; the Total row is the PORTFOLIO-basis mix-weighted figure (Σ share×rent×12 ÷ Σ share×SF).</div>`+
+      (um.note?`<div class="ph" style="margin:14px 0 0">${um.note}</div>`:'');
+    // ---- By-building drill-down (reads the unit_mix table via DATA.unit_mix) ----
+    const umMix = data.unit_mix || [];
+    const sel = document.getElementById('umBldgSel');
+    if(sel && umMix.length){
+      const srcd = umMix.filter(b=>b.is_sourced), est = umMix.filter(b=>!b.is_sourced);
+      const opt = b => `<option value="${b.building.replace(/"/g,'&quot;')}">${b.building}${b.is_sourced?'':' (est.)'}</option>`;
+      sel.innerHTML = (srcd.length?`<optgroup label="Sourced data">${srcd.map(opt).join('')}</optgroup>`:'')
+                    + (est.length?`<optgroup label="Estimated (excluded from totals)">${est.map(opt).join('')}</optgroup>`:'');
+      const TM=[['Studio','studio','studio_pct',C.teal],['1 BR','br1','br1_pct',C.tealS],['2 BR','br2','br2_pct',C.gold],['3 BR','br3','br3_pct',C.rustS]];
+      const drawDetail = name => {
+        const b = umMix.find(x=>x.building===name); if(!b) return;
+        const det = document.getElementById('umBldgDetail');
+        const badge = b.is_sourced
+          ? `<span style="font-size:11px;font-weight:600;padding:2px 10px;border-radius:999px;background:rgba(46,90,94,.13);color:${C.teal}">${b.basis}</span>`
+          : `<span style="font-size:11px;font-weight:600;padding:2px 10px;border-radius:999px;background:rgba(176,73,42,.13);color:${C.rust}">Estimated — not sourced</span>`;
+        const seg = TM.map(([lab,k,pk,col])=>b[pk]>0?`<div title="${lab}: ${b[k].toLocaleString()} (${(b[pk]*100).toFixed(1)}%)" style="width:${b[pk]*100}%;background:${col}"></div>`:'').join('');
+        const TKEY={'Studio':'Studio','1 BR':'1BR','2 BR':'2BR','3 BR':'3BR'};
+        const stat = TM.map(([lab,k,pk,col])=>{const a=avgSF[TKEY[lab]];
+          return `<div style="flex:1;min-width:88px">`+
+            `<div style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:2px;background:${col};display:inline-block"></span><span class="ph" style="margin:0">${lab}</span></div>`+
+            `<div class="num" style="font-size:21px;line-height:1.1;margin-top:4px">${b[k].toLocaleString()}</div>`+
+            `<div class="ph" style="margin:0">${(b[pk]*100).toFixed(1)}%</div>`+
+            `<div class="ph mono" style="margin:2px 0 0;color:var(--ink2)">${a?'~'+a.avg.toLocaleString()+' SF':'— SF'}</div></div>`;}).join('');
+        det.innerHTML = `<div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">`+
+            `<div style="font-family:var(--serif,'Fraunces',serif);font-size:18px;font-weight:600">${b.building}</div>${badge}`+
+            `<div class="ph" style="margin:0">${b.total.toLocaleString()} units</div></div>`+
+          `<div style="display:flex;height:22px;border-radius:6px;overflow:hidden;margin:12px 0;border:1px solid rgba(33,28,21,.1)">${seg}</div>`+
+          `<div style="display:flex;gap:18px;flex-wrap:wrap">${stat}</div>`+
+          (b.note?`<div class="ph" style="margin:12px 0 0">${b.note}</div>`:'');
+      };
+      if(!sel._wired){ sel.addEventListener('change',e=>drawDetail(e.target.value)); sel._wired=true; }
+      if(!sel.value && (srcd[0]||umMix[0])) sel.value = (srcd[0]||umMix[0]).building;
+      drawDetail(sel.value);
+    }
+  } else if(secUM) secUM.style.display='none';
+  // ---- Live market survey — recomputed from the SELECTED set ----
+  const secS=document.getElementById('secSurvey');
+  if(secS){ secS.style.display='';
+    const t=aggByType(inMkt());
+    const present=UNITS.filter(u=>t[u]);
+    const nB=inMkt().filter(b=>b.by_type).length;
+    $('#lmsPh').textContent=`${nB} buildings · ${t.All?t.All.count:0} live units · selected set`;
+    const f$=v=>v==null?'—':'$'+Math.round(v).toLocaleString();
+    const psf=(rent,sf)=>sf?'$'+(rent*12/sf).toFixed(2):'—';
+    const cols=['Type','# Live','Ask min','Ask avg','Ask max','Avg SF','$/SF','Net-eff avg','Net-eff $/SF'];
+    const row=(label,r,bold)=>`<tr${bold?' style="border-top:1.5px solid var(--ink);font-weight:600"':''}>`+
+      `<td${bold?' style="font-weight:700"':''}>${label}</td><td class="mono">${r.count}</td>`+
+      `<td class="mono">${f$(r.ask_min)}</td><td class="mono">${f$(r.asking)}</td><td class="mono">${f$(r.ask_max)}</td>`+
+      `<td class="mono">${r.sf?Math.round(r.sf):'—'}</td><td class="mono">${psf(r.asking,r.sf)}</td>`+
+      `<td class="mono">${f$(r.net)}</td><td class="mono">${psf(r.net,r.sf)}</td></tr>`;
+    let body=present.map(u=>row(u.replace('BR',' BR'),t[u],false)).join('');
+    if(t.All) body+=row('All types',{count:t.All.count,ask_min:null,asking:t.All.asking,ask_max:null,sf:t.All.sf,net:t.All.net},true);
+    if(!present.length) body=`<tr><td colspan="9" style="color:var(--ink2)">No per-unit rent data in the selected buildings.</td></tr>`;
+    $('#lmsTable').innerHTML='<table><thead><tr>'+cols.map((c,i)=>`<th style="${i?'':'text-align:left'}">${c}</th>`).join('')+'</tr></thead><tbody>'+body+'</tbody></table>'+
+      `<div class="ph" style="margin:14px 0 0">Recomputed live from the ${nB} selected buildings with per-unit rent data — toggle buildings in section 07 to update. $/SF annualized; CMPND co-living carries no Class-A rent rows.</div>`;
+  }
+}
+function render(){ renderHeader(); renderBanner(); renderKPIs(); buildAvail(); buildConc(); buildMap();
+  buildType(); buildTrend(); buildRBP(); renderReference(); renderTable(state.sortKey,state.sortDir); renderInsights(); }
+
+function renderHeader(){
+  const tot=data.buildings.length, im=inMkt().length;
+  const units=data.buildings.reduce((s,b)=>s+(b.units||0),0);
+  const asOf=fmtAsOf(data.as_of), refresh=etDateTime(data.generated_at);
+  $('#sub').innerHTML=`<b>${tot}</b> buildings · <b>${im}</b> in-market · <b>${units.toLocaleString()}</b> units tracked`+
+    (asOf?` · data as of <b>${asOf}</b>`:'')+(refresh?` · last refresh <b>${refresh}</b>`:'');
+  $('#foot').textContent=refresh?`Data as of ${asOf}. Last refresh ${refresh}.`:'';
+  const src = DATA_SOURCE==='live' ? 'Live feed' : 'Offline snapshot';
+  setStatus((asOf?('Loaded · data as of '+asOf):'Loaded')+' · '+src);
+}
+function renderBanner(){
+  const dq=data.data_quality||{};
+  const errs=dq.errors||[], warns=dq.warnings||[];
+  const list=(arr,n)=>arr.slice(0,n).map(w=>'· '+w).join('<br>')+(arr.length>n?`<br>· …and ${arr.length-n} more`:'');
+  let h='';
+  if(errs.length) h+=`<div class="banner" style="border-color:var(--red);background:rgba(166,66,44,.10)"><b>⚠ Data errors — ${errs.length} item${errs.length>1?'s':''} could not be reconciled${dq.quarantined_units?`; ${dq.quarantined_units} unit${dq.quarantined_units>1?'s have':' has'} been excluded from all averages`:''}:</b><br>${list(errs,8)}</div>`;
+  if(warns.length) h+=`<div class="banner" style="border-color:var(--gold);background:rgba(192,154,69,.10)"><b>Data-quality warnings (${warns.length}) — included in averages; verify when convenient:</b><br>${list(warns,8)}</div>`;
+  $('#banner').innerHTML = h + (hasByType() ? '' :
+    `<div class="banner">Showing <b>availability &amp; concessions</b> (live) and <b>market rents by type</b> (from the snapshot). Per-building rent detail lights up automatically once per-unit listings are ingested — <code>pipeline.py ingest</code> then re-export and reload.</div>`);
+}
+function renderKPIs(){
+  const m=inMkt();
+  const avail=m.reduce((s,b)=>s+(b.available_now||0),0);
+  const units=m.reduce((s,b)=>s+(b.units||0),0);
+  const at=aggByType(m);
+  const liveTotal=at.All?at.All.count:0;
+  const rent=(t,lab)=>{const r=at[t]; if(!r) return {lab,v:'—',meta:'no listings'};
+    const share=liveTotal?Math.round(r.count/liveTotal*100):0;
+    const psf=v=>r.sf?'$'+(v*12/r.sf).toFixed(2):null;
+    const g=psf(r.asking), n=psf(r.net);
+    if(t==='All'){
+      if(!n) return {lab,v:usd(r.net),meta:`market ${usd(r.asking)} · ${r.count} live units`};
+      return {lab,v:`${n}<span style="font-size:55%;font-weight:600">/SF</span>`,
+        meta:`market ${g}/SF gross<br>${usd(r.net)} net · ${usd(r.asking)} market · ${r.count} live units`};
+    }
+    const sfLine = n ? `<br>${n}/SF net-eff · ${g}/SF gross` : '';
+    return {lab,v:usd(r.net),meta:`market ${usd(r.asking)} · ${share}% of avail${sfLine}`};};
+  const topAvail=(()=>{const t=m.filter(b=>b.available_now!=null);if(!t.length)return null;return t.reduce((a,b)=>b.available_now>a.available_now?b:a);})();
+  // building-level net-effective $/SF (annualized; composite across available units, falls back to asking)
+  const _psf=m.map(b=>{const cp=compositeAll(b);const p=cp?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;return p!=null?{b,p}:null;}).filter(Boolean);
+  const hiPsf=_psf.length?_psf.reduce((a,x)=>x.p>a.p?x:a):null;
+  const loPsf=_psf.length?_psf.reduce((a,x)=>x.p<a.p?x:a):null;
+  // combined card: highest + lowest building net-eff $/SF
+  const psfCard=(hiPsf&&loPsf)
+    ? `<div class="lab">Net-eff $/SF — high &amp; low</div>`+
+      `<div style="display:flex;gap:20px;align-items:baseline;margin-top:2px;flex-wrap:wrap">`+
+      `<div><span class="num" style="font-size:26px;font-weight:700">$${hiPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▲ ${shortName(hiPsf.b.name)}</div></div>`+
+      `<div><span class="num" style="font-size:26px;font-weight:700">$${loPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▼ ${shortName(loPsf.b.name)}</div></div></div>`
+    : `<div class="lab">Net-eff $/SF — high &amp; low</div><div class="v num">—</div><div class="meta">no $/SF data yet</div>`;
+  const cards=[
+    {lab:'Buildings in market',v:m.length,meta:`of ${data.buildings.length} tracked`},
+    {lab:'Units available now',v:avail.toLocaleString(),meta:'across in-market set',hot:true},
+    {lab:'Availability rate',v:units?(avail/units*100).toFixed(1)+'%':'—',meta:`${units.toLocaleString()} units`},
+    {lab:'Most availability',v:topAvail?topAvail.available_now:'—',meta:topAvail?shortName(topAvail.name):''},
+    rent('Studio','Studio net-eff rent'),
+    rent('1BR','1BR net-eff rent'),
+    rent('2BR','2BR net-eff rent'),
+    rent('3BR','3BR net-eff rent'),
+    rent('All','All-types net-eff $/SF'),
+    {raw:psfCard,hot:true},
+    {lab:'Avg concession',v:pct(mean(m.map(b=>b.concession_pct))),meta:'effective discount'},
+    {lab:'Offering concessions',v:`${m.filter(b=>b.concession_pct>0.005).length} / ${m.length}`,meta:'advertising free rent',hot:true}
+  ];
+  $('#kpiGrid').innerHTML=cards.map(c=>`<div class="kpi ${c.hot?'hot':''}">${c.raw||`<div class="lab">${c.lab}</div><div class="v num">${c.v}</div><div class="meta">${c.meta||''}</div>`}</div>`).join('');
+}
+const gridX={grid:{color:'rgba(33,28,21,.07)'},border:{display:false}};
+function buildAvail(){
+  const m=[...inMkt()].filter(b=>b.available_now!=null).sort((a,b)=>b.available_now-a.available_now);
+  mk('availChart',{type:'bar',data:{labels:m.map(b=>shortName(b.name)),
+    datasets:[{data:m.map(b=>b.available_now),hLabels:m.map(b=>String(b.available_now)),backgroundColor:C.teal,borderRadius:6,maxBarThickness:30}]},
+    options:{indexAxis:'y',onClick:chartNav(m.map(b=>b.id)),onHover:chartHover(),maintainAspectRatio:false,layout:{padding:{right:30}},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.parsed.x+' units available'}}},
+      scales:{x:{...gridX,ticks:{precision:0}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
+}
+function buildConc(){
+  const all=[...inMkt()];
+  const m=all.map(b=>{
+    if(b.concession_pct!=null) return {b,v:b.concession_pct,src:'pub',note:b.concession_text||'published term'};
+    if(b.conc_derived_pct!=null) return {b,v:b.conc_derived_pct,src:'der',note:'derived from same-unit gross-vs-net pricing — term not stated on site'};
+    return null;
+  }).filter(Boolean).sort((a,b)=>b.v-a.v);
+  // buildings whose site ADVERTISES a special that cannot be quantified (no term/amount,
+  // "select units", "contact leasing"): bars would require inventing a %, so they get a
+  // named callout instead of silently vanishing.
+  const unq=all.filter(b=>b.concession_pct==null&&b.conc_derived_pct==null&&b.concession_text);
+  const el=document.getElementById('concUnq');
+  if(el) el.innerHTML = unq.length
+    ? '<b>Advertised, unquantified (no % shown — amount/term not stated):</b> '+unq.map(b=>`${shortName(b.name)} — \u201c${(b.concession_text||'').slice(0,90)}\u201d`).join(' \u00b7 ')
+    : '';
+  const col=o=>o.src==='pub'?C.rust:'rgba(176,73,42,.5)';
+  mk('concChart',{type:'bar',data:{labels:m.map(o=>shortName(o.b.name)),
+    datasets:[{data:m.map(o=>o.v*100),hLabels:m.map(o=>(o.v*100).toFixed(1)+'%'),backgroundColor:m.map(col),borderRadius:6,maxBarThickness:30,
+      _txt:m.map(o=>o.note)}]},
+    options:{indexAxis:'y',onClick:chartNav(m.map(o=>o.b.id)),onHover:chartHover(),maintainAspectRatio:false,layout:{padding:{right:40}},plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>' '+c.parsed.x.toFixed(1)+'%',afterLabel:c=>c.dataset._txt[c.dataIndex]}}},
+      scales:{x:{...gridX,ticks:{callback:v=>v+'%'}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
+}
+function buildType(){
+  const t=aggByType(inMkt()); const box=$('#typeChart');
+  const present=UNITS.filter(u=>t[u]);
+  if(!present.length){box.parentElement.innerHTML='<div class="empty">No per-type rent data for the selected buildings.</div>';return;}
+  if(!document.getElementById('typeChart')) box.parentElement.innerHTML='<canvas id="typeChart"></canvas>';
+  const psf=(v,o)=>{   // annualized $/SF — per-unit from feed, never avg-rent÷avg-sf
+    const p = o ? (v===o.net ? (o.net_psf!=null?o.net_psf:o.asking_psf) : o.asking_psf) : null;
+    return p!=null?'$'+p.toFixed(1):null;
+  };
+  mk('typeChart',{type:'bar',data:{labels:present.map(u=>u.replace('BR',' BR')),datasets:[
+    {label:'Asking',data:present.map(u=>Math.round(t[u].asking)),barLabels:present.map(u=>psf(t[u].asking,t[u])),backgroundColor:C.teal,borderRadius:5,maxBarThickness:40},
+    {label:'Net-effective',data:present.map(u=>Math.round(t[u].net)),barLabels:present.map(u=>psf(t[u].net,t[u])),backgroundColor:C.rustS,borderRadius:5,maxBarThickness:40}]},
+    options:{maintainAspectRatio:false,layout:{padding:{top:46}},plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:16}},
+      tooltip:{callbacks:{label:c=>{const u=present[c.dataIndex],v=c.datasetIndex===0?t[u].asking:t[u].net;return ' '+c.dataset.label+': '+usd(c.parsed.y)+(psf(v,t[u])?' ('+psf(v,t[u])+'/SF)':'');},afterLabel:c=>c.datasetIndex===0?(t[present[c.dataIndex]].count+' units'):''}}},
+      scales:{x:{grid:{display:false},border:{display:false}},y:{grid:{color:'rgba(33,28,21,.07)'},border:{display:false},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+}
+function buildTrend(){
+  const H=data.market_history||[];
+  $('#trendPh').textContent = H.length<2 ? 'One snapshot so far — a trend line builds as the daily job runs.' : `${H.length} snapshots`;
+  const box=$('#trendChart');
+  if(!H.length){box.parentElement.innerHTML='<div class="empty">No snapshots yet.</div>';return;}
+  const labels=H.map(h=>h.date);
+  const ask1=H.map(h=>h.all_asking!=null?h.all_asking:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].asking:null));
+  const net1=H.map(h=>h.all_net!=null?h.all_net:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].net:null));
+  mk('trendChart',{data:{labels,datasets:[
+    {type:'bar',label:'Total available',data:H.map(h=>h.total_available),backgroundColor:'rgba(46,90,94,.4)',yAxisID:'y',order:3,maxBarThickness:40},
+    {type:'line',label:'All-types asking',data:ask1,borderColor:C.teal,backgroundColor:C.teal,borderWidth:2.5,tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:1},
+    {type:'line',label:'All-types net-eff',data:net1,borderColor:C.rust,backgroundColor:C.rust,borderWidth:2.5,borderDash:[5,4],tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:2}]},
+    options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:14}},
+      tooltip:{callbacks:{label:c=>' '+c.dataset.label+': '+(c.dataset.yAxisID==='y1'?usd(c.parsed.y):c.parsed.y+' units')}}},
+      scales:{x:{grid:{display:false},border:{display:false}},
+        y:{position:'left',grid:{color:'rgba(33,28,21,.07)'},border:{display:false},title:{display:true,text:'available',color:C.ink2,font:{size:11}}},
+        y1:{position:'right',grid:{display:false},border:{display:false},title:{display:true,text:'1BR rent',color:C.ink2,font:{size:11}},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+}
+const barLabels={id:'barLabels',afterDatasetsDraw(ch){
+  const hasV=ch.data.datasets.some(d=>d.barLabels), hasH=ch.data.datasets.some(d=>d.hLabels);
+  if(!hasV&&!hasH)return;
+  const ctx=ch.ctx; ctx.save(); ctx.font='600 9.5px "Spline Sans Mono",monospace'; ctx.fillStyle=C.ink;
+  ch.data.datasets.forEach((ds,di)=>{const meta=ch.getDatasetMeta(di); if(meta.hidden)return;
+    meta.data.forEach((bar,i)=>{
+      if(ds.barLabels){const lab=ds.barLabels[i]; if(lab){ctx.save(); ctx.translate(bar.x,bar.y-5); ctx.rotate(-Math.PI/2);
+        ctx.textAlign='left'; ctx.textBaseline='middle'; ctx.fillText(lab,0,0); ctx.restore();}}
+      if(ds.hLabels){const lab=ds.hLabels[i]; if(lab){ctx.save(); ctx.textAlign='left'; ctx.textBaseline='middle';
+        ctx.fillText(lab,bar.x+6,bar.y); ctx.restore();}}
+    });});
+  ctx.restore();}};
+Chart.register(barLabels);
+function compositeAll(b){
+  let n=0,aw=0,an=0,nw=0,nn=0,sw=0,sn=0,apw=0,apn=0,npw=0,npn=0;
+  UNITS.forEach(t=>{const v=b.by_type&&b.by_type[t]; if(!v||!v.count)return; n+=v.count;
+    if(v.asking_avg){aw+=v.asking_avg*v.count;an+=v.count;}
+    if(v.net_avg){nw+=v.net_avg*v.count;nn+=v.count;}
+    if(v.sqft_avg){sw+=v.sqft_avg*v.count;sn+=v.count;}
+    const pn=v.psf_n||0;   // per-unit $/SF, weighted by units that had both rent+SF
+    if(v.asking_psf!=null&&pn){apw+=v.asking_psf*pn;apn+=pn;}
+    if(v.net_psf!=null&&pn){npw+=v.net_psf*pn;npn+=pn;}});
+  return n?{count:n,asking_avg:an?aw/an:null,net_avg:nn?nw/nn:null,sqft_avg:sn?sw/sn:null,
+            asking_psf:apn?apw/apn:null, net_psf:npn?npw/npn:null, psf_n:apn}:null;
+}
+function buildRBP(){
+  const u=state.unit, box=$('#rbpChart');
+  const m=inMkt().map(b=>({b,d:u==='All'?compositeAll(b):(b.by_type&&b.by_type[u])})).filter(o=>o.d);
+  $('#rbpTitle').textContent=(u==='All'?'All-types':u.replace('BR',' BR'))+' rent by building';
+  if(!m.length){box.parentElement.innerHTML='<div class="empty">Per-building rents aren\'t in the data yet. Ingest per-unit listings (<code>pipeline.py ingest</code>), re-export, and reload — this fills in automatically.</div>';return;}
+  if(!document.getElementById('rbpChart')){box.parentElement.innerHTML='<canvas id="rbpChart"></canvas>';}
+  // net-effective: published net when known; when a building advertises NO concession,
+  // there is no free rent, so net-effective = asking. When a building advertises an
+  // UNQUANTIFIABLE special ("up to X on select units", no term), we will not invent a
+  // % — the listed price is shown, flagged with \u2020 so it is not read as true net.
+  const neteff=o=>o.d.net_avg!=null?o.d.net_avg:o.d.asking_avg;
+  const unq=o=>o.d.net_avg==null&&o.b.concession_pct==null&&o.b.conc_derived_pct==null&&!!o.b.concession_text;
+  m.sort((a,b)=>(neteff(b)||0)-(neteff(a)||0));
+  // $/SF comes pre-computed per-unit from the feed (same-unit rent÷SF, averaged
+  // over units that have BOTH). Never divide a type's avg rent by its avg SF —
+  // those are different unit pools (Greyson's lone SF'd studio vs the 5-studio
+  // rent avg manufactured a bogus $/SF). Fall back to null, never to the mismatch.
+  const psf=(o,kind)=>{   // o = {b,d} wrapper; kind='net'|'ask'
+    if(!o||!o.d)return null;
+    const p = kind==='ask' ? o.d.asking_psf : (o.d.net_psf!=null?o.d.net_psf:o.d.asking_psf);
+    return p!=null?'$'+p.toFixed(2)+'/SF':null;
+  };
+  const base=m.map(neteff);
+  const delta=m.map(o=>o.d.net_avg!=null?Math.max((o.d.asking_avg||0)-o.d.net_avg,0):0);
+  // one static net-effective $/SF label per building, at the top of its stack
+  const psfLab=o=>{const p=psf(o,'net'); return p?p.replace('/SF','')+(unq(o)?'\u2020':''):null;};
+  const labBase =m.map((o,i)=>delta[i]>0?null:psfLab(m[i]));
+  const labDelta=m.map((o,i)=>delta[i]>0?psfLab(m[i]):null);
+  mk('rbpChart',{type:'bar',data:{labels:m.map(o=>shortName(o.b.name)),datasets:[
+    {label:'Net-effective',data:base,barLabels:labBase,backgroundColor:C.teal,stack:'rent',borderRadius:3,maxBarThickness:38},
+    {label:'Concession delta to market ask',data:delta,barLabels:labDelta,backgroundColor:'rgba(176,73,42,.30)',stack:'rent',borderRadius:3,maxBarThickness:38}]},
+    options:{onClick:chartNav(m.map(o=>o.b.id)),onHover:chartHover(),maintainAspectRatio:false,layout:{padding:{top:54}},plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:16}},
+      tooltip:{callbacks:{
+        label:c=>{const o2=m[c.dataIndex]; const d=o2.d; const ne=neteff(o2);
+          if(c.datasetIndex===0){ if(d.net_avg!=null)
+            return ' Net-effective: '+usd(d.net_avg)+(psf(o2,'net')?' ('+psf(o2,'net')+')':'');
+          const o=o2;
+          if(unq(o)) return ' Listed price: '+usd(ne)+(psf(o2,'net')?' ('+psf(o2,'net')+')':'')+' \u2020 concession advertised but unquantified ("'+String(o.b.concession_text||'').slice(0,60)+'") — true net-eff is somewhat lower';
+          return ' Net-effective: '+usd(ne)+(psf(o2,'net')?' ('+psf(o2,'net')+')':'')+' — no concession advertised (net = asking)'; }
+          return ' Concession delta: +'+usd(d.asking_avg-d.net_avg)+' → asking '+usd(d.asking_avg)+(psf(o2,'ask')?' ('+psf(o2,'ask')+')':'');},
+        afterLabel:c=>c.datasetIndex===0?(m[c.dataIndex].d.count+' listings'):''}}},
+      scales:{x:{stacked:true,grid:{display:false},border:{display:false},ticks:{font:{size:11}}},
+        y:{stacked:true,grid:{color:'rgba(33,28,21,.07)'},border:{display:false},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+}
+function physCell(b){
+  const tot=b.units, rec=b.phys_recorded||0;
+  if(b.phys_modeled){
+    const pct=tot?Math.round(rec/tot*100):null;
+    return `<span class="mono" style="font-weight:700">${rec.toLocaleString()}<span style="color:var(--ink2);font-weight:400"> / ${tot?tot.toLocaleString():'—'}</span></span>`+
+           `<span class="nm-sub">${pct!=null?pct+'% exact':'exact units'} · <span style="color:var(--teal);font-weight:600">+ ${b.phys_lines||0}-line model</span> — unseen units on mapped lines inherit SF</span>`;}
+  if(b.phys_source==='plan_feed')
+    return `<span class="mono" style="font-weight:700;color:var(--gold)">plan SF</span><span class="nm-sub">${b.phys_plans||0} floor plans w/ exact SF · feeds type avgs (per-unit numbers not published)</span>`;
+  if(b.phys_source==='none')
+    return `<span style="color:var(--ink2)">no SF source</span><span class="nm-sub">floor-plan images only</span>`;
+  if(b.phys_source==='in_feed'){
+    const pct=tot?Math.round(rec/tot*100):null;
+    const full = tot && rec>=tot;
+    return `<span class="mono" style="font-weight:700;color:${full?'var(--teal)':'var(--ink)'}">${rec.toLocaleString()}<span style="color:var(--ink2);font-weight:400"> / ${tot?tot.toLocaleString():'—'}</span></span>`+
+           `<span class="nm-sub">${full?'complete ✓':(pct!=null?pct+'% · accrues as units list':'accrues as units list')}</span>`;
+  }
+  return '<span style="color:var(--ink2)">—</span>';
+}
+let MAPI=null, MLAYER=null, PINLAYER=null;
+function buildMap(){
+  const box=document.getElementById('mapBox'); if(!box) return;
+  if(typeof L==='undefined'){box.innerHTML='<div class="empty" style="padding:20px">Map library could not load (offline?). The rest of the dashboard is unaffected.</div>';return;}
+  const bs=data.buildings.filter(b=>b.lat!=null&&b.lng!=null);
+  if(!bs.length){box.innerHTML='<div class="empty" style="padding:20px">No coordinates in the data yet — they arrive with the next workflow run.</div>';return;}
+  if(!MAPI){
+    MAPI=L.map(box,{scrollWheelZoom:false});
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+      {attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',maxZoom:19}).addTo(MAPI);
+    MLAYER=L.layerGroup().addTo(MAPI);
+    PINLAYER=L.layerGroup().addTo(MAPI);
+    MAPI.fitBounds(bs.map(b=>[b.lat,b.lng]),{padding:[42,42]});
+    loadPins();
+  }
+  MLAYER.clearLayers();
+  bs.forEach(b=>{
+    const inm=b.in_market, cp=compositeAll(b);
+    const ne=cp?(cp.net_avg!=null?cp.net_avg:cp.asking_avg):null;
+    const psfv=cp?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;
+    const psf=psfv!=null?'$'+psfv.toFixed(2)+'/SF net-eff':null;
+    const r=Math.max(9,Math.min(24,Math.sqrt(b.units||120)*0.5));
+    const mk=L.circleMarker([b.lat,b.lng],{radius:r,color:'#FBF8F1',weight:1.5,
+      fillColor:inm?'#2E5A5E':'#8a8273',fillOpacity:inm?0.88:0.45});
+    mk.bindTooltip(shortName(b.name),{direction:'top',offset:[0,-6]});
+    mk.bindPopup(`<div style="font-size:13px;line-height:1.5;min-width:200px">
+      <b style="font-size:14.5px"><a href="building.html?b=${b.id}" style="color:#2E5A5E;text-decoration:none">${b.name}</a></b><br>
+      <span style="color:#5C5346">${b.address||''}</span><br>
+      <span class="mono">${b.units!=null?b.units.toLocaleString():'—'}</span> units · <b class="mono">${b.available_now!=null?b.available_now:'—'}</b> available now<br>
+      ${psf?('<span class="mono">'+psf+'</span><br>'):''}
+      ${(!inm)?'<span style="color:#B0492A">excluded from market averages</span><br>':''}
+      <a href="building.html?b=${b.id}" style="color:#2E5A5E;font-weight:600">Building detail \u2192</a></div>`);
+    mk.addTo(MLAYER);
+  });
+}
+/* ---------- map reference pins (Add pin / Remove pins) ---------- */
+const REFPIN_NS='__jsqRefPins';
+function refPinIcon(){return L.divIcon({className:'ref-pin',iconSize:[26,34],iconAnchor:[13,34],popupAnchor:[0,-30],
+  html:'<svg width="26" height="34" viewBox="0 0 24 32" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z" fill="#B0492A" stroke="#FBF8F1" stroke-width="1.5"/><circle cx="12" cy="12" r="4.3" fill="#FBF8F1"/></svg>'});}
+function refPinSave(){try{const a=PINLAYER?PINLAYER.getLayers().map(m=>m._ref).filter(Boolean):[];localStorage.setItem(REFPIN_NS,JSON.stringify(a));}catch(e){}}
+function refPinAdd(lat,lng,label,save){
+  if(!PINLAYER||typeof L==='undefined'||!L.marker)return;
+  const m=L.marker([lat,lng],{icon:refPinIcon()}).addTo(PINLAYER);
+  m._ref={lat,lng,label:label||''};
+  m.bindPopup('<div style="font-size:13px;line-height:1.5"><b>Reference pin</b><br><span style="color:#5C5346">'+(label||(lat.toFixed(5)+', '+lng.toFixed(5)))+'</span></div>');
+  if(save!==false)refPinSave();
+  return m;
+}
+function loadPins(){try{JSON.parse(localStorage.getItem(REFPIN_NS)||'[]').forEach(p=>refPinAdd(p.lat,p.lng,p.label,false));}catch(e){}}
+function refPinRemoveAll(){if(PINLAYER)PINLAYER.clearLayers();refPinSave();const el=document.getElementById('pinMsg');if(el)el.textContent='Reference pins removed.';}
+async function refPinGeocode(q){
+  const msg=document.getElementById('pinMsg');
+  if(!q)return;
+  if(msg)msg.textContent='Locating “'+q+'”…';
+  try{
+    const r=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+encodeURIComponent(q),{headers:{'Accept':'application/json'}});
+    const j=await r.json();
+    if(!j||!j.length){if(msg)msg.textContent='No match for “'+q+'” — try a fuller address.';return;}
+    const lat=+j[0].lat,lng=+j[0].lon,name=j[0].display_name||q;
+    refPinAdd(lat,lng,name);
+    if(MAPI&&MAPI.setView)MAPI.setView([lat,lng],Math.max(MAPI.getZoom?MAPI.getZoom():13,15));
+    if(msg)msg.textContent='Added: '+name.slice(0,70);
+    const inp=document.getElementById('pinAddr');if(inp)inp.value='';
+  }catch(e){if(msg)msg.textContent='Geocoding failed (network or rate limit) — try again.';}
+}
+let _pinDeb=null;
+function renderSuggest(items){
+  const box=document.getElementById('pinSuggest'); if(!box)return;
+  if(!items||!items.length){box.style.display='none';box.innerHTML='';return;}
+  box.innerHTML=items.slice(0,5).map(it=>`<div class="pin-sug" data-lat="${it.lat}" data-lng="${it.lon}" data-label="${String(it.display_name||'').replace(/"/g,'&quot;')}" style="padding:8px 11px;cursor:pointer;border-top:1px solid var(--rule);font-size:13px;line-height:1.4">${it.display_name||''}</div>`).join('');
+  box.style.display='';
+}
+async function pinAutocomplete(q){
+  if(!q||q.length<3){renderSuggest([]);return;}
+  try{
+    const r=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=5&q='+encodeURIComponent(q),{headers:{'Accept':'application/json'}});
+    renderSuggest(await r.json());
+  }catch(e){renderSuggest([]);}
+}
+(function wireRefPins(){
+  const add=document.getElementById('addPin'),rm=document.getElementById('removePins'),inp=document.getElementById('pinAddr'),sug=document.getElementById('pinSuggest');
+  if(add)add.onclick=()=>{renderSuggest([]);refPinGeocode(((inp&&inp.value)||'').trim());};
+  if(rm)rm.onclick=refPinRemoveAll;
+  if(inp&&inp.addEventListener){
+    inp.addEventListener('input',()=>{const v=(inp.value||'').trim();if(_pinDeb)clearTimeout(_pinDeb);_pinDeb=setTimeout(()=>pinAutocomplete(v),350);});
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();renderSuggest([]);refPinGeocode((inp.value||'').trim());}else if(e.key==='Escape'){renderSuggest([]);}});
+    inp.addEventListener('blur',()=>setTimeout(()=>renderSuggest([]),200));
+  }
+  if(sug&&sug.addEventListener)sug.addEventListener('mousedown',e=>{
+    const el=e.target&&e.target.closest?e.target.closest('.pin-sug'):null; if(!el)return; e.preventDefault();
+    const lat=+el.getAttribute('data-lat'),lng=+el.getAttribute('data-lng'),label=el.getAttribute('data-label');
+    refPinAdd(lat,lng,label); if(MAPI&&MAPI.setView)MAPI.setView([lat,lng],Math.max(MAPI.getZoom?MAPI.getZoom():13,15));
+    const msg=document.getElementById('pinMsg'); if(msg)msg.textContent='Added: '+String(label||'').slice(0,70);
+    if(inp)inp.value=''; renderSuggest([]);
+  });
+})();
+function renderTable(key,dir){
+  state.sortKey=key;state.sortDir=dir;
+  const rows=[...data.buildings].map(b=>{const cp=compositeAll(b);
+    const mpsf=(cp&&cp.asking_psf!=null)?cp.asking_psf:null;
+    const npsf=(cp&&(cp.net_psf!=null?cp.net_psf:cp.asking_psf)!=null)?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;
+    return {...b,avail_rate:(b.units&&b.available_now!=null)?b.available_now/b.units:null,mkt_psf:mpsf,net_psf:npsf};});
+  rows.sort((a,b)=>{ if(key==='name')return a.name.localeCompare(b.name)*dir;
+    let av=a[key],bv=b[key]; av=av==null?-Infinity:av; bv=bv==null?-Infinity:bv; return (av-bv)*dir;});
+  $('#tbl tbody').innerHTML=rows.map(b=>{
+    const conc=b.concession_pct>0.005?`<span class="mono" style="color:var(--rust);font-weight:600">${(b.concession_pct*100).toFixed(1)}%</span>`:'<span style="color:var(--ink2)">—</span>';
+    const src=b.source_url?`<a href="${b.source_url}" target="_blank" rel="noopener">${b.method||'site'}</a>`:(b.method||'—');
+    return `<tr class="${b.in_market?'':'out'}" data-id="${b.id}">
+      <td class="act"><input type="checkbox" class="chk tgl" ${b.in_market?'checked':''} data-id="${b.id}"></td>
+      <td><a href="building.html?b=${b.id}" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(33,28,21,.25);text-underline-offset:3px">${b.name}</a><span class="nm-sub">${b.mgmt||''}</span></td>
+      <td class="mono">${b.units!=null?b.units.toLocaleString():'—'}</td>
+      <td class="mono" style="font-weight:600">${b.available_now!=null?b.available_now:'—'}</td>
+      <td class="mono">${b.avail_rate!=null?(b.avail_rate*100).toFixed(1)+'%':'—'}</td>
+      <td class="mono">${b.mkt_psf!=null?'$'+b.mkt_psf.toFixed(2):'—'}</td>
+      <td class="mono">${b.net_psf!=null?'$'+b.net_psf.toFixed(2):'—'}</td>
+      <td class="physcol">${physCell(b)}</td>
+      <td class="conccol">${conc}<span class="nm-sub">${b.concession_text||''}</span></td>
+      <td><span class="nm-sub" style="margin-top:0">${src}</span></td></tr>`;}).join('');
+  $$('#tbl th[data-k]').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===key);const a=th.querySelector('.ar');if(a)a.textContent=dir<0?'▼':'▲';});
+}
+function renderInsights(){
+  const m=inMkt(), out=[];
+  const av=m.filter(b=>b.available_now!=null);
+  if(av.length){const tot=av.reduce((s,b)=>s+b.available_now,0);const hi=av.reduce((a,b)=>b.available_now>a.available_now?b:a);
+    out.push(`<b>${tot}</b> units are on the market across the in-market set; <b><a href="building.html?b=${hi.id}" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(33,28,21,.35);text-underline-offset:2px">${hi.name}</a></b> carries the most at <b>${hi.available_now}</b>.`);}
+  const conc=m.filter(b=>b.concession_pct>0.005).sort((a,b)=>b.concession_pct-a.concession_pct);
+  if(conc.length)out.push(`${conc.length} of ${m.length} buildings are discounting; <b><a href="building.html?b=${conc[0].id}" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(33,28,21,.35);text-underline-offset:2px">${conc[0].name}</a></b> is deepest at <b>${(conc[0].concession_pct*100).toFixed(0)}%</b> (${conc[0].concession_text||''}).`);
+  else out.push(`No in-market building is advertising a concession right now.`);
+  const at=aggByType(m), present=UNITS.filter(u=>at[u]);
+  if(present.length){
+    const ne=present.map(u=>`<b>${u.replace('BR',' BR')} ${usd(at[u].net)}</b>`).join(', ');
+    const ask=present.map(u=>usd(at[u].asking)).join(' / ');
+    out.push(`Net-effective rents by type: ${ne} — asking ${ask}.`);
+    const sf=present.filter(u=>at[u].sf);
+    if(sf.length) out.push(`Net-effective $/SF: ${sf.map(u=>`${u.replace('BR',' BR')} <b>$${(at[u].net*12/at[u].sf).toFixed(2)}</b>`).join(', ')}.`);
+  }
+  if(!hasByType())out.push(`Per-building rent detail will appear here once per-unit listings are ingested into the database.`);
+  $('#insightList').innerHTML=out.map(t=>`<li>${t}</li>`).join('');
+}
+
+/* ---------- wire ---------- */
+$('#unitSeg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#unitSeg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');state.unit=b.dataset.u;buildRBP();});
+$$('#tbl th[data-k]').forEach(th=>{if(!th.querySelector('.ar'))th.insertAdjacentHTML('beforeend',' <span class="ar">▼</span>');
+  th.addEventListener('click',()=>{const k=th.dataset.k;renderTable(k,k===state.sortKey?-state.sortDir:-1);});});
+$('#tbl tbody').addEventListener('change',e=>{const t=e.target.closest('.tgl');if(!t)return;
+  const b=data.buildings.find(x=>x.id===t.dataset.id);b.in_market=t.checked;render();});
+
+async function boot(){
+  // Try the live feed first. Same-origin on the Pages site; cache-busted so a
+  // CDN copy can't freeze the page. On any failure (offline, file://, 404),
+  // fall back to the baked DATA so the file still works standalone.
+  try{
+    const url='dashboard_data.json?cb='+Date.now();
+    const r=await fetch(url,{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const live=await r.json();
+    if(live && Array.isArray(live.buildings) && live.buildings.length){
+      data=JSON.parse(JSON.stringify(live));
+      window.DATA=live;            // keep a clean copy for reset / reference
+      DATA_SOURCE='live';
+    }
+  }catch(e){
+    DATA_SOURCE='baked';          // keep the baked working copy already in `data`
+    console.warn('Live feed unavailable, using baked snapshot:', e && e.message);
+  }
+  render();
+}
+boot();
+</script>
+</body>
+</html>

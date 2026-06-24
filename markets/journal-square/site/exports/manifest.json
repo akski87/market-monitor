@@ -1,0 +1,37 @@
+{
+  "study": "Journal Square (Jersey City, NJ) Class A multifamily market monitor",
+  "as_of": "2026-06-23",
+  "generated_at": "2026-06-24T16:38:08+00:00",
+  "files": {
+    "units_latest": {
+      "csv": "exports/units_latest.csv",
+      "json": "exports/units_latest.json",
+      "rows": 303,
+      "desc": "Every available unit at each building's latest pull."
+    },
+    "survey_latest": {
+      "csv": "exports/survey_latest.csv",
+      "json": "exports/survey_latest.json",
+      "rows": 5,
+      "desc": "By-type market survey across in-market Class A units."
+    },
+    "timeseries": {
+      "csv": "exports/timeseries.csv",
+      "json": "exports/timeseries.json",
+      "rows": 14,
+      "desc": "One row per snapshot date for trend-over-time."
+    },
+    "units_12mo": {
+      "csv": "exports/units_12mo.csv",
+      "json": "exports/units_12mo.json",
+      "rows": 782,
+      "desc": "One row per unique unit observed in the trailing 12 months (latest values, first/last seen, active flag)."
+    },
+    "unit_mix": {
+      "csv": "exports/unit_mix.csv",
+      "json": "exports/unit_mix.json",
+      "rows": 12,
+      "desc": "Per-building bedroom census (Studio/1BR/2BR/3BR counts, shares, sourcing basis)."
+    }
+  }
+}

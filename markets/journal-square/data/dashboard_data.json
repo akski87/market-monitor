@@ -1,0 +1,1496 @@
+{
+  "generated_at": "2026-06-24T16:38:07+00:00",
+  "as_of": "2026-06-23",
+  "buildings": [
+    {
+      "id": "baldwin_134",
+      "name": "134 Baldwin",
+      "units": 91,
+      "address": "134 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.7267119,
+      "lng": -74.0615797,
+      "phys_recorded": 7,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2021,
+      "stories": 8,
+      "mgmt": null,
+      "in_market": true,
+      "method": "network_api",
+      "source_url": "https://www.zillow.com/apartments/jersey-city-nj/134-baldwin-ave/Cjdy8R/",
+      "portal_url": null,
+      "available_now": 7,
+      "concession_text": null,
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "Studio": {
+          "count": 7,
+          "asking_avg": 2343,
+          "net_avg": null,
+          "sqft_avg": 570,
+          "asking_min": 2100,
+          "asking_max": 2499,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 49.41,
+          "net_psf": null,
+          "psf_n": 7
+        }
+      }
+    },
+    {
+      "id": "three_journal_square",
+      "name": "3 Journal Square",
+      "units": 240,
+      "address": "2935 John F Kennedy Blvd, Jersey City, NJ",
+      "lat": 40.7340143,
+      "lng": -74.0640563,
+      "phys_recorded": 7,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2017,
+      "stories": 13,
+      "mgmt": "Greystar",
+      "in_market": true,
+      "method": "network_api",
+      "source_url": "https://www.threejournalsquare.com/Floor-plans.aspx",
+      "portal_url": "https://sightmap.com/embed/d7p1mrk2pkx",
+      "available_now": 6,
+      "concession_text": null,
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 6,
+          "asking_avg": 3216,
+          "net_avg": null,
+          "sqft_avg": 720,
+          "asking_min": 3029,
+          "asking_max": 3409,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 53.64,
+          "net_psf": null,
+          "psf_n": 6
+        }
+      }
+    },
+    {
+      "id": "baldwin_345",
+      "name": "345 Baldwin",
+      "units": 116,
+      "address": "345 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.732921,
+      "lng": -74.055372,
+      "phys_recorded": 16,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.345baldwin.com/availability",
+      "portal_url": "https://availability.rosenyc.com/availability/noeelbmj/",
+      "available_now": 11,
+      "concession_text": "$2,100.00 Net Effective Rent",
+      "concession_pct": 0.125,
+      "conc_derived_pct": 0.1251,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 7,
+          "asking_avg": 3023,
+          "net_avg": 2645,
+          "sqft_avg": 641,
+          "asking_min": 2795,
+          "asking_max": 3200,
+          "net_min": 2445,
+          "net_max": 2800,
+          "asking_psf": 56.57,
+          "net_psf": 49.49,
+          "psf_n": 7
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 3800,
+          "net_avg": 3325,
+          "sqft_avg": 833,
+          "asking_min": 3800,
+          "asking_max": 3800,
+          "net_min": 3325,
+          "net_max": 3325,
+          "asking_psf": 54.74,
+          "net_psf": 47.9,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 3,
+          "asking_avg": 2427,
+          "net_avg": 2123,
+          "sqft_avg": 391,
+          "asking_min": 2400,
+          "asking_max": 2460,
+          "net_min": 2100,
+          "net_max": 2152,
+          "asking_psf": 74.48,
+          "net_psf": 65.16,
+          "psf_n": 3
+        }
+      }
+    },
+    {
+      "id": "summit_413",
+      "name": "413 Summit",
+      "units": 148,
+      "address": "413 Summit Ave, Jersey City, NJ",
+      "lat": 40.729691,
+      "lng": -74.062161,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.413summit.com/availability",
+      "portal_url": null,
+      "available_now": 2,
+      "concession_text": "*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",
+      "concession_pct": 0.0769,
+      "conc_derived_pct": 0.0769,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 2,
+          "asking_avg": 2795,
+          "net_avg": 2580,
+          "sqft_avg": null,
+          "asking_min": 2595,
+          "asking_max": 2995,
+          "net_min": 2395,
+          "net_max": 2765,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "summit_505",
+      "name": "505 Summit",
+      "units": 605,
+      "address": "505 Summit Ave, Jersey City, NJ",
+      "lat": 40.731121,
+      "lng": -74.060783,
+      "phys_recorded": 55,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": "Panepinto Properties",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.505summit.com/availability",
+      "portal_url": null,
+      "available_now": 39,
+      "concession_text": "GRAND OPENING: OFFERING UP TO 2.5 MONTHS FREE*",
+      "concession_pct": 0.1042,
+      "conc_derived_pct": 0.1167,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 20,
+          "asking_avg": 3975,
+          "net_avg": 3511,
+          "sqft_avg": 677,
+          "asking_min": 3656,
+          "asking_max": 4551,
+          "net_min": 3225,
+          "net_max": 4027,
+          "asking_psf": 70.82,
+          "net_psf": 62.55,
+          "psf_n": 20
+        },
+        "2BR": {
+          "count": 4,
+          "asking_avg": 5840,
+          "net_avg": 5181,
+          "sqft_avg": 1043,
+          "asking_min": 5601,
+          "asking_max": 6231,
+          "net_min": 4967,
+          "net_max": 5532,
+          "asking_psf": 67.88,
+          "net_psf": 60.23,
+          "psf_n": 4
+        },
+        "3BR": {
+          "count": 2,
+          "asking_avg": 6626,
+          "net_avg": 5886,
+          "sqft_avg": 1332,
+          "asking_min": 6401,
+          "asking_max": 6851,
+          "net_min": 5684,
+          "net_max": 6087,
+          "asking_psf": 59.79,
+          "net_psf": 53.11,
+          "psf_n": 2
+        },
+        "Studio": {
+          "count": 13,
+          "asking_avg": 3541,
+          "net_avg": 3122,
+          "sqft_avg": 545,
+          "asking_min": 3416,
+          "asking_max": 3706,
+          "net_min": 3010,
+          "net_max": 3270,
+          "asking_psf": 79.57,
+          "net_psf": 70.15,
+          "psf_n": 13
+        }
+      }
+    },
+    {
+      "id": "jordan_55",
+      "name": "55 Jordan",
+      "units": 267,
+      "address": "55 Jordan Ave, Jersey City, NJ",
+      "lat": 40.725602,
+      "lng": -74.06597,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "none",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.55jordan.com/availability",
+      "portal_url": "https://newdev.modernspacesnyc.com/Search/Frame?buildingId=635066",
+      "available_now": 4,
+      "concession_text": "Up to 3 mo free + no broker fee (term not stated)",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 2,
+          "asking_avg": 2688,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2675,
+          "asking_max": 2700,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2050,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2000,
+          "asking_max": 2100,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "four_twenty_five_summit",
+      "name": "Four Twenty Five Summit",
+      "units": 390,
+      "address": "425 Summit Ave, Jersey City, NJ",
+      "lat": 40.730042,
+      "lng": -74.061893,
+      "phys_recorded": 57,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2024,
+      "stories": 27,
+      "mgmt": "Rose Associates",
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://425summit.com/availability/",
+      "portal_url": "https://availability.rosenyc.com/availability/fnhqqlif/",
+      "available_now": 20,
+      "concession_text": "$2,384.38 Net Effective Rent",
+      "concession_pct": 0.125,
+      "conc_derived_pct": 0.1252,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 10,
+          "asking_avg": 3460,
+          "net_avg": 3026,
+          "sqft_avg": 652,
+          "asking_min": 3250,
+          "asking_max": 3570,
+          "net_min": 2843,
+          "net_max": 3123,
+          "asking_psf": 63.74,
+          "net_psf": 55.77,
+          "psf_n": 10
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 5050,
+          "net_avg": 4418,
+          "sqft_avg": 986,
+          "asking_min": 5050,
+          "asking_max": 5050,
+          "net_min": 4418,
+          "net_max": 4418,
+          "asking_psf": 61.46,
+          "net_psf": 53.77,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 9,
+          "asking_avg": 2977,
+          "net_avg": 2605,
+          "sqft_avg": 484,
+          "asking_min": 2725,
+          "asking_max": 3210,
+          "net_min": 2384,
+          "net_max": 2808,
+          "asking_psf": 74.77,
+          "net_psf": 65.41,
+          "psf_n": 9
+        }
+      }
+    },
+    {
+      "id": "urby",
+      "name": "Journal Square Urby",
+      "units": 317,
+      "address": "532 Summit Ave, Jersey City, NJ",
+      "lat": 40.732112,
+      "lng": -74.059383,
+      "phys_recorded": 21,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2024,
+      "stories": 25,
+      "mgmt": "Ironstate / Urby",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.urby.com/location/journal-square/availability",
+      "portal_url": null,
+      "available_now": 17,
+      "concession_text": "$2,885 */mo * Price includes concessions.",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 5,
+          "asking_avg": 3301,
+          "net_avg": null,
+          "sqft_avg": 523,
+          "asking_min": 3005,
+          "asking_max": 3515,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 80.19,
+          "net_psf": null,
+          "psf_n": 1
+        },
+        "2BR": {
+          "count": 6,
+          "asking_avg": 4745,
+          "net_avg": 4720,
+          "sqft_avg": 856,
+          "asking_min": 4525,
+          "asking_max": 4925,
+          "net_min": 4645,
+          "net_max": 4795,
+          "asking_psf": 66.96,
+          "net_psf": 66.34,
+          "psf_n": 4
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 5375,
+          "net_avg": null,
+          "sqft_avg": 892,
+          "asking_min": 5375,
+          "asking_max": 5375,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 72.31,
+          "net_psf": null,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 5,
+          "asking_avg": 2975,
+          "net_avg": 2930,
+          "sqft_avg": 446,
+          "asking_min": 2925,
+          "asking_max": 3075,
+          "net_min": 2885,
+          "net_max": 2975,
+          "asking_psf": 80.17,
+          "net_psf": 79.55,
+          "psf_n": 4
+        }
+      }
+    },
+    {
+      "id": "journal_squared",
+      "name": "Journal Squared",
+      "units": 1840,
+      "address": "615 Pavonia Ave, Jersey City, NJ",
+      "lat": 40.732315,
+      "lng": -74.060474,
+      "phys_recorded": 98,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": 2021,
+      "stories": 68,
+      "mgmt": "Kushner Real Estate Group",
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.journalsquared.com/availabilities/",
+      "portal_url": null,
+      "available_now": 33,
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 12,
+          "asking_avg": 3432,
+          "net_avg": null,
+          "sqft_avg": 699,
+          "asking_min": 3145,
+          "asking_max": 3785,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 59.45,
+          "net_psf": null,
+          "psf_n": 12
+        },
+        "2BR": {
+          "count": 9,
+          "asking_avg": 4818,
+          "net_avg": null,
+          "sqft_avg": 1030,
+          "asking_min": 4690,
+          "asking_max": 5000,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 56.16,
+          "net_psf": null,
+          "psf_n": 9
+        },
+        "3BR": {
+          "count": 3,
+          "asking_avg": 6382,
+          "net_avg": null,
+          "sqft_avg": 1271,
+          "asking_min": 5700,
+          "asking_max": 6780,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 60.34,
+          "net_psf": null,
+          "psf_n": 3
+        },
+        "Studio": {
+          "count": 9,
+          "asking_avg": 3021,
+          "net_avg": null,
+          "sqft_avg": 504,
+          "asking_min": 2830,
+          "asking_max": 3250,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 72.24,
+          "net_psf": null,
+          "psf_n": 9
+        }
+      }
+    },
+    {
+      "id": "metrovue",
+      "name": "MetroVue",
+      "units": 124,
+      "address": "161 Van Wagenen Ave, Jersey City, NJ",
+      "lat": 40.735988,
+      "lng": -74.068748,
+      "phys_recorded": 10,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://metrovuejc.com/availability",
+      "portal_url": null,
+      "available_now": 6,
+      "concession_text": "Incentives offered \u2014 unquantified ('contact leasing')",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 6,
+          "asking_avg": 2866,
+          "net_avg": null,
+          "sqft_avg": 567,
+          "asking_min": 2750,
+          "asking_max": 3099,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 60.68,
+          "net_psf": null,
+          "psf_n": 6
+        }
+      }
+    },
+    {
+      "id": "orchard",
+      "name": "Orchard",
+      "units": 285,
+      "address": "55 Orchard St, Jersey City, NJ",
+      "lat": 40.724348,
+      "lng": -74.067117,
+      "phys_recorded": 0,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 0,
+      "phys_source": "none",
+      "year_built": 2024,
+      "stories": 16,
+      "mgmt": "Bushburg Properties",
+      "in_market": true,
+      "method": "portal",
+      "source_url": "https://www.orchardjc.com/availability",
+      "portal_url": "https://newdev.modernspacesnyc.com/Search/Frame",
+      "available_now": 7,
+      "concession_text": "1-2 mo free (14-mo) per Apr survey \u2014 no concession language on widget",
+      "concession_pct": null,
+      "conc_derived_pct": null,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 3,
+          "asking_avg": 2853,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2715,
+          "asking_max": 2995,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "2BR": {
+          "count": 2,
+          "asking_avg": 3422,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 3250,
+          "asking_max": 3595,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2418,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2360,
+          "asking_max": 2475,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
+    },
+    {
+      "id": "greyson",
+      "name": "The Greyson",
+      "units": 622,
+      "address": "25 Cottage St, Jersey City, NJ",
+      "lat": 40.73418,
+      "lng": -74.060405,
+      "phys_recorded": 62,
+      "phys_modeled": false,
+      "phys_lines": 0,
+      "phys_plans": 29,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.thegreyson.com/availability",
+      "portal_url": null,
+      "available_now": 14,
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "concession_pct": 0.0833,
+      "conc_derived_pct": 0.0833,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 5,
+          "asking_avg": 3635,
+          "net_avg": 3332,
+          "sqft_avg": 691,
+          "asking_min": 3310,
+          "asking_max": 3935,
+          "net_min": 3034,
+          "net_max": 3607,
+          "asking_psf": 63.2,
+          "net_psf": 57.93,
+          "psf_n": 5
+        },
+        "2BR": {
+          "count": 3,
+          "asking_avg": 5553,
+          "net_avg": 5091,
+          "sqft_avg": 950,
+          "asking_min": 5425,
+          "asking_max": 5625,
+          "net_min": 4973,
+          "net_max": 5156,
+          "asking_psf": 70.67,
+          "net_psf": 64.78,
+          "psf_n": 3
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 5550,
+          "net_avg": 5088,
+          "sqft_avg": 1103,
+          "asking_min": 5550,
+          "asking_max": 5550,
+          "net_min": 5088,
+          "net_max": 5088,
+          "asking_psf": 60.38,
+          "net_psf": 55.35,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 5,
+          "asking_avg": 2996,
+          "net_avg": 2746,
+          "sqft_avg": 423,
+          "asking_min": 2855,
+          "asking_max": 3190,
+          "net_min": 2617,
+          "net_max": 2924,
+          "asking_psf": 84.59,
+          "net_psf": 77.54,
+          "psf_n": 4
+        }
+      }
+    },
+    {
+      "id": "the_journal",
+      "name": "The Journal",
+      "units": 1723,
+      "address": "36 Journal Square, Jersey City, NJ",
+      "lat": 40.731008,
+      "lng": -74.062295,
+      "phys_recorded": 185,
+      "phys_modeled": true,
+      "phys_lines": 42,
+      "phys_plans": 0,
+      "phys_source": "in_feed",
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "method": "dom_read",
+      "source_url": "https://www.journaljc.com/availability",
+      "portal_url": null,
+      "available_now": 137,
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "concession_pct": 0.1,
+      "conc_derived_pct": 0.1001,
+      "as_of": "2026-06-23",
+      "by_type": {
+        "1BR": {
+          "count": 75,
+          "asking_avg": 4018,
+          "net_avg": 3616,
+          "sqft_avg": 741,
+          "asking_min": 3550,
+          "asking_max": 5096,
+          "net_min": 3195,
+          "net_max": 4586,
+          "asking_psf": 65.56,
+          "net_psf": 59.0,
+          "psf_n": 75
+        },
+        "2BR": {
+          "count": 18,
+          "asking_avg": 5975,
+          "net_avg": 5377,
+          "sqft_avg": 1007,
+          "asking_min": 5496,
+          "asking_max": 6796,
+          "net_min": 4946,
+          "net_max": 6116,
+          "asking_psf": 71.25,
+          "net_psf": 64.12,
+          "psf_n": 18
+        },
+        "3BR": {
+          "count": 4,
+          "asking_avg": 6880,
+          "net_avg": 6192,
+          "sqft_avg": 1226,
+          "asking_min": 6120,
+          "asking_max": 7500,
+          "net_min": 5508,
+          "net_max": 6750,
+          "asking_psf": 67.38,
+          "net_psf": 60.64,
+          "psf_n": 4
+        },
+        "Studio": {
+          "count": 40,
+          "asking_avg": 3362,
+          "net_avg": 3025,
+          "sqft_avg": 443,
+          "asking_min": 2990,
+          "asking_max": 3630,
+          "net_min": 2691,
+          "net_max": 3267,
+          "asking_psf": 91.53,
+          "net_psf": 82.37,
+          "psf_n": 40
+        }
+      }
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-06-08",
+      "total_available": 326,
+      "by_type": {
+        "Studio": {
+          "asking": 2975,
+          "net": 2710
+        },
+        "1BR": {
+          "asking": 3503,
+          "net": 3188
+        },
+        "2BR": {
+          "asking": 4981,
+          "net": 4559
+        },
+        "3BR": {
+          "asking": 6273,
+          "net": 5699
+        }
+      },
+      "note": "Seed from June 8 2026 live pull (aggregate; per-unit rows pending ingest).",
+      "all_asking": 3631.0,
+      "all_net": 3305.0
+    },
+    {
+      "date": "2026-06-11",
+      "total_available": 301,
+      "by_type": {
+        "1BR": {
+          "asking": 3721.0,
+          "net": 3439.0
+        },
+        "2BR": {
+          "asking": 5043.0,
+          "net": 4933.0
+        },
+        "3BR": {
+          "asking": 6476.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3136.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3771.0,
+      "all_net": 3403.0
+    },
+    {
+      "date": "2026-06-12",
+      "total_available": 296,
+      "by_type": {
+        "1BR": {
+          "asking": 3692.0,
+          "net": 3420.0
+        },
+        "2BR": {
+          "asking": 5110.0,
+          "net": 5018.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3127.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3763.0,
+      "all_net": 3409.0
+    },
+    {
+      "date": "2026-06-13",
+      "total_available": 289,
+      "by_type": {
+        "1BR": {
+          "asking": 3695.0,
+          "net": 3423.0
+        },
+        "2BR": {
+          "asking": 5109.0,
+          "net": 5056.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3136.0,
+          "net": 2869.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3758.0,
+      "all_net": 3407.0
+    },
+    {
+      "date": "2026-06-14",
+      "total_available": 277,
+      "by_type": {
+        "1BR": {
+          "asking": 3686.0,
+          "net": 3427.0
+        },
+        "2BR": {
+          "asking": 5097.0,
+          "net": 5058.0
+        },
+        "3BR": {
+          "asking": 6479.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3131.0,
+          "net": 2868.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3756.0,
+      "all_net": 3411.0
+    },
+    {
+      "date": "2026-06-15",
+      "total_available": 276,
+      "by_type": {
+        "1BR": {
+          "asking": 3672.0,
+          "net": 3422.0
+        },
+        "2BR": {
+          "asking": 5157.0,
+          "net": 5117.0
+        },
+        "3BR": {
+          "asking": 6675.0,
+          "net": 6033.0
+        },
+        "Studio": {
+          "asking": 3132.0,
+          "net": 2863.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3757.0,
+      "all_net": 3427.0
+    },
+    {
+      "date": "2026-06-16",
+      "total_available": 306,
+      "by_type": {
+        "1BR": {
+          "asking": 3712.0,
+          "net": 3436.0
+        },
+        "2BR": {
+          "asking": 5255.0,
+          "net": 5012.0
+        },
+        "3BR": {
+          "asking": 6611.0,
+          "net": 6109.0
+        },
+        "Studio": {
+          "asking": 3135.0,
+          "net": 2857.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3845.0,
+      "all_net": 3511.0
+    },
+    {
+      "date": "2026-06-17",
+      "total_available": 298,
+      "by_type": {
+        "1BR": {
+          "asking": 3706.0,
+          "net": 3458.0
+        },
+        "2BR": {
+          "asking": 5261.0,
+          "net": 5031.0
+        },
+        "3BR": {
+          "asking": 6557.0,
+          "net": 6128.0
+        },
+        "Studio": {
+          "asking": 3157.0,
+          "net": 2880.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3876.0,
+      "all_net": 3553.0
+    },
+    {
+      "date": "2026-06-18",
+      "total_available": 302,
+      "by_type": {
+        "1BR": {
+          "asking": 3728.0,
+          "net": 3478.0
+        },
+        "2BR": {
+          "asking": 5276.0,
+          "net": 5059.0
+        },
+        "3BR": {
+          "asking": 6539.0,
+          "net": 6051.0
+        },
+        "Studio": {
+          "asking": 3095.0,
+          "net": 2877.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3867.0,
+      "all_net": 3583.0
+    },
+    {
+      "date": "2026-06-19",
+      "total_available": 296,
+      "by_type": {
+        "1BR": {
+          "asking": 3728.0,
+          "net": 3473.0
+        },
+        "2BR": {
+          "asking": 5276.0,
+          "net": 5132.0
+        },
+        "3BR": {
+          "asking": 6459.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3077.0,
+          "net": 2868.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3864.0,
+      "all_net": 3584.0
+    },
+    {
+      "date": "2026-06-20",
+      "total_available": 293,
+      "by_type": {
+        "1BR": {
+          "asking": 3719.0,
+          "net": 3470.0
+        },
+        "2BR": {
+          "asking": 5243.0,
+          "net": 5111.0
+        },
+        "3BR": {
+          "asking": 6462.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3093.0,
+          "net": 2870.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3854.0,
+      "all_net": 3575.0
+    },
+    {
+      "date": "2026-06-21",
+      "total_available": 283,
+      "by_type": {
+        "1BR": {
+          "asking": 3719.0,
+          "net": 3481.0
+        },
+        "2BR": {
+          "asking": 5185.0,
+          "net": 5102.0
+        },
+        "3BR": {
+          "asking": 6451.0,
+          "net": 5935.0
+        },
+        "Studio": {
+          "asking": 3097.0,
+          "net": 2897.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3855.0,
+      "all_net": 3606.0
+    },
+    {
+      "date": "2026-06-22",
+      "total_available": 269,
+      "by_type": {
+        "1BR": {
+          "asking": 3714.0,
+          "net": 3466.0
+        },
+        "2BR": {
+          "asking": 5308.0,
+          "net": 5149.0
+        },
+        "3BR": {
+          "asking": 6428.0,
+          "net": 5980.0
+        },
+        "Studio": {
+          "asking": 3074.0,
+          "net": 2883.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3849.0,
+      "all_net": 3580.0
+    },
+    {
+      "date": "2026-06-23",
+      "total_available": 303,
+      "by_type": {
+        "1BR": {
+          "asking": 3716.0,
+          "net": 3462.0
+        },
+        "2BR": {
+          "asking": 5372.0,
+          "net": 5171.0
+        },
+        "3BR": {
+          "asking": 6440.0,
+          "net": 5947.0
+        },
+        "Studio": {
+          "asking": 3129.0,
+          "net": 2931.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3866.0,
+      "all_net": 3589.0
+    }
+  ],
+  "unit_mix": [
+    {
+      "building": "Journal Squared",
+      "studio": 414,
+      "br1": 1062,
+      "br2": 321,
+      "br3": 43,
+      "total": 1840,
+      "studio_pct": 0.225,
+      "br1_pct": 0.5772,
+      "br2_pct": 0.1745,
+      "br3_pct": 0.0234,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-152 plan-set three-phase table, marked preliminary; phases sum to as-built 538/704/598.",
+      "avg_sf": null
+    },
+    {
+      "building": "The Journal",
+      "studio": 493,
+      "br1": 972,
+      "br2": 222,
+      "br3": 36,
+      "total": 1723,
+      "studio_pct": 0.2861,
+      "br1_pct": 0.5641,
+      "br2_pct": 0.1288,
+      "br3_pct": 0.0209,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "The Greyson",
+      "studio": 255,
+      "br1": 305,
+      "br2": 49,
+      "br3": 13,
+      "total": 622,
+      "studio_pct": 0.41,
+      "br1_pct": 0.4904,
+      "br2_pct": 0.0788,
+      "br3_pct": 0.0209,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P22-190 amendment GDA (669 reduced to 622).",
+      "avg_sf": null
+    },
+    {
+      "building": "505 Summit",
+      "studio": 107,
+      "br1": 388,
+      "br2": 100,
+      "br3": 12,
+      "total": 607,
+      "studio_pct": 0.1763,
+      "br1_pct": 0.6392,
+      "br2_pct": 0.1647,
+      "br3_pct": 0.0198,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-144 principal points: 607 approved vs 605 marketed; 117 Jr-1BR folded into 1BR.",
+      "avg_sf": null
+    },
+    {
+      "building": "Four Twenty Five Summit",
+      "studio": 155,
+      "br1": 177,
+      "br2": 49,
+      "br3": 9,
+      "total": 390,
+      "studio_pct": 0.3974,
+      "br1_pct": 0.4538,
+      "br2_pct": 0.1256,
+      "br3_pct": 0.0231,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P21-140 amendment (390 units); 142 1BR + 35 1BR+den shown as 177 1BR.",
+      "avg_sf": null
+    },
+    {
+      "building": "Journal Square Urby",
+      "studio": 112,
+      "br1": 115,
+      "br2": 71,
+      "br3": 19,
+      "total": 317,
+      "studio_pct": 0.3533,
+      "br1_pct": 0.3628,
+      "br2_pct": 0.224,
+      "br3_pct": 0.0599,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "Orchard",
+      "studio": 85,
+      "br1": 116,
+      "br2": 66,
+      "br3": 18,
+      "total": 285,
+      "studio_pct": 0.2982,
+      "br1_pct": 0.407,
+      "br2_pct": 0.2316,
+      "br3_pct": 0.0632,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "3 Journal Square",
+      "studio": 89,
+      "br1": 115,
+      "br2": 31,
+      "br3": 5,
+      "total": 240,
+      "studio_pct": 0.3708,
+      "br1_pct": 0.4792,
+      "br2_pct": 0.1292,
+      "br3_pct": 0.0208,
+      "basis": "Sourced (operator unit-mix)",
+      "is_sourced": 1,
+      "note": "Unit Mix PID 167470 export (240 units). Avg SF/type: Studio 496, 1BR 742, 2BR 1152, 3BR 1260.",
+      "avg_sf": 714
+    },
+    {
+      "building": "MetroVue",
+      "studio": 25,
+      "br1": 91,
+      "br2": 7,
+      "br3": 1,
+      "total": 124,
+      "studio_pct": 0.2016,
+      "br1_pct": 0.7339,
+      "br2_pct": 0.0565,
+      "br3_pct": 0.0081,
+      "basis": "Sourced (HelloData)",
+      "is_sourced": 1,
+      "note": "",
+      "avg_sf": null
+    },
+    {
+      "building": "345 Baldwin",
+      "studio": 39,
+      "br1": 42,
+      "br2": 32,
+      "br3": 3,
+      "total": 116,
+      "studio_pct": 0.3362,
+      "br1_pct": 0.3621,
+      "br2_pct": 0.2759,
+      "br3_pct": 0.0259,
+      "basis": "Sourced (Planning Bd)",
+      "is_sourced": 1,
+      "note": "P20-153 amendment (P18-127 mix reconfigured).",
+      "avg_sf": null
+    },
+    {
+      "building": "55 Jordan",
+      "studio": 80,
+      "br1": 134,
+      "br2": 48,
+      "br3": 5,
+      "total": 267,
+      "studio_pct": 0.2996,
+      "br1_pct": 0.5019,
+      "br2_pct": 0.1798,
+      "br3_pct": 0.0187,
+      "basis": "Estimated",
+      "is_sourced": 0,
+      "note": "No application dataset found on the JC portal \u2014 mix estimated, not sourced.",
+      "avg_sf": null
+    },
+    {
+      "building": "413 Summit",
+      "studio": 37,
+      "br1": 81,
+      "br2": 27,
+      "br3": 3,
+      "total": 148,
+      "studio_pct": 0.25,
+      "br1_pct": 0.5473,
+      "br2_pct": 0.1824,
+      "br3_pct": 0.0203,
+      "basis": "Estimated",
+      "is_sourced": 0,
+      "note": "Case P20-081 located, documents pending \u2014 mix estimated, not sourced.",
+      "avg_sf": null
+    }
+  ],
+  "avg_unit_sf": [
+    {
+      "t": "Studio",
+      "n": 186,
+      "avg_sqft": 472.0,
+      "min_sqft": 374,
+      "max_sqft": 660
+    },
+    {
+      "t": "1BR",
+      "n": 241,
+      "avg_sqft": 694.0,
+      "min_sqft": 523,
+      "max_sqft": 965
+    },
+    {
+      "t": "2BR",
+      "n": 74,
+      "avg_sqft": 1000.0,
+      "min_sqft": 805,
+      "max_sqft": 1415
+    },
+    {
+      "t": "3BR",
+      "n": 17,
+      "avg_sqft": 1206.0,
+      "min_sqft": 892,
+      "max_sqft": 1415
+    }
+  ],
+  "data_quality": {
+    "checked_at": "2026-06-24T16:38:07+00:00",
+    "errors": [],
+    "warnings": [],
+    "quarantined_units": 0,
+    "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
+  },
+  "reference": {
+    "source": "Journal_Square_Unit_Database_5.xlsx",
+    "unit_mix_sourced": {
+      "label": "Unit mix \u2014 sourced only",
+      "buildings_sourced": 10,
+      "sourced_buildings": [
+        "Journal Squared",
+        "The Journal",
+        "Journal Square Urby",
+        "Four Twenty Five Summit",
+        "MetroVue",
+        "Orchard",
+        "The Greyson",
+        "505 Summit",
+        "345 Baldwin",
+        "3 Journal Square"
+      ],
+      "total_units": 6264,
+      "by_type": {
+        "Studio": {
+          "units": 1774,
+          "pct": 0.2832
+        },
+        "1BR": {
+          "units": 3383,
+          "pct": 0.5401
+        },
+        "2BR": {
+          "units": 948,
+          "pct": 0.1513
+        },
+        "3BR": {
+          "units": 159,
+          "pct": 0.0254
+        }
+      },
+      "note": "Bedroom-type census across the 10 comps with real unit-by-unit mix data: 4 from the client HelloData export (The Journal, Urby, MetroVue, Orchard), 5 recovered from Jersey City Planning Board approval records (Journal Squared, 425 Summit, The Greyson, 505 Summit, 345 Baldwin), and 3 Journal Square from an operator unit-mix export (PID 167470, 240 units). 413 Summit and 55 Jordan remain estimated and are excluded. Note: Journal Squared's mix is from a plan-set table marked preliminary, and 505 Summit's approved count is 607 vs 605 marketed."
+    },
+    "live_market_survey": {
+      "label": "Live market survey \u2014 selected market total",
+      "buildings_included": 11,
+      "rows": [
+        {
+          "type": "Studio",
+          "live": 112,
+          "ask_min": 2050,
+          "ask_avg": 2975,
+          "ask_max": 3681,
+          "sf": 450,
+          "psf": 79.33,
+          "net_avg": 2710,
+          "net_psf": 72.27
+        },
+        {
+          "type": "1BR",
+          "live": 152,
+          "ask_min": 2200,
+          "ask_avg": 3524,
+          "ask_max": 4601,
+          "sf": 648,
+          "psf": 65.26,
+          "net_avg": 3198,
+          "net_psf": 59.22
+        },
+        {
+          "type": "2BR",
+          "live": 47,
+          "ask_min": 2675,
+          "ask_avg": 4981,
+          "ask_max": 6955,
+          "sf": 965,
+          "psf": 61.94,
+          "net_avg": 4559,
+          "net_psf": 56.69
+        },
+        {
+          "type": "3BR",
+          "live": 10,
+          "ask_min": 5285,
+          "ask_avg": 6273,
+          "ask_max": 7556,
+          "sf": 1197,
+          "psf": 62.89,
+          "net_avg": 5699,
+          "net_psf": 57.13
+        },
+        {
+          "type": "All",
+          "live": 321,
+          "ask_min": 2050,
+          "ask_avg": 3631,
+          "ask_max": 7556,
+          "sf": 702,
+          "psf": 62.07,
+          "net_avg": 3305,
+          "net_psf": 56.5
+        }
+      ],
+      "note": "From the workbook's Live Market Survey tab (SELECTED MARKET TOTAL), 11 included buildings; CMPND co-living excluded. $/SF figures are annualized."
+    }
+  }
+}

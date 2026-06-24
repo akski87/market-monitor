@@ -1,0 +1,12 @@
+{
+  "_comment": "Canonical list of markets in this platform. Adding a market = add an entry here + create markets/<slug>/ (config + extractors.py + market.json). The daily workflow builds its matrix from this file; index.html renders its cards from it.",
+  "markets": [
+    {
+      "slug": "journal-square",
+      "display_name": "Journal Square",
+      "region": "Jersey City, NJ",
+      "status": "live",
+      "pages_path": "markets/journal-square/site/dashboard.html"
+    }
+  ]
+}

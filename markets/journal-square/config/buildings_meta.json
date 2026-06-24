@@ -1,0 +1,148 @@
+{
+  "_comment": "Static metadata per building, merged with availability_sources.json (scrape config) by matching 'building' to the registry display name. Edit here to enrich; null = unknown / to be filled. 'in_market' controls whether a building counts toward market averages in the dashboard.",
+  "buildings": {
+    "Journal Squared": {
+      "slug": "journal_squared",
+      "units": 1840,
+      "year_built": 2021,
+      "stories": 68,
+      "mgmt": "Kushner Real Estate Group",
+      "in_market": true,
+      "address": "615 Pavonia Ave, Jersey City, NJ",
+      "lat": 40.732315,
+      "lng": -74.060474
+    },
+    "The Journal": {
+      "slug": "the_journal",
+      "units": 1723,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "36 Journal Square, Jersey City, NJ",
+      "lat": 40.731008,
+      "lng": -74.062295
+    },
+    "Four Twenty Five Summit": {
+      "slug": "four_twenty_five_summit",
+      "units": 390,
+      "year_built": 2024,
+      "stories": 27,
+      "mgmt": "Rose Associates",
+      "in_market": true,
+      "address": "425 Summit Ave, Jersey City, NJ",
+      "lat": 40.730042,
+      "lng": -74.061893
+    },
+    "Journal Square Urby": {
+      "slug": "urby",
+      "units": 317,
+      "year_built": 2024,
+      "stories": 25,
+      "mgmt": "Ironstate / Urby",
+      "in_market": true,
+      "address": "532 Summit Ave, Jersey City, NJ",
+      "lat": 40.732112,
+      "lng": -74.059383
+    },
+    "MetroVue": {
+      "slug": "metrovue",
+      "units": 124,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "161 Van Wagenen Ave, Jersey City, NJ",
+      "lat": 40.735988,
+      "lng": -74.068748
+    },
+    "Orchard": {
+      "slug": "orchard",
+      "units": 285,
+      "year_built": 2024,
+      "stories": 16,
+      "mgmt": "Bushburg Properties",
+      "in_market": true,
+      "address": "55 Orchard St, Jersey City, NJ",
+      "lat": 40.724348,
+      "lng": -74.067117
+    },
+    "The Greyson": {
+      "slug": "greyson",
+      "units": 622,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "25 Cottage St, Jersey City, NJ",
+      "lat": 40.73418,
+      "lng": -74.060405
+    },
+    "505 Summit": {
+      "slug": "summit_505",
+      "units": 605,
+      "year_built": null,
+      "stories": null,
+      "mgmt": "Panepinto Properties",
+      "in_market": true,
+      "address": "505 Summit Ave, Jersey City, NJ",
+      "lat": 40.731121,
+      "lng": -74.060783
+    },
+    "413 Summit": {
+      "slug": "summit_413",
+      "units": 148,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "413 Summit Ave, Jersey City, NJ",
+      "lat": 40.729691,
+      "lng": -74.062161
+    },
+    "345 Baldwin": {
+      "slug": "baldwin_345",
+      "units": 116,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "345 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.732921,
+      "lng": -74.055372
+    },
+    "55 Jordan": {
+      "slug": "jordan_55",
+      "units": 267,
+      "year_built": null,
+      "stories": null,
+      "mgmt": null,
+      "in_market": true,
+      "address": "55 Jordan Ave, Jersey City, NJ",
+      "lat": 40.725602,
+      "lng": -74.06597
+    },
+    "3 Journal Square": {
+      "slug": "three_journal_square",
+      "units": 240,
+      "year_built": 2017,
+      "stories": 13,
+      "mgmt": "Greystar",
+      "in_market": true,
+      "address": "2935 John F Kennedy Blvd, Jersey City, NJ",
+      "lat": 40.7340143,
+      "lng": -74.0640563
+    },
+    "134 Baldwin": {
+      "slug": "baldwin_134",
+      "units": 91,
+      "year_built": 2021,
+      "stories": 8,
+      "mgmt": null,
+      "in_market": true,
+      "address": "134 Baldwin Ave, Jersey City, NJ",
+      "lat": 40.7267119,
+      "lng": -74.0615797
+    }
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Monitor — Rental submarket dashboards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F4EC; --card:#FFFFFF; --ink:#211C15; --muted:#6B6457;
+    --rule:#E4DDCE; --accent:#2E5A5E; --accent-soft:#E7EFEC;
+    --live:#2E7D55; --live-bg:#E3F1E8; --soon:#9A7B2E; --soon-bg:#F5ECD4;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+       -webkit-font-smoothing:antialiased;line-height:1.5}
+  .wrap{max-width:980px;margin:0 auto;padding:56px 24px 80px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:36px}
+  .kicker{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  h1{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:40px;line-height:1.1;margin:14px 0 10px}
+  .lede{color:var(--muted);font-size:16px;max-width:60ch;margin:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .card{display:block;text-decoration:none;color:inherit;background:var(--card);
+        border:1px solid var(--rule);border-radius:14px;padding:22px 22px 20px;
+        transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
+  a.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(33,28,21,.08);border-color:#CFC6B4}
+  .card.soon{opacity:.72;cursor:default}
+  .badge{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+         font-weight:600;padding:3px 9px;border-radius:999px}
+  .badge.live{color:var(--live);background:var(--live-bg)}
+  .badge.soon{color:var(--soon);background:var(--soon-bg)}
+  .mkt{font-family:Newsreader,Georgia,serif;font-size:23px;font-weight:500;margin:14px 0 2px}
+  .region{color:var(--muted);font-size:14px}
+  .go{margin-top:16px;font-size:13.5px;font-weight:600;color:var(--accent)}
+  footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);padding-top:18px}
+  .empty{color:var(--muted);font-size:15px;padding:24px 0}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">Market Monitor</div>
+      <h1>Rental submarket dashboards</h1>
+      <p class="lede">Daily availability, asking &amp; net-effective rents, and unit-mix benchmarks
+      across competitive sets — one market at a time, growing nationally.</p>
+    </header>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>No markets configured yet.</div>
+    <footer>
+      Each market refreshes automatically each day via GitHub Actions. Built from one shared engine;
+      every market is a folder of config + data. <span id="count"></span>
+    </footer>
+  </div>
+
+<script>
+(async function(){
+  const grid = document.getElementById('grid');
+  let markets = [];
+  try{
+    const r = await fetch('registry.json?cb='+Date.now(), {cache:'no-store'});
+    markets = (await r.json()).markets || [];
+  }catch(e){ /* fall through to empty state */ }
+
+  if(!markets.length){
+    document.getElementById('empty').hidden = false;
+    return;
+  }
+  // live markets first, then alphabetical
+  markets.sort((a,b)=> (a.status==='live'?0:1)-(b.status==='live'?0:1) ||
+                       (a.display_name||'').localeCompare(b.display_name||''));
+
+  for(const m of markets){
+    const live = m.status === 'live';
+    const tag = live ? '<span class="badge live">Live</span>'
+                     : '<span class="badge soon">Coming soon</span>';
+    const inner =
+      tag +
+      '<div class="mkt">'+ esc(m.display_name||m.slug) +'</div>'+
+      '<div class="region">'+ esc(m.region||'') +'</div>'+
+      (live ? '<div class="go">View dashboard &rarr;</div>' : '');
+    if(live && m.pages_path){
+      const a = document.createElement('a');
+      a.className = 'card'; a.href = m.pages_path; a.innerHTML = inner;
+      grid.appendChild(a);
+    }else{
+      const d = document.createElement('div');
+      d.className = 'card soon'; d.innerHTML = inner;
+      grid.appendChild(d);
+    }
+  }
+  const liveN = markets.filter(m=>m.status==='live').length;
+  document.getElementById('count').textContent =
+    liveN + ' live market' + (liveN===1?'':'s') +
+    (markets.length>liveN ? ', '+(markets.length-liveN)+' on the way.' : '.');
+
+  function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+{
+  "_comment": "Static reference blocks lifted from the study workbook (Journal_Square_Unit_Database_5.xlsx). pipeline.py export merges this into dashboard_data.json under 'reference' so the dashboard shows them and they survive every refresh. Update here if the workbook changes.",
+  "source": "Journal_Square_Unit_Database_5.xlsx",
+  "unit_mix_sourced": {
+    "label": "Unit mix \u2014 sourced only",
+    "buildings_sourced": 10,
+    "sourced_buildings": [
+      "Journal Squared",
+      "The Journal",
+      "Journal Square Urby",
+      "Four Twenty Five Summit",
+      "MetroVue",
+      "Orchard",
+      "The Greyson",
+      "505 Summit",
+      "345 Baldwin",
+      "3 Journal Square"
+    ],
+    "total_units": 6264,
+    "by_type": {
+      "Studio": {
+        "units": 1774,
+        "pct": 0.2832
+      },
+      "1BR": {
+        "units": 3383,
+        "pct": 0.5401
+      },
+      "2BR": {
+        "units": 948,
+        "pct": 0.1513
+      },
+      "3BR": {
+        "units": 159,
+        "pct": 0.0254
+      }
+    },
+    "note": "Bedroom-type census across the 10 comps with real unit-by-unit mix data: 4 from the client HelloData export (The Journal, Urby, MetroVue, Orchard), 5 recovered from Jersey City Planning Board approval records (Journal Squared, 425 Summit, The Greyson, 505 Summit, 345 Baldwin), and 3 Journal Square from an operator unit-mix export (PID 167470, 240 units). 413 Summit and 55 Jordan remain estimated and are excluded. Note: Journal Squared's mix is from a plan-set table marked preliminary, and 505 Summit's approved count is 607 vs 605 marketed."
+  },
+  "live_market_survey": {
+    "label": "Live market survey \u2014 selected market total",
+    "buildings_included": 11,
+    "rows": [
+      {
+        "type": "Studio",
+        "live": 112,
+        "ask_min": 2050,
+        "ask_avg": 2975,
+        "ask_max": 3681,
+        "sf": 450,
+        "psf": 79.33,
+        "net_avg": 2710,
+        "net_psf": 72.27
+      },
+      {
+        "type": "1BR",
+        "live": 152,
+        "ask_min": 2200,
+        "ask_avg": 3524,
+        "ask_max": 4601,
+        "sf": 648,
+        "psf": 65.26,
+        "net_avg": 3198,
+        "net_psf": 59.22
+      },
+      {
+        "type": "2BR",
+        "live": 47,
+        "ask_min": 2675,
+        "ask_avg": 4981,
+        "ask_max": 6955,
+        "sf": 965,
+        "psf": 61.94,
+        "net_avg": 4559,
+        "net_psf": 56.69
+      },
+      {
+        "type": "3BR",
+        "live": 10,
+        "ask_min": 5285,
+        "ask_avg": 6273,
+        "ask_max": 7556,
+        "sf": 1197,
+        "psf": 62.89,
+        "net_avg": 5699,
+        "net_psf": 57.13
+      },
+      {
+        "type": "All",
+        "live": 321,
+        "ask_min": 2050,
+        "ask_avg": 3631,
+        "ask_max": 7556,
+        "sf": 702,
+        "psf": 62.07,
+        "net_avg": 3305,
+        "net_psf": 56.5
+      }
+    ],
+    "note": "From the workbook's Live Market Survey tab (SELECTED MARKET TOTAL), 11 included buildings; CMPND co-living excluded. $/SF figures are annualized."
+  }
+}
