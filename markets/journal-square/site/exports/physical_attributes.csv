@@ -1,4 +1,5 @@
 building,unit,beds,baths,sqft
+Journal Square Urby,1002,2,2,
 Journal Square Urby,1115,0,1.0,456
 Journal Square Urby,1410,2,2.0,907
 Journal Square Urby,1415,0,1.0,456
@@ -72,6 +73,7 @@ Journal Squared,2301,1,1,656
 Journal Squared,2305,2,2.0,944
 Journal Squared,2306,2,2,991
 Journal Squared,2308,0,1.0,431
+Journal Squared,2309,3,2,1422
 Journal Squared,2312,2,2,1044
 Journal Squared,2413,2,2,996
 Journal Squared,2614,1,1,869
@@ -97,6 +99,7 @@ Journal Squared,4105,1,1.0,641
 Journal Squared,4106,1,1,860
 Journal Squared,4203,1,1,732
 Journal Squared,4207,2,2,1071
+Journal Squared,4301,1,1,637
 Journal Squared,4302,2,2.0,1025
 Journal Squared,4405,1,1,618
 Journal Squared,4411,0,1,573
@@ -108,7 +111,9 @@ Journal Squared,4801,0,1,510
 Journal Squared,4802,2,2.0,1056
 Journal Squared,4804,2,2.0,1031
 Journal Squared,4807,2,2,1071
+Journal Squared,4810,2,2,1048
 Journal Squared,4910,2,2,1048
+Journal Squared,5003,1,1,700
 Journal Squared,5004,2,2,1031
 Journal Squared,5105,1,1,622
 Journal Squared,5107,2,2.0,1071
@@ -231,6 +236,7 @@ The Journal,3004N,0,1.0,430
 The Journal,3009N,1,1.0,
 The Journal,3012N,1,1.0,763
 The Journal,3014N,2,2,989
+The Journal,3015N,0,1,405
 The Journal,3105N,1,1,727
 The Journal,3208S,0,1.0,
 The Journal,3209S,1,1,711
@@ -242,6 +248,7 @@ The Journal,3601S,1,1.0,
 The Journal,3704N,0,1.0,
 The Journal,3711N,1,1,750
 The Journal,3712S,1,1.0,762
+The Journal,3715N,0,1,410
 The Journal,3802N,1,1,730
 The Journal,3807N,2,2,1032
 The Journal,3808N,0,1.0,
@@ -303,6 +310,7 @@ The Journal,5212S,1,1.0,762
 The Journal,5214S,2,2.0,
 The Journal,5303S,0,1.0,459
 The Journal,5308N,0,1,481
+The Journal,5309N,1,1,720
 The Journal,5310S,1,1.0,675
 The Journal,5312N,1,1,763
 The Journal,5401N,1,1.0,870
@@ -395,6 +403,7 @@ Four Twenty Five Summit,2202,1,1.0,639
 Four Twenty Five Summit,2207,1,1.0,652
 Four Twenty Five Summit,2213,0,1.0,436
 Four Twenty Five Summit,2214,1,1.0,670
+Four Twenty Five Summit,2301,3,2,1241
 Four Twenty Five Summit,2401,3,2,1241
 Four Twenty Five Summit,2410,0,1,374
 Four Twenty Five Summit,2412,1,1.0,670
@@ -456,6 +465,7 @@ The Greyson,1214,1,1,688
 The Greyson,1215,3,2,1103
 The Greyson,1405,1,1,650
 The Greyson,1409,1,1,740
+The Greyson,1412,1,1,
 The Greyson,1621,0,1,549
 The Greyson,1626,1,1,699
 The Greyson,1811,0,1,470
@@ -505,7 +515,7 @@ The Greyson,923,1,1,688
 505 Summit,0506,3,2,1251
 505 Summit,0604,0,1,620
 505 Summit,0606,0,1,542
-505 Summit,0811,1,1.0,
+505 Summit,0811,1,1.0,627
 505 Summit,0908,1,1,630
 505 Summit,0909,0,1.0,492
 505 Summit,1508,1,1,630
@@ -593,7 +603,9 @@ The Greyson,923,1,1,688
 55 Jordan,9090,2,2.0,
 3 Journal Square,0217,1,1,752
 3 Journal Square,0417,1,1,752
+3 Journal Square,0612,0,1,496
 3 Journal Square,0615,1,1,687
+3 Journal Square,0701,1,1,687
 3 Journal Square,1101,1,1,687
 3 Journal Square,1115,1,1,687
 3 Journal Square,1117,1,1,752
