@@ -132,11 +132,30 @@
 </style>
 </head>
 <body>
+<style>
+  /* Market -> Submarket -> Building drill-down (active only when data.submarkets exists) */
+  .crumb{font-size:13px;margin:4px 0 2px;color:#6b6457}
+  .crumb a{color:var(--teal);text-decoration:none;font-weight:600}
+  .crumb a:hover{text-decoration:underline}
+  .crumb .sep{margin:0 7px;color:var(--rule)}
+  .smgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:14px;margin-top:8px}
+  .smcard{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:16px 18px 15px}
+  a.smcard.live{transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
+  a.smcard.live:hover{transform:translateY(-2px);box-shadow:var(--shadow,0 8px 22px rgba(33,28,21,.08));border-color:#CFC6B4}
+  .smcard.soon{opacity:.6}
+  .smname{font-weight:700;font-size:16px;margin-bottom:9px;display:flex;justify-content:space-between;align-items:center}
+  .smcard .arrow{color:var(--teal);font-weight:700}
+  .smstats{display:flex;gap:20px;margin-bottom:7px}
+  .smstats .snum{font-weight:700;font-size:19px;display:block;line-height:1.1}
+  .smstats .slab{font-size:10.5px;color:#6b6457;text-transform:uppercase;letter-spacing:.05em}
+  .smrent,.smmeta{font-size:13px;color:#6b6457}
+</style>
 
 <header>
   <div class="wrap">
     <div class="kicker">{{KICKER}}</div>
-    <h1>Journal&nbsp;Square <em>multifamily</em> monitor</h1>
+    <h1>{{H1}}</h1>
+    <div class="crumb" id="crumb" style="display:none"></div>
     <div class="sub" id="sub"></div>
     <div class="toolbar">
       <div class="status"><span class="dot" id="statusDot"></span><span id="statusText"></span></div>
@@ -146,6 +165,9 @@
 
 <div class="wrap">
   <div id="banner"></div>
+
+  <div id="overviewView" style="display:none"></div>
+  <div id="detailView">
 
   <section class="sec"><div class="sec-h"><span class="n">01</span><h2>Submarket at a glance</h2>
     <div class="note">Averages use buildings flagged <b>in-market</b> in the table below. Toggle one to reshape the view.</div></div>
@@ -225,6 +247,7 @@
   <section class="sec"><div class="sec-h"><span class="n">09</span><h2>Read-out</h2></div>
     <div class="insight"><h3>What the set is telling you</h3><ul id="insightList"></ul></div>
   </section>
+  </div><!-- /detailView -->
 </div>
 
 <footer><div class="wrap">
@@ -1722,6 +1745,7 @@ const C={ink:'#211C15',ink2:'#5C5346',rust:'#B0492A',rustS:'#D98A6B',teal:'#2E5A
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const usd=v=>v==null?'—':'$'+Math.round(v).toLocaleString();
 const pct=v=>v==null?'—':(v*100).toFixed(1)+'%';
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const etTime=iso=>{const d=new Date(iso);return isNaN(d)?'':d.toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'})+' ET';};
 const fmtAsOf=d=>{if(!d)return'';const p=(''+d).split('-');return p.length===3?`${p[1]}/${p[2]}/${p[0]}`:d;};
 const etDateTime=iso=>{const d=new Date(iso);if(isNaN(d))return'';
@@ -1735,7 +1759,7 @@ const mean=a=>{a=a.filter(v=>v!=null);return a.length?a.reduce((x,y)=>x+y,0)/a.l
 // page fetches dashboard_data.json at load so it's never frozen by a missed bake.
 let DATA_SOURCE='baked';
 let data=JSON.parse(JSON.stringify(DATA));   // working copy (client-side in-market toggles)
-let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60};
+let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60,submarket:null};
 const CH={};
 function mk(id,cfg,plugins){if(plugins)cfg.plugins=plugins; if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg);}
 /* make a building-labelled chart clickable: click a bar OR its name → that building's detail page */
@@ -1749,7 +1773,9 @@ function chartNav(ids){return (e,els,chart)=>{
 function chartHover(){return (e,els,chart)=>{const ca=chart.chartArea; let on=!!(els&&els.length);
   if(!on){ if(chart.options.indexAxis==='y') on=e.x<ca.left&&e.y>=ca.top&&e.y<=ca.bottom; else on=e.y>ca.bottom&&e.x>=ca.left&&e.x<=ca.right; }
   if(chart.canvas) chart.canvas.style.cursor=on?'pointer':'default';};}
-const inMkt=()=>data.buildings.filter(b=>b.in_market);
+const SUBM=()=>Array.isArray(data.submarkets)?data.submarkets:[];
+const curBuildings=()=>data.buildings.filter(b=>!state.submarket||b.submarket===state.submarket);
+const inMkt=()=>curBuildings().filter(b=>b.in_market);
 const hasByType=()=>data.buildings.some(b=>b.by_type);
 // Roll per-type rents up across a set of buildings (count-weighted). Drives the
 // survey, the by-type chart and the 1BR KPI so they react to the section-07 toggles.
@@ -1872,12 +1898,64 @@ function renderReference(){
       `<div class="ph" style="margin:14px 0 0">Recomputed live from the ${nB} selected buildings with per-unit rent data — toggle buildings in section 07 to update. $/SF annualized; CMPND co-living carries no Class-A rent rows.</div>`;
   }
 }
-function render(){ renderHeader(); renderBanner(); renderKPIs(); buildAvail(); buildConc(); buildMap();
+function renderDetail(){ renderHeader(); renderBanner(); renderKPIs(); buildAvail(); buildConc(); buildMap();
   buildType(); buildTrend(); buildRBP(); renderReference(); renderTable(state.sortKey,state.sortDir); renderInsights(); }
+function render(){
+  const sm=SUBM();
+  const overview = sm.length>0 && !state.submarket;   // market level: show submarket cards
+  const ov=document.getElementById('overviewView'), dv=document.getElementById('detailView');
+  if(ov) ov.style.display = overview?'':'none';
+  if(dv) dv.style.display = overview?'none':'';
+  renderCrumb();
+  if(overview) renderOverview(); else renderDetail();
+}
+function goSub(slug){ state.submarket=slug; render(); window.scrollTo(0,0); }
+function goMarket(){ state.submarket=null; render(); window.scrollTo(0,0); }
+function renderCrumb(){
+  const sm=SUBM(), el=document.getElementById('crumb');
+  if(!el) return;
+  if(!sm.length){ el.style.display='none'; return; }
+  el.style.display='';
+  const root=esc(data.market_name||'Market');
+  const cur=state.submarket ? (sm.find(s=>s.slug===state.submarket)||{}).name : null;
+  el.innerHTML = state.submarket
+    ? `<a href="#" onclick="goMarket();return false">${root}</a><span class="sep">▸</span><b>${esc(cur||state.submarket)}</b>`
+    : `<b>${root}</b><span class="sep">▸</span><span style="color:#9a9486">all submarkets</span>`;
+}
+function renderOverview(){
+  const sm=SUBM();
+  const cards = sm.map(s=>{
+    const bs=data.buildings.filter(b=>b.submarket===s.slug);
+    const live = s.status==='live' && bs.length>0;
+    if(!live){
+      const n = s.candidates||bs.length||0;
+      return `<div class="smcard soon"><div class="smname">${esc(s.name)}</div>`+
+        `<div class="smmeta">${n? n+' candidate building'+(n==1?'':'s'):'—'} · coming soon</div></div>`;
+    }
+    const im=bs.filter(b=>b.in_market);
+    const avail=im.reduce((x,b)=>x+(b.available_now||0),0);
+    const units=bs.reduce((x,b)=>x+(b.units||0),0);
+    const at=aggByType(im), all=at.All;
+    const rent = all&&all.net?('Avg net-eff '+usd(all.net)) : (all&&all.asking?('Avg asking '+usd(all.asking)):'—');
+    return `<a class="smcard live" href="#" onclick="goSub('${s.slug}');return false">`+
+      `<div class="smname">${esc(s.name)}<span class="arrow">→</span></div>`+
+      `<div class="smstats">`+
+        `<div><span class="snum">${bs.length}</span><span class="slab">buildings</span></div>`+
+        `<div><span class="snum">${avail.toLocaleString()}</span><span class="slab">available</span></div>`+
+        `<div><span class="snum">${units.toLocaleString()}</span><span class="slab">units</span></div>`+
+      `</div><div class="smrent">${rent}</div></a>`;
+  }).join('');
+  const liveN=sm.filter(s=>s.status==='live'&&data.buildings.some(b=>b.submarket===s.slug)).length;
+  document.getElementById('overviewView').innerHTML =
+    `<section class="sec"><div class="sec-h"><h2>${esc(data.market_name||'Market')} — submarkets</h2>`+
+    `<div class="note">${liveN} live · select a submarket to drill into its buildings, rents and availability.</div></div>`+
+    `<div class="smgrid">${cards}</div></section>`;
+}
 
 function renderHeader(){
-  const tot=data.buildings.length, im=inMkt().length;
-  const units=data.buildings.reduce((s,b)=>s+(b.units||0),0);
+  const cur=curBuildings();
+  const tot=cur.length, im=inMkt().length;
+  const units=cur.reduce((s,b)=>s+(b.units||0),0);
   const asOf=fmtAsOf(data.as_of), refresh=etDateTime(data.generated_at);
   $('#sub').innerHTML=`<b>${tot}</b> buildings · <b>${im}</b> in-market · <b>${units.toLocaleString()}</b> units tracked`+
     (asOf?` · data as of <b>${asOf}</b>`:'')+(refresh?` · last refresh <b>${refresh}</b>`:'');

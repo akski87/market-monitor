@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T01:59:39+00:00",
+  "generated_at": "2026-06-25T01:59:38+00:00",
   "as_of": "2026-06-24",
   "buildings": [
     {
@@ -25,7 +25,7 @@
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-23",
       "by_type": {
         "Studio": {
@@ -66,7 +66,7 @@
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -120,7 +120,7 @@
       "concession_text": "$2,100.00 Net Effective Rent",
       "concession_pct": 0.125,
       "conc_derived_pct": 0.1251,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -187,7 +187,7 @@
       "concession_text": "*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -228,7 +228,7 @@
       "concession_text": "GRAND OPENING: OFFERING UP TO 2.5 MONTHS FREE*",
       "concession_pct": 0.1042,
       "conc_derived_pct": 0.1167,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -308,7 +308,7 @@
       "concession_text": "Up to 3 mo free + no broker fee (term not stated)",
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -362,7 +362,7 @@
       "concession_text": "$2,384.38 Net Effective Rent",
       "concession_pct": 0.125,
       "conc_derived_pct": 0.1252,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -442,7 +442,7 @@
       "concession_text": "$2,885 */mo * Price includes concessions.",
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -522,7 +522,7 @@
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -602,7 +602,7 @@
       "concession_text": "Incentives offered \u2014 unquantified ('contact leasing')",
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -643,7 +643,7 @@
       "concession_text": "1-2 mo free (14-mo) per Apr survey \u2014 no concession language on widget",
       "concession_pct": null,
       "conc_derived_pct": null,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -710,7 +710,7 @@
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0833,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -790,7 +790,7 @@
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
-      "submarket": null,
+      "submarket": "journal-square",
       "as_of": "2026-06-24",
       "by_type": {
         "1BR": {
@@ -1450,7 +1450,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-06-25T01:59:39+00:00",
+    "checked_at": "2026-06-25T01:59:38+00:00",
     "errors": [],
     "warnings": [
       "134 Baldwin: no listings captured on 2026-06-24 (last seen 2026-06-23) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
@@ -1458,6 +1458,44 @@
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
   },
+  "submarkets": [
+    {
+      "slug": "journal-square",
+      "name": "Journal Square",
+      "status": "live"
+    },
+    {
+      "slug": "downtown",
+      "name": "Downtown",
+      "status": "coming_soon",
+      "candidates": 19
+    },
+    {
+      "slug": "bergen-lafayette",
+      "name": "Bergen-Lafayette",
+      "status": "coming_soon",
+      "candidates": 8
+    },
+    {
+      "slug": "the-heights",
+      "name": "The Heights",
+      "status": "coming_soon",
+      "candidates": 2
+    },
+    {
+      "slug": "west-side",
+      "name": "West Side",
+      "status": "coming_soon",
+      "candidates": 5
+    },
+    {
+      "slug": "port-liberte",
+      "name": "Port Libert\u00e9",
+      "status": "coming_soon",
+      "candidates": 1
+    }
+  ],
+  "market_name": "Jersey City",
   "reference": {
     "source": "Journal_Square_Unit_Database_5.xlsx",
     "unit_mix_sourced": {

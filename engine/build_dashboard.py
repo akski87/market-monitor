@@ -20,6 +20,7 @@ import paths
 
 def _brand(html, meta):
     return (html.replace("{{SITE_TITLE}}", meta.get("site_title", "Market Monitor"))
+                .replace("{{H1}}", meta.get("h1", meta.get("display_name", "Market Monitor")))
                 .replace("{{KICKER}}", meta.get("kicker", "")))
 
 

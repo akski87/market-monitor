@@ -402,12 +402,16 @@ def export(out_path=EXPORT_PATH):
     # static geo reference (address/lat/lng) lives in buildings_meta.json — merged
     # at export so the deployed DB needs no schema change.
     geo = {}
+    submkt = {}                      # slug -> submarket tag (markets that declare submarkets)
     try:
         with open(paths.config_path("buildings_meta.json")) as f:
             _meta = json.load(f)
             for _n, _m in (_meta.get("buildings") or _meta).items():
-                if isinstance(_m, dict) and _m.get("slug") and _m.get("lat") is not None:
-                    geo[_m["slug"]] = {"address": _m.get("address"), "lat": _m["lat"], "lng": _m["lng"]}
+                if isinstance(_m, dict) and _m.get("slug"):
+                    if _m.get("submarket"):
+                        submkt[_m["slug"]] = _m["submarket"]
+                    if _m.get("lat") is not None:
+                        geo[_m["slug"]] = {"address": _m.get("address"), "lat": _m["lat"], "lng": _m["lng"]}
     except Exception:
         pass
     with conn() as c:
@@ -502,6 +506,7 @@ def export(out_path=EXPORT_PATH):
                 "concession_text": snap["concession_text"] if snap else None,
                 "concession_pct": snap["concession_pct"] if snap else None,
                 "conc_derived_pct": conc_dv,
+                "submarket": submkt.get(b["id"]),
                 "as_of": d, "by_type": by_type or None})
         history = [{"date": r["snapshot_date"], "total_available": r["total_available"],
                     "by_type": json.loads(r["by_type_json"]) if r["by_type_json"] else None,
@@ -551,6 +556,13 @@ def export(out_path=EXPORT_PATH):
                                  "errors": dq_errors, "warnings": dq_warnings,
                                  "quarantined_units": len(quarantine),
                                  "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."}}
+    # declared submarket list (market.json) — drives the dashboard's Market->Submarket->
+    # Building drill-down. Empty for markets that don't declare submarkets (no UI change).
+    _mm = paths.market_meta()
+    submarkets = _mm.get("submarkets", [])
+    if submarkets:
+        payload["submarkets"] = submarkets
+        payload["market_name"] = _mm.get("display_name")
     ref_path = paths.config_path("reference.json")           # static workbook blocks
     if os.path.exists(ref_path):
         ref = json.load(open(ref_path))

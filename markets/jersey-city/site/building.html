@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Building detail — Jersey City Market Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper:#F2ECE0; --paper2:#EDE5D6; --card:#FBF8F1; --ink:#211C15; --ink2:#5C5346;
+    --rule:#D8CDB8; --rule2:#E6DDCB; --rust:#B0492A; --rust-soft:#D98A6B;
+    --teal:#2E5A5E; --teal-soft:#7FA7A6; --gold:#C09A45; --green:#4F7A47; --red:#A6422C;
+    --shadow:0 1px 0 rgba(33,28,21,.04), 0 12px 30px -18px rgba(33,28,21,.30);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  body{background:var(--paper); color:var(--ink); font-family:'Archivo',sans-serif; font-size:15px; line-height:1.5;
+    background-image:radial-gradient(rgba(33,28,21,.025) 1px, transparent 1px); background-size:4px 4px;}
+  .num,.mono{font-family:'Spline Sans Mono',monospace; font-variant-numeric:tabular-nums; letter-spacing:-.02em}
+  .wrap{max-width:1240px; margin:0 auto; padding:0 28px 80px}
+  a{color:var(--teal)}
+  .kicker{font-size:11.5px; letter-spacing:.32em; text-transform:uppercase; color:var(--rust); font-weight:600; margin-top:34px}
+  h1{font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,4vw,44px); line-height:1.05; letter-spacing:-.015em; margin:10px 0 6px}
+  .sub{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; color:var(--ink2); font-size:14px}
+  .sub b{color:var(--ink); font-weight:600}
+  .chips{display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 8px}
+  .chip{background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:10px 14px; box-shadow:var(--shadow); font-size:13px}
+  .chip .t{font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2); font-weight:600; display:block; margin-bottom:2px}
+  .panel{background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:20px 22px; box-shadow:var(--shadow); margin-top:22px}
+  .panel h3{font-family:'Fraunces',serif; font-weight:600; font-size:19px; margin-bottom:4px}
+  .ph{color:var(--ink2); font-size:12.5px; margin-bottom:12px}
+  table{width:100%; border-collapse:collapse; font-size:13.5px}
+  th{font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink2); text-align:right; padding:8px 10px; border-bottom:1.5px solid var(--rule); cursor:pointer; user-select:none; white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:8px 10px; border-bottom:1px solid var(--rule2); text-align:right; white-space:nowrap}
+  th.sorted{color:var(--rust)}
+  .flag{color:var(--red); font-weight:600}
+  .chart-box{height:280px; position:relative}
+  .back{display:inline-flex; gap:7px; align-items:center; font-size:13px; font-weight:600; margin-top:26px; text-decoration:none; color:var(--ink); background:var(--card); border:1px solid var(--rule); border-radius:9px; padding:8px 14px}
+  .empty{color:var(--ink2); font-size:13.5px; padding:20px 0}
+  .err{background:#F6E3DC; border:1px solid var(--rust-soft); border-radius:10px; padding:14px 16px; margin-top:26px; font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="dashboard.html">&#8592; Back to the dashboard</a>
+  <div id="page"><div class="empty">Loading building data&#8230;</div></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const usd=v=>v==null?'—':'$'+Math.round(v).toLocaleString();
+const psf=(v,sf)=>(v&&sf)?'$'+(v*12/sf).toFixed(2):'—';
+const esc=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const C={teal:'#2E5A5E',rust:'#B0492A'};
+let sortK='unit', sortD=1, UROWS=[];
+
+function physLabel(b){
+  if(b.phys_modeled) return `modeled — ${b.phys_recorded||0} exact + ${b.phys_lines||0} stack lines (new units inherit SF by line)`;
+  if(b.phys_source==='none') return 'no SF source — floor-plan images only';
+  if(b.phys_source==='in_feed'){const t=b.units,r=b.phys_recorded||0;
+    return `${r.toLocaleString()} of ${t?t.toLocaleString():'—'} recorded (${t?Math.round(r/t*100):'—'}%) — accrues as units list`;}
+  return '—';
+}
+function concLabel(b){
+  if(b.concession_pct!=null) return (b.concession_pct*100).toFixed(1)+'% — '+esc(b.concession_text||'stated on site');
+  if(b.conc_derived_pct!=null) return (b.conc_derived_pct*100).toFixed(1)+'% — derived from same-unit gross-vs-net pricing';
+  if(b.concession_text) return 'advertised, unquantified — \u201c'+esc(b.concession_text)+'\u201d';
+  return 'none advertised';
+}
+function unitRow(u){
+  const sf=u.sqft, fl=u.data_flag?'<span class="flag" title="'+esc(u.data_flag)+'">&#9888;</span> ':'';
+  return `<tr><td>${fl}${esc(u.unit)}</td><td>${esc(u.unit_type||'—')}</td>
+    <td class="mono">${sf?sf.toLocaleString():'—'}</td>
+    <td class="mono">${usd(u.asking_rent)}</td><td class="mono">${usd(u.net_effective_rent)}</td>
+    <td class="mono">${psf(u.net_effective_rent!=null?u.net_effective_rent:u.asking_rent,sf)}</td>
+    <td>${esc(u.price_basis||'—')}</td><td>${esc(u.available_date||'—')}</td></tr>`;
+}
+function renderUnits(){
+  const dir=sortD, k=sortK;
+  const rows=[...UROWS].sort((a,b)=>{
+    if(k==='unit'||k==='unit_type'||k==='price_basis'||k==='available_date')
+      return String(a[k]||'').localeCompare(String(b[k]||''))*dir;
+    let av=a[k], bv=b[k];
+    if(k==='ne_psf'){av=(a.net_effective_rent??a.asking_rent)&&a.sqft?((a.net_effective_rent??a.asking_rent)*12/a.sqft):null;
+                     bv=(b.net_effective_rent??b.asking_rent)&&b.sqft?((b.net_effective_rent??b.asking_rent)*12/b.sqft):null;}
+    av=av==null?-Infinity:av; bv=bv==null?-Infinity:bv; return (av-bv)*dir;});
+  $('#utable tbody').innerHTML=rows.map(unitRow).join('');
+  document.querySelectorAll('#utable th').forEach(th=>th.classList.toggle('sorted',th.dataset.k===k));
+}
+async function jget(u){const r=await fetch(u+'?x='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(u+' '+r.status);return r.json();}
+
+(async()=>{
+  try{
+    const slug=new URLSearchParams(location.search).get('b');
+    const d=await jget('dashboard_data.json');
+    const b=(d.buildings||[]).find(x=>x.id===slug);
+    if(!b){$('#page').innerHTML='<div class="err">Unknown building \u201c'+esc(slug)+'\u201d. Go back and click a building name in section 08.</div>';return;}
+    let units=[], hist=[], phys=null;
+    try{const ul=await jget('exports/units_latest.json'); units=(ul.units||[]).filter(u=>u.building===b.name);}catch(e){}
+    try{const u12=await jget('exports/units_12mo.json');
+      const byD={}; (u12.units||[]).filter(u=>u.building===b.name).forEach(u=>{
+        const o=byD[u.snapshot_date]=byD[u.snapshot_date]||{n:0,net:0,netN:0,ask:0,askN:0};
+        o.n++; const ne=u.net_effective_rent!=null?u.net_effective_rent:u.asking_rent;
+        if(ne){o.net+=ne;o.netN++;} if(u.asking_rent){o.ask+=u.asking_rent;o.askN++;}});
+      hist=Object.keys(byD).sort().map(k=>({date:k,n:byD[k].n,net:byD[k].netN?byD[k].net/byD[k].netN:null}));
+    }catch(e){}
+    try{const pa=await jget('exports/physical_attributes.json');
+      phys=(pa.buildings||[]).find(x=>x.id===slug)||null;}catch(e){}
+    UROWS=units;
+    const types=['Studio','1BR','2BR','3BR'];
+    const bt=b.by_type||{};
+    const fpsf=v=>v!=null?'$'+v.toFixed(2):'—';   // per-unit $/SF (DECISIONS s.3: never avg-rent / avg-SF)
+    const cp=(()=>{let n=0,aw=0,an=0,nw=0,nn=0,sw=0,sn=0,apw=0,apn=0,npw=0,npn=0;
+      types.forEach(t=>{const v=bt[t];if(!v||!v.count)return;n+=v.count;
+        if(v.asking_avg){aw+=v.asking_avg*v.count;an+=v.count;}
+        if(v.net_avg){nw+=v.net_avg*v.count;nn+=v.count;}
+        if(v.sqft_avg){sw+=v.sqft_avg*v.count;sn+=v.count;}
+        const pn=v.psf_n||0;
+        if(v.asking_psf!=null&&pn){apw+=v.asking_psf*pn;apn+=pn;}
+        if(v.net_psf!=null&&pn){npw+=v.net_psf*pn;npn+=pn;}});
+      return n?{count:n,asking_avg:an?aw/an:null,net_avg:nn?nw/nn:null,sqft_avg:sn?sw/sn:null,asking_psf:apn?apw/apn:null,net_psf:npn?npw/npn:null}:null;})();
+    const allRow=cp?`<tr style="font-weight:700;border-top:2px solid var(--rule)"><td>All types</td><td class="mono">${cp.count}</td><td class="mono">${cp.sqft_avg?Math.round(cp.sqft_avg).toLocaleString():'—'}</td><td class="mono">${usd(cp.asking_avg)}</td><td class="mono">${usd(cp.net_avg)}</td><td class="mono">${fpsf(cp.asking_psf)}</td><td class="mono">${fpsf(cp.net_psf!=null?cp.net_psf:cp.asking_psf)}</td><td class="mono">—</td></tr>`:'';
+    const typeRows=types.filter(t=>bt[t]).map(t=>{const v=bt[t];
+      const ne=v.net_avg!=null?v.net_avg:v.asking_avg;
+      return `<tr><td>${t.replace('BR',' BR')}</td><td class="mono">${v.count}</td>
+        <td class="mono">${v.sqft_avg?v.sqft_avg.toLocaleString():'—'}</td>
+        <td class="mono">${usd(v.asking_avg)}</td><td class="mono">${usd(v.net_avg)}</td>
+        <td class="mono">${fpsf(v.asking_psf)}</td><td class="mono">${fpsf(v.net_psf!=null?v.net_psf:v.asking_psf)}</td>
+        <td class="mono">${v.asking_min!=null?usd(v.asking_min)+' \u2013 '+usd(v.asking_max):'—'}</td></tr>`;}).join('');
+    // unit-mix breakdown (bedroom composition) \u2014 mirrors section 06; only when mix data exists
+    const mix=(d.unit_mix||[]).find(r=>r.building===b.name);
+    let mixPanel='';
+    if(mix&&mix.total){
+      const TM=[['Studio','studio','studio_pct','#2E5A5E'],['1 BR','br1','br1_pct','#7FA7A6'],['2 BR','br2','br2_pct','#C09A45'],['3 BR','br3','br3_pct','#B0492A']];
+      const seg=TM.map(([lab,k,pk,col])=>mix[pk]>0?`<div title="${lab}: ${mix[k].toLocaleString()} (${(mix[pk]*100).toFixed(1)}%)" style="width:${mix[pk]*100}%;background:${col}"></div>`:'').join('');
+      const stat=TM.map(([lab,k,pk,col])=>mix[k]>0?`<div style="flex:1;min-width:90px"><div style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:2px;background:${col};display:inline-block"></span><span class="ph" style="margin:0">${lab}</span></div><div class="num" style="font-size:22px;line-height:1.1;margin-top:4px">${mix[k].toLocaleString()}</div><div class="ph" style="margin:0">${(mix[pk]*100).toFixed(1)}%</div></div>`:'').join('');
+      const badge=mix.is_sourced?`<span style="font-size:11px;font-weight:600;padding:2px 10px;border-radius:999px;background:rgba(46,90,94,.13);color:#2E5A5E">${esc(mix.basis)}</span>`:`<span style="font-size:11px;font-weight:600;padding:2px 10px;border-radius:999px;background:rgba(176,73,42,.13);color:#B0492A">Estimated \u2014 not sourced</span>`;
+      mixPanel=`<div class="panel"><h3>Unit mix</h3><div class="ph">Bedroom composition of all ${mix.total.toLocaleString()} units \u00b7 same data as section 06 of the dashboard</div>
+        <div style="margin-bottom:12px">${badge}</div>
+        <div style="display:flex;height:24px;border-radius:6px;overflow:hidden;margin:0 0 14px;border:1px solid rgba(33,28,21,.1)">${seg}</div>
+        <div style="display:flex;gap:18px;flex-wrap:wrap">${stat}</div>
+        ${mix.note?`<div class="ph" style="margin:14px 0 0">${esc(mix.note)}</div>`:''}</div>`;
+    }
+    // avg SF across ALL units (not just listed): sourced whole-building avg > physical-store recorded avg > listed
+    const recSF=((phys&&phys.recorded)||[]).filter(u=>u.sqft);
+    const recAvgSF=recSF.length?Math.round(recSF.reduce((a,u)=>a+u.sqft,0)/recSF.length):null;
+    const allAvgSF=(mix&&mix.avg_sf)?{v:mix.avg_sf,src:'all units'}:(recAvgSF!=null?{v:recAvgSF,src:recSF.length+' recorded'}:(cp&&cp.sqft_avg?{v:Math.round(cp.sqft_avg),src:'listed'}:null));
+    const netPpsf=cp?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;
+    $('#page').innerHTML=`
+      <div class="kicker">Building detail \u00b7 as of ${esc(b.as_of||d.as_of||'')}</div>
+      <h1>${esc(b.name)}</h1>
+      <div class="sub"><span><b>${b.units!=null?b.units.toLocaleString():'—'}</b> units</span>
+        ${b.year_built?`<span>built <b>${b.year_built}</b></span>`:''}
+        ${b.stories?`<span><b>${b.stories}</b> stories</span>`:''}
+        ${b.mgmt?`<span>${esc(b.mgmt)}</span>`:''}
+        ${b.source_url?`<span><a href="${esc(b.source_url)}" target="_blank" rel="noopener">availability page \u2197</a></span>`:''}</div>
+      <div class="chips">
+        <div class="chip"><span class="t">Available now</span><span class="mono" style="font-size:17px;font-weight:700">${b.available_now!=null?b.available_now:'—'}</span>${b.units?` <span style="color:var(--ink2)">(${(b.available_now/b.units*100).toFixed(1)}%)</span>`:''}</div>
+        <div class="chip"><span class="t">Concession</span>${concLabel(b)}</div>
+        <div class="chip"><span class="t">SF recorded (physical store)</span>${physLabel(b)}</div>
+        <div class="chip"><span class="t">Avg SF / unit</span><span class="mono" style="font-size:17px;font-weight:700">${allAvgSF?allAvgSF.v.toLocaleString():'—'}</span>${allAvgSF?` <span style="color:var(--ink2)">(${allAvgSF.src})</span>`:''}</div>
+        <div class="chip"><span class="t">Avg net-eff $/SF</span><span class="mono" style="font-size:17px;font-weight:700">${netPpsf!=null?'$'+netPpsf.toFixed(2):'—'}</span></div>
+      </div>
+      ${mixPanel}
+      <div class="panel"><h3>By unit type</h3><div class="ph">Latest pull \u00b7 averages exclude quarantined rows \u00b7 $/SF annualized</div>
+        ${typeRows?`<table><thead><tr><th style="text-align:left">Type</th><th>Listed</th><th>Avg SF</th><th>Avg asking</th><th>Avg net-eff</th><th>Mkt $/SF</th><th>Net-eff $/SF</th><th>Asking range</th></tr></thead><tbody>${typeRows}${allRow}</tbody></table>`:'<div class="empty">No per-type data in the latest pull.</div>'}
+      </div>
+      <div class="panel"><h3>Every listed unit</h3><div class="ph">Click a column to sort \u00b7 ${units.length} units in the latest pull \u00b7 \u26a0 = quarantined (excluded from averages)</div>
+        ${units.length?`<div style="overflow-x:auto"><table id="utable"><thead><tr>
+          <th data-k="unit" style="text-align:left">Unit</th><th data-k="unit_type">Type</th><th data-k="sqft">SF</th>
+          <th data-k="asking_rent">Asking</th><th data-k="net_effective_rent">Net-eff</th><th data-k="ne_psf">Net-eff $/SF</th>
+          <th data-k="price_basis">Basis</th><th data-k="available_date">Available</th></tr></thead><tbody></tbody></table></div>`
+        :'<div class="empty">No unit rows in the latest pull (the building\u2019s table may be genuinely empty right now).</div>'}
+      </div>
+      <div class="panel"><h3>Physical attributes (static store)</h3>
+        <div class="ph">Immutable per-unit facts modeled once and kept — the daily scrape never re-derives them. ${phys?`<b>${(phys.recorded||[]).length}</b> of <b>${phys.total_units?phys.total_units.toLocaleString():'—'}</b> units recorded · <b>${(phys.recorded||[]).filter(u=>u.sqft).length}</b> with square footage (shown whether or not the unit is currently listed)${phys.lines?` · <b>${Object.keys(phys.lines).length}-line model</b> extends SF to unseen units on mapped lines`:''}.`:''}</div>
+        ${phys&&(phys.recorded||[]).length?`<div style="overflow-x:auto;max-height:420px;overflow-y:auto"><table><thead><tr>
+            <th style="text-align:left">Unit</th><th>Beds</th><th>Baths</th><th>SF</th></tr></thead><tbody>
+          ${[...phys.recorded].sort((a,b)=>(b.sqft?1:0)-(a.sqft?1:0)||String(a.unit).localeCompare(String(b.unit),undefined,{numeric:true})).map(u=>`<tr><td>${esc(u.unit)}</td><td class="mono">${u.beds!=null?(u.beds===0?'Studio':u.beds):'—'}</td><td class="mono">${u.baths!=null?u.baths:'—'}</td><td class="mono"${u.sqft?' style="font-weight:700;color:var(--teal)"':''}>${u.sqft?u.sqft.toLocaleString():'—'}</td></tr>`).join('')}
+        </tbody></table></div>`:'<div class="empty">Nothing recorded yet for this building'+(phys===null?' (physical export not deployed yet)':'')+' — records accrue as units list with published data.</div>'}
+        ${(()=>{const mix=(d.unit_mix||[]).find(r=>r.building===b.name);if(!mix||!mix.total)return '';
+          const recs=(phys&&phys.recorded)||[];
+          const cnt=n=>recs.filter(u=>u.beds!=null&&Math.floor(u.beds)===n).length;
+          const unk=recs.filter(u=>u.beds==null).length;
+          const T=[['Studio',mix.studio,0],['1 BR',mix.br1,1],['2 BR',mix.br2,2],['3 BR',mix.br3,3]];
+          let rows=T.filter(t=>t[1]).map(t=>{const r=cnt(t[2]);return `<tr><td>${t[0]}</td><td class="mono">${t[1].toLocaleString()}</td><td class="mono">${r}</td><td class="mono">${Math.round(r/t[1]*100)}%</td></tr>`;}).join('');
+          if(unk)rows+=`<tr><td>type unknown</td><td class="mono">—</td><td class="mono">${unk}</td><td class="mono">—</td></tr>`;
+          return `<div class="ph" style="margin-top:14px"><b>Fill progress vs. unit mix</b> — denominators are the building's unit mix (${esc(mix.basis||'')} · section 06 of the dashboard). Per-unit records accrue only as real unit numbers list over time; the mix never fills unit-level fields.</div>
+          <div style="overflow-x:auto"><table style="min-width:0"><thead><tr><th style="text-align:left">Type</th><th>Mix</th><th>Recorded</th><th>%</th></tr></thead><tbody>${rows}</tbody></table></div>`;})()}
+        ${phys&&phys.plans&&phys.plans.length?`<div class="ph" style="margin-top:14px"><b>Floor-plan SF (reference)</b> — exact per-floor-plan square footage from the leasing portal. The daily scrape reads pricing/availability off the public site (which omits SF); these plan figures feed this building's type-level SF until per-unit numbers list. ${phys.plans.length} plans captured.</div>
+          <div style="overflow-x:auto;max-height:320px;overflow-y:auto"><table style="min-width:0"><thead><tr><th style="text-align:left">Plan</th><th>Type</th><th>Baths</th><th>SF</th></tr></thead><tbody>
+          ${phys.plans.map(p=>`<tr><td class="mono">${esc(p.plan)}</td><td class="mono">${p.beds!=null?(p.beds===0?'Studio':p.beds+' BR'):'—'}</td><td class="mono">${p.baths!=null?p.baths:'—'}</td><td class="mono">${p.sqft?p.sqft.toLocaleString():'—'}</td></tr>`).join('')}
+        </tbody></table></div>`:''}
+        ${phys&&phys.lines?`<div class="ph" style="margin-top:14px"><b>Stack-line SF model</b> — any unit whose number ends in one of these lines inherits its SF:</div>
+          <div style="overflow-x:auto"><table style="min-width:0"><thead><tr><th style="text-align:left">Line</th><th>SF</th></tr></thead><tbody>
+          ${Object.keys(phys.lines).sort().map(l=>`<tr><td class="mono">${esc(l)}</td><td class="mono">${phys.lines[l].toLocaleString()}</td></tr>`).join('')}
+        </tbody></table></div>`:''}
+      </div>
+      <div class="panel"><h3>Availability &amp; rent over time</h3><div class="ph">From the daily pulls \u00b7 builds as snapshots accumulate</div>
+        <div class="chart-box"><canvas id="hChart"></canvas></div></div>`;
+    if(units.length){renderUnits();
+      document.querySelectorAll('#utable th').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k;
+        if(sortK===k) sortD=-sortD; else {sortK=k; sortD=1;} renderUnits();}));}
+    if(hist.length){
+      new Chart($('#hChart'),{data:{labels:hist.map(h=>h.date),datasets:[
+        {type:'bar',label:'Units listed',data:hist.map(h=>h.n),backgroundColor:'rgba(46,90,94,.4)',yAxisID:'y',maxBarThickness:40},
+        {type:'line',label:'Avg net-eff (listed price where net unstated)',data:hist.map(h=>h.net),borderColor:C.rust,backgroundColor:C.rust,borderWidth:2.5,tension:.3,pointRadius:hist.length<3?5:2,yAxisID:'y1'}]},
+        options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+          plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:14}}},
+          scales:{x:{grid:{display:false},border:{display:false}},
+            y:{position:'left',grid:{color:'rgba(33,28,21,.07)'},border:{display:false},title:{display:true,text:'units',font:{size:11}}},
+            y1:{position:'right',grid:{display:false},border:{display:false},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+    } else { const hc=$('#hChart'); if(hc) hc.parentElement.innerHTML='<div class="empty">No history yet for this building.</div>'; }
+  }catch(e){
+    $('#page').innerHTML='<div class="err">Could not load data: '+esc(e.message)+'. This page reads dashboard_data.json and exports/ from the same site, so it works on the published GitHub Pages URL (not when opened as a local file).</div>';
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "slug": "jersey-city",
+  "display_name": "Jersey City",
+  "region": "Jersey City, NJ",
+  "site_title": "Jersey City Market Monitor",
+  "h1": "Jersey&nbsp;City <em>multifamily</em> monitor",
+  "kicker": "Market Monitor &nbsp;·&nbsp; Jersey City, NJ",
+  "status": "live",
+  "pages_path": "markets/jersey-city/site/dashboard.html",
+  "submarkets": [
+    {"slug": "journal-square", "name": "Journal Square", "status": "live"},
+    {"slug": "downtown", "name": "Downtown", "status": "coming_soon", "candidates": 19},
+    {"slug": "bergen-lafayette", "name": "Bergen-Lafayette", "status": "coming_soon", "candidates": 8},
+    {"slug": "the-heights", "name": "The Heights", "status": "coming_soon", "candidates": 2},
+    {"slug": "west-side", "name": "West Side", "status": "coming_soon", "candidates": 5},
+    {"slug": "port-liberte", "name": "Port Liberté", "status": "coming_soon", "candidates": 1}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "Per-building bedroom census for Journal Square. REFERENCE data (not scraped). Source: workbook 'Unit Mix' tab — HelloData export + Jersey City Planning Board records. Consumed by engine/seed_unit_mix.py.",
+  "rows": [
+    {"building": "Journal Squared", "studio": 414, "br1": 1062, "br2": 321, "br3": 43, "basis": "Sourced (Planning Bd)", "note": "P21-152 plan-set three-phase table, marked preliminary; phases sum to as-built 538/704/598."},
+    {"building": "The Journal", "studio": 493, "br1": 972, "br2": 222, "br3": 36, "basis": "Sourced (HelloData)", "note": ""},
+    {"building": "Journal Square Urby", "studio": 112, "br1": 115, "br2": 71, "br3": 19, "basis": "Sourced (HelloData)", "note": ""},
+    {"building": "Four Twenty Five Summit", "studio": 155, "br1": 177, "br2": 49, "br3": 9, "basis": "Sourced (Planning Bd)", "note": "P21-140 amendment (390 units); 142 1BR + 35 1BR+den shown as 177 1BR."},
+    {"building": "MetroVue", "studio": 25, "br1": 91, "br2": 7, "br3": 1, "basis": "Sourced (HelloData)", "note": ""},
+    {"building": "Orchard", "studio": 85, "br1": 116, "br2": 66, "br3": 18, "basis": "Sourced (HelloData)", "note": ""},
+    {"building": "The Greyson", "studio": 255, "br1": 305, "br2": 49, "br3": 13, "basis": "Sourced (Planning Bd)", "note": "P22-190 amendment GDA (669 reduced to 622)."},
+    {"building": "505 Summit", "studio": 107, "br1": 388, "br2": 100, "br3": 12, "basis": "Sourced (Planning Bd)", "note": "P21-144 principal points: 607 approved vs 605 marketed; 117 Jr-1BR folded into 1BR."},
+    {"building": "345 Baldwin", "studio": 39, "br1": 42, "br2": 32, "br3": 3, "basis": "Sourced (Planning Bd)", "note": "P20-153 amendment (P18-127 mix reconfigured)."},
+    {"building": "3 Journal Square", "studio": 89, "br1": 115, "br2": 31, "br3": 5, "basis": "Sourced (operator unit-mix)", "note": "Unit Mix PID 167470 export (240 units). Avg SF/type: Studio 496, 1BR 742, 2BR 1152, 3BR 1260."},
+    {"building": "413 Summit", "studio": 37, "br1": 81, "br2": 27, "br3": 3, "basis": "Estimated", "note": "Case P20-081 located, documents pending — mix estimated, not sourced."},
+    {"building": "55 Jordan", "studio": 80, "br1": 134, "br2": 48, "br3": 5, "basis": "Estimated", "note": "No application dataset found on the JC portal — mix estimated, not sourced."}
+  ],
+  "avg_sf": {"3 Journal Square": 714}
+}
