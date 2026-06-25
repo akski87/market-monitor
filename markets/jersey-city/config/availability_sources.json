@@ -57,7 +57,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-08",
       "units_captured": 21,
-      "notes": "Renders full unit list into the page DOM. Navigate, let render, get_page_text returns all units with floorplan code, SF, rent, concession flags. SF by floorplan: S1=442,S2=456,M1=523,L1=831,L2=805,XL2=907(2BR+Den),XL3=892; floor inferred from unit number. BASIS VERIFIED 2026-06-10 (live browser): pricing is PER-UNIT \u2014 cards flagged '* Price includes concessions.' are NET-EFFECTIVE (3/21 today); unflagged cards are plain asking (18/21). Extractor captures the flag; June 8 all-net assumption superseded."
+      "notes": "Renders full unit list into the page DOM. Navigate, let render, get_page_text returns all units with floorplan code, SF, rent, concession flags. SF by floorplan: S1=442,S2=456,M1=523,L1=831,L2=805,XL2=907(2BR+Den),XL3=892; floor inferred from unit number. BASIS VERIFIED 2026-06-10 (live browser): pricing is PER-UNIT — cards flagged '* Price includes concessions.' are NET-EFFECTIVE (3/21 today); unflagged cards are plain asking (18/21). Extractor captures the flag; June 8 all-net assumption superseded."
     },
     {
       "building": "Journal Squared",
@@ -81,7 +81,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-10",
       "units_captured": 150,
-      "notes": "Div-grid (no <table>). Parse via regex over body.innerText: /([0-9A-Z][0-9A-Z\\-]{2,6})\\s+(STUDIO|\\d\\s+BEDROOMS?)\\s+([\\d.]+)\\s+View\\s+\\$([\\d,]+)/gi . NOTE plural '2 BEDROOMS'/'3 BEDROOMS'. NO SF or availability date in table (per-unit floor-plan only). Prices = BASE rent. Concession banner 'UP TO 2 MONTHS FREE'. 127 units 2026-06-08. BASIS CHANGE VERIFIED 2026-06-10: page footnote now states 'Rents reflect net effective pricing with 2 months free on a 20 month lease' \u2014 displayed price is NET-EFFECTIVE (June 8 note 'Prices = BASE rent' is superseded). Extractor re-validated live 2026-06-10: 150 units (54/80/13/3). UPDATE 2026-06-11: per-unit SF now read from the Yardi/RentCafe fiber feed at every pull (_with_fiber_sf) \u2014 in-feed; the 42-line stack model remains as fallback for any fiber-walk failure."
+      "notes": "Div-grid (no <table>). Parse via regex over body.innerText: /([0-9A-Z][0-9A-Z\\-]{2,6})\\s+(STUDIO|\\d\\s+BEDROOMS?)\\s+([\\d.]+)\\s+View\\s+\\$([\\d,]+)/gi . NOTE plural '2 BEDROOMS'/'3 BEDROOMS'. NO SF or availability date in table (per-unit floor-plan only). Prices = BASE rent. Concession banner 'UP TO 2 MONTHS FREE'. 127 units 2026-06-08. BASIS CHANGE VERIFIED 2026-06-10: page footnote now states 'Rents reflect net effective pricing with 2 months free on a 20 month lease' — displayed price is NET-EFFECTIVE (June 8 note 'Prices = BASE rent' is superseded). Extractor re-validated live 2026-06-10: 150 units (54/80/13/3). UPDATE 2026-06-11: per-unit SF now read from the Yardi/RentCafe fiber feed at every pull (_with_fiber_sf) — in-feed; the 42-line stack model remains as fallback for any fiber-walk failure."
     },
     {
       "building": "Four Twenty Five Summit",
@@ -93,7 +93,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-10",
       "units_captured": 51,
-      "notes": "SOURCE SWITCHED 2026-06-10: marketing site (updated 6/4) now embeds a Rose Property widget (availability.rosenyc.com/availability/fnhqqlif/) with per-unit gross + net-effective + SF + dates \u2014 same platform as 345 Baldwin; site footnote: 'Net effective rent advertised'. Replaces the SecureCafe floorplan drill (asking-only, no SF). VALIDATED LIVE 2026-06-10: 51 units, all with gross + net-effective + exact per-unit SF + availability dates."
+      "notes": "SOURCE SWITCHED 2026-06-10: marketing site (updated 6/4) now embeds a Rose Property widget (availability.rosenyc.com/availability/fnhqqlif/) with per-unit gross + net-effective + SF + dates — same platform as 345 Baldwin; site footnote: 'Net effective rent advertised'. Replaces the SecureCafe floorplan drill (asking-only, no SF). VALIDATED LIVE 2026-06-10: 51 units, all with gross + net-effective + exact per-unit SF + availability dates."
     },
     {
       "building": "MetroVue",
@@ -117,7 +117,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-08",
       "units_captured": 7,
-      "notes": "Modern Spaces iframe (buildingId=641805, frameTheme=theme55orchard). Load orchardjc.com/availability, then location.href=iframe.src (newdev.modernspacesnyc.com must be allowed). Units: '55 Orchard Street, <unit> ... $<price> [<n> Br] <n> Bth'; no 'Br'=studio. NO SF (blank), no avail date. 7 units 2026-06-08 (2 Studio/3 1BR/2 2BR); no pagination/lazy-load beyond these. VERIFIED 2026-06-10 (live): no concession/net-eff language on the widget \u2014 prices are plain asking; extractor validated (7 units)."
+      "notes": "Modern Spaces iframe (buildingId=641805, frameTheme=theme55orchard). Load orchardjc.com/availability, then location.href=iframe.src (newdev.modernspacesnyc.com must be allowed). Units: '55 Orchard Street, <unit> ... $<price> [<n> Br] <n> Bth'; no 'Br'=studio. NO SF (blank), no avail date. 7 units 2026-06-08 (2 Studio/3 1BR/2 2BR); no pagination/lazy-load beyond these. VERIFIED 2026-06-10 (live): no concession/net-eff language on the widget — prices are plain asking; extractor validated (7 units)."
     },
     {
       "building": "The Greyson",
@@ -129,7 +129,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-08",
       "units_captured": 12,
-      "notes": "Grid RESIDENCE|BEDROOM|BATHROOM|PRICE|FLOOR PLAN. Row '<res> <type> | <ba> Bath $<price>* VIEW APPLY'. PRICE = NET EFFECTIVE (site states so; concession 1mo/13, 2mo/24). NO SF (blank), no avail date. 12 units 2026-06-08 (5 Studio/4 1BR/2 2BR/1 3BR). PRICE_BASIS differs from asking-based buildings. TERM VERIFIED 2026-06-10: availability footnote = '2 months free on a 24 month lease' (use 2/24 to back-compute gross). SF SOURCE (2026-06-12): the public page publishes NO SF, but Greyson's RealPage online-leasing widget (9259416.onlineleasing.realpage.com \u2014 nested same-origin iframe #rp-leasing-widget, slow ~15-25s render, single-use #k= token, no clean JSON endpoint) exposes EXACT per-FLOOR-PLAN SF (26 plans, S1=392..D2=1103). Per-UNIT numbers are NOT published (need a dated application). Decision: keep the public site as the live daily pricing/availability scrape; harvest plan SF from RealPage OPPORTUNISTICALLY (not in the daily run \u2014 too fragile) into physical_attributes.json 'plans', feeding Greyson's TYPE-level SF only. Keep accruing plan codes until the full plan set is captured. PER-UNIT HARVEST: greyson_harvest.js (paste into the RealPage widget console) captures real unit numbers per plan (available-on-date only); ingest_greyson_harvest.py folds them into the physical store keyed by unit number, accruing across sessions toward full per-unit SF (-> in_feed)."
+      "notes": "Grid RESIDENCE|BEDROOM|BATHROOM|PRICE|FLOOR PLAN. Row '<res> <type> | <ba> Bath $<price>* VIEW APPLY'. PRICE = NET EFFECTIVE (site states so; concession 1mo/13, 2mo/24). NO SF (blank), no avail date. 12 units 2026-06-08 (5 Studio/4 1BR/2 2BR/1 3BR). PRICE_BASIS differs from asking-based buildings. TERM VERIFIED 2026-06-10: availability footnote = '2 months free on a 24 month lease' (use 2/24 to back-compute gross). SF SOURCE (2026-06-12): the public page publishes NO SF, but Greyson's RealPage online-leasing widget (9259416.onlineleasing.realpage.com — nested same-origin iframe #rp-leasing-widget, slow ~15-25s render, single-use #k= token, no clean JSON endpoint) exposes EXACT per-FLOOR-PLAN SF (26 plans, S1=392..D2=1103). Per-UNIT numbers are NOT published (need a dated application). Decision: keep the public site as the live daily pricing/availability scrape; harvest plan SF from RealPage OPPORTUNISTICALLY (not in the daily run — too fragile) into physical_attributes.json 'plans', feeding Greyson's TYPE-level SF only. Keep accruing plan codes until the full plan set is captured. PER-UNIT HARVEST: greyson_harvest.js (paste into the RealPage widget console) captures real unit numbers per plan (available-on-date only); ingest_greyson_harvest.py folds them into the physical store keyed by unit number, accruing across sessions toward full per-unit SF (-> in_feed)."
     },
     {
       "building": "505 Summit",
@@ -141,7 +141,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-08",
       "units_captured": 40,
-      "notes": "Grid RESIDENCE|BED/BATH|TOTAL RENT|NET RENT*|FLOOR PLAN \u2014 BOTH asking and net per unit. SF IS AVAILABLE: the page is the same Yardi/RentCafe React platform as The Journal; per-unit Interior SF lives in the apartmentdata fiber array (also shown on the FLOOR PLAN > VIEW detail). scrape.py merges fiber SF into rows every pull (_with_fiber_sf). 37 units harvested 2026-06-11 (e.g. 3906=527 SF); no stack-line model \u2014 505 stack SF varies by floor band. No avail date."
+      "notes": "Grid RESIDENCE|BED/BATH|TOTAL RENT|NET RENT*|FLOOR PLAN — BOTH asking and net per unit. SF IS AVAILABLE: the page is the same Yardi/RentCafe React platform as The Journal; per-unit Interior SF lives in the apartmentdata fiber array (also shown on the FLOOR PLAN > VIEW detail). scrape.py merges fiber SF into rows every pull (_with_fiber_sf). 37 units harvested 2026-06-11 (e.g. 3906=527 SF); no stack-line model — 505 stack SF varies by floor band. No avail date."
     },
     {
       "building": "413 Summit",
@@ -153,7 +153,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-11",
       "units_captured": 2,
-      "notes": "June-2026 redesign: grid RESIDENCE|BEDS/BATHS|INTERIOR SF.|EXTERIOR SF.|PRICE|FLOOR PLAN|STATUS. CRITICAL QUIRK: data rows OMIT empty <td> cells entirely (a 7-column header can sit over 4-cell rows), so positional column mapping breaks \u2014 _TABLE pattern-classifies cells when row shape differs from header (unit = first \\d{2,5} cell; $ cells = prices; bare 200-3000 number = Interior SF, second = Exterior, ignored). Site lists BATHS ONLY ('1 BA'); beds inferred (1BA=1BR per TMD; flagged). PRICE = NET EFFECTIVE (footnote: one month free on a 13-month lease; extra $1,000-deposit sentence is ignored by the parser). SF blank when cells unrendered; Interior SF captured when present (in_feed). Verified live 2026-06-11: units 409 ($2,395 net) + 1010 ($2,765 net)."
+      "notes": "June-2026 redesign: grid RESIDENCE|BEDS/BATHS|INTERIOR SF.|EXTERIOR SF.|PRICE|FLOOR PLAN|STATUS. CRITICAL QUIRK: data rows OMIT empty <td> cells entirely (a 7-column header can sit over 4-cell rows), so positional column mapping breaks — _TABLE pattern-classifies cells when row shape differs from header (unit = first \\d{2,5} cell; $ cells = prices; bare 200-3000 number = Interior SF, second = Exterior, ignored). Site lists BATHS ONLY ('1 BA'); beds inferred (1BA=1BR per TMD; flagged). PRICE = NET EFFECTIVE (footnote: one month free on a 13-month lease; extra $1,000-deposit sentence is ignored by the parser). SF blank when cells unrendered; Interior SF captured when present (in_feed). Verified live 2026-06-11: units 409 ($2,395 net) + 1010 ($2,765 net)."
     },
     {
       "building": "345 Baldwin",
@@ -177,7 +177,7 @@
       "status": "working",
       "last_successful_pull": "2026-06-08",
       "units_captured": 6,
-      "notes": "Modern Spaces iframe (buildingId=635066), same system as Orchard. Load 55jordan.com/availability -> location.href=iframe.src (newdev.modernspacesnyc.com allowed). '55 Jordan Avenue, <unit> ... $<price> [<n> Br] <n> Bth'; no 'Br'=studio. NO SF (blank), no avail date. 6 units 2026-06-08 (2 Studio/2 1BR/2 2BR). CONCESSION CORRECTED 2026-06-10: site advertises 'Up to 3 months free & no broker fees' (term not stated) \u2014 June 8 'None' note was wrong. VERIFIED 2026-06-10 (live): widget shows no net-eff language \u2014 plain asking; extractor validated (6 units)."
+      "notes": "Modern Spaces iframe (buildingId=635066), same system as Orchard. Load 55jordan.com/availability -> location.href=iframe.src (newdev.modernspacesnyc.com allowed). '55 Jordan Avenue, <unit> ... $<price> [<n> Br] <n> Bth'; no 'Br'=studio. NO SF (blank), no avail date. 6 units 2026-06-08 (2 Studio/2 1BR/2 2BR). CONCESSION CORRECTED 2026-06-10: site advertises 'Up to 3 months free & no broker fees' (term not stated) — June 8 'None' note was wrong. VERIFIED 2026-06-10 (live): widget shows no net-eff language — plain asking; extractor validated (6 units)."
     },
     {
       "building": "3 Journal Square",
@@ -202,6 +202,426 @@
       "last_successful_pull": null,
       "units_captured": null,
       "notes": "No first-party leasing site; listed only on Zillow (PerimeterX bot-protected, unreachable from a CI browser). Fetched via the Zyte API (browserHtml + anti-ban, US geo) in zyte_baldwin.py — a Python-side PYFETCH fetcher, NOT the browser EX path. Parses __NEXT_DATA__ building.floorPlans[].units[] -> unit#/beds/baths/sqft/price/availableFrom. Per-unit SF published -> in_feed. Price = asking (Zillow advertised). REQUIRES ZYTE_API_KEY (GitHub Actions secret in CI; user env locally). Validated 2026-06-18: 7 studios, $2,100-$2,499, 500-660 SF."
+    },
+    {
+      "building": "43 Cottage",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "632 Newark",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "9 Homestead",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "28 Cottage",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "97 Newkirk",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "26 Van Reipen",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Overlook Flats",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Radio Lofts",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Hudson House East",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Bisby",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "One Grove",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Haus25",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Hendrix",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "351 Marin",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Vantage Phase II",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Vantage",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "88 Regent",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Beach",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "One Ten",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "100 House",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Enclave",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "VYV South Tower",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "VYV North Tower",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "DVORA 175",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "235 Grand",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Sable",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Hazel II",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Hazel",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Atlas",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "829 Garfield",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "295J",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Verde",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Birch House",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "3 Acres",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "CityLine East",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "CityLine West",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Rivet 26",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Rivet",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Agnes",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "The Devan",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Sawyer",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+    },
+    {
+      "building": "Oliver on the Hudson",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
     }
   ]
 }

@@ -9,10 +9,10 @@
   "pages_path": "markets/jersey-city/site/dashboard.html",
   "submarkets": [
     {"slug": "journal-square", "name": "Journal Square", "status": "live"},
-    {"slug": "downtown", "name": "Downtown", "status": "coming_soon", "candidates": 19},
-    {"slug": "bergen-lafayette", "name": "Bergen-Lafayette", "status": "coming_soon", "candidates": 8},
-    {"slug": "the-heights", "name": "The Heights", "status": "coming_soon", "candidates": 2},
-    {"slug": "west-side", "name": "West Side", "status": "coming_soon", "candidates": 5},
-    {"slug": "port-liberte", "name": "Port Liberté", "status": "coming_soon", "candidates": 1}
+    {"slug": "downtown", "name": "Downtown", "status": "live"},
+    {"slug": "bergen-lafayette", "name": "Bergen-Lafayette", "status": "live"},
+    {"slug": "the-heights", "name": "The Heights", "status": "live"},
+    {"slug": "west-side", "name": "West Side", "status": "live"},
+    {"slug": "port-liberte", "name": "Port Liberté", "status": "live"}
   ]
 }

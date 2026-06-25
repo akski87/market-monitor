@@ -1926,9 +1926,8 @@ function renderOverview(){
   const sm=SUBM();
   const cards = sm.map(s=>{
     const bs=data.buildings.filter(b=>b.submarket===s.slug);
-    const live = s.status==='live' && bs.length>0;
-    if(!live){
-      const n = s.candidates||bs.length||0;
+    if(!bs.length){
+      const n = s.candidates||0;
       return `<div class="smcard soon"><div class="smname">${esc(s.name)}</div>`+
         `<div class="smmeta">${n? n+' candidate building'+(n==1?'':'s'):'—'} · coming soon</div></div>`;
     }
@@ -1936,19 +1935,22 @@ function renderOverview(){
     const avail=im.reduce((x,b)=>x+(b.available_now||0),0);
     const units=bs.reduce((x,b)=>x+(b.units||0),0);
     const at=aggByType(im), all=at.All;
-    const rent = all&&all.net?('Avg net-eff '+usd(all.net)) : (all&&all.asking?('Avg asking '+usd(all.asking)):'—');
+    const hasLive = im.length>0 && (avail>0 || (all&&(all.net||all.asking)));
+    const rent = hasLive ? (all&&all.net?('Avg net-eff '+usd(all.net)):(all&&all.asking?('Avg asking '+usd(all.asking)):''))
+                         : 'Live availability pending';
+    const availCell = hasLive ? `<div><span class="snum">${avail.toLocaleString()}</span><span class="slab">available</span></div>` : '';
     return `<a class="smcard live" href="#" onclick="goSub('${s.slug}');return false">`+
       `<div class="smname">${esc(s.name)}<span class="arrow">→</span></div>`+
       `<div class="smstats">`+
         `<div><span class="snum">${bs.length}</span><span class="slab">buildings</span></div>`+
-        `<div><span class="snum">${avail.toLocaleString()}</span><span class="slab">available</span></div>`+
+        availCell+
         `<div><span class="snum">${units.toLocaleString()}</span><span class="slab">units</span></div>`+
       `</div><div class="smrent">${rent}</div></a>`;
   }).join('');
-  const liveN=sm.filter(s=>s.status==='live'&&data.buildings.some(b=>b.submarket===s.slug)).length;
+  const liveN=sm.filter(s=>data.buildings.some(b=>b.submarket===s.slug)).length;
   document.getElementById('overviewView').innerHTML =
     `<section class="sec"><div class="sec-h"><h2>${esc(data.market_name||'Market')} — submarkets</h2>`+
-    `<div class="note">${liveN} live · select a submarket to drill into its buildings, rents and availability.</div></div>`+
+    `<div class="note">${liveN} submarket${liveN==1?'':'s'} populated · select one to drill into its buildings, rents and availability.</div></div>`+
     `<div class="smgrid">${cards}</div></section>`;
 }
 
@@ -2003,7 +2005,7 @@ function renderKPIs(){
       `<div><span class="num" style="font-size:26px;font-weight:700">$${loPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▼ ${shortName(loPsf.b.name)}</div></div></div>`
     : `<div class="lab">Net-eff $/SF — high &amp; low</div><div class="v num">—</div><div class="meta">no $/SF data yet</div>`;
   const cards=[
-    {lab:'Buildings in market',v:m.length,meta:`of ${data.buildings.length} tracked`},
+    {lab:'Buildings in market',v:m.length,meta:`of ${curBuildings().length} tracked`},
     {lab:'Units available now',v:avail.toLocaleString(),meta:'across in-market set',hot:true},
     {lab:'Availability rate',v:units?(avail/units*100).toFixed(1)+'%':'—',meta:`${units.toLocaleString()} units`},
     {lab:'Most availability',v:topAvail?topAvail.available_now:'—',meta:topAvail?shortName(topAvail.name):''},
@@ -2174,7 +2176,7 @@ let MAPI=null, MLAYER=null, PINLAYER=null;
 function buildMap(){
   const box=document.getElementById('mapBox'); if(!box) return;
   if(typeof L==='undefined'){box.innerHTML='<div class="empty" style="padding:20px">Map library could not load (offline?). The rest of the dashboard is unaffected.</div>';return;}
-  const bs=data.buildings.filter(b=>b.lat!=null&&b.lng!=null);
+  const bs=curBuildings().filter(b=>b.lat!=null&&b.lng!=null);
   if(!bs.length){box.innerHTML='<div class="empty" style="padding:20px">No coordinates in the data yet — they arrive with the next workflow run.</div>';return;}
   if(!MAPI){
     MAPI=L.map(box,{scrollWheelZoom:false});
@@ -2268,7 +2270,7 @@ async function pinAutocomplete(q){
 })();
 function renderTable(key,dir){
   state.sortKey=key;state.sortDir=dir;
-  const rows=[...data.buildings].map(b=>{const cp=compositeAll(b);
+  const rows=[...curBuildings()].map(b=>{const cp=compositeAll(b);
     const mpsf=(cp&&cp.asking_psf!=null)?cp.asking_psf:null;
     const npsf=(cp&&(cp.net_psf!=null?cp.net_psf:cp.asking_psf)!=null)?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;
     return {...b,avail_rate:(b.units&&b.available_now!=null)?b.available_now/b.units:null,mkt_psf:mpsf,net_psf:npsf};});
