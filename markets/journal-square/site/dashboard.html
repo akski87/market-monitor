@@ -149,6 +149,15 @@
   .smstats .snum{font-weight:700;font-size:19px;display:block;line-height:1.1}
   .smstats .slab{font-size:10.5px;color:#6b6457;text-transform:uppercase;letter-spacing:.05em}
   .smrent,.smmeta{font-size:13px;color:#6b6457}
+  .smchips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+  .smchip{font:inherit;font-size:12.5px;font-weight:600;padding:6px 13px;border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--ink);cursor:pointer;transition:all .1s ease}
+  .smchip:hover:not(.dis){border-color:var(--teal)}
+  .smchip.on{background:var(--teal);border-color:var(--teal);color:#fff}
+  .smchip.dis{opacity:.4;cursor:default}
+  button.smcard{font:inherit;text-align:left;cursor:pointer;width:100%}
+  .smcard.live:hover{transform:translateY(-2px);box-shadow:var(--shadow,0 8px 22px rgba(33,28,21,.08));border-color:#CFC6B4}
+  .smcard.sel{border-color:var(--teal);box-shadow:0 0 0 1.5px var(--teal) inset}
+  .smcard.sel .arrow{color:var(--teal)}
 </style>
 
 <header>
@@ -190,8 +199,8 @@
   <section class="sec"><div class="sec-h"><span class="n">04</span><h2>Market rents by unit type</h2>
     <div class="note">Asking vs. net-effective across the set, and the trend as snapshots accumulate.</div></div>
     <div class="grid2">
-      <div class="panel"><h3>Asking vs. net-effective</h3><div class="ph">Latest market snapshot · label above each bar = annualized $/SF</div><div class="chart-box"><canvas id="typeChart"></canvas></div></div>
-      <div class="panel"><h3>Rent &amp; availability over time</h3><div class="ph" id="trendPh"></div><div class="chart-box"><canvas id="trendChart"></canvas></div></div>
+      <div class="panel"><h3>Asking vs. net-effective</h3><div class="ph">Latest market snapshot · label above each bar = annualized $/SF</div><div class="chart-box" id="typeBox"><canvas id="typeChart"></canvas></div></div>
+      <div class="panel"><h3>Rent &amp; availability over time</h3><div class="ph" id="trendPh"></div><div class="chart-box" id="trendBox"><canvas id="trendChart"></canvas></div></div>
     </div>
   </section>
 
@@ -203,7 +212,7 @@
         <button data-u="2BR">2 BR</button><button data-u="3BR">3 BR</button><button data-u="All" class="on">All types</button>
       </div>
     </div>
-    <div class="panel"><h3 id="rbpTitle">Studio rent by building</h3><div class="ph">Solid = net-effective · shaded top = concession delta to market ask · label = net-eff $/SF, annualized — only where footage is published. No advertised concession → net = asking; \u2020 = special advertised but unquantified (listed price shown). This chart is the selected-type cut; section 07\u2019s $/SF is the all-types composite, so the figures differ by design.</div><div class="chart-box"><canvas id="rbpChart"></canvas></div></div>
+    <div class="panel"><h3 id="rbpTitle">Studio rent by building</h3><div class="ph">Solid = net-effective · shaded top = concession delta to market ask · label = net-eff $/SF, annualized — only where footage is published. No advertised concession → net = asking; \u2020 = special advertised but unquantified (listed price shown). This chart is the selected-type cut; section 07\u2019s $/SF is the all-types composite, so the figures differ by design.</div><div class="chart-box" id="rbpBox"><canvas id="rbpChart"></canvas></div></div>
   </section>
 
   <section class="sec" id="secUnitMix"><div class="sec-h"><span class="n">06</span><h2>Unit mix</h2>
@@ -1860,7 +1869,7 @@ const mean=a=>{a=a.filter(v=>v!=null);return a.length?a.reduce((x,y)=>x+y,0)/a.l
 // page fetches dashboard_data.json at load so it's never frozen by a missed bake.
 let DATA_SOURCE='baked';
 let data=JSON.parse(JSON.stringify(DATA));   // working copy (client-side in-market toggles)
-let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60,submarket:null};
+let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60,subs:[]};
 const CH={};
 function mk(id,cfg,plugins){if(plugins)cfg.plugins=plugins; if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg);}
 /* make a building-labelled chart clickable: click a bar OR its name → that building's detail page */
@@ -1875,7 +1884,7 @@ function chartHover(){return (e,els,chart)=>{const ca=chart.chartArea; let on=!!
   if(!on){ if(chart.options.indexAxis==='y') on=e.x<ca.left&&e.y>=ca.top&&e.y<=ca.bottom; else on=e.y>ca.bottom&&e.x>=ca.left&&e.x<=ca.right; }
   if(chart.canvas) chart.canvas.style.cursor=on?'pointer':'default';};}
 const SUBM=()=>Array.isArray(data.submarkets)?data.submarkets:[];
-const curBuildings=()=>data.buildings.filter(b=>!state.submarket||b.submarket===state.submarket);
+const curBuildings=()=>data.buildings.filter(b=>!state.subs.length||state.subs.includes(b.submarket));
 const inMkt=()=>curBuildings().filter(b=>b.in_market);
 const hasByType=()=>data.buildings.some(b=>b.by_type);
 // Roll per-type rents up across a set of buildings (count-weighted). Drives the
@@ -2003,55 +2012,68 @@ function renderDetail(){ renderHeader(); renderBanner(); renderKPIs(); buildAvai
   buildType(); buildTrend(); buildRBP(); renderReference(); renderTable(state.sortKey,state.sortDir); renderInsights(); }
 function render(){
   const sm=SUBM();
-  const overview = sm.length>0 && !state.submarket;   // market level: show submarket cards
-  const ov=document.getElementById('overviewView'), dv=document.getElementById('detailView');
-  if(ov) ov.style.display = overview?'':'none';
-  if(dv) dv.style.display = overview?'none':'';
+  const strip=document.getElementById('overviewView'), dv=document.getElementById('detailView');
+  if(strip){ strip.style.display = sm.length?'':'none'; if(sm.length) renderStrip(); }
+  if(dv) dv.style.display='';
   renderCrumb();
-  if(overview) renderOverview(); else renderDetail();
+  renderDetail();   // full JSQ-style detail, scoped to the current submarket selection
 }
-function goSub(slug){ state.submarket=slug; render(); window.scrollTo(0,0); }
-function goMarket(){ state.submarket=null; render(); window.scrollTo(0,0); }
+// Multi-select: state.subs = [] means ALL submarkets (whole market); otherwise the chosen subset.
+function toggleSub(slug){
+  const all=SUBM().map(s=>s.slug);
+  let cur=state.subs.slice();
+  if(cur.includes(slug)) cur=cur.filter(x=>x!==slug); else cur.push(slug);
+  state.subs = (cur.length===0 || cur.length===all.length) ? [] : cur;   // none/everything => All
+  render(); window.scrollTo({top:0,behavior:'smooth'});
+}
+function selectAll(){ state.subs=[]; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function selLabel(){
+  const sm=SUBM();
+  return state.subs.length ? state.subs.map(sl=>(sm.find(s=>s.slug===sl)||{}).name||sl).join(' + ') : 'All submarkets';
+}
 function renderCrumb(){
-  const sm=SUBM(), el=document.getElementById('crumb');
-  if(!el) return;
+  const sm=SUBM(), el=document.getElementById('crumb'); if(!el) return;
   if(!sm.length){ el.style.display='none'; return; }
   el.style.display='';
   const root=esc(data.market_name||'Market');
-  const cur=state.submarket ? (sm.find(s=>s.slug===state.submarket)||{}).name : null;
-  el.innerHTML = state.submarket
-    ? `<a href="#" onclick="goMarket();return false">${root}</a><span class="sep">▸</span><b>${esc(cur||state.submarket)}</b>`
-    : `<b>${root}</b><span class="sep">▸</span><span style="color:#9a9486">all submarkets</span>`;
+  el.innerHTML=`<b>${root}</b><span class="sep">▸</span>`+
+    (state.subs.length
+      ? `<span>${esc(selLabel())}</span><span class="sep">·</span><a href="#" onclick="selectAll();return false">show all</a>`
+      : `<span style="color:#9a9486">All submarkets</span>`);
 }
-function renderOverview(){
+function renderStrip(){
   const sm=SUBM();
-  const cards = sm.map(s=>{
+  const chip=(label,on,onclick,dis)=>`<button class="smchip${on?' on':''}${dis?' dis':''}"${dis?' disabled':''} onclick="${onclick}">${esc(label)}</button>`;
+  const chips=[chip('All submarkets', state.subs.length===0, 'selectAll()', false)]
+    .concat(sm.map(s=>chip(s.name, state.subs.includes(s.slug),
+            `toggleSub('${s.slug}')`, !data.buildings.some(b=>b.submarket===s.slug)))).join('');
+  const cards=sm.map(s=>{
     const bs=data.buildings.filter(b=>b.submarket===s.slug);
     if(!bs.length){
-      const n = s.candidates||0;
+      const n=s.candidates||0;
       return `<div class="smcard soon"><div class="smname">${esc(s.name)}</div>`+
         `<div class="smmeta">${n? n+' candidate building'+(n==1?'':'s'):'—'} · coming soon</div></div>`;
     }
+    const sel=state.subs.includes(s.slug);
     const im=bs.filter(b=>b.in_market);
     const avail=im.reduce((x,b)=>x+(b.available_now||0),0);
     const units=bs.reduce((x,b)=>x+(b.units||0),0);
     const at=aggByType(im), all=at.All;
-    const hasLive = im.length>0 && (avail>0 || (all&&(all.net||all.asking)));
-    const rent = hasLive ? (all&&all.net?('Avg net-eff '+usd(all.net)):(all&&all.asking?('Avg asking '+usd(all.asking)):''))
-                         : 'Live availability pending';
-    const availCell = hasLive ? `<div><span class="snum">${avail.toLocaleString()}</span><span class="slab">available</span></div>` : '';
-    return `<a class="smcard live" href="#" onclick="goSub('${s.slug}');return false">`+
-      `<div class="smname">${esc(s.name)}<span class="arrow">→</span></div>`+
+    const hasLive=im.length>0&&(avail>0||(all&&(all.net||all.asking)));
+    const rent=hasLive?(all&&all.net?('Avg net-eff '+usd(all.net)):(all&&all.asking?('Avg asking '+usd(all.asking)):'')):'Live availability pending';
+    const availCell=hasLive?`<div><span class="snum">${avail.toLocaleString()}</span><span class="slab">available</span></div>`:'';
+    return `<button class="smcard live${sel?' sel':''}" onclick="toggleSub('${s.slug}')">`+
+      `<div class="smname">${esc(s.name)}<span class="arrow">${sel?'✓':'+'}</span></div>`+
       `<div class="smstats">`+
         `<div><span class="snum">${bs.length}</span><span class="slab">buildings</span></div>`+
         availCell+
         `<div><span class="snum">${units.toLocaleString()}</span><span class="slab">units</span></div>`+
-      `</div><div class="smrent">${rent}</div></a>`;
+      `</div><div class="smrent">${rent}</div></button>`;
   }).join('');
-  const liveN=sm.filter(s=>data.buildings.some(b=>b.submarket===s.slug)).length;
   document.getElementById('overviewView').innerHTML =
     `<section class="sec"><div class="sec-h"><h2>${esc(data.market_name||'Market')} — submarkets</h2>`+
-    `<div class="note">${liveN} submarket${liveN==1?'':'s'} populated · select one to drill into its buildings, rents and availability.</div></div>`+
+    `<div class="note">Pick one or more submarkets to combine; the detail below recomputes for your selection. Showing: <b>${esc(selLabel())}</b>.</div></div>`+
+    `<div class="smchips">${chips}</div>`+
     `<div class="smgrid">${cards}</div></section>`;
 }
 
@@ -2153,10 +2175,10 @@ function buildConc(){
       scales:{x:{...gridX,ticks:{callback:v=>v+'%'}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
 }
 function buildType(){
-  const t=aggByType(inMkt()); const box=$('#typeChart');
+  const t=aggByType(inMkt()); const cb=document.getElementById('typeBox');
   const present=UNITS.filter(u=>t[u]);
-  if(!present.length){box.parentElement.innerHTML='<div class="empty">No per-type rent data for the selected buildings.</div>';return;}
-  if(!document.getElementById('typeChart')) box.parentElement.innerHTML='<canvas id="typeChart"></canvas>';
+  if(!present.length){cb.innerHTML='<div class="empty">No per-type rent data for the selected buildings.</div>';return;}
+  if(!document.getElementById('typeChart')) cb.innerHTML='<canvas id="typeChart"></canvas>';
   const psf=(v,o)=>{   // annualized $/SF — per-unit from feed, never avg-rent÷avg-sf
     const p = o ? (v===o.net ? (o.net_psf!=null?o.net_psf:o.asking_psf) : o.asking_psf) : null;
     return p!=null?'$'+p.toFixed(1):null;
@@ -2171,8 +2193,9 @@ function buildType(){
 function buildTrend(){
   const H=data.market_history||[];
   $('#trendPh').textContent = H.length<2 ? 'One snapshot so far — a trend line builds as the daily job runs.' : `${H.length} snapshots`;
-  const box=$('#trendChart');
-  if(!H.length){box.parentElement.innerHTML='<div class="empty">No snapshots yet.</div>';return;}
+  const cb=document.getElementById('trendBox');
+  if(!H.length){cb.innerHTML='<div class="empty">No snapshots yet.</div>';return;}
+  if(!document.getElementById('trendChart')) cb.innerHTML='<canvas id="trendChart"></canvas>';
   const labels=H.map(h=>h.date);
   const ask1=H.map(h=>h.all_asking!=null?h.all_asking:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].asking:null));
   const net1=H.map(h=>h.all_net!=null?h.all_net:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].net:null));
@@ -2212,11 +2235,11 @@ function compositeAll(b){
             asking_psf:apn?apw/apn:null, net_psf:npn?npw/npn:null, psf_n:apn}:null;
 }
 function buildRBP(){
-  const u=state.unit, box=$('#rbpChart');
+  const u=state.unit, cb=document.getElementById('rbpBox');
   const m=inMkt().map(b=>({b,d:u==='All'?compositeAll(b):(b.by_type&&b.by_type[u])})).filter(o=>o.d);
   $('#rbpTitle').textContent=(u==='All'?'All-types':u.replace('BR',' BR'))+' rent by building';
-  if(!m.length){box.parentElement.innerHTML='<div class="empty">Per-building rents aren\'t in the data yet. Ingest per-unit listings (<code>pipeline.py ingest</code>), re-export, and reload — this fills in automatically.</div>';return;}
-  if(!document.getElementById('rbpChart')){box.parentElement.innerHTML='<canvas id="rbpChart"></canvas>';}
+  if(!m.length){cb.innerHTML='<div class="empty">Per-building rents aren\'t in the data yet. Ingest per-unit listings (<code>pipeline.py ingest</code>), re-export, and reload — this fills in automatically.</div>';return;}
+  if(!document.getElementById('rbpChart')){cb.innerHTML='<canvas id="rbpChart"></canvas>';}
   // net-effective: published net when known; when a building advertises NO concession,
   // there is no free rent, so net-effective = asking. When a building advertises an
   // UNQUANTIFIABLE special ("up to X on select units", no term), we will not invent a
