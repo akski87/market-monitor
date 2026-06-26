@@ -158,6 +158,12 @@
   .smcard.live:hover{transform:translateY(-2px);box-shadow:var(--shadow,0 8px 22px rgba(33,28,21,.08));border-color:#CFC6B4}
   .smcard.sel{border-color:var(--teal);box-shadow:0 0 0 1.5px var(--teal) inset}
   .smcard.sel .arrow{color:var(--teal)}
+  tr.grp{cursor:pointer;background:var(--paper2,#f1ece1)}
+  tr.grp:hover{background:var(--paper,#efe9dc)}
+  tr.grp td{padding:9px 12px;border-bottom:1px solid var(--rule)}
+  tr.grp .grp-tog{display:inline-block;width:14px;color:var(--teal);font-weight:700}
+  tr.grp b{font-size:13.5px}
+  tr.grp .grp-sub{color:#6b6457;font-size:12px;font-weight:500;margin-left:8px}
 </style>
 
 <header>
@@ -191,8 +197,8 @@
   <section class="sec"><div class="sec-h"><span class="n">03</span><h2>What's on the market right now</h2>
     <div class="note">Live available units per building, and the advertised concession behind each.</div></div>
     <div class="grid2">
-      <div class="panel"><h3>Available units by building</h3><div class="ph">As of the latest pull</div><div class="chart-box"><canvas id="availChart"></canvas></div></div>
-      <div class="panel"><h3>Concession by building</h3><div class="ph">Effective discount off asking, read from each building\u2019s site at pull time \u00b7 solid = stated term \u00b7 lighter = derived from same-unit gross-vs-net pricing</div><div class="chart-box"><canvas id="concChart"></canvas></div><div id="concUnq" class="ph" style="margin-top:10px"></div></div>
+      <div class="panel"><h3 id="availTitle">Available units by building</h3><div class="ph">As of the latest pull</div><div class="chart-box"><canvas id="availChart"></canvas></div></div>
+      <div class="panel"><h3 id="concTitle">Concession by building</h3><div class="ph">Effective discount off asking, read from each building\u2019s site at pull time \u00b7 solid = stated term \u00b7 lighter = derived from same-unit gross-vs-net pricing</div><div class="chart-box"><canvas id="concChart"></canvas></div><div id="concUnq" class="ph" style="margin-top:10px"></div></div>
     </div>
   </section>
 
@@ -1869,7 +1875,7 @@ const mean=a=>{a=a.filter(v=>v!=null);return a.length?a.reduce((x,y)=>x+y,0)/a.l
 // page fetches dashboard_data.json at load so it's never frozen by a missed bake.
 let DATA_SOURCE='baked';
 let data=JSON.parse(JSON.stringify(DATA));   // working copy (client-side in-market toggles)
-let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60,subs:[]};
+let state={unit:'All',sortKey:'available_now',sortDir:-1,feedUrl:'',feedMin:60,subs:[],tblCollapsed:new Set()};
 const CH={};
 function mk(id,cfg,plugins){if(plugins)cfg.plugins=plugins; if(CH[id])CH[id].destroy(); CH[id]=new Chart(document.getElementById(id),cfg);}
 /* make a building-labelled chart clickable: click a bar OR its name → that building's detail page */
@@ -1880,11 +1886,30 @@ function chartNav(ids){return (e,els,chart)=>{
     else { if(e.y>ca.bottom) i=Math.round(chart.scales.x.getValueForPixel(e.x)); }}
   if(i==null||i<0||i>=ids.length||!ids[i])return;
   location.href='building.html?b='+ids[i];};}
+/* broad-mode bar click → drill into that submarket (per-building view) */
+function chartSubNav(slugs){return (e,els,chart)=>{
+  let i=(els&&els.length)?els[0].index:null;
+  if(i==null){const ca=chart.chartArea;
+    if(chart.options.indexAxis==='y'){ if(e.x<ca.left) i=Math.round(chart.scales.y.getValueForPixel(e.y)); }
+    else { if(e.y>ca.bottom) i=Math.round(chart.scales.x.getValueForPixel(e.x)); }}
+  if(i==null||i<0||i>=slugs.length||!slugs[i])return;
+  state.subs=[slugs[i]]; render(); window.scrollTo({top:0,behavior:'smooth'});};}
 function chartHover(){return (e,els,chart)=>{const ca=chart.chartArea; let on=!!(els&&els.length);
   if(!on){ if(chart.options.indexAxis==='y') on=e.x<ca.left&&e.y>=ca.top&&e.y<=ca.bottom; else on=e.y>ca.bottom&&e.x>=ca.left&&e.x<=ca.right; }
   if(chart.canvas) chart.canvas.style.cursor=on?'pointer':'default';};}
 const SUBM=()=>Array.isArray(data.submarkets)?data.submarkets:[];
 const curBuildings=()=>data.buildings.filter(b=>!state.subs.length||state.subs.includes(b.submarket));
+// Adaptive level-of-detail: when the selection spans >1 submarket, per-building
+// charts/table roll up to submarket; a single submarket (or a market with no
+// submarkets) shows per-building.
+const selSubSlugs=()=>state.subs.length?state.subs:SUBM().map(s=>s.slug);
+const isBroad=()=>SUBM().length>0 && selSubSlugs().length>1;
+const subName=slug=>{const s=SUBM().find(x=>x.slug===slug);return s?s.name:slug;};
+// in-view submarkets that have in-market buildings, each with its in-market slice (for rollups)
+const subGroups=()=>{const sel=selSubSlugs();
+  return SUBM().filter(s=>sel.includes(s.slug))
+    .map(s=>({slug:s.slug,name:s.name,builds:inMkt().filter(b=>b.submarket===s.slug)}))
+    .filter(g=>g.builds.length);};
 const inMkt=()=>curBuildings().filter(b=>b.in_market);
 const hasByType=()=>data.buildings.some(b=>b.by_type);
 // Roll per-type rents up across a set of buildings (count-weighted). Drives the
@@ -2145,6 +2170,20 @@ function renderKPIs(){
 }
 const gridX={grid:{color:'rgba(33,28,21,.07)'},border:{display:false}};
 function buildAvail(){
+  const tEl=document.getElementById('availTitle');
+  if(isBroad()){
+    const g=subGroups().map(x=>({slug:x.slug,name:x.name,v:x.builds.reduce((s,b)=>s+(b.available_now||0),0)}))
+                       .filter(x=>x.v>0).sort((a,b)=>b.v-a.v);
+    if(g.length){
+      if(tEl)tEl.textContent='Available units by submarket';
+      mk('availChart',{type:'bar',data:{labels:g.map(x=>x.name),
+        datasets:[{data:g.map(x=>x.v),hLabels:g.map(x=>String(x.v)),backgroundColor:C.teal,borderRadius:6,maxBarThickness:30}]},
+        options:{indexAxis:'y',onClick:chartSubNav(g.map(x=>x.slug)),onHover:chartHover(),maintainAspectRatio:false,layout:{padding:{right:30}},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.parsed.x+' units available · click to drill in'}}},
+          scales:{x:{...gridX,ticks:{precision:0}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
+      return;
+    }
+  }
+  if(tEl)tEl.textContent='Available units by building';
   const m=[...inMkt()].filter(b=>b.available_now!=null).sort((a,b)=>b.available_now-a.available_now);
   mk('availChart',{type:'bar',data:{labels:m.map(b=>shortName(b.name)),
     datasets:[{data:m.map(b=>b.available_now),hLabels:m.map(b=>String(b.available_now)),backgroundColor:C.teal,borderRadius:6,maxBarThickness:30}]},
@@ -2152,6 +2191,24 @@ function buildAvail(){
       scales:{x:{...gridX,ticks:{precision:0}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
 }
 function buildConc(){
+  const tEl=document.getElementById('concTitle');
+  if(isBroad()){
+    const g=subGroups().map(x=>{
+      const cs=x.builds.map(b=>b.concession_pct!=null?b.concession_pct:b.conc_derived_pct).filter(v=>v!=null);
+      return {slug:x.slug,name:x.name,v:cs.length?cs.reduce((s,v)=>s+v,0)/cs.length:null};
+    }).filter(x=>x.v!=null).sort((a,b)=>b.v-a.v);
+    const el0=document.getElementById('concUnq'); if(el0) el0.innerHTML='';
+    if(g.length){
+      if(tEl)tEl.textContent='Concession by submarket';
+      mk('concChart',{type:'bar',data:{labels:g.map(x=>x.name),
+        datasets:[{data:g.map(x=>x.v*100),hLabels:g.map(x=>(x.v*100).toFixed(1)+'%'),backgroundColor:C.rust,borderRadius:6,maxBarThickness:30}]},
+        options:{indexAxis:'y',onClick:chartSubNav(g.map(x=>x.slug)),onHover:chartHover(),maintainAspectRatio:false,layout:{padding:{right:40}},plugins:{legend:{display:false},
+          tooltip:{callbacks:{label:c=>' avg '+c.parsed.x.toFixed(1)+'% · click to drill in'}}},
+          scales:{x:{...gridX,ticks:{callback:v=>v+'%'}},y:{grid:{display:false},border:{display:false},ticks:{font:{weight:600,size:11}}}}}});
+      return;
+    }
+  }
+  if(tEl)tEl.textContent='Concession by building';
   const all=[...inMkt()];
   const m=all.map(b=>{
     if(b.concession_pct!=null) return {b,v:b.concession_pct,src:'pub',note:b.concession_text||'published term'};
@@ -2236,6 +2293,20 @@ function compositeAll(b){
 }
 function buildRBP(){
   const u=state.unit, cb=document.getElementById('rbpBox');
+  if(isBroad()){
+    const g=subGroups().map(x=>{const at=aggByType(x.builds); const d=u==='All'?at.All:at[u];
+      return {slug:x.slug,name:x.name,d,v:d?(d.net!=null?d.net:d.asking):null};})
+      .filter(x=>x.v!=null).sort((a,b)=>b.v-a.v);
+    $('#rbpTitle').textContent=(u==='All'?'All-types':u.replace('BR',' BR'))+' rent by submarket';
+    if(!g.length){cb.innerHTML='<div class="empty">No per-type rent data in the selected submarkets yet.</div>';return;}
+    if(!document.getElementById('rbpChart')){cb.innerHTML='<canvas id="rbpChart"></canvas>';}
+    mk('rbpChart',{type:'bar',data:{labels:g.map(x=>x.name),datasets:[
+      {label:'Net-effective',data:g.map(x=>Math.round(x.v)),backgroundColor:C.teal,borderRadius:4,maxBarThickness:42}]},
+      options:{onClick:chartSubNav(g.map(x=>x.slug)),onHover:chartHover(),maintainAspectRatio:false,plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>{const d=g[c.dataIndex].d;return ' Net-eff '+usd(d.net!=null?d.net:d.asking)+(d.asking!=null&&d.net!=null&&d.asking!==d.net?' · asking '+usd(d.asking):'')+' · click to drill in';},afterLabel:c=>(g[c.dataIndex].d.count||0)+' live units'}}},
+        scales:{x:{grid:{display:false},border:{display:false},ticks:{font:{size:11}}},y:{grid:{color:'rgba(33,28,21,.07)'},border:{display:false},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+    return;
+  }
   const m=inMkt().map(b=>({b,d:u==='All'?compositeAll(b):(b.by_type&&b.by_type[u])})).filter(o=>o.d);
   $('#rbpTitle').textContent=(u==='All'?'All-types':u.replace('BR',' BR'))+' rent by building';
   if(!m.length){cb.innerHTML='<div class="empty">Per-building rents aren\'t in the data yet. Ingest per-unit listings (<code>pipeline.py ingest</code>), re-export, and reload — this fills in automatically.</div>';return;}
@@ -2394,13 +2465,13 @@ async function pinAutocomplete(q){
 })();
 function renderTable(key,dir){
   state.sortKey=key;state.sortDir=dir;
-  const rows=[...curBuildings()].map(b=>{const cp=compositeAll(b);
+  const enrich=b=>{const cp=compositeAll(b);
     const mpsf=(cp&&cp.asking_psf!=null)?cp.asking_psf:null;
     const npsf=(cp&&(cp.net_psf!=null?cp.net_psf:cp.asking_psf)!=null)?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;
-    return {...b,avail_rate:(b.units&&b.available_now!=null)?b.available_now/b.units:null,mkt_psf:mpsf,net_psf:npsf};});
-  rows.sort((a,b)=>{ if(key==='name')return a.name.localeCompare(b.name)*dir;
+    return {...b,avail_rate:(b.units&&b.available_now!=null)?b.available_now/b.units:null,mkt_psf:mpsf,net_psf:npsf};};
+  const sortRows=arr=>arr.sort((a,b)=>{ if(key==='name')return a.name.localeCompare(b.name)*dir;
     let av=a[key],bv=b[key]; av=av==null?-Infinity:av; bv=bv==null?-Infinity:bv; return (av-bv)*dir;});
-  $('#tbl tbody').innerHTML=rows.map(b=>{
+  const rowHTML=b=>{
     const conc=b.concession_pct>0.005?`<span class="mono" style="color:var(--rust);font-weight:600">${(b.concession_pct*100).toFixed(1)}%</span>`:'<span style="color:var(--ink2)">—</span>';
     const src=b.source_url?`<a href="${b.source_url}" target="_blank" rel="noopener">${b.method||'site'}</a>`:(b.method||'—');
     return `<tr class="${b.in_market?'':'out'}" data-id="${b.id}">
@@ -2413,7 +2484,30 @@ function renderTable(key,dir){
       <td class="mono">${b.net_psf!=null?'$'+b.net_psf.toFixed(2):'—'}</td>
       <td class="physcol">${physCell(b)}</td>
       <td class="conccol">${conc}<span class="nm-sub">${b.concession_text||''}</span></td>
-      <td><span class="nm-sub" style="margin-top:0">${src}</span></td></tr>`;}).join('');
+      <td><span class="nm-sub" style="margin-top:0">${src}</span></td></tr>`;};
+  const NCOLS=10;
+  let html='';
+  if(SUBM().length){          // grouped by submarket (collapsible + subtotals)
+    SUBM().forEach(s=>{
+      const grp=sortRows(curBuildings().filter(b=>b.submarket===s.slug).map(enrich));
+      if(!grp.length) return;
+      const collapsed=state.tblCollapsed.has(s.slug);
+      const im=grp.filter(b=>b.in_market);
+      const avail=im.reduce((x,b)=>x+(b.available_now||0),0);
+      const at=aggByType(im);
+      const sub = (at.All&&at.All.net!=null) ? ('avg net-eff '+usd(at.All.net)) : (im.length?'no live rents yet':'roster only');
+      html+=`<tr class="grp" data-grp="${s.slug}"><td colspan="${NCOLS}">`+
+        `<span class="grp-tog">${collapsed?'▸':'▾'}</span> <b>${esc(s.name)}</b> `+
+        `<span class="grp-sub">${grp.length} building${grp.length==1?'':'s'} · ${avail} available · ${sub}</span></td></tr>`;
+      if(!collapsed) html+=grp.map(rowHTML).join('');
+    });
+  } else {                    // no submarkets (e.g. journal-square): flat table
+    html=sortRows(curBuildings().map(enrich)).map(rowHTML).join('');
+  }
+  $('#tbl tbody').innerHTML=html;
+  $$('#tbl tr.grp').forEach(tr=>tr.addEventListener('click',()=>{const gk=tr.getAttribute('data-grp');
+    if(state.tblCollapsed.has(gk))state.tblCollapsed.delete(gk); else state.tblCollapsed.add(gk);
+    renderTable(state.sortKey,state.sortDir);}));
   $$('#tbl th[data-k]').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===key);const a=th.querySelector('.ar');if(a)a.textContent=dir<0?'▼':'▲';});
 }
 function renderInsights(){
