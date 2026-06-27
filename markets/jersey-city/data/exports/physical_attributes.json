@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:39:00+00:00",
+  "generated_at": "2026-06-27T12:58:11+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -58,6 +58,18 @@
           "unit": "1606",
           "beds": 0,
           "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1615",
+          "beds": 0,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "1704",
+          "beds": 0,
+          "baths": 1,
           "sqft": null
         },
         {
