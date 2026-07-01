@@ -1,6 +1,7 @@
 building,unit,beds,baths,sqft
 Journal Square Urby,1002,2,2,
 Journal Square Urby,1115,0,1.0,456
+Journal Square Urby,1406,0,1,
 Journal Square Urby,1410,2,2.0,907
 Journal Square Urby,1415,0,1.0,456
 Journal Square Urby,1416,1,1,
@@ -12,6 +13,7 @@ Journal Square Urby,1615,0,1,
 Journal Square Urby,1704,0,1,
 Journal Square Urby,1710,2,2.0,907
 Journal Square Urby,1714,2,2.0,831
+Journal Square Urby,1804,0,1,
 Journal Square Urby,1812,2,2.0,805
 Journal Square Urby,1816,1,1,
 Journal Square Urby,1903,0,1.0,442
@@ -39,6 +41,7 @@ Journal Squared,0902,1,1,591
 Journal Squared,0905,0,1,498
 Journal Squared,0906,3,2,1158
 Journal Squared,0909,0,1.0,622
+Journal Squared,1002,2,2,914
 Journal Squared,1004,0,1,549
 Journal Squared,1007,0,1.0,444
 Journal Squared,1009,0,1.0,622
@@ -50,6 +53,7 @@ Journal Squared,1111,0,1.0,474
 Journal Squared,1115,1,1.0,830
 Journal Squared,1213,3,2,1286
 Journal Squared,1401,1,1.0,687
+Journal Squared,1402,1,1,716
 Journal Squared,1405,0,1.0,498
 Journal Squared,1406,3,2,1158
 Journal Squared,1409,3,2.0,1415
@@ -68,6 +72,7 @@ Journal Squared,1702,1,1,716
 Journal Squared,1709,1,1.0,965
 Journal Squared,1712,0,1,511
 Journal Squared,1810,1,1.0,827
+Journal Squared,1812,0,1,511
 Journal Squared,1905,3,2.0,1241
 Journal Squared,1908,0,1.0,431
 Journal Squared,1912,1,1.0,870
@@ -147,6 +152,7 @@ Journal Squared,5910,2,2,1048
 Journal Squared,6209,0,1,467
 Journal Squared,6304,2,2,1031
 Journal Squared,6309,0,1,467
+Journal Squared,6401,1,1,637
 Journal Squared,6404,2,2,1031
 Journal Squared,6509,0,1.0,467
 Journal Squared,PH1-07,2,2.0,1415
@@ -196,7 +202,7 @@ The Journal,1409S,1,1.0,700
 The Journal,1411S,1,1.0,733
 The Journal,1413S,1,1.0,616
 The Journal,1414S,2,2.0,989
-The Journal,1415N,0,1.0,
+The Journal,1415N,0,1.0,405
 The Journal,1503S,0,1.0,461
 The Journal,1510S,1,1,650
 The Journal,1514S,2,2,989
@@ -217,13 +223,18 @@ The Journal,1807S,2,2.0,1032
 The Journal,1808S,0,1.0,469
 The Journal,1814N,2,2,989
 The Journal,1901N,1,1,843
+The Journal,1904S,0,1,430
 The Journal,1908N,0,1,469
+The Journal,1912S,1,1,763
+The Journal,1914S,2,2,989
 The Journal,1915N,0,1.0,
 The Journal,2013N,1,1.0,
 The Journal,2015N,0,1,405
 The Journal,2106N,1,1.0,660
+The Journal,2109S,1,1,707
 The Journal,2114N,2,2,989
 The Journal,2202N,1,1.0,730
+The Journal,2204N,0,1,430
 The Journal,2209S,1,1,707
 The Journal,2211N,1,1,733
 The Journal,2211S,1,1,733
@@ -235,20 +246,23 @@ The Journal,2309S,1,1.0,707
 The Journal,2402N,1,1,730
 The Journal,2405N,1,1.0,727
 The Journal,2502N,1,1,730
+The Journal,2503S,0,1,461
 The Journal,2506S,1,1.0,660
 The Journal,2507S,2,2.0,
+The Journal,2511S,1,1,741
 The Journal,2514S,2,2,989
 The Journal,2603S,0,1,461
 The Journal,2605N,1,1,727
 The Journal,2607S,2,2.0,1032
 The Journal,2611N,1,1,741
-The Journal,2612N,1,1.0,
+The Journal,2612N,1,1.0,763
 The Journal,2614S,2,2,989
 The Journal,2703S,0,1.0,
 The Journal,2704N,0,1.0,
 The Journal,2706N,1,1,660
 The Journal,2709N,1,1,711
 The Journal,2804N,0,1.0,
+The Journal,2805N,1,1,727
 The Journal,2807N,2,2,1032
 The Journal,2810S,1,1.0,663
 The Journal,2906N,1,1,660
@@ -257,19 +271,24 @@ The Journal,2911S,1,1.0,
 The Journal,2914N,2,2,989
 The Journal,3004N,0,1.0,430
 The Journal,3009N,1,1.0,
+The Journal,3011N,1,1,741
 The Journal,3012N,1,1.0,763
 The Journal,3014N,2,2,989
 The Journal,3015N,0,1,405
 The Journal,3105N,1,1,727
+The Journal,3109S,1,1,711
 The Journal,3203N,0,1,461
 The Journal,3208S,0,1.0,
 The Journal,3209S,1,1,711
 The Journal,3309S,1,1.0,711
+The Journal,3313N,1,1,616
 The Journal,3406S,1,1,660
+The Journal,3407S,2,2,1034
 The Journal,3415S,0,1.0,375
 The Journal,3501S,1,1,882
 The Journal,3513S,1,1,616
 The Journal,3601S,1,1.0,
+The Journal,3614S,2,2,989
 The Journal,3704N,0,1.0,
 The Journal,3711N,1,1,750
 The Journal,3712S,1,1.0,762
@@ -280,6 +299,7 @@ The Journal,3808N,0,1.0,
 The Journal,3811S,1,1.0,750
 The Journal,3901N,1,1.0,
 The Journal,3902S,1,1,730
+The Journal,3903S,0,1,461
 The Journal,3907N,2,2.0,1032
 The Journal,3910S,1,1.0,675
 The Journal,3913N,1,1,617
@@ -288,7 +308,7 @@ The Journal,4004S,0,1,430
 The Journal,4104S,0,1.0,430
 The Journal,4107S,2,2,1032
 The Journal,4108N,0,1.0,
-The Journal,4110N,1,1.0,
+The Journal,4110N,1,1.0,675
 The Journal,4111S,1,1,750
 The Journal,4203S,0,1.0,461
 The Journal,4204N,0,1,430
@@ -302,16 +322,22 @@ The Journal,4309S,1,1.0,720
 The Journal,4314S,2,2.0,989
 The Journal,4402N,1,1.0,763
 The Journal,4404N,1,1.0,722
+The Journal,4406S,1,1,658
+The Journal,4408N,0,1,481
+The Journal,4505N,1,1,727
 The Journal,4505S,1,1.0,727
 The Journal,4601S,1,1.0,870
 The Journal,4607S,2,2,1032
 The Journal,4612N,1,1,762
+The Journal,4613S,1,1,617
 The Journal,4701N,1,1,870
 The Journal,4704N,0,1,430
 The Journal,4706S,1,1.0,660
 The Journal,4713S,1,1,617
+The Journal,4715S,0,1,410
 The Journal,4804N,0,1,430
 The Journal,4806S,1,1.0,
+The Journal,4813N,1,1,617
 The Journal,4813S,1,1.0,617
 The Journal,4814N,2,2.0,
 The Journal,4815N,0,1,410
@@ -332,7 +358,9 @@ The Journal,5104N,0,1,430
 The Journal,5104S,0,1,430
 The Journal,5108S,0,1.0,481
 The Journal,5109N,1,1.0,720
+The Journal,5112S,1,1,762
 The Journal,5114S,2,2.0,989
+The Journal,5203S,0,1,459
 The Journal,5204S,0,1.0,430
 The Journal,5206N,1,1.0,660
 The Journal,5209N,1,1.0,720
@@ -345,16 +373,20 @@ The Journal,5310S,1,1.0,675
 The Journal,5312N,1,1,763
 The Journal,5401N,1,1.0,870
 The Journal,5404N,0,1.0,430
+The Journal,5405S,1,1,727
+The Journal,5410N,1,1,675
 The Journal,5501S,1,1.0,925
 The Journal,5504N,0,1.0,430
 The Journal,5505N,1,1.0,727
 The Journal,5505S,1,1,727
 The Journal,5506N,1,1.0,
 The Journal,5510N,1,1,687
+The Journal,5515N,0,1,385
 The Journal,5602N,1,1.0,733
 The Journal,5607N,2,2.0,1032
 The Journal,5615N,0,1.0,385
 The Journal,5703N,0,1.0,459
+The Journal,5713S,1,1,617
 The Journal,5714N,2,2,989
 The Journal,5806S,1,1,660
 The Journal,5813S,1,1,617
@@ -367,6 +399,7 @@ The Journal,5908N,0,1.0,
 The Journal,5911N,1,1,758
 The Journal,5914S,2,2.0,989
 The Journal,5915N,0,1,385
+The Journal,5915S,0,1,385
 The Journal,6003S,0,1.0,459
 The Journal,6008S,0,1.0,479
 The Journal,6009N,1,1,736
@@ -382,6 +415,7 @@ The Journal,6109N,1,1.0,736
 The Journal,6210N,1,1.0,687
 The Journal,6215N,0,1.0,385
 The Journal,6303N,0,1.0,459
+The Journal,6305S,1,1,727
 The Journal,6308N,0,1.0,479
 The Journal,6309N,1,1.0,736
 Four Twenty Five Summit,0204,0,1.0,439
@@ -466,15 +500,25 @@ MetroVue,609,1,1,562
 Orchard,1012,0,1.0,
 Orchard,1014,1,1.0,
 Orchard,1215,1,1.0,
+Orchard,1225,2,2,
 Orchard,1313,0,1.0,
 Orchard,1982,0,1,
+Orchard,2301,1,1,
+Orchard,2604,2,1,
 Orchard,3403,2,2.0,
+Orchard,3414,1,1,
+Orchard,3501,2,1,
+Orchard,4093,1,1,
 Orchard,4499,1,1,
 Orchard,5414,1,1.0,
 Orchard,604,2,2.0,
+Orchard,6042,1,1,
 Orchard,6612,0,1,
 Orchard,6994,2,1,
 Orchard,7215,1,1,
+Orchard,8306,1,1,
+Orchard,8518,1,1,
+Orchard,9061,1,1,
 Orchard,9493,2,2,
 Orchard,9814,1,1,
 The Greyson,0606,0,1,419
@@ -492,6 +536,7 @@ The Greyson,0924,0,1,470
 The Greyson,1003,1,1,
 The Greyson,1012,1,1,671
 The Greyson,1013,0,1,
+The Greyson,1103,1,1,
 The Greyson,1104,0,1,414
 The Greyson,1111,0,1,470
 The Greyson,1118,1,1,657
@@ -545,7 +590,9 @@ The Greyson,2710,1,1,672
 The Greyson,2712,1,1.0,
 The Greyson,2722,0,1,415
 The Greyson,507,1,1,
+The Greyson,525,1,1,
 The Greyson,615,3,2.0,1103
+The Greyson,824,0,1,
 The Greyson,902,2,2.0,886
 The Greyson,912,1,1,671
 The Greyson,923,1,1,688
@@ -571,6 +618,7 @@ The Greyson,923,1,1,688
 505 Summit,3112,1,1,690
 505 Summit,3113,2,2,924
 505 Summit,3301,2,2.0,
+505 Summit,3310,1,1,569
 505 Summit,3401,2,2,1144
 505 Summit,3411,1,1.0,
 505 Summit,3502,0,1,638
