@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T12:53:15+00:00",
-  "as_of": "2026-07-04",
+  "generated_at": "2026-07-05T12:57:51+00:00",
+  "as_of": "2026-07-05",
   "buildings": [
     {
       "id": "baldwin_134",
@@ -26,7 +26,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "Studio": {
           "count": 6,
@@ -50,7 +50,7 @@
       "address": "2935 John F Kennedy Blvd, Jersey City, NJ",
       "lat": 40.7340143,
       "lng": -74.0640563,
-      "phys_recorded": 11,
+      "phys_recorded": 12,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -62,12 +62,12 @@
       "method": "network_api",
       "source_url": "https://www.threejournalsquare.com/Floor-plans.aspx",
       "portal_url": "https://sightmap.com/embed/d7p1mrk2pkx",
-      "available_now": 6,
+      "available_now": 7,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -81,6 +81,19 @@
           "asking_psf": 53.29,
           "net_psf": null,
           "psf_n": 6
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 4309,
+          "net_avg": null,
+          "sqft_avg": 1156,
+          "asking_min": 4309,
+          "asking_max": 4309,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 44.73,
+          "net_psf": null,
+          "psf_n": 1
         }
       }
     },
@@ -103,25 +116,25 @@
       "method": "portal",
       "source_url": "https://www.345baldwin.com/availability",
       "portal_url": "https://availability.rosenyc.com/availability/noeelbmj/",
-      "available_now": 8,
+      "available_now": 7,
       "concession_text": "$2,117.50 Net Effective Rent",
       "concession_pct": 0.125,
       "conc_derived_pct": 0.1251,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
-          "count": 4,
-          "asking_avg": 2965,
-          "net_avg": 2594,
-          "sqft_avg": 628,
-          "asking_min": 2815,
+          "count": 3,
+          "asking_avg": 3015,
+          "net_avg": 2638,
+          "sqft_avg": 630,
+          "asking_min": 2975,
           "asking_max": 3075,
-          "net_min": 2463,
+          "net_min": 2603,
           "net_max": 2690,
-          "asking_psf": 56.7,
-          "net_psf": 49.61,
-          "psf_n": 4
+          "asking_psf": 57.44,
+          "net_psf": 50.25,
+          "psf_n": 3
         },
         "2BR": {
           "count": 2,
@@ -175,7 +188,7 @@
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -216,7 +229,7 @@
       "concession_pct": 0.1042,
       "conc_derived_pct": 0.1169,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 13,
@@ -296,7 +309,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -350,7 +363,7 @@
       "concession_pct": 0.125,
       "conc_derived_pct": 0.1251,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 10,
@@ -417,7 +430,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 3,
@@ -467,7 +480,7 @@
       "address": "615 Pavonia Ave, Jersey City, NJ",
       "lat": 40.732315,
       "lng": -74.060474,
-      "phys_recorded": 127,
+      "phys_recorded": 128,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -479,62 +492,62 @@
       "method": "dom_read",
       "source_url": "https://www.journalsquared.com/availabilities/",
       "portal_url": null,
-      "available_now": 38,
+      "available_now": 37,
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 16,
-          "asking_avg": 3469,
+          "asking_avg": 3462,
           "net_avg": null,
-          "sqft_avg": 726,
-          "asking_min": 3180,
-          "asking_max": 4050,
+          "sqft_avg": 717,
+          "asking_min": 3170,
+          "asking_max": 4045,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 57.79,
+          "asking_psf": 58.52,
           "net_psf": null,
           "psf_n": 16
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 4716,
+          "asking_avg": 4684,
           "net_avg": null,
-          "sqft_avg": 1044,
-          "asking_min": 4365,
-          "asking_max": 5380,
+          "sqft_avg": 1040,
+          "asking_min": 4340,
+          "asking_max": 4935,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 54.23,
+          "asking_psf": 54.12,
           "net_psf": null,
           "psf_n": 9
         },
         "3BR": {
-          "count": 4,
-          "asking_avg": 6385,
+          "count": 3,
+          "asking_avg": 6620,
           "net_avg": null,
-          "sqft_avg": 1309,
-          "asking_min": 5640,
+          "sqft_avg": 1359,
+          "asking_min": 6515,
           "asking_max": 6770,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 58.75,
+          "asking_psf": 58.73,
           "net_psf": null,
-          "psf_n": 4
+          "psf_n": 3
         },
         "Studio": {
           "count": 9,
-          "asking_avg": 3048,
+          "asking_avg": 3026,
           "net_avg": null,
-          "sqft_avg": 499,
-          "asking_min": 2810,
-          "asking_max": 3235,
+          "sqft_avg": 488,
+          "asking_min": 2815,
+          "asking_max": 3230,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 73.61,
+          "asking_psf": 74.56,
           "net_psf": null,
           "psf_n": 9
         }
@@ -564,7 +577,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -605,7 +618,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 7,
@@ -659,7 +672,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0833,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -739,7 +752,7 @@
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
       "submarket": null,
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-05",
       "by_type": {
         "1BR": {
           "count": 62,
@@ -1421,6 +1434,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3880.0,
       "all_net": 3640.0
+    },
+    {
+      "date": "2026-07-05",
+      "total_available": 262,
+      "by_type": {
+        "1BR": {
+          "asking": 3690.0,
+          "net": 3490.0
+        },
+        "2BR": {
+          "asking": 5177.0,
+          "net": 5122.0
+        },
+        "3BR": {
+          "asking": 6698.0,
+          "net": 6038.0
+        },
+        "Studio": {
+          "asking": 3143.0,
+          "net": 2973.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3876.0,
+      "all_net": 3647.0
     }
   ],
   "unit_mix": [
@@ -1627,15 +1665,15 @@
     },
     {
       "t": "1BR",
-      "n": 290,
-      "avg_sqft": 695.0,
+      "n": 291,
+      "avg_sqft": 694.0,
       "min_sqft": 523,
       "max_sqft": 965
     },
     {
       "t": "2BR",
-      "n": 95,
-      "avg_sqft": 1008.0,
+      "n": 96,
+      "avg_sqft": 1009.0,
       "min_sqft": 805,
       "max_sqft": 1415
     },
@@ -1648,7 +1686,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-04T12:53:15+00:00",
+    "checked_at": "2026-07-05T12:57:51+00:00",
     "errors": [],
     "warnings": [],
     "quarantined_units": 0,
