@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T12:50:26+00:00",
+  "generated_at": "2026-07-05T12:55:09+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -855,6 +855,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1031
+        },
+        {
+          "unit": "4805",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 618
         },
         {
           "unit": "4807",
@@ -4630,6 +4636,12 @@
       "name": "3 Journal Square",
       "total_units": 240,
       "recorded": [
+        {
+          "unit": "0214",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1156
+        },
         {
           "unit": "0217",
           "beds": 1,
