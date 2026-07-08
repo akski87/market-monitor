@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "purpose": "Stamford market availability sources. Roster entries (method 'none', status 'roster_only') until live scraping is wired per building.",
+    "core_comp_set": []
+  },
+  "buildings": [
+    {
+      "building": "Beacon Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Infinity Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "111 Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "NV @ Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Postmark",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Vault",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "The Key at Yale & Towne",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Escape @ Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Allure @ Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Opus @ Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "Anthem @ Harbor Point",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    },
+    {
+      "building": "121 Towne",
+      "url": null,
+      "method": "none",
+      "js_rendered": false,
+      "portal_url": null,
+      "api_endpoint": null,
+      "status": "roster_only",
+      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+    }
+  ]
+}

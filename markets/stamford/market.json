@@ -1,0 +1,13 @@
+{
+  "slug": "stamford",
+  "display_name": "Stamford",
+  "region": "Stamford, CT",
+  "site_title": "Stamford Market Monitor",
+  "h1": "Stamford <em>multifamily</em> monitor",
+  "kicker": "Market Monitor &nbsp;·&nbsp; Stamford, CT",
+  "status": "live",
+  "pages_path": "markets/stamford/site/dashboard.html",
+  "submarkets": [
+    {"slug": "harbor-point", "name": "Harbor Point", "status": "live"}
+  ]
+}
