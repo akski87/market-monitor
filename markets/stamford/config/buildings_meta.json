@@ -156,6 +156,32 @@
       "lng": -73.534696,
       "submarket": "harbor-point",
       "data_verified": "2026-06-25 (web-verified: 2 research passes — official BLT/building sites + apartments.com/news)"
+    },
+    "101 Park Place": {
+      "slug": "park_place_101",
+      "units": 336,
+      "year_built": 2010,
+      "stories": 15,
+      "mgmt": "AJH Management",
+      "in_market": false,
+      "address": "101 Washington Blvd, Stamford, CT 06902",
+      "lat": 41.04049,
+      "lng": -73.5413,
+      "submarket": "harbor-point",
+      "data_verified": "2026-07-10 (web-verified; added after boundary review — geocoded inside/adjacent Harbor Point)"
+    },
+    "Harbor Landing": {
+      "slug": "harbor_landing",
+      "units": 218,
+      "year_built": 2018,
+      "stories": 6,
+      "mgmt": "Greystar (managed); BLT-developed",
+      "in_market": false,
+      "address": "28-30 Southfield Ave, Stamford, CT 06902",
+      "lat": 41.039,
+      "lng": -73.54792,
+      "submarket": "harbor-point",
+      "data_verified": "2026-07-10 (web-verified; added after boundary review — geocoded inside/adjacent Harbor Point)"
     }
   }
 }
