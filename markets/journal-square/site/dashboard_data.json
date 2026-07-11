@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T12:45:01+00:00",
+  "generated_at": "2026-07-11T15:13:57+00:00",
   "as_of": "2026-07-11",
   "buildings": [
     {
@@ -332,8 +332,8 @@
       "method": "portal",
       "source_url": "https://425summit.com/availability/",
       "portal_url": "https://availability.rosenyc.com/availability/fnhqqlif/",
-      "available_now": 9,
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "available_now": 10,
+      "concession_text": "$2,362.50 Net Effective Rent",
       "concession_pct": 0.125,
       "conc_derived_pct": 0.1251,
       "submarket": null,
@@ -379,17 +379,17 @@
           "psf_n": 1
         },
         "Studio": {
-          "count": 3,
-          "asking_avg": 2938,
-          "net_avg": 2571,
-          "sqft_avg": 513,
-          "asking_min": 2750,
+          "count": 4,
+          "asking_avg": 2879,
+          "net_avg": 2518,
+          "sqft_avg": 478,
+          "asking_min": 2700,
           "asking_max": 3255,
-          "net_min": 2406,
+          "net_min": 2362,
           "net_max": 2848,
-          "asking_psf": 71.35,
-          "net_psf": 62.42,
-          "psf_n": 3
+          "asking_psf": 75.17,
+          "net_psf": 65.76,
+          "psf_n": 4
         }
       }
     },
@@ -488,40 +488,40 @@
       "by_type": {
         "1BR": {
           "count": 16,
-          "asking_avg": 3478,
+          "asking_avg": 3459,
           "net_avg": null,
           "sqft_avg": 736,
           "asking_min": 3115,
           "asking_max": 4005,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 57.16,
+          "asking_psf": 56.84,
           "net_psf": null,
           "psf_n": 16
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 4984,
+          "asking_avg": 4958,
           "net_avg": null,
           "sqft_avg": 1044,
           "asking_min": 4510,
           "asking_max": 5455,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 57.25,
+          "asking_psf": 56.96,
           "net_psf": null,
           "psf_n": 9
         },
         "Studio": {
           "count": 9,
-          "asking_avg": 2979,
+          "asking_avg": 2987,
           "net_avg": null,
           "sqft_avg": 491,
           "asking_min": 2805,
           "asking_max": 3200,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 73.6,
+          "asking_psf": 73.77,
           "net_psf": null,
           "psf_n": 9
         }
@@ -1561,14 +1561,14 @@
     },
     {
       "date": "2026-07-11",
-      "total_available": 253,
+      "total_available": 254,
       "by_type": {
         "1BR": {
-          "asking": 3701.0,
+          "asking": 3699.0,
           "net": 3520.0
         },
         "2BR": {
-          "asking": 5380.0,
+          "asking": 5374.0,
           "net": 5258.0
         },
         "3BR": {
@@ -1576,13 +1576,13 @@
           "net": 6030.0
         },
         "Studio": {
-          "asking": 3153.0,
-          "net": 2968.0
+          "asking": 3148.0,
+          "net": 2957.0
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3852.0,
-      "all_net": 3647.0
+      "all_asking": 3846.0,
+      "all_net": 3640.0
     }
   ],
   "unit_mix": [
@@ -1810,7 +1810,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-11T12:45:01+00:00",
+    "checked_at": "2026-07-11T15:13:57+00:00",
     "errors": [],
     "warnings": [],
     "quarantined_units": 0,

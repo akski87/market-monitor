@@ -1,6 +1,6 @@
 {
   "as_of": "2026-07-11",
-  "generated_at": "2026-07-11T12:45:01+00:00",
+  "generated_at": "2026-07-11T15:13:57+00:00",
   "window_start": "2025-07-11",
   "units": [
     {
@@ -3669,7 +3669,7 @@
       "asking_rent": 3520.0,
       "net_effective_rent": 3080.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "10/3/2026",
       "data_flag": "",
       "conc_months": null,
@@ -3837,7 +3837,7 @@
       "asking_rent": 3405.0,
       "net_effective_rent": 2979.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "10/6/2026",
       "data_flag": "",
       "conc_months": null,
@@ -4530,7 +4530,7 @@
       "asking_rent": 3505.0,
       "net_effective_rent": 3066.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "9/2/2026",
       "data_flag": "",
       "conc_months": null,
@@ -4635,7 +4635,7 @@
       "asking_rent": 4830.0,
       "net_effective_rent": 4226.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "9/7/2026",
       "data_flag": "",
       "conc_months": null,
@@ -4782,7 +4782,7 @@
       "asking_rent": 5275.0,
       "net_effective_rent": 4615.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": null,
       "data_flag": "",
       "conc_months": null,
@@ -4845,7 +4845,7 @@
       "asking_rent": 6270.0,
       "net_effective_rent": 5486.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "9/20/2026",
       "data_flag": "",
       "conc_months": null,
@@ -5118,7 +5118,7 @@
       "asking_rent": 2750.0,
       "net_effective_rent": 2406.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": null,
       "data_flag": "",
       "conc_months": null,
@@ -5223,7 +5223,7 @@
       "asking_rent": 3255.0,
       "net_effective_rent": 2848.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": null,
       "data_flag": "",
       "conc_months": null,
@@ -5706,7 +5706,7 @@
       "asking_rent": 2810.0,
       "net_effective_rent": 2458.0,
       "price_basis": "both",
-      "concession_text": "$2,406.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "8/11/2026",
       "data_flag": "",
       "conc_months": null,
@@ -5800,7 +5800,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-06-14",
+      "snapshot_date": "2026-07-11",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "2510",
@@ -5811,14 +5811,14 @@
       "asking_rent": 2700.0,
       "net_effective_rent": 2362.0,
       "price_basis": "both",
-      "concession_text": "$2,336.25 Net Effective Rent",
+      "concession_text": "$2,362.50 Net Effective Rent",
       "available_date": "7/29/2026",
       "data_flag": "",
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-14",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-06-08",
@@ -7669,7 +7669,7 @@
       "active": 1
     },
     {
-      "snapshot_date": "2026-07-09",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2002",
@@ -7677,7 +7677,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 738,
-      "asking_rent": 3395.0,
+      "asking_rent": 3385.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -7686,8 +7686,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-08",
-      "last_seen": "2026-07-09",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-06-08",
@@ -7816,7 +7816,7 @@
       "active": 1
     },
     {
-      "snapshot_date": "2026-07-11",
+      "snapshot_date": "2026-06-26",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2605",
@@ -7833,8 +7833,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-11",
-      "active": 1
+      "last_seen": "2026-06-26",
+      "active": 0
     },
     {
       "snapshot_date": "2026-07-11",
@@ -7879,7 +7879,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-11",
+      "snapshot_date": "2026-07-10",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2902",
@@ -7887,7 +7887,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 738,
-      "asking_rent": 3505.0,
+      "asking_rent": 3510.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -7896,8 +7896,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-11",
-      "active": 1
+      "last_seen": "2026-07-10",
+      "active": 0
     },
     {
       "snapshot_date": "2026-07-07",
@@ -8173,7 +8173,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-02",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "3903",
@@ -8190,8 +8190,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-07-02",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-07-09",
@@ -8236,7 +8236,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-10",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "4105",
@@ -8253,8 +8253,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-17",
-      "last_seen": "2026-07-10",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-06-21",
@@ -8614,7 +8614,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-11",
+      "snapshot_date": "2026-07-10",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "5603",
@@ -8631,11 +8631,11 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-11",
-      "active": 1
+      "last_seen": "2026-07-10",
+      "active": 0
     },
     {
-      "snapshot_date": "2026-07-10",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "5701",
@@ -8643,7 +8643,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 637,
-      "asking_rent": 3120.0,
+      "asking_rent": 3115.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -8652,8 +8652,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-08",
-      "last_seen": "2026-07-10",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-06-08",
@@ -8677,7 +8677,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-11",
+      "snapshot_date": "2026-07-07",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "6401",
@@ -8685,7 +8685,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 637,
-      "asking_rent": 3115.0,
+      "asking_rent": 3150.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -8694,8 +8694,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-11",
-      "active": 1
+      "last_seen": "2026-07-07",
+      "active": 0
     },
     {
       "snapshot_date": "2026-06-21",
@@ -8799,27 +8799,6 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-28",
-      "last_seen": "2026-07-11",
-      "active": 1
-    },
-    {
-      "snapshot_date": "2026-07-11",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "1812",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1044,
-      "asking_rent": 5020.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "09/08/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null,
-      "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
       "active": 1
     },
@@ -8929,7 +8908,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-10",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2312",
@@ -8937,7 +8916,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1044,
-      "asking_rent": 5005.0,
+      "asking_rent": 5020.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -8946,8 +8925,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-13",
-      "last_seen": "2026-07-10",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-06-27",
@@ -8971,7 +8950,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-06-30",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2902",
@@ -8979,7 +8958,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1056,
-      "asking_rent": 5190.0,
+      "asking_rent": 5220.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -8988,8 +8967,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-07-08",
@@ -9242,27 +9221,6 @@
       "first_seen": "2026-06-13",
       "last_seen": "2026-07-09",
       "active": 0
-    },
-    {
-      "snapshot_date": "2026-07-11",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "4702",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1056,
-      "asking_rent": 5455.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "10/25/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null,
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "active": 1
     },
     {
       "snapshot_date": "2026-07-11",
@@ -10063,7 +10021,7 @@
       "active": 0
     },
     {
-      "snapshot_date": "2026-07-10",
+      "snapshot_date": "2026-07-11",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1412",
@@ -10080,8 +10038,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-10",
-      "active": 0
+      "last_seen": "2026-07-11",
+      "active": 1
     },
     {
       "snapshot_date": "2026-07-09",
@@ -10294,7 +10252,7 @@
       "active": 1
     },
     {
-      "snapshot_date": "2026-07-11",
+      "snapshot_date": "2026-06-29",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1712",
@@ -10302,7 +10260,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 511,
-      "asking_rent": 2890.0,
+      "asking_rent": 2925.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -10311,8 +10269,8 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-11",
-      "active": 1
+      "last_seen": "2026-06-29",
+      "active": 0
     },
     {
       "snapshot_date": "2026-07-01",
