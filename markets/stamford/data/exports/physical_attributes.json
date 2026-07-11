@@ -1,4 +1,911 @@
 {
-  "generated_at": "2026-07-11T12:42:21+00:00",
-  "buildings": []
+  "generated_at": "2026-07-11T14:53:32+00:00",
+  "buildings": [
+    {
+      "id": "beacon_hp",
+      "name": "Beacon Harbor Point",
+      "total_units": 239,
+      "recorded": [
+        {
+          "unit": "1300",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1235
+        },
+        {
+          "unit": "1405",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        },
+        {
+          "unit": "202",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 953
+        },
+        {
+          "unit": "209",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 859
+        },
+        {
+          "unit": "250",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 828
+        },
+        {
+          "unit": "252",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 953
+        },
+        {
+          "unit": "257",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 811
+        },
+        {
+          "unit": "310",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 859
+        },
+        {
+          "unit": "350",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 828
+        },
+        {
+          "unit": "409",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 859
+        },
+        {
+          "unit": "504",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 859
+        },
+        {
+          "unit": "513",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 430
+        },
+        {
+          "unit": "953",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "nv_hp",
+      "name": "NV @ Harbor Point",
+      "total_units": 392,
+      "recorded": [
+        {
+          "unit": "1008",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
+          "unit": "1059",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1060",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1062",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "107",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1310
+        },
+        {
+          "unit": "112",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1762
+        },
+        {
+          "unit": "1159",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1254",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1261",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
+          "unit": "1312",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "1354",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1451",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "1458",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
+          "unit": "1503",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1509",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1554",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1557",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "1610",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1611",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
+          "unit": "1612",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "1656",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 896
+        },
+        {
+          "unit": "1659",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "303",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1055
+        },
+        {
+          "unit": "305",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
+          "unit": "417",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 806
+        },
+        {
+          "unit": "425",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 812
+        },
+        {
+          "unit": "517",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 806
+        },
+        {
+          "unit": "520",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1151
+        },
+        {
+          "unit": "522",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1151
+        },
+        {
+          "unit": "704",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "709",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "escape_hp",
+      "name": "Escape @ Harbor Point",
+      "total_units": 435,
+      "recorded": [
+        {
+          "unit": "1155",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
+          "unit": "1205",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
+          "unit": "1206",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 746
+        },
+        {
+          "unit": "1212",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "1304",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 902
+        },
+        {
+          "unit": "1405",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
+          "unit": "1552",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "1556",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 746
+        },
+        {
+          "unit": "156",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1457
+        },
+        {
+          "unit": "1609",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1347
+        },
+        {
+          "unit": "1658",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
+          "unit": "1759",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1347
+        },
+        {
+          "unit": "1806",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 746
+        },
+        {
+          "unit": "328",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 840
+        },
+        {
+          "unit": "559",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1347
+        },
+        {
+          "unit": "602",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "608",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 701
+        },
+        {
+          "unit": "654",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 792
+        },
+        {
+          "unit": "702",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "712",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 908
+        },
+        {
+          "unit": "810",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "902",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "allure_hp",
+      "name": "Allure @ Harbor Point",
+      "total_units": 435,
+      "recorded": [
+        {
+          "unit": "1051",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1154",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "1159",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "121",
+          "beds": 2,
+          "baths": 3.0,
+          "sqft": 1425
+        },
+        {
+          "unit": "126",
+          "beds": 2,
+          "baths": 3.0,
+          "sqft": 2114
+        },
+        {
+          "unit": "1261",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1302",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1480
+        },
+        {
+          "unit": "1355",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1361",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1362",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1405",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1461",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1505",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1507",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "152",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1101
+        },
+        {
+          "unit": "1552",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1653",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1661",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1662",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "1754",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "1755",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1803",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1233
+        },
+        {
+          "unit": "1854",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "1855",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "1951",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "2",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1538
+        },
+        {
+          "unit": "2004",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1233
+        },
+        {
+          "unit": "2005",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1336
+        },
+        {
+          "unit": "2052",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "2054",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "2057",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 766
+        },
+        {
+          "unit": "208",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1568
+        },
+        {
+          "unit": "2104",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1233
+        },
+        {
+          "unit": "2203",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1233
+        },
+        {
+          "unit": "2256",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 808
+        },
+        {
+          "unit": "403",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 568
+        },
+        {
+          "unit": "421",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 657
+        },
+        {
+          "unit": "443",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 683
+        },
+        {
+          "unit": "452",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1101
+        },
+        {
+          "unit": "506",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 660
+        },
+        {
+          "unit": "507",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "561",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "607",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        },
+        {
+          "unit": "753",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "755",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
+          "unit": "762",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 785
+        },
+        {
+          "unit": "861",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1148
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "opus_hp",
+      "name": "Opus @ Harbor Point",
+      "total_units": 180,
+      "recorded": [
+        {
+          "unit": "1004",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 902
+        },
+        {
+          "unit": "125",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 842
+        },
+        {
+          "unit": "1305",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
+          "unit": "1310",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "224",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 840
+        },
+        {
+          "unit": "227",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 842
+        },
+        {
+          "unit": "401",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
+        },
+        {
+          "unit": "404",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 902
+        },
+        {
+          "unit": "409",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 911
+        },
+        {
+          "unit": "410",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "901",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "anthem_hp",
+      "name": "Anthem @ Harbor Point",
+      "total_units": 180,
+      "recorded": [
+        {
+          "unit": "1109",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 889
+        },
+        {
+          "unit": "1114",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1328
+        },
+        {
+          "unit": "1206",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 827
+        },
+        {
+          "unit": "1212",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 797
+        },
+        {
+          "unit": "1513",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1469
+        },
+        {
+          "unit": "1601",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1364
+        },
+        {
+          "unit": "302",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 1102
+        },
+        {
+          "unit": "325",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 741
+        },
+        {
+          "unit": "326",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 714
+        },
+        {
+          "unit": "601",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1364
+        },
+        {
+          "unit": "701",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1364
+        },
+        {
+          "unit": "702",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "705",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 899
+        },
+        {
+          "unit": "710",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 783
+        },
+        {
+          "unit": "802",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "808",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 753
+        },
+        {
+          "unit": "812",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 797
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    }
+  ]
 }

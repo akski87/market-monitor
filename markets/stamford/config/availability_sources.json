@@ -6,13 +6,13 @@
   "buildings": [
     {
       "building": "Beacon Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "Infinity Harbor Point",
@@ -36,13 +36,13 @@
     },
     {
       "building": "NV @ Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "Postmark",
@@ -76,43 +76,43 @@
     },
     {
       "building": "Escape @ Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "Allure @ Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "Opus @ Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "Anthem @ Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://bltliveworkplay.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
     },
     {
       "building": "121 Towne",

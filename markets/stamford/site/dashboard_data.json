@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T12:42:21+00:00",
-  "as_of": null,
+  "generated_at": "2026-07-11T14:52:34+00:00",
+  "as_of": "2026-07-11",
   "buildings": [
     {
       "id": "park_place_101",
@@ -90,7 +90,7 @@
       "address": "850 Pacific St, Stamford, CT 06902",
       "lat": 41.039744,
       "lng": -73.541861,
-      "phys_recorded": 0,
+      "phys_recorded": 47,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -98,17 +98,70 @@
       "year_built": 2019,
       "stories": 22,
       "mgmt": "Building and Land Technology (BLT)",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 47,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 19,
+          "asking_avg": 3017,
+          "net_avg": null,
+          "sqft_avg": 790,
+          "asking_min": 2795,
+          "asking_max": 3295,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 46.0,
+          "net_psf": null,
+          "psf_n": 19
+        },
+        "2BR": {
+          "count": 26,
+          "asking_avg": 4558,
+          "net_avg": null,
+          "sqft_avg": 1244,
+          "asking_min": 3665,
+          "asking_max": 6895,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 44.26,
+          "net_psf": null,
+          "psf_n": 26
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 6895,
+          "net_avg": null,
+          "sqft_avg": 1480,
+          "asking_min": 6895,
+          "asking_max": 6895,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 55.91,
+          "net_psf": null,
+          "psf_n": 1
+        },
+        "Studio": {
+          "count": 1,
+          "asking_avg": 2655,
+          "net_avg": null,
+          "sqft_avg": 568,
+          "asking_min": 2655,
+          "asking_max": 2655,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 56.09,
+          "net_psf": null,
+          "psf_n": 1
+        }
+      }
     },
     {
       "id": "anthem_hp",
@@ -117,7 +170,7 @@
       "address": "2 Harbor Point Rd S, Stamford, CT 06902",
       "lat": 41.037815,
       "lng": -73.541928,
-      "phys_recorded": 0,
+      "phys_recorded": 17,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -125,17 +178,44 @@
       "year_built": 2022,
       "stories": 23,
       "mgmt": "Building and Land Technology (BLT)",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 17,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 10,
+          "asking_avg": 3616,
+          "net_avg": null,
+          "sqft_avg": 830,
+          "asking_min": 3265,
+          "asking_max": 3985,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 52.76,
+          "net_psf": null,
+          "psf_n": 10
+        },
+        "2BR": {
+          "count": 7,
+          "asking_avg": 6345,
+          "net_avg": null,
+          "sqft_avg": 1309,
+          "asking_min": 5185,
+          "asking_max": 8195,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 57.99,
+          "net_psf": null,
+          "psf_n": 7
+        }
+      }
     },
     {
       "id": "beacon_hp",
@@ -144,7 +224,7 @@
       "address": "1 Harbor Point Rd, Stamford, CT 06902",
       "lat": 41.039002,
       "lng": -73.542057,
-      "phys_recorded": 0,
+      "phys_recorded": 13,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -152,17 +232,57 @@
       "year_built": 2015,
       "stories": 21,
       "mgmt": "Building and Land Technology (BLT); Greystar-managed",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 13,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 9,
+          "asking_avg": 3551,
+          "net_avg": null,
+          "sqft_avg": 868,
+          "asking_min": 2965,
+          "asking_max": 3995,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 49.07,
+          "net_psf": null,
+          "psf_n": 9
+        },
+        "2BR": {
+          "count": 3,
+          "asking_avg": 5878,
+          "net_avg": null,
+          "sqft_avg": 1200,
+          "asking_min": 5345,
+          "asking_max": 6595,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 58.72,
+          "net_psf": null,
+          "psf_n": 3
+        },
+        "Studio": {
+          "count": 1,
+          "asking_avg": 2395,
+          "net_avg": null,
+          "sqft_avg": 430,
+          "asking_min": 2395,
+          "asking_max": 2395,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 66.84,
+          "net_psf": null,
+          "psf_n": 1
+        }
+      }
     },
     {
       "id": "escape_hp",
@@ -171,7 +291,7 @@
       "address": "880 Pacific St, Stamford, CT 06902",
       "lat": 41.039681,
       "lng": -73.542065,
-      "phys_recorded": 0,
+      "phys_recorded": 22,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -179,17 +299,44 @@
       "year_built": 2020,
       "stories": 22,
       "mgmt": "Building and Land Technology (BLT)",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 22,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 13,
+          "asking_avg": 3887,
+          "net_avg": null,
+          "sqft_avg": 801,
+          "asking_min": 3695,
+          "asking_max": 4015,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 58.52,
+          "net_psf": null,
+          "psf_n": 13
+        },
+        "2BR": {
+          "count": 9,
+          "asking_avg": 6166,
+          "net_avg": null,
+          "sqft_avg": 1242,
+          "asking_min": 5455,
+          "asking_max": 6495,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 60.23,
+          "net_psf": null,
+          "psf_n": 9
+        }
+      }
     },
     {
       "id": "harbor_landing",
@@ -252,7 +399,7 @@
       "address": "100-110 Commons Park N, Stamford, CT 06902",
       "lat": 41.041613,
       "lng": -73.541943,
-      "phys_recorded": 0,
+      "phys_recorded": 31,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -260,17 +407,44 @@
       "year_built": 2018,
       "stories": 16,
       "mgmt": "Building and Land Technology (BLT)",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 31,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 21,
+          "asking_avg": 2716,
+          "net_avg": null,
+          "sqft_avg": 805,
+          "asking_min": 2465,
+          "asking_max": 2890,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 40.65,
+          "net_psf": null,
+          "psf_n": 21
+        },
+        "2BR": {
+          "count": 10,
+          "asking_avg": 4012,
+          "net_avg": null,
+          "sqft_avg": 1197,
+          "asking_min": 3750,
+          "asking_max": 4785,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 40.7,
+          "net_psf": null,
+          "psf_n": 10
+        }
+      }
     },
     {
       "id": "opus_hp",
@@ -279,7 +453,7 @@
       "address": "900 Pacific St, Stamford, CT 06902",
       "lat": 41.039688,
       "lng": -73.54204,
-      "phys_recorded": 0,
+      "phys_recorded": 11,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -287,17 +461,44 @@
       "year_built": 2021,
       "stories": 15,
       "mgmt": "Building and Land Technology (BLT)",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 11,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-11",
+      "by_type": {
+        "1BR": {
+          "count": 9,
+          "asking_avg": 3691,
+          "net_avg": null,
+          "sqft_avg": 842,
+          "asking_min": 3395,
+          "asking_max": 3985,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 52.71,
+          "net_psf": null,
+          "psf_n": 9
+        },
+        "2BR": {
+          "count": 2,
+          "asking_avg": 6645,
+          "net_avg": null,
+          "sqft_avg": 1300,
+          "asking_min": 6595,
+          "asking_max": 6695,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 61.34,
+          "net_psf": null,
+          "psf_n": 2
+        }
+      }
     },
     {
       "id": "postmark",
@@ -381,11 +582,66 @@
       "by_type": null
     }
   ],
-  "market_history": [],
+  "market_history": [
+    {
+      "date": "2026-07-11",
+      "total_available": 141,
+      "by_type": {
+        "1BR": {
+          "asking": 3287.0,
+          "net": null
+        },
+        "2BR": {
+          "asking": 5078.0,
+          "net": null
+        },
+        "3BR": {
+          "asking": 6895.0,
+          "net": null
+        },
+        "Studio": {
+          "asking": 2525.0,
+          "net": null
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 4026.0,
+      "all_net": null
+    }
+  ],
   "unit_mix": [],
-  "avg_unit_sf": [],
+  "avg_unit_sf": [
+    {
+      "t": "Studio",
+      "n": 2,
+      "avg_sqft": 499.0,
+      "min_sqft": 430,
+      "max_sqft": 568
+    },
+    {
+      "t": "1BR",
+      "n": 81,
+      "avg_sqft": 815.0,
+      "min_sqft": 657,
+      "max_sqft": 1102
+    },
+    {
+      "t": "2BR",
+      "n": 57,
+      "avg_sqft": 1243.0,
+      "min_sqft": 1055,
+      "max_sqft": 2114
+    },
+    {
+      "t": "3BR",
+      "n": 1,
+      "avg_sqft": 1480.0,
+      "min_sqft": 1480,
+      "max_sqft": 1480
+    }
+  ],
   "data_quality": {
-    "checked_at": "2026-07-11T12:42:21+00:00",
+    "checked_at": "2026-07-11T14:52:34+00:00",
     "errors": [],
     "warnings": [],
     "quarantined_units": 0,
