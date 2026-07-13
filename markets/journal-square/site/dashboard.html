@@ -198,7 +198,7 @@
     <div class="note">Live available units per building, and the advertised concession behind each.</div></div>
     <div class="grid2">
       <div class="panel"><h3 id="availTitle">Available units by building</h3><div class="ph">As of the latest pull</div><div class="chart-box"><canvas id="availChart"></canvas></div></div>
-      <div class="panel"><h3 id="concTitle">Concession by building</h3><div class="ph">Effective discount off asking, read from each building\u2019s site at pull time \u00b7 solid = stated term \u00b7 lighter = derived from same-unit gross-vs-net pricing</div><div class="chart-box"><canvas id="concChart"></canvas></div><div id="concUnq" class="ph" style="margin-top:10px"></div></div>
+      <div class="panel" id="concPanel"><h3 id="concTitle">Concession by building</h3><div class="ph">Effective discount off asking, read from each building\u2019s site at pull time \u00b7 solid = stated term \u00b7 lighter = derived from same-unit gross-vs-net pricing</div><div class="chart-box"><canvas id="concChart"></canvas></div><div id="concUnq" class="ph" style="margin-top:10px"></div></div>
     </div>
   </section>
 
@@ -2297,6 +2297,11 @@ const subGroups=()=>{const sel=selSubSlugs();
     .filter(g=>g.builds.length);};
 const inMkt=()=>curBuildings().filter(b=>b.in_market);
 const hasByType=()=>data.buildings.some(b=>b.by_type);
+// Market-mode flags: some markets publish only asking rent (no net-effective / no
+// concessions). When absent, the dashboard falls back to asking and hides the
+// concession blocks instead of showing empty "—"/$0 cells.
+const hasNet=()=>inMkt().some(b=>b.by_type&&Object.values(b.by_type).some(v=>v.net_avg!=null));
+const hasConc=()=>inMkt().some(b=>b.concession_pct>0.005||b.conc_derived_pct>0.005);
 // Roll per-type rents up across a set of buildings (count-weighted). Drives the
 // survey, the by-type chart and the 1BR KPI so they react to the section-07 toggles.
 function aggByType(bs){
@@ -2405,15 +2410,16 @@ function renderReference(){
     $('#lmsPh').textContent=`${nB} buildings · ${t.All?t.All.count:0} live units · selected set`;
     const f$=v=>v==null?'—':'$'+Math.round(v).toLocaleString();
     const psf=(rent,sf)=>sf?'$'+(rent*12/sf).toFixed(2):'—';
-    const cols=['Type','# Live','Ask min','Ask avg','Ask max','Avg SF','$/SF','Net-eff avg','Net-eff $/SF'];
+    const NET=hasNet();
+    const cols=['Type','# Live','Ask min','Ask avg','Ask max','Avg SF','$/SF'].concat(NET?['Net-eff avg','Net-eff $/SF']:[]);
     const row=(label,r,bold)=>`<tr${bold?' style="border-top:1.5px solid var(--ink);font-weight:600"':''}>`+
       `<td${bold?' style="font-weight:700"':''}>${label}</td><td class="mono">${r.count}</td>`+
       `<td class="mono">${f$(r.ask_min)}</td><td class="mono">${f$(r.asking)}</td><td class="mono">${f$(r.ask_max)}</td>`+
       `<td class="mono">${r.sf?Math.round(r.sf):'—'}</td><td class="mono">${psf(r.asking,r.sf)}</td>`+
-      `<td class="mono">${f$(r.net)}</td><td class="mono">${psf(r.net,r.sf)}</td></tr>`;
+      (NET?`<td class="mono">${f$(r.net)}</td><td class="mono">${psf(r.net,r.sf)}</td>`:'')+`</tr>`;
     let body=present.map(u=>row(u.replace('BR',' BR'),t[u],false)).join('');
     if(t.All) body+=row('All types',{count:t.All.count,ask_min:null,asking:t.All.asking,ask_max:null,sf:t.All.sf,net:t.All.net},true);
-    if(!present.length) body=`<tr><td colspan="9" style="color:var(--ink2)">No per-unit rent data in the selected buildings.</td></tr>`;
+    if(!present.length) body=`<tr><td colspan="${cols.length}" style="color:var(--ink2)">No per-unit rent data in the selected buildings.</td></tr>`;
     $('#lmsTable').innerHTML='<table><thead><tr>'+cols.map((c,i)=>`<th style="${i?'':'text-align:left'}">${c}</th>`).join('')+'</tr></thead><tbody>'+body+'</tbody></table>'+
       `<div class="ph" style="margin:14px 0 0">Recomputed live from the ${nB} selected buildings with per-unit rent data — toggle buildings in section 07 to update. $/SF annualized; CMPND co-living carries no Class-A rent rows.</div>`;
   }
@@ -2514,29 +2520,36 @@ function renderKPIs(){
   const units=m.reduce((s,b)=>s+(b.units||0),0);
   const at=aggByType(m);
   const liveTotal=at.All?at.All.count:0;
-  const rent=(t,lab)=>{const r=at[t]; if(!r) return {lab,v:'—',meta:'no listings'};
+  const NET=hasNet(), CONC=hasConc();
+  const rent=(t,base)=>{const r=at[t]; const lab=NET?base:base.replace('net-eff','asking');
+    if(!r) return {lab,v:'—',meta:'no listings'};
     const share=liveTotal?Math.round(r.count/liveTotal*100):0;
     const psf=v=>r.sf?'$'+(v*12/r.sf).toFixed(2):null;
     const g=psf(r.asking), n=psf(r.net);
-    if(t==='All'){
-      if(!n) return {lab,v:usd(r.net),meta:`market ${usd(r.asking)} · ${r.count} live units`};
-      return {lab,v:`${n}<span style="font-size:55%;font-weight:600">/SF</span>`,
+    if(t==='All'){   // headline $/SF card
+      if(NET&&n) return {lab,v:`${n}<span style="font-size:55%;font-weight:600">/SF</span>`,
         meta:`market ${g}/SF gross<br>${usd(r.net)} net · ${usd(r.asking)} market · ${r.count} live units`};
+      return {lab,v:g?`${g}<span style="font-size:55%;font-weight:600">/SF</span>`:'—',
+        meta:`asking $/SF · ${usd(r.asking)} avg rent · ${r.count} live units`};
     }
-    const sfLine = n ? `<br>${n}/SF net-eff · ${g}/SF gross` : '';
-    return {lab,v:usd(r.net),meta:`market ${usd(r.asking)} · ${share}% of avail${sfLine}`};};
+    if(NET&&r.net!=null){
+      const sfLine = n ? `<br>${n}/SF net-eff · ${g}/SF gross` : '';
+      return {lab,v:usd(r.net),meta:`market ${usd(r.asking)} · ${share}% of avail${sfLine}`};
+    }
+    return {lab,v:usd(r.asking),meta:`${g?g+'/SF · ':''}${share}% of avail`};};
   const topAvail=(()=>{const t=m.filter(b=>b.available_now!=null);if(!t.length)return null;return t.reduce((a,b)=>b.available_now>a.available_now?b:a);})();
   // building-level net-effective $/SF (annualized; composite across available units, falls back to asking)
   const _psf=m.map(b=>{const cp=compositeAll(b);const p=cp?(cp.net_psf!=null?cp.net_psf:cp.asking_psf):null;return p!=null?{b,p}:null;}).filter(Boolean);
   const hiPsf=_psf.length?_psf.reduce((a,x)=>x.p>a.p?x:a):null;
   const loPsf=_psf.length?_psf.reduce((a,x)=>x.p<a.p?x:a):null;
   // combined card: highest + lowest building net-eff $/SF
+  const psfLab=`${NET?'Net-eff':'Asking'} $/SF — high &amp; low`;
   const psfCard=(hiPsf&&loPsf)
-    ? `<div class="lab">Net-eff $/SF — high &amp; low</div>`+
+    ? `<div class="lab">${psfLab}</div>`+
       `<div style="display:flex;gap:20px;align-items:baseline;margin-top:2px;flex-wrap:wrap">`+
       `<div><span class="num" style="font-size:26px;font-weight:700">$${hiPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▲ ${shortName(hiPsf.b.name)}</div></div>`+
       `<div><span class="num" style="font-size:26px;font-weight:700">$${loPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▼ ${shortName(loPsf.b.name)}</div></div></div>`
-    : `<div class="lab">Net-eff $/SF — high &amp; low</div><div class="v num">—</div><div class="meta">no $/SF data yet</div>`;
+    : `<div class="lab">${psfLab}</div><div class="v num">—</div><div class="meta">no $/SF data yet</div>`;
   const cards=[
     {lab:'Buildings in market',v:m.length,meta:`of ${curBuildings().length} tracked`},
     {lab:'Units available now',v:avail.toLocaleString(),meta:'across in-market set',hot:true},
@@ -2547,10 +2560,12 @@ function renderKPIs(){
     rent('2BR','2BR net-eff rent'),
     rent('3BR','3BR net-eff rent'),
     rent('All','All-types net-eff $/SF'),
-    {raw:psfCard,hot:true},
-    {lab:'Avg concession',v:pct(mean(m.map(b=>b.concession_pct))),meta:'effective discount'},
-    {lab:'Offering concessions',v:`${m.filter(b=>b.concession_pct>0.005).length} / ${m.length}`,meta:'advertising free rent',hot:true}
+    {raw:psfCard,hot:true}
   ];
+  if(CONC){
+    cards.push({lab:'Avg concession',v:pct(mean(m.map(b=>b.concession_pct))),meta:'effective discount'});
+    cards.push({lab:'Offering concessions',v:`${m.filter(b=>b.concession_pct>0.005).length} / ${m.length}`,meta:'advertising free rent',hot:true});
+  }
   $('#kpiGrid').innerHTML=cards.map(c=>`<div class="kpi ${c.hot?'hot':''}">${c.raw||`<div class="lab">${c.lab}</div><div class="v num">${c.v}</div><div class="meta">${c.meta||''}</div>`}</div>`).join('');
 }
 const gridX={grid:{color:'rgba(33,28,21,.07)'},border:{display:false}};
@@ -2577,6 +2592,9 @@ function buildAvail(){
 }
 function buildConc(){
   const tEl=document.getElementById('concTitle');
+  const cpanel=document.getElementById('concPanel');
+  if(cpanel) cpanel.style.display = hasConc()?'':'none';   // hide when the market has no concessions
+  if(!hasConc()) return;
   if(isBroad()){
     const g=subGroups().map(x=>{
       const cs=x.builds.map(b=>b.concession_pct!=null?b.concession_pct:b.conc_derived_pct).filter(v=>v!=null);
