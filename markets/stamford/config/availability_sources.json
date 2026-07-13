@@ -12,27 +12,27 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "Infinity Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://www.infinityharborpoint.com/floorplans/",
+      "method": "wordpress_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "AJH WordPress floor-plan page (plain GET); floor-plan level + 'N units available' -> synthetic units."
     },
     {
       "building": "111 Harbor Point",
-      "url": null,
-      "method": "none",
+      "url": "https://111harborpoint.securecafe.com/onlineleasing/111-harbor-point/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits.aspx (per-unit); anti-bot, fetched via Zyte in CI."
     },
     {
       "building": "NV @ Harbor Point",
@@ -42,37 +42,37 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "Postmark",
-      "url": null,
-      "method": "none",
+      "url": "https://postmarkapts.securecafe.com/onlineleasing/postmark-apartments/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits.aspx (per-unit); anti-bot, fetched via Zyte in CI."
     },
     {
       "building": "Vault",
-      "url": null,
-      "method": "none",
+      "url": "https://vaultapts.securecafe.com/onlineleasing/the-vault-apartments/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits.aspx (per-unit); anti-bot, fetched via Zyte in CI."
     },
     {
       "building": "The Key at Yale & Towne",
-      "url": null,
-      "method": "none",
+      "url": "https://thekeystamford.securecafe.com/onlineleasing/the-key-at-yale-towne/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits.aspx (per-unit); anti-bot, fetched via Zyte in CI."
     },
     {
       "building": "Escape @ Harbor Point",
@@ -82,7 +82,7 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "Allure @ Harbor Point",
@@ -92,7 +92,7 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "Opus @ Harbor Point",
@@ -102,7 +102,7 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "Anthem @ Harbor Point",
@@ -112,37 +112,37 @@
       "portal_url": null,
       "api_endpoint": null,
       "status": "working",
-      "notes": "BLT AppFolio public listings (server HTML, plain GET); parsed + address-mapped in extractors.py PYFETCH."
+      "notes": "BLT AppFolio public listings (server HTML, plain GET); address-mapped in extractors.py."
     },
     {
       "building": "121 Towne",
-      "url": null,
-      "method": "none",
+      "url": "https://www.121towne.com/floorplans/",
+      "method": "wordpress_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-25; live availability source pending."
+      "status": "working",
+      "notes": "AJH WordPress floor-plan page (plain GET); floor-plan level + 'N units available' -> synthetic units."
     },
     {
       "building": "101 Park Place",
-      "url": null,
-      "method": "none",
+      "url": "https://www.101parkplace.com/floorplans/",
+      "method": "wordpress_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-07-10; live availability source pending."
+      "status": "working",
+      "notes": "AJH WordPress floor-plan page (plain GET); floor-plan level + 'N units available' -> synthetic units."
     },
     {
       "building": "Harbor Landing",
-      "url": null,
-      "method": "none",
+      "url": "https://hlandingapts.securecafe.com/onlineleasing/harbor-landing-1/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-07-10; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits.aspx (per-unit); anti-bot, fetched via Zyte in CI."
     }
   ]
 }

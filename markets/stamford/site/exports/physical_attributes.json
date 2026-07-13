@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:52:25+00:00",
+  "generated_at": "2026-07-13T14:02:41+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -83,6 +83,116 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1182
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "infinity_hp",
+      "name": "Infinity Harbor Point",
+      "total_units": 242,
+      "recorded": [
+        {
+          "unit": "A4-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 806
+        },
+        {
+          "unit": "T2-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1164
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "harbor_point_111",
+      "name": "111 Harbor Point",
+      "total_units": 228,
+      "recorded": [
+        {
+          "unit": "0101",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1436
+        },
+        {
+          "unit": "0111",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 764
+        },
+        {
+          "unit": "0325",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "0420",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "0513",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 764
+        },
+        {
+          "unit": "0522",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 755
+        },
+        {
+          "unit": "0714",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "0720",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 756
+        },
+        {
+          "unit": "0811",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1245
+        },
+        {
+          "unit": "1021",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 764
+        },
+        {
+          "unit": "1113",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 764
+        },
+        {
+          "unit": "1216",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 810
+        },
+        {
+          "unit": "1311",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1245
         }
       ],
       "plans": null,
@@ -285,6 +395,276 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 759
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "postmark",
+      "name": "Postmark",
+      "total_units": 402,
+      "recorded": [
+        {
+          "unit": "0452",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1365
+        },
+        {
+          "unit": "0565",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
+          "unit": "0570",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1244
+        },
+        {
+          "unit": "0656",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1045
+        },
+        {
+          "unit": "0666",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 838
+        },
+        {
+          "unit": "0675",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
+          "unit": "0762",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1049
+        },
+        {
+          "unit": "0763",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 785
+        },
+        {
+          "unit": "0801",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1188
+        },
+        {
+          "unit": "0805",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1271
+        },
+        {
+          "unit": "0809",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 838
+        },
+        {
+          "unit": "0867",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
+          "unit": "0907",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 838
+        },
+        {
+          "unit": "0965",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
+          "unit": "0975",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 754
+        },
+        {
+          "unit": "1007",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 830
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "total_units": 252,
+      "recorded": [
+        {
+          "unit": "227",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1029
+        },
+        {
+          "unit": "248",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "252",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 787
+        },
+        {
+          "unit": "314",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "316",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1029
+        },
+        {
+          "unit": "333",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "413",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "439",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "448",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "546",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "557",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "620",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 787
+        },
+        {
+          "unit": "624",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "625",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "638",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 580
+        },
+        {
+          "unit": "640",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 622
+        },
+        {
+          "unit": "654",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1029
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "the_key",
+      "name": "The Key at Yale & Towne",
+      "total_units": 107,
+      "recorded": [
+        {
+          "unit": "205",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 717
+        },
+        {
+          "unit": "318",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1045
+        },
+        {
+          "unit": "403",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 642
+        },
+        {
+          "unit": "411",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 717
+        },
+        {
+          "unit": "412",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 677
+        },
+        {
+          "unit": "416",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 781
+        },
+        {
+          "unit": "507",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 677
         }
       ],
       "plans": null,
@@ -913,6 +1293,102 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 797
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "towne_121",
+      "name": "121 Towne",
+      "total_units": 329,
+      "recorded": [
+        {
+          "unit": "The Lockwood-1",
+          "beds": 1,
+          "baths": 1.5,
+          "sqft": 1218
+        },
+        {
+          "unit": "The Medecco-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1226
+        },
+        {
+          "unit": "The Soref with Den-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1342
+        },
+        {
+          "unit": "The Tess-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 683
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "park_place_101",
+      "name": "101 Park Place",
+      "total_units": 336,
+      "recorded": [
+        {
+          "unit": "Atlantic-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "harbor_landing",
+      "name": "Harbor Landing",
+      "total_units": 218,
+      "recorded": [
+        {
+          "unit": "102",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1181
+        },
+        {
+          "unit": "202",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1181
+        },
+        {
+          "unit": "242",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
+        },
+        {
+          "unit": "315",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1243
+        },
+        {
+          "unit": "331",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1203
+        },
+        {
+          "unit": "G09",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
         }
       ],
       "plans": null,
