@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:55:35+00:00",
+  "generated_at": "2026-07-15T13:02:29+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -169,6 +169,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1245
+        },
+        {
+          "unit": "1019",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
         },
         {
           "unit": "1021",
@@ -519,6 +525,12 @@
       "total_units": 252,
       "recorded": [
         {
+          "unit": "111",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1042
+        },
+        {
           "unit": "227",
           "beds": 2,
           "baths": 2.0,
@@ -535,6 +547,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 787
+        },
+        {
+          "unit": "253",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
         },
         {
           "unit": "314",
@@ -580,6 +598,12 @@
         },
         {
           "unit": "546",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "547",
           "beds": 1,
           "baths": 1.0,
           "sqft": 684
@@ -1401,6 +1425,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1203
+        },
+        {
+          "unit": "454",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
         },
         {
           "unit": "G09",
