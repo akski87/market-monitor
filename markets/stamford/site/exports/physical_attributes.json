@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T13:10:03+00:00",
+  "generated_at": "2026-07-17T12:51:55+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -127,6 +127,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 764
+        },
+        {
+          "unit": "0219",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
         },
         {
           "unit": "0325",
@@ -797,6 +803,12 @@
           "sqft": 746
         },
         {
+          "unit": "1901",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
+        },
+        {
           "unit": "2256",
           "beds": 1,
           "baths": 1.0,
@@ -1378,6 +1390,12 @@
         },
         {
           "unit": "The Tess-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 683
+        },
+        {
+          "unit": "The Tess-2",
           "beds": 1,
           "baths": 1.0,
           "sqft": 683
