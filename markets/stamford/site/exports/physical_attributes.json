@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:40:11+00:00",
+  "generated_at": "2026-07-20T13:34:58+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -504,6 +504,12 @@
         },
         {
           "unit": "0965",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
+          "unit": "0969",
           "beds": 1,
           "baths": 1.0,
           "sqft": 760
