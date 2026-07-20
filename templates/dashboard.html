@@ -2173,15 +2173,17 @@ function buildTrend(){
   const labels=H.map(h=>h.date);
   const ask1=H.map(h=>h.all_asking!=null?h.all_asking:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].asking:null));
   const net1=H.map(h=>h.all_net!=null?h.all_net:(h.by_type&&h.by_type['1BR']?h.by_type['1BR'].net:null));
-  mk('trendChart',{data:{labels,datasets:[
+  const NET=hasNet();
+  const _tds=[
     {type:'bar',label:'Total available',data:H.map(h=>h.total_available),backgroundColor:'rgba(46,90,94,.4)',yAxisID:'y',order:3,maxBarThickness:40},
-    {type:'line',label:'All-types asking',data:ask1,borderColor:C.teal,backgroundColor:C.teal,borderWidth:2.5,tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:1},
-    {type:'line',label:'All-types net-eff',data:net1,borderColor:C.rust,backgroundColor:C.rust,borderWidth:2.5,borderDash:[5,4],tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:2}]},
+    {type:'line',label:NET?'All-types asking':'All-types rent',data:ask1,borderColor:C.teal,backgroundColor:C.teal,borderWidth:2.5,tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:1}];
+  if(NET) _tds.push({type:'line',label:'All-types net-eff',data:net1,borderColor:C.rust,backgroundColor:C.rust,borderWidth:2.5,borderDash:[5,4],tension:.3,pointRadius:H.length<2?5:0,pointHoverRadius:6,yAxisID:'y1',order:2});
+  mk('trendChart',{data:{labels,datasets:_tds},
     options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{boxWidth:12,boxHeight:12,padding:14}},
       tooltip:{callbacks:{label:c=>' '+c.dataset.label+': '+(c.dataset.yAxisID==='y1'?usd(c.parsed.y):c.parsed.y+' units')}}},
       scales:{x:{grid:{display:false},border:{display:false}},
         y:{position:'left',grid:{color:'rgba(33,28,21,.07)'},border:{display:false},title:{display:true,text:'available',color:C.ink2,font:{size:11}}},
-        y1:{position:'right',grid:{display:false},border:{display:false},title:{display:true,text:'1BR rent',color:C.ink2,font:{size:11}},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
+        y1:{position:'right',grid:{display:false},border:{display:false},title:{display:true,text:NET?'1BR rent':'rent',color:C.ink2,font:{size:11}},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}}});
 }
 const barLabels={id:'barLabels',afterDatasetsDraw(ch){
   const hasV=ch.data.datasets.some(d=>d.barLabels), hasH=ch.data.datasets.some(d=>d.hLabels);
