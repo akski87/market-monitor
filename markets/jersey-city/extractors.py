@@ -353,6 +353,7 @@ _SC2 = {
     "the_agnes": "https://ironstate.securecafe.com/onlineleasing/the-agnes/availableunits.aspx",
     "the_devan": "https://ironstate.securecafe.com/onlineleasing/devan-propco-llc/availableunits.aspx",
     "sawyer": "https://sawyerjerseycity.securecafe.com/onlineleasing/sawyer0/availableunits.aspx",
+    "oliver_hudson": "https://oliveronthehudson.securecafe.com/onlineleasing/oliver-on-the-hudson/availableunits.aspx",
 }
 
 # VYV North & South share ONE availableunits feed (unit ids N-xxxx / S-xxxx); split by prefix.
@@ -412,6 +413,11 @@ _RCM = {
     "garfield_829": "https://www.rentcafe.com/apartments/nj/jersey-city/829-garfield/default.aspx",
     "cityline_east": "https://www.rentcafe.com/apartments/nj/jersey-city/cityline-jersey-city-east/default.aspx",
     "cityline_west": "https://www.rentcafe.com/apartments/nj/jersey-city/city-line-jersey-city-west/default.aspx",
+    "radio_lofts": "https://www.rentcafe.com/apartments/nj/jersey-city/radio-lofts-at-hudson-house/default.aspx",
+    "one_grove": "https://www.rentcafe.com/apartments/nj/jersey-city/one-grove/default.aspx",
+    "dvora_175": "https://www.rentcafe.com/apartments/nj/jersey-city/dvora-175-second/default.aspx",
+    "grand_235": "https://www.rentcafe.com/apartments/nj/jersey-city/235-grand/default.aspx",
+    "j_295": "https://www.rentcafe.com/apartments/nj/jersey-city/295j-apartments/default.aspx",
 }
 
 def _parse_rcm(h):

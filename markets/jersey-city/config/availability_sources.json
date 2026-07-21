@@ -275,13 +275,13 @@
     },
     {
       "building": "Radio Lofts",
-      "url": null,
-      "method": "none",
+      "url": "https://www.rentcafe.com/apartments/nj/jersey-city/radio-lofts-at-hudson-house/default.aspx",
+      "method": "rentcafe_mirror_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "RentCafe .com ILS mirror via Zyte; floor-plan level (starting rents)."
     },
     {
       "building": "Hudson House East",
@@ -305,13 +305,13 @@
     },
     {
       "building": "One Grove",
-      "url": null,
-      "method": "none",
+      "url": "https://www.rentcafe.com/apartments/nj/jersey-city/one-grove/default.aspx",
+      "method": "rentcafe_mirror_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "RentCafe .com ILS mirror via Zyte; floor-plan level (starting rents)."
     },
     {
       "building": "Haus25",
@@ -435,23 +435,23 @@
     },
     {
       "building": "DVORA 175",
-      "url": null,
-      "method": "none",
+      "url": "https://www.rentcafe.com/apartments/nj/jersey-city/dvora-175-second/default.aspx",
+      "method": "rentcafe_mirror_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "RentCafe .com ILS mirror via Zyte; floor-plan level (starting rents)."
     },
     {
       "building": "235 Grand",
-      "url": null,
-      "method": "none",
+      "url": "https://www.rentcafe.com/apartments/nj/jersey-city/235-grand/default.aspx",
+      "method": "rentcafe_mirror_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "RentCafe .com ILS mirror via Zyte; floor-plan level (starting rents)."
     },
     {
       "building": "Sable",
@@ -505,13 +505,13 @@
     },
     {
       "building": "295J",
-      "url": null,
-      "method": "none",
+      "url": "https://www.rentcafe.com/apartments/nj/jersey-city/295j-apartments/default.aspx",
+      "method": "rentcafe_mirror_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "RentCafe .com ILS mirror via Zyte; floor-plan level (starting rents)."
     },
     {
       "building": "Verde",
@@ -615,13 +615,13 @@
     },
     {
       "building": "Oliver on the Hudson",
-      "url": null,
-      "method": "none",
+      "url": "https://oliveronthehudson.securecafe.com/onlineleasing/oliver-on-the-hudson/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "Yardi SecureCafe availableunits via Zyte; per-unit."
     }
   ]
 }
