@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-07-20",
-  "generated_at": "2026-07-21T02:15:03+00:00",
+  "as_of": "2026-07-21",
+  "generated_at": "2026-07-21T13:22:05+00:00",
   "units": [
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-1",
@@ -21,7 +21,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-2",
@@ -39,25 +39,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
-      "building": "111 Harbor Point",
-      "in_market": 1,
-      "unit": "0111",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 764,
-      "asking_rent": 2567.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0219",
@@ -75,7 +57,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0325",
@@ -93,7 +75,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0420",
@@ -111,7 +93,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0522",
@@ -129,7 +111,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0714",
@@ -147,7 +129,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0720",
@@ -165,7 +147,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "1019",
@@ -183,7 +165,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "1021",
@@ -201,7 +183,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "1113",
@@ -219,7 +201,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "1216",
@@ -237,7 +219,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0101",
@@ -255,7 +237,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "0811",
@@ -273,7 +255,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "111 Harbor Point",
       "in_market": 1,
       "unit": "1311",
@@ -291,7 +273,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Lockwood-1",
@@ -309,7 +291,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Tess-1",
@@ -327,7 +309,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Tess-2",
@@ -345,7 +327,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Medecco-1",
@@ -363,7 +345,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Soref with Den-1",
@@ -381,7 +363,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Hobbs-1",
@@ -399,7 +381,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1154",
@@ -417,7 +399,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1355",
@@ -435,7 +417,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1405",
@@ -453,7 +435,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1505",
@@ -471,7 +453,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1653",
@@ -489,7 +471,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1755",
@@ -507,7 +489,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1854",
@@ -525,7 +507,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2054",
@@ -543,7 +525,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2057",
@@ -561,7 +543,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "421",
@@ -579,7 +561,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "443",
@@ -597,7 +579,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "506",
@@ -615,7 +597,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "753",
@@ -633,7 +615,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "755",
@@ -651,7 +633,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "762",
@@ -669,7 +651,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1051",
@@ -687,7 +669,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1203",
@@ -705,7 +687,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "121",
@@ -723,7 +705,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "126",
@@ -741,7 +723,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1261",
@@ -759,7 +741,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1361",
@@ -777,7 +759,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1461",
@@ -795,7 +777,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1507",
@@ -813,7 +795,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1508",
@@ -831,7 +813,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "152",
@@ -849,7 +831,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1552",
@@ -867,7 +849,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1661",
@@ -885,7 +867,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1662",
@@ -903,7 +885,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1803",
@@ -921,7 +903,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2",
@@ -939,7 +921,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2004",
@@ -957,7 +939,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2005",
@@ -975,7 +957,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2052",
@@ -993,7 +975,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "208",
@@ -1011,7 +993,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2104",
@@ -1029,7 +1011,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2203",
@@ -1047,7 +1029,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "507",
@@ -1065,7 +1047,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "561",
@@ -1083,7 +1065,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "607",
@@ -1101,7 +1083,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "861",
@@ -1119,7 +1101,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1302",
@@ -1137,7 +1119,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1602",
@@ -1155,7 +1137,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "403",
@@ -1173,7 +1155,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1109",
@@ -1191,7 +1173,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1206",
@@ -1209,7 +1191,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1212",
@@ -1227,7 +1209,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "302",
@@ -1245,7 +1227,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "325",
@@ -1263,7 +1245,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "326",
@@ -1281,7 +1263,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "705",
@@ -1299,7 +1281,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "710",
@@ -1317,7 +1299,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "808",
@@ -1335,7 +1317,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "812",
@@ -1353,7 +1335,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1114",
@@ -1371,7 +1353,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1513",
@@ -1389,7 +1371,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1601",
@@ -1407,7 +1389,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "601",
@@ -1425,7 +1407,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "701",
@@ -1443,7 +1425,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "702",
@@ -1461,7 +1443,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "802",
@@ -1713,7 +1695,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1104",
@@ -1731,7 +1713,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1155",
@@ -1749,7 +1731,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1206",
@@ -1767,7 +1749,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1304",
@@ -1785,7 +1767,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1405",
@@ -1803,7 +1785,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1556",
@@ -1821,7 +1803,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1658",
@@ -1839,7 +1821,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1806",
@@ -1857,7 +1839,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "2256",
@@ -1875,7 +1857,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "608",
@@ -1893,7 +1875,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "654",
@@ -1911,7 +1893,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "712",
@@ -1929,7 +1911,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1212",
@@ -1947,7 +1929,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1552",
@@ -1965,7 +1947,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "156",
@@ -1983,7 +1965,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1609",
@@ -2001,7 +1983,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1751",
@@ -2019,7 +2001,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1759",
@@ -2037,7 +2019,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1901",
@@ -2055,7 +2037,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "602",
@@ -2073,7 +2055,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "702",
@@ -2091,7 +2073,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "902",
@@ -2109,7 +2091,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "242",
@@ -2127,7 +2109,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "454",
@@ -2145,7 +2127,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "G09",
@@ -2163,7 +2145,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "202",
@@ -2181,7 +2163,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "315",
@@ -2199,7 +2181,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "331",
@@ -2217,7 +2199,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Harbor Landing",
       "in_market": 1,
       "unit": "421",
@@ -2235,7 +2217,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "T2-1",
@@ -2253,7 +2235,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1059",
@@ -2271,7 +2253,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1159",
@@ -2289,7 +2271,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1254",
@@ -2307,7 +2289,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1307",
@@ -2325,7 +2307,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1312",
@@ -2343,7 +2325,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1354",
@@ -2361,7 +2343,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1451",
@@ -2379,7 +2361,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1503",
@@ -2397,7 +2379,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1509",
@@ -2415,7 +2397,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1554",
@@ -2433,7 +2415,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1610",
@@ -2451,7 +2433,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1612",
@@ -2469,7 +2451,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1656",
@@ -2487,7 +2469,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1659",
@@ -2505,7 +2487,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "417",
@@ -2523,7 +2505,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "517",
@@ -2541,7 +2523,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "709",
@@ -2559,7 +2541,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "107",
@@ -2577,7 +2559,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "112",
@@ -2595,7 +2577,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1261",
@@ -2613,7 +2595,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1458",
@@ -2631,7 +2613,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1611",
@@ -2649,7 +2631,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "303",
@@ -2667,7 +2649,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "305",
@@ -2685,7 +2667,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "520",
@@ -2703,7 +2685,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "522",
@@ -2721,7 +2703,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "125",
@@ -2739,7 +2721,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "1305",
@@ -2757,7 +2739,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "224",
@@ -2775,7 +2757,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "227",
@@ -2793,7 +2775,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "304",
@@ -2811,7 +2793,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "404",
@@ -2829,7 +2811,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "409",
@@ -2847,7 +2829,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "410",
@@ -2865,7 +2847,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "401",
@@ -2883,7 +2865,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "901",
@@ -2901,7 +2883,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0565",
@@ -2919,7 +2901,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0666",
@@ -2937,7 +2919,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0675",
@@ -2955,7 +2937,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0763",
@@ -2973,7 +2955,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0809",
@@ -2991,7 +2973,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0867",
@@ -3009,7 +2991,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0907",
@@ -3027,7 +3009,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0965",
@@ -3045,7 +3027,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0969",
@@ -3063,7 +3045,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0975",
@@ -3081,7 +3063,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "1007",
@@ -3099,7 +3081,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0452",
@@ -3117,7 +3099,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0656",
@@ -3135,7 +3117,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0762",
@@ -3153,7 +3135,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0801",
@@ -3171,7 +3153,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "Postmark",
       "in_market": 1,
       "unit": "0805",
@@ -3189,7 +3171,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "205",
@@ -3207,7 +3189,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "403",
@@ -3225,7 +3207,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "411",
@@ -3243,7 +3225,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "412",
@@ -3261,7 +3243,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "416",
@@ -3279,7 +3261,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "507",
@@ -3297,7 +3279,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-07-20",
+      "snapshot_date": "2026-07-21",
       "building": "The Key at Yale & Towne",
       "in_market": 1,
       "unit": "222",
