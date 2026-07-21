@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:17:30+00:00",
+  "generated_at": "2026-07-21T01:40:28+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -5717,6 +5717,42 @@
           "sqft": 1003
         },
         {
+          "unit": "fp11",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 835
+        },
+        {
+          "unit": "fp12",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1003
+        },
+        {
+          "unit": "fp13",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1120
+        },
+        {
+          "unit": "fp14",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1133
+        },
+        {
+          "unit": "fp15",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1245
+        },
+        {
+          "unit": "fp16",
+          "beds": 2,
+          "baths": 2.5,
+          "sqft": 1349
+        },
+        {
           "unit": "fp2",
           "beds": 1,
           "baths": 1.0,
@@ -5770,6 +5806,122 @@
       "lines": null
     },
     {
+      "id": "marin_351",
+      "name": "351 Marin",
+      "total_units": 507,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp3",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "house_100",
+      "name": "100 House",
+      "total_units": 137,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp10",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp11",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp12",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp13",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp2",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp3",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp4",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp5",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp6",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp7",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp8",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp9",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "the_enclave",
       "name": "The Enclave",
       "total_units": 260,
@@ -5779,6 +5931,48 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 664
+        },
+        {
+          "unit": "fp10",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1097
+        },
+        {
+          "unit": "fp11",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1102
+        },
+        {
+          "unit": "fp12",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1241
+        },
+        {
+          "unit": "fp13",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1253
+        },
+        {
+          "unit": "fp14",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1325
+        },
+        {
+          "unit": "fp15",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1140
+        },
+        {
+          "unit": "fp16",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1091
         },
         {
           "unit": "fp2",
@@ -5812,6 +6006,18 @@
         },
         {
           "unit": "fp7",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 825
+        },
+        {
+          "unit": "fp8",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 867
+        },
+        {
+          "unit": "fp9",
           "beds": 1,
           "baths": 1.0,
           "sqft": 825
@@ -6772,6 +6978,34 @@
       "lines": null
     },
     {
+      "id": "garfield_829",
+      "name": "829 Garfield",
+      "total_units": 110,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 973
+        },
+        {
+          "unit": "fp2",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1247
+        },
+        {
+          "unit": "fp3",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 919
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "birch_house",
       "name": "Birch House",
       "total_units": 337,
@@ -6953,6 +7187,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 696
+        },
+        {
+          "unit": "fp7",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1059
         }
       ],
       "plans": null,
@@ -6978,6 +7218,12 @@
         },
         {
           "unit": "fp3",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 986
+        },
+        {
+          "unit": "fp4",
           "beds": 2,
           "baths": 1.0,
           "sqft": 986

@@ -891,6 +891,12 @@ Bisby,BIS3007,1,1.0,780
 Bisby,BIS3204,2,2.0,1080
 Haus25,fp1,1,1.0,675
 Haus25,fp10,2,1.0,1003
+Haus25,fp11,1,1.0,835
+Haus25,fp12,2,1.0,1003
+Haus25,fp13,2,2.0,1120
+Haus25,fp14,2,2.0,1133
+Haus25,fp15,2,2.0,1245
+Haus25,fp16,2,2.5,1349
 Haus25,fp2,1,1.0,685
 Haus25,fp3,1,1.0,809
 Haus25,fp4,0,1.0,475
@@ -899,13 +905,38 @@ Haus25,fp6,0,1.0,575
 Haus25,fp7,1,1.0,744
 Haus25,fp8,1,1.0,847
 Haus25,fp9,1,1.0,835
+351 Marin,fp1,0,1.0,
+351 Marin,fp2,1,1.0,
+351 Marin,fp3,2,2.0,
+100 House,fp1,0,1.0,
+100 House,fp10,2,2.0,
+100 House,fp11,2,2.0,
+100 House,fp12,2,2.0,
+100 House,fp13,2,2.0,
+100 House,fp2,0,1.0,
+100 House,fp3,1,1.0,
+100 House,fp4,1,1.0,
+100 House,fp5,2,2.0,
+100 House,fp6,2,2.0,
+100 House,fp7,1,1.0,
+100 House,fp8,1,1.0,
+100 House,fp9,1,1.0,
 The Enclave,fp1,1,1.0,664
+The Enclave,fp10,2,2.0,1097
+The Enclave,fp11,2,2.0,1102
+The Enclave,fp12,2,2.0,1241
+The Enclave,fp13,2,2.0,1253
+The Enclave,fp14,2,2.0,1325
+The Enclave,fp15,2,2.0,1140
+The Enclave,fp16,2,2.0,1091
 The Enclave,fp2,1,1.0,695
 The Enclave,fp3,1,1.0,700
 The Enclave,fp4,1,1.0,735
 The Enclave,fp5,1,1.0,810
 The Enclave,fp6,1,1.0,867
 The Enclave,fp7,1,1.0,825
+The Enclave,fp8,1,1.0,867
+The Enclave,fp9,1,1.0,825
 VYV South Tower,S-0256,1,1.0,787
 VYV South Tower,S-0451,1,1.0,841
 VYV South Tower,S-0453,1,1.0,733
@@ -1056,6 +1087,9 @@ Atlas,2201,1,1.0,
 Atlas,2203,1,1.0,
 Atlas,2304,3,2.0,
 Atlas,2305,1,1.0,
+829 Garfield,fp1,2,2.0,973
+829 Garfield,fp2,3,2.0,1247
+829 Garfield,fp3,2,2.0,919
 Birch House,106,1,1.0,
 Birch House,211,2,2.0,
 Birch House,219,1,1.0,
@@ -1084,9 +1118,11 @@ CityLine East,fp3,0,1.0,513
 CityLine East,fp4,1,1.0,660
 CityLine East,fp5,1,1.0,801
 CityLine East,fp6,1,1.0,696
+CityLine East,fp7,2,2.0,1059
 CityLine West,fp1,1,1.0,670
 CityLine West,fp2,1,1.0,665
 CityLine West,fp3,2,1.0,986
+CityLine West,fp4,2,1.0,986
 The Agnes,111,1,1.0,
 The Agnes,113,1,1.0,
 The Agnes,116,1,1.0,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:17:30+00:00",
+  "generated_at": "2026-07-21T01:40:28+00:00",
   "as_of": "2026-07-20",
   "buildings": [
     {
@@ -21,13 +21,53 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": null,
+      "available_now": 13,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "1BR": {
+          "count": 5,
+          "asking_avg": 3259,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 3070,
+          "asking_max": 3385,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "2BR": {
+          "count": 6,
+          "asking_avg": 4320,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 4155,
+          "asking_max": 4545,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2782,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 2680,
+          "asking_max": 2885,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
     },
     {
       "id": "baldwin_134",
@@ -319,13 +359,53 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": null,
+      "available_now": 3,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "1BR": {
+          "count": 1,
+          "asking_avg": 4080,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 4080,
+          "asking_max": 4080,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 6150,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 6150,
+          "asking_max": 6150,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        },
+        "Studio": {
+          "count": 1,
+          "asking_avg": 3435,
+          "net_avg": null,
+          "sqft_avg": null,
+          "asking_min": 3435,
+          "asking_max": 3435,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": null,
+          "net_psf": null,
+          "psf_n": 0
+        }
+      }
     },
     {
       "id": "summit_413",
@@ -414,25 +494,25 @@
       "method": "dom_read",
       "source_url": "https://www.505summit.com/availability",
       "portal_url": null,
-      "available_now": 15,
+      "available_now": 13,
       "concession_text": "GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*",
       "concession_pct": 0.1042,
-      "conc_derived_pct": 0.1263,
+      "conc_derived_pct": 0.1261,
       "submarket": "journal-square",
       "as_of": "2026-07-20",
       "by_type": {
         "1BR": {
-          "count": 7,
-          "asking_avg": 4063,
-          "net_avg": 3506,
-          "sqft_avg": 659,
+          "count": 6,
+          "asking_avg": 4054,
+          "net_avg": 3498,
+          "sqft_avg": 669,
           "asking_min": 3846,
           "asking_max": 4191,
           "net_min": 3316,
           "net_max": 3618,
-          "asking_psf": 74.34,
-          "net_psf": 64.15,
-          "psf_n": 7
+          "asking_psf": 73.01,
+          "net_psf": 63.0,
+          "psf_n": 6
         },
         "2BR": {
           "count": 2,
@@ -448,17 +528,17 @@
           "psf_n": 2
         },
         "Studio": {
-          "count": 6,
-          "asking_avg": 3571,
-          "net_avg": 3149,
-          "sqft_avg": 527,
-          "asking_min": 3446,
+          "count": 5,
+          "asking_avg": 3596,
+          "net_avg": 3171,
+          "sqft_avg": 543,
+          "asking_min": 3536,
           "asking_max": 3706,
-          "net_min": 3037,
+          "net_min": 3118,
           "net_max": 3270,
-          "asking_psf": 82.88,
-          "net_psf": 73.09,
-          "psf_n": 6
+          "asking_psf": 80.92,
+          "net_psf": 71.37,
+          "psf_n": 5
         }
       }
     },
@@ -563,7 +643,7 @@
       "address": "829 Garfield Ave, Jersey City, NJ 07305",
       "lat": 40.707245,
       "lng": -74.073116,
-      "phys_recorded": 0,
+      "phys_recorded": 3,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -575,13 +655,40 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": null,
+      "available_now": 3,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "bergen-lafayette",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "2BR": {
+          "count": 2,
+          "asking_avg": 2925,
+          "net_avg": null,
+          "sqft_avg": 946,
+          "asking_min": 2800,
+          "asking_max": 3050,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 37.18,
+          "net_psf": null,
+          "psf_n": 2
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 3300,
+          "net_avg": null,
+          "sqft_avg": 1247,
+          "asking_min": 3300,
+          "asking_max": 3300,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 31.76,
+          "net_psf": null,
+          "psf_n": 1
+        }
+      }
     },
     {
       "id": "regent_88",
@@ -898,7 +1005,7 @@
       "address": "15 Carbon Pl, Jersey City, NJ 07305",
       "lat": 40.712363,
       "lng": -74.093341,
-      "phys_recorded": 6,
+      "phys_recorded": 7,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -910,7 +1017,7 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": 6,
+      "available_now": 7,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -929,6 +1036,19 @@
           "asking_psf": 39.23,
           "net_psf": null,
           "psf_n": 3
+        },
+        "2BR": {
+          "count": 1,
+          "asking_avg": 3259,
+          "net_avg": null,
+          "sqft_avg": 1059,
+          "asking_min": 3259,
+          "asking_max": 3259,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 36.93,
+          "net_psf": null,
+          "psf_n": 1
         },
         "Studio": {
           "count": 3,
@@ -952,7 +1072,7 @@
       "address": "33 University Place Blvd, Jersey City, NJ 07305",
       "lat": 40.712725,
       "lng": -74.09569,
-      "phys_recorded": 3,
+      "phys_recorded": 4,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -964,7 +1084,7 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": 3,
+      "available_now": 4,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -985,17 +1105,17 @@
           "psf_n": 2
         },
         "2BR": {
-          "count": 1,
-          "asking_avg": 3128,
+          "count": 2,
+          "asking_avg": 3005,
           "net_avg": null,
-          "sqft_avg": 986,
-          "asking_min": 3128,
+          "sqft_avg": 964,
+          "asking_min": 2882,
           "asking_max": 3128,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 38.07,
+          "asking_psf": 37.41,
           "net_psf": null,
-          "psf_n": 1
+          "psf_n": 2
         }
       }
     },
@@ -1100,7 +1220,7 @@
       "address": "25 Christopher Columbus Dr, Jersey City, NJ 07302",
       "lat": 40.717515,
       "lng": -74.038117,
-      "phys_recorded": 10,
+      "phys_recorded": 16,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -1112,7 +1232,7 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": 10,
+      "available_now": 16,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -1133,15 +1253,28 @@
           "psf_n": 6
         },
         "2BR": {
-          "count": 1,
-          "asking_avg": 6860,
+          "count": 6,
+          "asking_avg": 8331,
           "net_avg": null,
-          "sqft_avg": 1003,
+          "sqft_avg": 1169,
           "asking_min": 6860,
-          "asking_max": 6860,
+          "asking_max": 10200,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 82.07,
+          "asking_psf": 85.45,
+          "net_psf": null,
+          "psf_n": 6
+        },
+        "3BR": {
+          "count": 1,
+          "asking_avg": 12450,
+          "net_avg": null,
+          "sqft_avg": 1411,
+          "asking_min": 12450,
+          "asking_max": 12450,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 105.88,
           "net_psf": null,
           "psf_n": 1
         },
@@ -1974,7 +2107,7 @@
       "address": "675 Monmouth St, Jersey City, NJ 07310",
       "lat": 40.734323,
       "lng": -74.048211,
-      "phys_recorded": 7,
+      "phys_recorded": 16,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -1986,7 +2119,7 @@
       "method": "rentcafe_mirror_zyte",
       "source_url": null,
       "portal_url": null,
-      "available_now": 7,
+      "available_now": 16,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -2005,6 +2138,19 @@
           "asking_psf": 53.83,
           "net_psf": null,
           "psf_n": 7
+        },
+        "2BR": {
+          "count": 9,
+          "asking_avg": 4398,
+          "net_avg": null,
+          "sqft_avg": 1163,
+          "asking_min": 4140,
+          "asking_max": 4665,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 45.54,
+          "net_psf": null,
+          "psf_n": 9
         }
       }
     },
@@ -3508,18 +3654,18 @@
     },
     {
       "date": "2026-07-20",
-      "total_available": 488,
+      "total_available": 522,
       "by_type": {
         "1BR": {
-          "asking": 3694.0,
+          "asking": 3686.0,
           "net": 3558.0
         },
         "2BR": {
-          "asking": 5087.0,
+          "asking": 5084.0,
           "net": 5413.0
         },
         "3BR": {
-          "asking": 7292.0,
+          "asking": 7360.0,
           "net": 6026.0
         },
         "4BR": {
@@ -3527,13 +3673,13 @@
           "net": null
         },
         "Studio": {
-          "asking": 3064.0,
-          "net": 2933.0
+          "asking": 3060.0,
+          "net": 2931.0
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3934.0,
-      "all_net": 3650.0
+      "all_asking": 3993.0,
+      "all_net": 3656.0
     }
   ],
   "unit_mix": [
@@ -3740,33 +3886,30 @@
     },
     {
       "t": "1BR",
-      "n": 435,
-      "avg_sqft": 706.0,
+      "n": 438,
+      "avg_sqft": 707.0,
       "min_sqft": 523,
       "max_sqft": 965
     },
     {
       "t": "2BR",
-      "n": 149,
-      "avg_sqft": 1027.0,
+      "n": 165,
+      "avg_sqft": 1036.0,
       "min_sqft": 805,
       "max_sqft": 1415
     },
     {
       "t": "3BR",
-      "n": 29,
-      "avg_sqft": 1323.0,
+      "n": 30,
+      "avg_sqft": 1320.0,
       "min_sqft": 892,
       "max_sqft": 1701
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-21T01:17:30+00:00",
+    "checked_at": "2026-07-21T01:40:28+00:00",
     "errors": [],
     "warnings": [
-      "829 Garfield: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "100 House: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "351 Marin: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
       "One Ten: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
