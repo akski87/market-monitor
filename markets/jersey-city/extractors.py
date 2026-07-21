@@ -417,10 +417,13 @@ _RCM = {
 def _parse_rcm(h):
     txt = _H2.unescape(_re2.sub(r"\s+", " ", _re2.sub(r"<[^>]+>", " ", h)))
     out = []
-    for i, m in enumerate(_re2.finditer(r'(Studio|\d+)\s*(?:Bed|Beds)?\s*/\s*([\d.]+)\s*Bath\s*/\s*([\d,]+)\s*Sqft\s*\$([\d,]+)', txt, _re2.I)):
+    # Floor-plan header rows. Sqft is optional and may be a range ("879 - 973 Sqft");
+    # baths may be plural ("2 Baths"). Rent = the plan's starting (low) figure.
+    pat = r'(Studio|\d+)\s*(?:Bed|Beds)?\s*/\s*([\d.]+)\s*Baths?\s*(?:/\s*(?:[\d,]+\s*-\s*)?([\d,]+)\s*Sq\w*\.?\s*)?\$([\d,]+)'
+    for i, m in enumerate(_re2.finditer(pat, txt, _re2.I)):
         b, ba, sf, rent = m.groups()
         out.append({"unit": f"fp{i+1}", "beds": 0 if b.lower() == "studio" else int(b),
-                    "baths": float(ba), "sqft": int(sf.replace(",", "")),
+                    "baths": float(ba), "sqft": int(sf.replace(",", "")) if sf else None,
                     "asking_rent": int(rent.replace(",", "")), "price_basis": "asking", "available_date": None})
     return out
 
