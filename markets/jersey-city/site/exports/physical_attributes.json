@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T00:45:37+00:00",
+  "generated_at": "2026-07-21T01:17:30+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -5700,6 +5700,348 @@
       "lines": null
     },
     {
+      "id": "haus25",
+      "name": "Haus25",
+      "total_units": 750,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 675
+        },
+        {
+          "unit": "fp10",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1003
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
+        },
+        {
+          "unit": "fp3",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 809
+        },
+        {
+          "unit": "fp4",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 475
+        },
+        {
+          "unit": "fp5",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 478
+        },
+        {
+          "unit": "fp6",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 575
+        },
+        {
+          "unit": "fp7",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 744
+        },
+        {
+          "unit": "fp8",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 847
+        },
+        {
+          "unit": "fp9",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 835
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "the_enclave",
+      "name": "The Enclave",
+      "total_units": 260,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 664
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 695
+        },
+        {
+          "unit": "fp3",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 700
+        },
+        {
+          "unit": "fp4",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 735
+        },
+        {
+          "unit": "fp5",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 810
+        },
+        {
+          "unit": "fp6",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 867
+        },
+        {
+          "unit": "fp7",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 825
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "vyv_south",
+      "name": "VYV South Tower",
+      "total_units": 432,
+      "recorded": [
+        {
+          "unit": "S-0256",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 787
+        },
+        {
+          "unit": "S-0451",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
+          "unit": "S-0453",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "S-0455",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 722
+        },
+        {
+          "unit": "S-0655",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 722
+        },
+        {
+          "unit": "S-0658",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 815
+        },
+        {
+          "unit": "S-0659",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 699
+        },
+        {
+          "unit": "S-0755",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 722
+        },
+        {
+          "unit": "S-0758",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 815
+        },
+        {
+          "unit": "S-0953",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "S-0955",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 703
+        },
+        {
+          "unit": "S-1059",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "S-1061",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 734
+        },
+        {
+          "unit": "S-1155",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 703
+        },
+        {
+          "unit": "S-1262",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 965
+        },
+        {
+          "unit": "S-1361",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 734
+        },
+        {
+          "unit": "S-1655",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 703
+        },
+        {
+          "unit": "S-1659",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "S-1853",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "S-1859",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "S-2061",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 734
+        },
+        {
+          "unit": "S-2159",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "S-2161",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 734
+        },
+        {
+          "unit": "S-2857",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1210
+        },
+        {
+          "unit": "S-2953",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 733
+        },
+        {
+          "unit": "S-3059",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "S-3150",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 757
+        },
+        {
+          "unit": "S-3152",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 708
+        },
+        {
+          "unit": "S-3255",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 703
+        },
+        {
+          "unit": "S-3256",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 528
+        },
+        {
+          "unit": "S-3350",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 757
+        },
+        {
+          "unit": "S-3455",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 703
+        },
+        {
+          "unit": "S-3460",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1179
+        },
+        {
+          "unit": "S-3556",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 528
+        },
+        {
+          "unit": "S-3558",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 769
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "vyv_north",
       "name": "VYV North Tower",
       "total_units": 421,
@@ -5895,6 +6237,268 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1084
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "sable",
+      "name": "Sable",
+      "total_units": 762,
+      "recorded": [
+        {
+          "unit": "SAB-0402",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 752
+        },
+        {
+          "unit": "SAB-1003",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 736
+        },
+        {
+          "unit": "SAB-1005",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-1405",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-1408",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-1508",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-2001",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
+        },
+        {
+          "unit": "SAB-2011",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 752
+        },
+        {
+          "unit": "SAB-2107",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
+          "unit": "SAB-2409",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 529
+        },
+        {
+          "unit": "SAB-2802",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-3012",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
+        },
+        {
+          "unit": "SAB-3103",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 599
+        },
+        {
+          "unit": "SAB-3205",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-3402",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-3505",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-3512",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
+          "unit": "SAB-3603",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 599
+        },
+        {
+          "unit": "SAB-3701",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
+          "unit": "SAB-3709",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 699
+        },
+        {
+          "unit": "SAB-3711",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-3811",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-4008",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-4102",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-4302",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-4402",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-4706",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
+          "unit": "SAB-4802",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-4805",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-4910",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 456
+        },
+        {
+          "unit": "SAB-5001",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
+        },
+        {
+          "unit": "SAB-5007",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
+          "unit": "SAB-5302",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-5411",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-5504",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 599
+        },
+        {
+          "unit": "SAB-5509",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 529
+        },
+        {
+          "unit": "SAB-6007",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
+        },
+        {
+          "unit": "SAB-6110",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 561
+        },
+        {
+          "unit": "SAB-6205",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 612
+        },
+        {
+          "unit": "SAB-6505",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
+        },
+        {
+          "unit": "SAB-6708",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
+          "unit": "SAB-6906",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
         }
       ],
       "plans": null,
@@ -6303,6 +6907,80 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "cityline_east",
+      "name": "CityLine East",
+      "total_units": 198,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 506
+        },
+        {
+          "unit": "fp2",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 460
+        },
+        {
+          "unit": "fp3",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 513
+        },
+        {
+          "unit": "fp4",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 660
+        },
+        {
+          "unit": "fp5",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 801
+        },
+        {
+          "unit": "fp6",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 696
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "cityline_west",
+      "name": "CityLine West",
+      "total_units": 144,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 670
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 665
+        },
+        {
+          "unit": "fp3",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 986
         }
       ],
       "plans": null,
