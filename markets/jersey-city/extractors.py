@@ -334,7 +334,7 @@ def _parse_sc2(h):   # Yardi SecureCafe availableunits (JS-rendered via Zyte) ->
         bm = _re2.search(r'(\d+)\s*BEDROOM', hdr, _re2.I)
         bath = _re2.search(r'([\d.]+)\s*BATHROOM', hdr, _re2.I)
         beds = int(bm.group(1)) if bm else None
-        for um in _re2.finditer(r'#(\w+)\s+(?:(\d{3,4})\s+)?\$([\d,]+)(?:\s*-\s*\$([\d,]+))?', sec):
+        for um in _re2.finditer(r'#([\w-]+)\s+(?:(\d{3,4})\s+)?\$([\d,]+)(?:\s*-\s*\$([\d,]+))?', sec):
             unit, sqft, lo, hi = um.groups()
             out.append({"unit": unit, "beds": beds, "baths": float(bath.group(1)) if bath else None,
                         "sqft": int(sqft) if sqft else None, "asking_rent": int(lo.replace(",", "")),
@@ -344,7 +344,7 @@ def _parse_sc2(h):   # Yardi SecureCafe availableunits (JS-rendered via Zyte) ->
 _SC2 = {
     "bisby": "https://bisby-rentcafewebsite.securecafe.com/onlineleasing/bisby/availableunits.aspx",
     "regent_88": "https://88regentstreet.securecafe.com/onlineleasing/88-regent-street/availableunits.aspx",
-    "vyv_south": "https://rent-brookfieldproperties.securecafe.com/onlineleasing/vyv-south/availableunits.aspx",
+    "vyv_south": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
     "vyv_north": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
     "sable": "https://sablejc.securecafe.com/onlineleasing/sable/availableunits.aspx",
     "atlas": "https://atlasjc.securecafe.com/onlineleasing/the-atlas0/availableunits.aspx",
@@ -355,8 +355,16 @@ _SC2 = {
     "sawyer": "https://sawyerjerseycity.securecafe.com/onlineleasing/sawyer0/availableunits.aspx",
 }
 
+# VYV North & South share ONE availableunits feed (unit ids N-xxxx / S-xxxx); split by prefix.
+_SC_PREFIX = {"vyv_north": "N-", "vyv_south": "S-"}
+
 def _sc2(slug):
-    return lambda: _parse_sc2(_cached2("sc:" + slug, _SC2[slug], _zyte2))
+    url = _SC2[slug]
+    pref = _SC_PREFIX.get(slug)
+    def fn():
+        rows = _parse_sc2(_cached2("scurl:" + url, url, _zyte2))   # key by URL so shared feeds fetch once
+        return [r for r in rows if r["unit"].startswith(pref)] if pref else rows
+    return fn
 
 _MERIDIA = "https://meridiapm.appfolio.com/listings"
 _AF_ADDR = {"rivet": "23 University", "rivet_26": "26 University"}
