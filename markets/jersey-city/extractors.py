@@ -398,3 +398,33 @@ def _af2(slug):
 
 PYFETCH.update({s: _sc2(s) for s in _SC2})
 PYFETCH.update({s: _af2(s) for s in _AF_ADDR})
+
+# ---- RentCafe .com public ILS mirror (buildings with no dedicated securecafe sub) ----
+# Server-rendered floor-plan rows "1 Bed / 1 Bath / 675 Sqft $4,750" but RentCafe serves
+# them inconsistently to plain GET (anti-bot), so fetch via Zyte. FLOOR-PLAN level: one
+# synthetic unit per plan at its starting rent (available_now is a floor, not exact).
+_RCM = {
+    "haus25": "https://www.rentcafe.com/apartments/nj/jersey-city/haus25/default.aspx",
+    "marin_351": "https://www.rentcafe.com/apartments/nj/jersey-city/351-marin-llc/default.aspx",
+    "one_ten": "https://www.rentcafe.com/apartments/nj/jersey-city/one-ten/default.aspx",
+    "house_100": "https://www.rentcafe.com/apartments/nj/jersey-city/100house/default.aspx",
+    "the_enclave": "https://www.rentcafe.com/apartments/nj/jersey-city/the-enclave-13/default.aspx",
+    "garfield_829": "https://www.rentcafe.com/apartments/nj/jersey-city/829-garfield/default.aspx",
+    "cityline_east": "https://www.rentcafe.com/apartments/nj/jersey-city/cityline-jersey-city-east/default.aspx",
+    "cityline_west": "https://www.rentcafe.com/apartments/nj/jersey-city/city-line-jersey-city-west/default.aspx",
+}
+
+def _parse_rcm(h):
+    txt = _H2.unescape(_re2.sub(r"\s+", " ", _re2.sub(r"<[^>]+>", " ", h)))
+    out = []
+    for i, m in enumerate(_re2.finditer(r'(Studio|\d+)\s*(?:Bed|Beds)?\s*/\s*([\d.]+)\s*Bath\s*/\s*([\d,]+)\s*Sqft\s*\$([\d,]+)', txt, _re2.I)):
+        b, ba, sf, rent = m.groups()
+        out.append({"unit": f"fp{i+1}", "beds": 0 if b.lower() == "studio" else int(b),
+                    "baths": float(ba), "sqft": int(sf.replace(",", "")),
+                    "asking_rent": int(rent.replace(",", "")), "price_basis": "asking", "available_date": None})
+    return out
+
+def _rc(slug):
+    return lambda: _parse_rcm(_cached2("rcm:" + slug, _RCM[slug], _zyte2))
+
+PYFETCH.update({s: _rc(s) for s in _RCM})
