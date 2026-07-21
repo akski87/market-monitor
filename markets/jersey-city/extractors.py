@@ -290,3 +290,101 @@ def normalize(slug, r):
         else:             d["asking_rent"]=r.get("price");        d["price_basis"]="asking"
         return d
     return r
+
+
+# ===================================================================================
+# Jersey City live availability sources added 2026-07-20 (beyond the Journal Square
+# Playwright extractors above). These return records ALREADY in final unit format, so
+# normalize()'s `return r` fallthrough passes them through unchanged. Two proven
+# transports (reused from the Stamford market):
+#   - SecureCafe (Yardi) availableunits.aspx — anti-bot, fetched via Zyte in CI.
+#   - AppFolio public listings — plain GET, address-mapped (Meridia's Rivet portal).
+# ===================================================================================
+import os as _os2, re as _re2, base64 as _b642, json as _json2, urllib.request as _url2, html as _H2
+
+_UA2 = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+_cc2 = {}
+
+def _get2(url):
+    return _url2.urlopen(_url2.Request(url, headers={"User-Agent": _UA2, "Accept": "text/html"}), timeout=45).read().decode("utf-8", "ignore")
+
+def _zyte2(url):
+    key = _os2.environ.get("ZYTE_API_KEY")
+    if not key:
+        return _get2(url)
+    body = _json2.dumps({"url": url, "browserHtml": True, "geolocation": "US"}).encode()
+    req = _url2.Request("https://api.zyte.com/v1/extract", data=body, method="POST")
+    req.add_header("Authorization", "Basic " + _b642.b64encode((key + ":").encode()).decode())
+    req.add_header("Content-Type", "application/json")
+    return _json2.loads(_url2.urlopen(req, timeout=180).read()).get("browserHtml", "") or ""
+
+def _cached2(k, url, fetch):
+    if k not in _cc2:
+        _cc2[k] = fetch(url)
+    return _cc2[k]
+
+def _parse_sc2(h):   # Yardi SecureCafe availableunits.aspx -> final unit dicts
+    txt = _re2.sub(r"\s+", " ", _H2.unescape(_re2.sub(r"<[^>]+>", " ", h)))
+    out = []
+    for sec in _re2.split(r'Floor Plan :', txt)[1:]:
+        hdr = sec[:120]
+        studio = "Studio" in hdr
+        bm = _re2.search(r'(\d+)\s*Bedroom', hdr)
+        bath = _re2.search(r'([\d.]+)\s*Bath', hdr)
+        beds = 0 if studio else (int(bm.group(1)) if bm else None)
+        for um in _re2.finditer(r'#(\w+)\s+(\d{3,4})\s+\$([\d,]+)(?:\s*-\s*\$([\d,]+))?\s+(Available|\d{1,2}/\d{1,2}/\d{2,4})', sec):
+            unit, sqft, lo, hi, av = um.groups()
+            out.append({"unit": unit, "beds": beds, "baths": float(bath.group(1)) if bath else None,
+                        "sqft": int(sqft), "asking_rent": int(lo.replace(",", "")), "price_basis": "asking",
+                        "available_date": None if av == "Available" else av})
+    return out
+
+_SC2 = {
+    "bisby": "https://bisby-rentcafewebsite.securecafe.com/onlineleasing/bisby/availableunits.aspx",
+    "regent_88": "https://88regentstreet.securecafe.com/onlineleasing/88-regent-street/availableunits.aspx",
+    "vyv_south": "https://rent-brookfieldproperties.securecafe.com/onlineleasing/vyv-south/availableunits.aspx",
+    "vyv_north": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
+    "sable": "https://sablejc.securecafe.com/onlineleasing/sable/availableunits.aspx",
+    "atlas": "https://atlasjc.securecafe.com/onlineleasing/the-atlas0/availableunits.aspx",
+    "birch_house": "https://birchhousejc.securecafe.com/onlineleasing/birch-house0/availableunits.aspx",
+    "hazel": "https://thehazeljc.securecafe.com/onlineleasing/hazel-je-clo/availableunits.aspx",
+    "the_agnes": "https://ironstate.securecafe.com/onlineleasing/the-agnes/availableunits.aspx",
+    "the_devan": "https://ironstate.securecafe.com/onlineleasing/devan-propco-llc/availableunits.aspx",
+    "sawyer": "https://sawyerjerseycity.securecafe.com/onlineleasing/sawyer0/availableunits.aspx",
+}
+
+def _sc2(slug):
+    return lambda: _parse_sc2(_cached2("sc:" + slug, _SC2[slug], _zyte2))
+
+_MERIDIA = "https://meridiapm.appfolio.com/listings"
+_AF_ADDR = {"rivet": "23 University", "rivet_26": "26 University"}
+
+def _parse_af2(h, addr):   # AppFolio listings filtered to one building's street
+    out = []
+    for b in _re2.split(r'class="listing-item result js-listing-item"', h)[1:]:
+        m = _re2.search(r'alt="([^"]+)"', b)
+        if not m or addr not in _H2.unescape(m.group(1)):
+            continue
+        al = _H2.unescape(m.group(1))
+        um = _re2.search(r'Apt\.?\s*([A-Za-z0-9\-]+)', al)
+        seg = _H2.unescape(_re2.sub(r"\s+", " ", _re2.sub(r"<[^>]+>", " ", b[:2600])))
+        rent = _re2.search(r'RENT \$([\d,]+)', seg)
+        if not rent:
+            continue
+        beds = _re2.search(r'(\d+)\s*bd', seg)
+        studio = _re2.search(r'studio', seg, _re2.I)
+        bath = _re2.search(r'([\d.]+)\s*ba', seg)
+        sqft = _re2.search(r'Square Feet ([\d,]+)', seg)
+        av = _re2.search(r'Available (NOW|\d{1,2}/\d{1,2}/\d{2,4})', seg)
+        out.append({"unit": um.group(1) if um else None, "beds": 0 if studio else (int(beds.group(1)) if beds else None),
+                    "baths": float(bath.group(1)) if bath else None,
+                    "sqft": int(sqft.group(1).replace(",", "")) if sqft else None,
+                    "asking_rent": int(rent.group(1).replace(",", "")), "price_basis": "asking",
+                    "available_date": None if (av and av.group(1) == "NOW") else (av.group(1) if av else None)})
+    return out
+
+def _af2(slug):
+    return lambda: _parse_af2(_cached2("af:meridia", _MERIDIA, _get2), _AF_ADDR[slug])
+
+PYFETCH.update({s: _sc2(s) for s in _SC2})
+PYFETCH.update({s: _af2(s) for s in _AF_ADDR})

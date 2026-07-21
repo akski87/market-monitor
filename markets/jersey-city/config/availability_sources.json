@@ -295,13 +295,13 @@
     },
     {
       "building": "Bisby",
-      "url": null,
-      "method": "none",
+      "url": "https://bisby-rentcafewebsite.securecafe.com/onlineleasing/bisby/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "One Grove",
@@ -365,13 +365,13 @@
     },
     {
       "building": "88 Regent",
-      "url": null,
-      "method": "none",
+      "url": "https://88regentstreet.securecafe.com/onlineleasing/88-regent-street/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "The Beach",
@@ -415,23 +415,23 @@
     },
     {
       "building": "VYV South Tower",
-      "url": null,
-      "method": "none",
+      "url": "https://rent-brookfieldproperties.securecafe.com/onlineleasing/vyv-south/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "VYV North Tower",
-      "url": null,
-      "method": "none",
+      "url": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "DVORA 175",
@@ -455,13 +455,13 @@
     },
     {
       "building": "Sable",
-      "url": null,
-      "method": "none",
+      "url": "https://sablejc.securecafe.com/onlineleasing/sable/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "The Hazel II",
@@ -475,23 +475,23 @@
     },
     {
       "building": "The Hazel",
-      "url": null,
-      "method": "none",
+      "url": "https://thehazeljc.securecafe.com/onlineleasing/hazel-je-clo/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "Atlas",
-      "url": null,
-      "method": "none",
+      "url": "https://atlasjc.securecafe.com/onlineleasing/the-atlas0/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "829 Garfield",
@@ -525,13 +525,13 @@
     },
     {
       "building": "Birch House",
-      "url": null,
-      "method": "none",
+      "url": "https://birchhousejc.securecafe.com/onlineleasing/birch-house0/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "3 Acres",
@@ -565,53 +565,53 @@
     },
     {
       "building": "Rivet 26",
-      "url": null,
-      "method": "none",
+      "url": "https://meridiapm.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "Meridia AppFolio listings (plain GET); address-mapped."
     },
     {
       "building": "Rivet",
-      "url": null,
-      "method": "none",
+      "url": "https://meridiapm.appfolio.com/listings",
+      "method": "appfolio_html",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "working",
+      "notes": "Meridia AppFolio listings (plain GET); address-mapped."
     },
     {
       "building": "The Agnes",
-      "url": null,
-      "method": "none",
+      "url": "https://ironstate.securecafe.com/onlineleasing/the-agnes/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "The Devan",
-      "url": null,
-      "method": "none",
+      "url": "https://ironstate.securecafe.com/onlineleasing/devan-propco-llc/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "Sawyer",
-      "url": null,
-      "method": "none",
+      "url": "https://sawyerjerseycity.securecafe.com/onlineleasing/sawyer0/availableunits.aspx",
+      "method": "securecafe_zyte",
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "roster_only",
-      "notes": "Immutable data web-verified 2026-06-24; live availability source pending."
+      "status": "testing",
+      "notes": "Yardi SecureCafe availableunits (JS-rendered); via Zyte browserHtml; CI-verification pending."
     },
     {
       "building": "Oliver on the Hudson",
