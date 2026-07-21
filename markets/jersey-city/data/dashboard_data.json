@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T13:32:12+00:00",
+  "generated_at": "2026-07-21T00:10:49+00:00",
   "as_of": "2026-07-20",
   "buildings": [
     {
@@ -414,24 +414,24 @@
       "method": "dom_read",
       "source_url": "https://www.505summit.com/availability",
       "portal_url": null,
-      "available_now": 17,
+      "available_now": 15,
       "concession_text": "GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*",
       "concession_pct": 0.1042,
-      "conc_derived_pct": 0.1254,
+      "conc_derived_pct": 0.1263,
       "submarket": "journal-square",
       "as_of": "2026-07-20",
       "by_type": {
         "1BR": {
           "count": 7,
-          "asking_avg": 4047,
-          "net_avg": 3492,
-          "sqft_avg": 671,
+          "asking_avg": 4063,
+          "net_avg": 3506,
+          "sqft_avg": 659,
           "asking_min": 3846,
           "asking_max": 4191,
           "net_min": 3316,
           "net_max": 3618,
-          "asking_psf": 72.73,
-          "net_psf": 62.75,
+          "asking_psf": 74.34,
+          "net_psf": 64.15,
           "psf_n": 7
         },
         "2BR": {
@@ -448,17 +448,17 @@
           "psf_n": 2
         },
         "Studio": {
-          "count": 8,
-          "asking_avg": 3539,
-          "net_avg": 3120,
-          "sqft_avg": 540,
-          "asking_min": 3331,
+          "count": 6,
+          "asking_avg": 3571,
+          "net_avg": 3149,
+          "sqft_avg": 527,
+          "asking_min": 3446,
           "asking_max": 3706,
-          "net_min": 2934,
+          "net_min": 3037,
           "net_max": 3270,
-          "asking_psf": 80.04,
-          "net_psf": 70.57,
-          "psf_n": 8
+          "asking_psf": 82.88,
+          "net_psf": 73.09,
+          "psf_n": 6
         }
       }
     },
@@ -599,8 +599,8 @@
       "stories": 32,
       "mgmt": "Liberty Harbor North (Mocco)",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://88regentstreet.securecafe.com/onlineleasing/88-regent-street/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -680,8 +680,8 @@
       "stories": 24,
       "mgmt": "Alpine Residential / Fields Grade",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://atlasjc.securecafe.com/onlineleasing/the-atlas0/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -707,8 +707,8 @@
       "stories": 6,
       "mgmt": "Halpern Real Estate Ventures",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://birchhousejc.securecafe.com/onlineleasing/birch-house0/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -734,8 +734,8 @@
       "stories": 34,
       "mgmt": "LeFrak (Newport)",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://bisby-rentcafewebsite.securecafe.com/onlineleasing/bisby/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -833,7 +833,7 @@
       "address": "425 Summit Ave, Jersey City, NJ",
       "lat": 40.730042,
       "lng": -74.061893,
-      "phys_recorded": 70,
+      "phys_recorded": 72,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -845,10 +845,10 @@
       "method": "portal",
       "source_url": "https://425summit.com/availability/",
       "portal_url": "https://availability.rosenyc.com/availability/fnhqqlif/",
-      "available_now": 9,
+      "available_now": 11,
       "concession_text": "$2,296.88 Net Effective Rent",
       "concession_pct": 0.125,
-      "conc_derived_pct": 0.1251,
+      "conc_derived_pct": 0.1252,
       "submarket": "journal-square",
       "as_of": "2026-07-20",
       "by_type": {
@@ -879,17 +879,17 @@
           "psf_n": 1
         },
         "Studio": {
-          "count": 7,
-          "asking_avg": 2864,
-          "net_avg": 2506,
-          "sqft_avg": 479,
+          "count": 9,
+          "asking_avg": 2877,
+          "net_avg": 2517,
+          "sqft_avg": 472,
           "asking_min": 2625,
           "asking_max": 3280,
           "net_min": 2296,
           "net_max": 2870,
-          "asking_psf": 74.06,
-          "net_psf": 64.79,
-          "psf_n": 7
+          "asking_psf": 75.26,
+          "net_psf": 65.84,
+          "psf_n": 9
         }
       }
     },
@@ -966,8 +966,8 @@
       "method": "dom_read",
       "source_url": "https://www.urby.com/location/journal-square/availability",
       "portal_url": null,
-      "available_now": 14,
-      "concession_text": "$4,257 */mo * Price includes concessions.",
+      "available_now": 13,
+      "concession_text": "Up to 2 Months Free on Select Apartments! Additional leasing specials available - contact us to learn more.",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "journal-square",
@@ -985,19 +985,6 @@
           "asking_psf": 79.16,
           "net_psf": null,
           "psf_n": 1
-        },
-        "2BR": {
-          "count": 1,
-          "asking_avg": null,
-          "net_avg": 4257,
-          "sqft_avg": null,
-          "asking_min": null,
-          "asking_max": null,
-          "net_min": 4257,
-          "net_max": 4257,
-          "asking_psf": null,
-          "net_psf": null,
-          "psf_n": 0
         },
         "Studio": {
           "count": 6,
@@ -1042,27 +1029,27 @@
       "by_type": {
         "1BR": {
           "count": 12,
-          "asking_avg": 3615,
+          "asking_avg": 3627,
           "net_avg": null,
           "sqft_avg": 731,
           "asking_min": 3290,
           "asking_max": 4100,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 59.85,
+          "asking_psf": 60.08,
           "net_psf": null,
           "psf_n": 12
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 5077,
+          "asking_avg": 5073,
           "net_avg": null,
           "sqft_avg": 1027,
           "asking_min": 4805,
           "asking_max": 5475,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 59.33,
+          "asking_psf": 59.29,
           "net_psf": null,
           "psf_n": 9
         },
@@ -1326,17 +1313,44 @@
       "year_built": 2018,
       "stories": 5,
       "mgmt": "The Hampshire Cos. / Meridia",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://meridiapm.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 8,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "west-side",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "1BR": {
+          "count": 6,
+          "asking_avg": 2482,
+          "net_avg": null,
+          "sqft_avg": 731,
+          "asking_min": 2420,
+          "asking_max": 2595,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 40.87,
+          "net_psf": null,
+          "psf_n": 6
+        },
+        "Studio": {
+          "count": 2,
+          "asking_avg": 2045,
+          "net_avg": null,
+          "sqft_avg": 522,
+          "asking_min": 1995,
+          "asking_max": 2095,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 46.99,
+          "net_psf": null,
+          "psf_n": 2
+        }
+      }
     },
     {
       "id": "rivet_26",
@@ -1353,17 +1367,57 @@
       "year_built": 2021,
       "stories": 5,
       "mgmt": "The Hampshire Cos. / RHO Residential",
-      "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "in_market": true,
+      "method": "appfolio_html",
+      "source_url": "https://meridiapm.appfolio.com/listings",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 11,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "west-side",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "1BR": {
+          "count": 4,
+          "asking_avg": 2570,
+          "net_avg": null,
+          "sqft_avg": 702,
+          "asking_min": 2395,
+          "asking_max": 2695,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 44.27,
+          "net_psf": null,
+          "psf_n": 4
+        },
+        "2BR": {
+          "count": 2,
+          "asking_avg": 3772,
+          "net_avg": null,
+          "sqft_avg": 1281,
+          "asking_min": 3750,
+          "asking_max": 3795,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 35.34,
+          "net_psf": null,
+          "psf_n": 2
+        },
+        "Studio": {
+          "count": 5,
+          "asking_avg": 2077,
+          "net_avg": null,
+          "sqft_avg": 509,
+          "asking_min": 2050,
+          "asking_max": 2095,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 48.99,
+          "net_psf": null,
+          "psf_n": 5
+        }
+      }
     },
     {
       "id": "sable",
@@ -1381,8 +1435,8 @@
       "stories": 69,
       "mgmt": "Veris Residential (FKA Jersey City Urby)",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://sablejc.securecafe.com/onlineleasing/sable/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1408,8 +1462,8 @@
       "stories": 5,
       "mgmt": "The NRP Group",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://sawyerjerseycity.securecafe.com/onlineleasing/sawyer0/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1435,8 +1489,8 @@
       "stories": 5,
       "mgmt": "Fields Grade / Common",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://ironstate.securecafe.com/onlineleasing/the-agnes/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1489,8 +1543,8 @@
       "stories": 8,
       "mgmt": "Fields Grade / Ursa Development Group",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://ironstate.securecafe.com/onlineleasing/devan-propco-llc/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1623,8 +1677,8 @@
       "stories": 6,
       "mgmt": "Alpine Residential / Fields Grade",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://thehazeljc.securecafe.com/onlineleasing/hazel-je-clo/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1707,7 +1761,7 @@
       "method": "dom_read",
       "source_url": "https://www.journaljc.com/availability",
       "portal_url": null,
-      "available_now": 87,
+      "available_now": 83,
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
@@ -1715,30 +1769,30 @@
       "as_of": "2026-07-20",
       "by_type": {
         "1BR": {
-          "count": 37,
-          "asking_avg": 4095,
-          "net_avg": 3685,
+          "count": 35,
+          "asking_avg": 4099,
+          "net_avg": 3688,
           "sqft_avg": 733,
           "asking_min": 3596,
           "asking_max": 5196,
           "net_min": 3236,
           "net_max": 4676,
-          "asking_psf": 67.48,
-          "net_psf": 60.73,
-          "psf_n": 37
+          "asking_psf": 67.47,
+          "net_psf": 60.71,
+          "psf_n": 35
         },
         "2BR": {
-          "count": 15,
-          "asking_avg": 6141,
-          "net_avg": 5527,
-          "sqft_avg": 1013,
+          "count": 14,
+          "asking_avg": 6151,
+          "net_avg": 5536,
+          "sqft_avg": 1015,
           "asking_min": 5696,
           "asking_max": 6796,
           "net_min": 5126,
           "net_max": 6116,
           "asking_psf": 72.74,
           "net_psf": 65.46,
-          "psf_n": 15
+          "psf_n": 14
         },
         "3BR": {
           "count": 3,
@@ -1754,17 +1808,17 @@
           "psf_n": 3
         },
         "Studio": {
-          "count": 32,
-          "asking_avg": 3358,
-          "net_avg": 3022,
-          "sqft_avg": 447,
+          "count": 31,
+          "asking_avg": 3355,
+          "net_avg": 3019,
+          "sqft_avg": 449,
           "asking_min": 2990,
           "asking_max": 3630,
           "net_min": 2691,
           "net_max": 3267,
-          "asking_psf": 90.65,
-          "net_psf": 81.58,
-          "psf_n": 32
+          "asking_psf": 90.1,
+          "net_psf": 81.09,
+          "psf_n": 31
         }
       }
     },
@@ -1784,8 +1838,8 @@
       "stories": 35,
       "mgmt": "Brookfield Properties",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -1811,8 +1865,8 @@
       "stories": 35,
       "mgmt": "Brookfield Properties",
       "in_market": false,
-      "method": "none",
-      "source_url": null,
+      "method": "securecafe_zyte",
+      "source_url": "https://rent-brookfieldproperties.securecafe.com/onlineleasing/vyv-south/availableunits.aspx",
       "portal_url": null,
       "available_now": null,
       "concession_text": null,
@@ -2907,28 +2961,28 @@
     },
     {
       "date": "2026-07-20",
-      "total_available": 206,
+      "total_available": 220,
       "by_type": {
         "1BR": {
-          "asking": 3667.0,
-          "net": 3559.0
+          "asking": 3546.0,
+          "net": 3558.0
         },
         "2BR": {
-          "asking": 5278.0,
-          "net": 5354.0
+          "asking": 5173.0,
+          "net": 5413.0
         },
         "3BR": {
           "asking": 6670.0,
           "net": 6026.0
         },
         "Studio": {
-          "asking": 3126.0,
-          "net": 2954.0
+          "asking": 3018.0,
+          "net": 2933.0
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3803.0,
-      "all_net": 3670.0
+      "all_asking": 3675.0,
+      "all_net": 3650.0
     }
   ],
   "unit_mix": [
@@ -3128,7 +3182,7 @@
   "avg_unit_sf": [
     {
       "t": "Studio",
-      "n": 248,
+      "n": 250,
       "avg_sqft": 469.0,
       "min_sqft": 374,
       "max_sqft": 660
@@ -3156,7 +3210,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-20T13:32:12+00:00",
+    "checked_at": "2026-07-21T00:10:49+00:00",
     "errors": [],
     "warnings": [],
     "quarantined_units": 0,
