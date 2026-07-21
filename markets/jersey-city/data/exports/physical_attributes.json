@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T00:29:14+00:00",
+  "generated_at": "2026-07-21T00:45:37+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -5693,6 +5693,208 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1080
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "vyv_north",
+      "name": "VYV North Tower",
+      "total_units": 421,
+      "recorded": [
+        {
+          "unit": "N-0704",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-1004",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-1007",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-1102",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1158
+        },
+        {
+          "unit": "N-1407",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-1409",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        },
+        {
+          "unit": "N-1607",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-1710",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-1711",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
+        },
+        {
+          "unit": "N-1811",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
+        },
+        {
+          "unit": "N-1904",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-2109",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        },
+        {
+          "unit": "N-2204",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-2208",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 879
+        },
+        {
+          "unit": "N-2407",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-2501",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "N-2511",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
+        },
+        {
+          "unit": "N-2606",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 720
+        },
+        {
+          "unit": "N-2609",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        },
+        {
+          "unit": "N-2701",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "N-2806",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 720
+        },
+        {
+          "unit": "N-3007",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-3109",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1182
+        },
+        {
+          "unit": "N-3208",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 879
+        },
+        {
+          "unit": "N-3210",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-3213",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-3303",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 739
+        },
+        {
+          "unit": "N-3305",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
+        },
+        {
+          "unit": "N-3401",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "N-3411",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
+        },
+        {
+          "unit": "N-3413",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
+        },
+        {
+          "unit": "N-3511",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1084
         }
       ],
       "plans": null,

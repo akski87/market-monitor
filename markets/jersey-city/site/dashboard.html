@@ -272,7 +272,7 @@
 
 <script>
 const DATA = /*DATA_START*/{
-  "generated_at": "2026-07-21T00:29:14+00:00",
+  "generated_at": "2026-07-21T00:45:37+00:00",
   "as_of": "2026-07-20",
   "buildings": [
     {
@@ -2421,7 +2421,7 @@ const DATA = /*DATA_START*/{
       "address": "474 Warren St, Jersey City, NJ 07302",
       "lat": 40.724216,
       "lng": -74.037799,
-      "phys_recorded": 0,
+      "phys_recorded": 32,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -2433,13 +2433,53 @@ const DATA = /*DATA_START*/{
       "method": "securecafe_zyte",
       "source_url": "https://vyvapts.securecafe.com/onlineleasing/vyv-properties/availableunits.aspx",
       "portal_url": null,
-      "available_now": null,
+      "available_now": 32,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
-      "as_of": null,
-      "by_type": null
+      "as_of": "2026-07-20",
+      "by_type": {
+        "1BR": {
+          "count": 14,
+          "asking_avg": 4234,
+          "net_avg": null,
+          "sqft_avg": 761,
+          "asking_min": 3995,
+          "asking_max": 4565,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 66.89,
+          "net_psf": null,
+          "psf_n": 14
+        },
+        "2BR": {
+          "count": 11,
+          "asking_avg": 5542,
+          "net_avg": null,
+          "sqft_avg": 1126,
+          "asking_min": 5215,
+          "asking_max": 5880,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 59.07,
+          "net_psf": null,
+          "psf_n": 11
+        },
+        "Studio": {
+          "count": 7,
+          "asking_avg": 3639,
+          "net_avg": null,
+          "sqft_avg": 610,
+          "asking_min": 3530,
+          "asking_max": 3795,
+          "net_min": null,
+          "net_max": null,
+          "asking_psf": 71.59,
+          "net_psf": null,
+          "psf_n": 7
+        }
+      }
     },
     {
       "id": "vyv_south",
@@ -3553,14 +3593,14 @@ const DATA = /*DATA_START*/{
     },
     {
       "date": "2026-07-20",
-      "total_available": 354,
+      "total_available": 386,
       "by_type": {
         "1BR": {
-          "asking": 3564.0,
+          "asking": 3617.0,
           "net": 3558.0
         },
         "2BR": {
-          "asking": 4901.0,
+          "asking": 4986.0,
           "net": 5413.0
         },
         "3BR": {
@@ -3572,12 +3612,12 @@ const DATA = /*DATA_START*/{
           "net": null
         },
         "Studio": {
-          "asking": 2994.0,
+          "asking": 3035.0,
           "net": 2933.0
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3830.0,
+      "all_asking": 3890.0,
       "all_net": 3650.0
     }
   ],
@@ -3778,22 +3818,22 @@ const DATA = /*DATA_START*/{
   "avg_unit_sf": [
     {
       "t": "Studio",
-      "n": 257,
-      "avg_sqft": 469.0,
+      "n": 264,
+      "avg_sqft": 473.0,
       "min_sqft": 374,
       "max_sqft": 660
     },
     {
       "t": "1BR",
-      "n": 350,
-      "avg_sqft": 703.0,
+      "n": 364,
+      "avg_sqft": 706.0,
       "min_sqft": 523,
       "max_sqft": 965
     },
     {
       "t": "2BR",
-      "n": 120,
-      "avg_sqft": 1026.0,
+      "n": 131,
+      "avg_sqft": 1035.0,
       "min_sqft": 805,
       "max_sqft": 1415
     },
@@ -3806,12 +3846,11 @@ const DATA = /*DATA_START*/{
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-21T00:29:14+00:00",
+    "checked_at": "2026-07-21T00:45:37+00:00",
     "errors": [],
     "warnings": [
       "88 Regent: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
       "Sable: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "VYV North Tower: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
       "VYV South Tower: no listings captured on 2026-07-20 (last seen never) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
