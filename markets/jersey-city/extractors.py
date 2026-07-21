@@ -323,20 +323,22 @@ def _cached2(k, url, fetch):
         _cc2[k] = fetch(url)
     return _cc2[k]
 
-def _parse_sc2(h):   # Yardi SecureCafe availableunits.aspx -> final unit dicts
+def _parse_sc2(h):   # Yardi SecureCafe availableunits (JS-rendered via Zyte) -> final unit dicts
+    # Grid renders "FLOOR PLAN : A2 - 1 BEDROOM, 1 BATHROOM" then rows "#unit $lo-$hi"
+    # (newer RentCafe UI carries NO sqft column). Case-insensitive; sqft optional so
+    # it also handles the older server-rendered "#unit sqft $lo-$hi Available" layout.
     txt = _re2.sub(r"\s+", " ", _H2.unescape(_re2.sub(r"<[^>]+>", " ", h)))
     out = []
-    for sec in _re2.split(r'Floor Plan :', txt)[1:]:
-        hdr = sec[:120]
-        studio = "Studio" in hdr
-        bm = _re2.search(r'(\d+)\s*Bedroom', hdr)
-        bath = _re2.search(r'([\d.]+)\s*Bath', hdr)
-        beds = 0 if studio else (int(bm.group(1)) if bm else None)
-        for um in _re2.finditer(r'#(\w+)\s+(\d{3,4})\s+\$([\d,]+)(?:\s*-\s*\$([\d,]+))?\s+(Available|\d{1,2}/\d{1,2}/\d{2,4})', sec):
-            unit, sqft, lo, hi, av = um.groups()
+    for sec in _re2.split(r'FLOOR PLAN :', txt, flags=_re2.I)[1:]:
+        hdr = sec[:140]
+        bm = _re2.search(r'(\d+)\s*BEDROOM', hdr, _re2.I)
+        bath = _re2.search(r'([\d.]+)\s*BATHROOM', hdr, _re2.I)
+        beds = int(bm.group(1)) if bm else None
+        for um in _re2.finditer(r'#(\w+)\s+(?:(\d{3,4})\s+)?\$([\d,]+)(?:\s*-\s*\$([\d,]+))?', sec):
+            unit, sqft, lo, hi = um.groups()
             out.append({"unit": unit, "beds": beds, "baths": float(bath.group(1)) if bath else None,
-                        "sqft": int(sqft), "asking_rent": int(lo.replace(",", "")), "price_basis": "asking",
-                        "available_date": None if av == "Available" else av})
+                        "sqft": int(sqft) if sqft else None, "asking_rent": int(lo.replace(",", "")),
+                        "price_basis": "asking", "available_date": None})
     return out
 
 _SC2 = {
