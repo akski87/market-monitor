@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T00:10:50+00:00",
+  "generated_at": "2026-07-21T00:29:14+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -5485,6 +5485,880 @@
           "beds": 0,
           "baths": 1,
           "sqft": 500
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "bisby",
+      "name": "Bisby",
+      "total_units": 385,
+      "recorded": [
+        {
+          "unit": "BIS0207",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 780
+        },
+        {
+          "unit": "BIS0218",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0222",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0224",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0316",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 942
+        },
+        {
+          "unit": "BIS0320",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0326",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0424",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0503",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 835
+        },
+        {
+          "unit": "BIS0507",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 780
+        },
+        {
+          "unit": "BIS0528",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 484
+        },
+        {
+          "unit": "BIS0802",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1267
+        },
+        {
+          "unit": "BIS0808",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1266
+        },
+        {
+          "unit": "BIS0906",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 795
+        },
+        {
+          "unit": "BIS1008",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1266
+        },
+        {
+          "unit": "BIS1115",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1292
+        },
+        {
+          "unit": "BIS1116",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS1206",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 795
+        },
+        {
+          "unit": "BIS1416",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS1605",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 773
+        },
+        {
+          "unit": "BIS1606",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 795
+        },
+        {
+          "unit": "BIS1607",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 780
+        },
+        {
+          "unit": "BIS1608",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1266
+        },
+        {
+          "unit": "BIS1616",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS1816",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS1906",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 795
+        },
+        {
+          "unit": "BIS2006",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 795
+        },
+        {
+          "unit": "BIS2202",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1267
+        },
+        {
+          "unit": "BIS2316",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS2416",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
+        },
+        {
+          "unit": "BIS2904",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1080
+        },
+        {
+          "unit": "BIS3007",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 780
+        },
+        {
+          "unit": "BIS3204",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1080
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "hazel",
+      "name": "The Hazel",
+      "total_units": 114,
+      "recorded": [
+        {
+          "unit": "208",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "241",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "302",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "304",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "307",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "341",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "345",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "419",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "421",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "423",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "430",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "501",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "502",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "507",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "534",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "541",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "602",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "607",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "630",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "635",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "total_units": 169,
+      "recorded": [
+        {
+          "unit": "0304",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "0305",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0401",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0406",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0503",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0505",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0803",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0808",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "0904",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "1106",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "1206",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "1303",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1306",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "1704",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "1707",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1807",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2001",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2201",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2203",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2304",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "2305",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "birch_house",
+      "name": "Birch House",
+      "total_units": 337,
+      "recorded": [
+        {
+          "unit": "106",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "211",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "219",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "246",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "255",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "311",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "336",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "351",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "379",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "381",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "416",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "435",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "474",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "516",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "551",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "555",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH05",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH36",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH46",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH51",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH60",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "PH64",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "the_agnes",
+      "name": "The Agnes",
+      "total_units": 233,
+      "recorded": [
+        {
+          "unit": "111",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "113",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "116",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "120",
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": null
+        },
+        {
+          "unit": "215",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "221",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "352",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "444",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "447",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "509",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "519",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "525",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "530",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "533",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "the_devan",
+      "name": "The Devan",
+      "total_units": 336,
+      "recorded": [
+        {
+          "unit": "206",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "238",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "358",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "416",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "426",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "442",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "515",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "543",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "624",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "650",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "652",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "660",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "726",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "847",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "sawyer",
+      "name": "Sawyer",
+      "total_units": 131,
+      "recorded": [
+        {
+          "unit": "0113",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 827
+        },
+        {
+          "unit": "0114",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 827
+        },
+        {
+          "unit": "0115",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 827
+        },
+        {
+          "unit": "0215",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 900
+        },
+        {
+          "unit": "0301",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 822
+        },
+        {
+          "unit": "0312",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "0316",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
+        },
+        {
+          "unit": "0321",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 775
+        },
+        {
+          "unit": "0406",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 775
+        },
+        {
+          "unit": "0426",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1119
         }
       ],
       "plans": null,
