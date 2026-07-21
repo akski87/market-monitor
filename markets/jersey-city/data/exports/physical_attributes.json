@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:40:28+00:00",
+  "generated_at": "2026-07-21T02:11:22+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -5492,6 +5492,58 @@
       "lines": null
     },
     {
+      "id": "radio_lofts",
+      "name": "Radio Lofts",
+      "total_units": 140,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp3",
+          "beds": 1,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp4",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp5",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp6",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp7",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "bisby",
       "name": "Bisby",
       "total_units": 385,
@@ -5693,6 +5745,52 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1080
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "one_grove",
+      "name": "One Grove",
+      "total_units": 200,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 786
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 657
+        },
+        {
+          "unit": "fp3",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 485
+        },
+        {
+          "unit": "fp4",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 626
+        },
+        {
+          "unit": "fp5",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1007
+        },
+        {
+          "unit": "fp6",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1376
         }
       ],
       "plans": null,
@@ -6450,6 +6548,56 @@
       "lines": null
     },
     {
+      "id": "dvora_175",
+      "name": "DVORA 175",
+      "total_units": 148,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp2",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "grand_235",
+      "name": "235 Grand",
+      "total_units": 549,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp3",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "sable",
       "name": "Sable",
       "total_units": 762,
@@ -7006,6 +7154,40 @@
       "lines": null
     },
     {
+      "id": "j_295",
+      "name": "295J",
+      "total_units": 309,
+      "recorded": [
+        {
+          "unit": "fp1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 422
+        },
+        {
+          "unit": "fp2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 636
+        },
+        {
+          "unit": "fp3",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 979
+        },
+        {
+          "unit": "fp4",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 422
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
       "id": "birch_house",
       "name": "Birch House",
       "total_units": 337,
@@ -7485,6 +7667,118 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1119
+        }
+      ],
+      "plans": null,
+      "line_pattern": null,
+      "lines": null
+    },
+    {
+      "id": "oliver_hudson",
+      "name": "Oliver on the Hudson",
+      "total_units": 401,
+      "recorded": [
+        {
+          "unit": "1054",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1075
+        },
+        {
+          "unit": "1078",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1075
+        },
+        {
+          "unit": "1094",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1075
+        },
+        {
+          "unit": "2004",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 572
+        },
+        {
+          "unit": "2076",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1332
+        },
+        {
+          "unit": "3075",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1082
+        },
+        {
+          "unit": "3098",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 572
+        },
+        {
+          "unit": "4010",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1082
+        },
+        {
+          "unit": "4023",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1103
+        },
+        {
+          "unit": "4040",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1049
+        },
+        {
+          "unit": "4073",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1117
+        },
+        {
+          "unit": "5015",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 999
+        },
+        {
+          "unit": "5037",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 1044
+        },
+        {
+          "unit": "5041",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 1044
+        },
+        {
+          "unit": "5081",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 871
+        },
+        {
+          "unit": "5083",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 871
+        },
+        {
+          "unit": "5085",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 871
         }
       ],
       "plans": null,

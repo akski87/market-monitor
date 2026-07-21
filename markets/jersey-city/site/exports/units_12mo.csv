@@ -21,6 +21,13 @@ snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_
 2026-06-25,134 Baldwin,1,710,Studio,0,1.0,565,2350.0,,asking,,2026-05-27,,,,2026-06-18,2026-06-25,0
 2026-07-20,134 Baldwin,1,713,Studio,0,1.0,565,2350.0,,asking,,2026-07-01,,,,2026-06-18,2026-07-20,1
 2026-07-20,134 Baldwin,1,802,Studio,0,1.0,500,2150.0,,asking,,2026-07-17,,,,2026-07-18,2026-07-20,1
+2026-07-20,235 Grand,1,fp2,1BR,1,1.0,,3825.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,235 Grand,1,fp3,2BR,2,2.0,,5090.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,235 Grand,1,fp1,Studio,0,1.0,,2975.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,295J,1,fp2,1BR,1,1.0,636,2849.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,295J,1,fp3,2BR,2,2.0,979,4018.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,295J,1,fp1,Studio,0,1.0,422,2293.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,295J,1,fp4,Studio,0,1.0,422,2512.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-07-20,3 Journal Square,1,0217,1BR,1,1.0,752,3269.0,,asking,,,,,,2026-06-17,2026-07-20,1
 2026-07-20,3 Journal Square,1,0417,1BR,1,1.0,752,3299.0,,asking,,,,,,2026-06-17,2026-07-20,1
 2026-06-30,3 Journal Square,1,0615,1BR,1,1.0,687,3079.0,,asking,,,,,,2026-06-17,2026-06-30,0
@@ -282,6 +289,8 @@ snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_
 2026-07-20,CityLine West,1,fp2,1BR,1,1.0,665,2310.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-07-20,CityLine West,1,fp3,2BR,2,2.0,941,2882.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-07-20,CityLine West,1,fp4,2BR,2,1.0,986,3128.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,DVORA 175,1,fp1,2BR,2,2.0,,4995.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,DVORA 175,1,fp2,2BR,2,2.0,,4745.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-06-08,Four Twenty Five Summit,1,0211,1BR,1,1.0,,3370.0,3129.0,both,,,,,,2026-06-08,2026-06-08,0
 2026-06-08,Four Twenty Five Summit,1,0213,1BR,1,1.0,762,3330.0,3092.0,both,,,,,,2026-06-08,2026-06-08,0
 2026-06-17,Four Twenty Five Summit,1,0213,1BR,1,1.0,762,3330.0,2913.0,both,"$2,336.25 Net Effective Rent",,,,,2026-06-11,2026-06-17,0
@@ -677,6 +686,29 @@ snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_
 2026-06-16,MetroVue,1,505,1BR,1,1.0,562,2750.0,,asking,Incentives offered — unquantified ('contact leasing'),15th May 2026,,,,2026-06-08,2026-06-16,0
 2026-07-20,MetroVue,1,609,1BR,1,1.0,562,2800.0,,asking,Incentives offered — unquantified ('contact leasing'),"July 15th, 2026",,,,2026-06-17,2026-07-20,1
 2026-06-16,MetroVue,1,503,Studio,0,1.0,432,2200.0,,asking,Incentives offered — unquantified ('contact leasing'),5th May 2026,,,,2026-06-08,2026-06-16,0
+2026-07-20,Oliver on the Hudson,1,5037,1BR,1,1.0,1044,4299.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,5041,1BR,1,1.0,1044,4199.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,5081,1BR,1,1.0,871,3999.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,5083,1BR,1,1.0,871,4149.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,5085,1BR,1,1.0,871,3999.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,1054,2BR,2,2.0,1075,3705.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,1078,2BR,2,2.0,1075,3549.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,1094,2BR,2,2.0,1075,3499.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,3075,2BR,2,2.0,1082,3514.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,4010,2BR,2,2.0,1082,3624.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,4023,2BR,2,2.0,1103,3599.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,4040,2BR,2,2.0,1049,3655.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,4073,2BR,2,2.0,1117,3799.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,5015,2BR,2,2.0,999,3799.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,2076,3BR,3,2.0,1332,4420.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,2004,Studio,0,1.0,572,2435.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Oliver on the Hudson,1,3098,Studio,0,1.0,572,2385.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp1,1BR,1,1.0,786,3936.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp2,1BR,1,1.0,657,3900.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp5,2BR,2,2.0,1007,5635.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp6,3BR,3,2.5,1376,7966.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp3,Studio,0,1.0,485,3316.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,One Grove,1,fp4,Studio,0,1.0,626,3722.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-06-14,Orchard,1,1014,1BR,1,1.0,,2715.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-06-08,2026-06-14,0
 2026-06-14,Orchard,1,1215,1BR,1,1.0,,2995.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-06-08,2026-06-14,0
 2026-07-20,Orchard,1,2301,1BR,1,1.0,,3700.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-07-01,2026-07-20,1
@@ -701,6 +733,13 @@ snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_
 2026-06-14,Orchard,1,1313,Studio,0,1.0,,2399.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-06-08,2026-06-14,0
 2026-06-25,Orchard,1,1982,Studio,0,1.0,,2475.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-06-15,2026-06-25,0
 2026-06-25,Orchard,1,6612,Studio,0,1.0,,2360.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,,2026-06-15,2026-06-25,0
+2026-07-20,Radio Lofts,1,fp2,1BR,1,1.0,,4080.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp3,1BR,1,2.0,,5015.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp4,2BR,2,2.0,,6010.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp5,2BR,2,2.0,,5875.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp6,2BR,2,2.0,,6440.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp7,3BR,3,3.0,,8644.0,,asking,,,,,,2026-07-20,2026-07-20,1
+2026-07-20,Radio Lofts,1,fp1,Studio,0,1.0,,3180.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-07-20,Rivet,1,,1BR,1,1.0,725,2420.0,,asking,,,,,,2026-07-20,2026-07-20,1
 2026-07-20,Rivet,1,,1BR,1,1.0,671,2425.0,,asking,,9/1/26,,,,2026-07-20,2026-07-20,1
 2026-07-20,Rivet,1,,1BR,1,1.0,839,2595.0,,asking,,10/1/26,,,,2026-07-20,2026-07-20,1

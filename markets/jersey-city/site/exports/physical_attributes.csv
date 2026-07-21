@@ -856,6 +856,13 @@ The Greyson,923,1,1,688
 134 Baldwin,710,0,1,565
 134 Baldwin,713,0,1,565
 134 Baldwin,802,0,1,500
+Radio Lofts,fp1,0,1.0,
+Radio Lofts,fp2,1,1.0,
+Radio Lofts,fp3,1,2.0,
+Radio Lofts,fp4,2,2.0,
+Radio Lofts,fp5,2,2.0,
+Radio Lofts,fp6,2,2.0,
+Radio Lofts,fp7,3,3.0,
 Bisby,BIS0207,1,1.0,780
 Bisby,BIS0218,0,1.0,484
 Bisby,BIS0222,0,1.0,484
@@ -889,6 +896,12 @@ Bisby,BIS2416,3,3.0,1701
 Bisby,BIS2904,2,2.0,1080
 Bisby,BIS3007,1,1.0,780
 Bisby,BIS3204,2,2.0,1080
+One Grove,fp1,1,1.0,786
+One Grove,fp2,1,1.0,657
+One Grove,fp3,0,1.0,485
+One Grove,fp4,0,1.0,626
+One Grove,fp5,2,2.0,1007
+One Grove,fp6,3,2.5,1376
 Haus25,fp1,1,1.0,675
 Haus25,fp10,2,1.0,1003
 Haus25,fp11,1,1.0,835
@@ -1004,6 +1017,11 @@ VYV North Tower,N-3401,1,1.0,763
 VYV North Tower,N-3411,2,2.0,1084
 VYV North Tower,N-3413,0,1.0,610
 VYV North Tower,N-3511,2,2.0,1084
+DVORA 175,fp1,2,2.0,
+DVORA 175,fp2,2,2.0,
+235 Grand,fp1,0,1.0,
+235 Grand,fp2,1,1.0,
+235 Grand,fp3,2,2.0,
 Sable,SAB-0402,1,1.0,752
 Sable,SAB-1003,1,1.0,736
 Sable,SAB-1005,2,1.0,1013
@@ -1090,6 +1108,10 @@ Atlas,2305,1,1.0,
 829 Garfield,fp1,2,2.0,973
 829 Garfield,fp2,3,2.0,1247
 829 Garfield,fp3,2,2.0,919
+295J,fp1,0,1.0,422
+295J,fp2,1,1.0,636
+295J,fp3,2,2.0,979
+295J,fp4,0,1.0,422
 Birch House,106,1,1.0,
 Birch House,211,2,2.0,
 Birch House,219,1,1.0,
@@ -1161,3 +1183,20 @@ Sawyer,0316,1,1.0,763
 Sawyer,0321,1,1.0,775
 Sawyer,0406,1,1.0,775
 Sawyer,0426,2,2.0,1119
+Oliver on the Hudson,1054,2,2.0,1075
+Oliver on the Hudson,1078,2,2.0,1075
+Oliver on the Hudson,1094,2,2.0,1075
+Oliver on the Hudson,2004,0,1.0,572
+Oliver on the Hudson,2076,3,2.0,1332
+Oliver on the Hudson,3075,2,2.0,1082
+Oliver on the Hudson,3098,0,1.0,572
+Oliver on the Hudson,4010,2,2.0,1082
+Oliver on the Hudson,4023,2,2.0,1103
+Oliver on the Hudson,4040,2,2.0,1049
+Oliver on the Hudson,4073,2,2.0,1117
+Oliver on the Hudson,5015,2,2.0,999
+Oliver on the Hudson,5037,1,1.0,1044
+Oliver on the Hudson,5041,1,1.0,1044
+Oliver on the Hudson,5081,1,1.0,871
+Oliver on the Hudson,5083,1,1.0,871
+Oliver on the Hudson,5085,1,1.0,871

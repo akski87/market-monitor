@@ -5895,6 +5895,213 @@
           "baths": 2.0
         }
       }
+    },
+    "oliver_hudson": {
+      "units": {
+        "3098": {
+          "sqft": 572,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "2004": {
+          "sqft": 572,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "5081": {
+          "sqft": 871,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "5083": {
+          "sqft": 871,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "5085": {
+          "sqft": 871,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "5041": {
+          "sqft": 1044,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "5037": {
+          "sqft": 1044,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "4040": {
+          "sqft": 1049,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "1054": {
+          "sqft": 1075,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "1094": {
+          "sqft": 1075,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "3075": {
+          "sqft": 1082,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "1078": {
+          "sqft": 1075,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "4010": {
+          "sqft": 1082,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "5015": {
+          "sqft": 999,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "4023": {
+          "sqft": 1103,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "4073": {
+          "sqft": 1117,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "2076": {
+          "sqft": 1332,
+          "beds": 3,
+          "baths": 2.0
+        }
+      }
+    },
+    "radio_lofts": {
+      "units": {
+        "fp1": {
+          "beds": 0,
+          "baths": 1.0
+        },
+        "fp2": {
+          "beds": 1,
+          "baths": 1.0
+        },
+        "fp3": {
+          "beds": 1,
+          "baths": 2.0
+        },
+        "fp4": {
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp5": {
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp6": {
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp7": {
+          "beds": 3,
+          "baths": 3.0
+        }
+      }
+    },
+    "one_grove": {
+      "units": {
+        "fp1": {
+          "sqft": 786,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "fp2": {
+          "sqft": 657,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "fp3": {
+          "sqft": 485,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "fp4": {
+          "sqft": 626,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "fp5": {
+          "sqft": 1007,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp6": {
+          "sqft": 1376,
+          "beds": 3,
+          "baths": 2.5
+        }
+      }
+    },
+    "dvora_175": {
+      "units": {
+        "fp1": {
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp2": {
+          "beds": 2,
+          "baths": 2.0
+        }
+      }
+    },
+    "grand_235": {
+      "units": {
+        "fp1": {
+          "beds": 0,
+          "baths": 1.0
+        },
+        "fp2": {
+          "beds": 1,
+          "baths": 1.0
+        },
+        "fp3": {
+          "beds": 2,
+          "baths": 2.0
+        }
+      }
+    },
+    "j_295": {
+      "units": {
+        "fp1": {
+          "sqft": 422,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "fp2": {
+          "sqft": 636,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "fp3": {
+          "sqft": 979,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "fp4": {
+          "sqft": 422,
+          "beds": 0,
+          "baths": 1.0
+        }
+      }
     }
   }
 }
