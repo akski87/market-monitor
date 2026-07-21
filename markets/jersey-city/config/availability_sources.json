@@ -370,8 +370,8 @@
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "working",
-      "notes": "Yardi SecureCafe availableunits (JS-rendered RentCafe grid); fetched + rendered via Zyte browserHtml, parsed FLOOR PLAN/#unit."
+      "status": "testing",
+      "notes": "Yardi SecureCafe; renders fully in a real browser but Zyte headless returns partial/empty — render tuning pending."
     },
     {
       "building": "The Beach",
@@ -420,8 +420,8 @@
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "working",
-      "notes": "Yardi SecureCafe availableunits (JS-rendered RentCafe grid); fetched + rendered via Zyte browserHtml, parsed FLOOR PLAN/#unit."
+      "status": "testing",
+      "notes": "Yardi SecureCafe; renders fully in a real browser but Zyte headless returns partial/empty — render tuning pending."
     },
     {
       "building": "VYV North Tower",
@@ -460,8 +460,8 @@
       "js_rendered": false,
       "portal_url": null,
       "api_endpoint": null,
-      "status": "working",
-      "notes": "Yardi SecureCafe availableunits (JS-rendered RentCafe grid); fetched + rendered via Zyte browserHtml, parsed FLOOR PLAN/#unit."
+      "status": "testing",
+      "notes": "Yardi SecureCafe; renders fully in a real browser but Zyte headless returns partial/empty — render tuning pending."
     },
     {
       "building": "The Hazel II",
