@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T13:21:02+00:00",
+  "generated_at": "2026-07-23T13:23:57+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -1185,6 +1185,12 @@
           "sqft": 1148
         },
         {
+          "unit": "656",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 808
+        },
+        {
           "unit": "753",
           "beds": 1,
           "baths": 1.0,
@@ -1431,6 +1437,12 @@
           "sqft": 1218
         },
         {
+          "unit": "The Lockwood-2",
+          "beds": 1,
+          "baths": 1.5,
+          "sqft": 1218
+        },
+        {
           "unit": "The Medecco-1",
           "beds": 2,
           "baths": 2.0,
@@ -1506,6 +1518,12 @@
         },
         {
           "unit": "242",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
+        },
+        {
+          "unit": "252",
           "beds": 1,
           "baths": 1.0,
           "sqft": 685
