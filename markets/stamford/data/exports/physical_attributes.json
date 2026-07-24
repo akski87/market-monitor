@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:23:57+00:00",
+  "generated_at": "2026-07-24T13:19:21+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -1424,6 +1424,18 @@
       "name": "121 Towne",
       "total_units": 329,
       "recorded": [
+        {
+          "unit": "The Banbury-1",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1390
+        },
+        {
+          "unit": "The Fitchet-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1029
+        },
         {
           "unit": "The Hobbs-1",
           "beds": 0,
