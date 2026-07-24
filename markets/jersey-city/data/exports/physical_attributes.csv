@@ -159,6 +159,7 @@ Journal Squared,4203,1,1,732
 Journal Squared,4207,2,2,1071
 Journal Squared,4301,1,1,637
 Journal Squared,4302,2,2.0,1025
+Journal Squared,4307,1,1,706
 Journal Squared,4405,1,1,618
 Journal Squared,4411,0,1,573
 Journal Squared,4602,2,2,1025
@@ -237,6 +238,7 @@ The Journal,0906,3,2,1374
 The Journal,0913,1,1,696
 The Journal,0919,0,1,567
 The Journal,1002,0,1,387
+The Journal,1003,3,2,1153
 The Journal,1004,0,1,461
 The Journal,1005,1,1.0,855
 The Journal,1006,3,2,1305
@@ -682,6 +684,7 @@ The Greyson,1101,0,1,
 The Greyson,1103,1,1,
 The Greyson,1104,0,1,414
 The Greyson,1111,0,1,470
+The Greyson,1112,1,1,
 The Greyson,1117,0,1,
 The Greyson,1118,1,1,657
 The Greyson,1122,0,1,415
@@ -695,6 +698,7 @@ The Greyson,1401,0,1,
 The Greyson,1405,1,1,650
 The Greyson,1409,1,1,740
 The Greyson,1412,1,1,
+The Greyson,1417,0,1,
 The Greyson,1621,0,1,549
 The Greyson,1626,1,1,699
 The Greyson,1704,0,1,
@@ -712,6 +716,7 @@ The Greyson,2008,2,2.0,
 The Greyson,2010,1,1,672
 The Greyson,2012,1,1,671
 The Greyson,2018,1,1.0,657
+The Greyson,2025,1,1,
 The Greyson,2104,0,1.0,414
 The Greyson,2108,2,2,1079
 The Greyson,2113,0,1.0,
@@ -725,6 +730,7 @@ The Greyson,2406,0,1,419
 The Greyson,2407,1,1,629
 The Greyson,2409,1,1,740
 The Greyson,2417,0,1,444
+The Greyson,2422,0,1,
 The Greyson,2425,1,1,770
 The Greyson,2505,1,1,650
 The Greyson,2507,1,1.0,
@@ -779,14 +785,19 @@ The Greyson,923,1,1,688
 505 Summit,3109,1,1,736
 505 Summit,3112,1,1,690
 505 Summit,3113,2,2,924
+505 Summit,3213,2,2,924
 505 Summit,3301,2,2.0,
 505 Summit,3310,1,1,569
 505 Summit,3401,2,2,1144
 505 Summit,3411,1,1.0,
 505 Summit,3501,2,2,1144
 505 Summit,3502,0,1,638
+505 Summit,3601,2,2,1144
 505 Summit,3608,1,1.0,
 505 Summit,3613,2,2.0,
+505 Summit,3703,0,1,623
+505 Summit,3802,0,1,638
+505 Summit,3807,1,1,727
 505 Summit,3808,1,1,608
 505 Summit,3810,1,1,569
 505 Summit,3811,1,1,698
@@ -803,17 +814,21 @@ The Greyson,923,1,1,688
 505 Summit,4409,1,1,730
 505 Summit,4501,2,2,1141
 505 Summit,4504,1,1,717
+505 Summit,4509,1,1,730
 505 Summit,4511,1,1,673
+505 Summit,4513,1,1,725
 505 Summit,4608,1,1,608
 505 Summit,4612,1,1,688
 505 Summit,4701,1,1,600
 505 Summit,4702,0,1,430
 505 Summit,4703,0,1,446
 505 Summit,4704,0,1,586
+505 Summit,4705,1,1,699
 505 Summit,4706,0,1,526
 505 Summit,4707,0,1,530
 505 Summit,4710,1,1,793
 505 Summit,4714,0,1,520
+505 Summit,4805,1,1,699
 505 Summit,4808,1,1,710
 505 Summit,4812,1,1,730
 505 Summit,4905,1,1,699
@@ -821,6 +836,7 @@ The Greyson,923,1,1,688
 505 Summit,4914,0,1.0,520
 505 Summit,5001,1,1,600
 505 Summit,5004,0,1,586
+505 Summit,5007,0,1,530
 505 Summit,5010,1,1.0,793
 505 Summit,5011,1,1,594
 505 Summit,5012,1,1,730
@@ -828,6 +844,7 @@ The Greyson,923,1,1,688
 505 Summit,5014,0,1,520
 505 Summit,5104,0,1,586
 505 Summit,5109,0,1,462
+505 Summit,5111,1,1,551
 505 Summit,5204,0,1,586
 505 Summit,5206,0,1,530
 505 Summit,5208,1,1.0,
@@ -874,6 +891,7 @@ The Greyson,923,1,1,688
 3 Journal Square,0217,1,1,752
 3 Journal Square,0404,2,2,1052
 3 Journal Square,0417,1,1,752
+3 Journal Square,0514,2,2,1156
 3 Journal Square,0609,0,1,496
 3 Journal Square,0612,0,1,496
 3 Journal Square,0615,1,1,687
@@ -882,6 +900,7 @@ The Greyson,923,1,1,688
 3 Journal Square,1101,1,1,687
 3 Journal Square,1115,1,1,687
 3 Journal Square,1117,1,1,752
+3 Journal Square,1202,0,1,496
 3 Journal Square,PH01,1,1,687
 134 Baldwin,308,0,1,561
 134 Baldwin,404,0,1,500
@@ -911,6 +930,7 @@ Bisby,BIS0424,0,1.0,484
 Bisby,BIS0426,0,1.0,484
 Bisby,BIS0503,1,1.0,835
 Bisby,BIS0507,1,1.0,780
+Bisby,BIS0522,0,1.0,484
 Bisby,BIS0528,0,1.0,484
 Bisby,BIS0705,1,1.0,773
 Bisby,BIS0801,2,2.0,1267
@@ -931,10 +951,12 @@ Bisby,BIS1816,3,3.0,1701
 Bisby,BIS1906,1,1.0,795
 Bisby,BIS2006,1,1.0,795
 Bisby,BIS2202,2,2.0,1267
+Bisby,BIS2209,1,1.0,827
 Bisby,BIS2316,3,3.0,1701
 Bisby,BIS2416,3,3.0,1701
 Bisby,BIS2904,2,2.0,1080
 Bisby,BIS3007,1,1.0,780
+Bisby,BIS3202,2,2.0,1267
 Bisby,BIS3204,2,2.0,1080
 Bisby,BISPH101,2,2.0,1267
 One Grove,fp1,1,1.0,786
@@ -1023,6 +1045,7 @@ VYV South Tower,S-1361,1,1.0,734
 VYV South Tower,S-1655,1,1.0,703
 VYV South Tower,S-1659,1,1.0,759
 VYV South Tower,S-1853,1,1.0,733
+VYV South Tower,S-1858,1,1.0,769
 VYV South Tower,S-1859,1,1.0,759
 VYV South Tower,S-2060,2,2.0,1179
 VYV South Tower,S-2061,1,1.0,734
@@ -1080,16 +1103,22 @@ DVORA 175,fp3,2,1.0,
 235 Grand,fp2,1,1.0,
 235 Grand,fp3,2,2.0,
 Sable,SAB-0402,1,1.0,752
+Sable,SAB-0602,1,1.0,752
 Sable,SAB-1003,1,1.0,736
 Sable,SAB-1005,2,1.0,1013
+Sable,SAB-1112,0,1.0,413
 Sable,SAB-1405,2,1.0,1013
 Sable,SAB-1408,2,1.0,824
 Sable,SAB-1508,2,1.0,824
+Sable,SAB-1910,0,1.0,561
 Sable,SAB-2001,0,1.0,413
 Sable,SAB-2011,1,1.0,752
 Sable,SAB-2107,1,1.0,569
+Sable,SAB-2405,1,1.0,612
 Sable,SAB-2409,1,1.0,529
+Sable,SAB-2610,0,1.0,456
 Sable,SAB-2802,1,1.0,612
+Sable,SAB-3001,0,1.0,413
 Sable,SAB-3012,0,1.0,413
 Sable,SAB-3103,1,1.0,599
 Sable,SAB-3205,1,1.0,612
@@ -1101,6 +1130,7 @@ Sable,SAB-3701,1,1.0,569
 Sable,SAB-3709,1,1.0,699
 Sable,SAB-3711,2,1.0,1013
 Sable,SAB-3811,2,1.0,1013
+Sable,SAB-3901,1,1.0,569
 Sable,SAB-4008,2,1.0,1013
 Sable,SAB-4102,2,1.0,824
 Sable,SAB-4302,2,1.0,1013
@@ -1116,12 +1146,15 @@ Sable,SAB-5302,1,1.0,612
 Sable,SAB-5411,1,1.0,612
 Sable,SAB-5504,1,1.0,599
 Sable,SAB-5509,1,1.0,529
+Sable,SAB-5712,0,1.0,413
+Sable,SAB-5802,2,1.0,824
 Sable,SAB-6007,0,1.0,413
 Sable,SAB-6110,0,1.0,561
 Sable,SAB-6205,1,1.0,612
 Sable,SAB-6505,2,1.0,1013
 Sable,SAB-6708,2,1.0,824
 Sable,SAB-6906,1,1.0,569
+Sable,SAB-6907,1,1.0,569
 The Hazel,208,1,1.0,
 The Hazel,241,0,1.0,
 The Hazel,302,1,1.0,
@@ -1214,6 +1247,7 @@ The Agnes,120,4,3.0,
 The Agnes,215,2,2.0,
 The Agnes,221,2,2.0,
 The Agnes,352,0,1.0,
+The Agnes,408,1,1.0,
 The Agnes,444,1,1.0,
 The Agnes,447,1,1.0,
 The Agnes,509,0,1.0,
