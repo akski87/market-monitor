@@ -16,6 +16,7 @@ Journal Square Urby,1701,0,1,
 Journal Square Urby,1704,0,1,
 Journal Square Urby,1710,2,2.0,907
 Journal Square Urby,1714,2,2.0,831
+Journal Square Urby,1801,0,1,
 Journal Square Urby,1804,0,1,
 Journal Square Urby,1812,2,2.0,805
 Journal Square Urby,1816,1,1,
@@ -60,6 +61,7 @@ Journal Squared,0902,1,1,591
 Journal Squared,0905,0,1,498
 Journal Squared,0906,3,2,1158
 Journal Squared,0909,0,1.0,622
+Journal Squared,0911,0,1,502
 Journal Squared,1002,2,2,914
 Journal Squared,1004,0,1,549
 Journal Squared,1007,0,1.0,444
@@ -736,6 +738,7 @@ The Greyson,2505,1,1,650
 The Greyson,2507,1,1.0,
 The Greyson,2520,0,1.0,428
 The Greyson,2521,0,1,549
+The Greyson,2603,1,1,
 The Greyson,2604,0,1,414
 The Greyson,2613,0,1,470
 The Greyson,2623,1,1,688
@@ -785,6 +788,7 @@ The Greyson,923,1,1,688
 505 Summit,3109,1,1,736
 505 Summit,3112,1,1,690
 505 Summit,3113,2,2,924
+505 Summit,3211,1,1,698
 505 Summit,3213,2,2,924
 505 Summit,3301,2,2.0,
 505 Summit,3310,1,1,569
@@ -913,12 +917,15 @@ The Greyson,923,1,1,688
 134 Baldwin,713,0,1,565
 134 Baldwin,802,0,1,500
 Radio Lofts,fp1,0,1.0,
+Radio Lofts,fp10,2,2.0,
 Radio Lofts,fp2,1,1.0,
 Radio Lofts,fp3,1,2.0,
 Radio Lofts,fp4,2,2.0,
 Radio Lofts,fp5,2,2.0,
 Radio Lofts,fp6,2,2.0,
 Radio Lofts,fp7,3,3.0,
+Radio Lofts,fp8,2,2.0,
+Radio Lofts,fp9,2,2.0,
 Bisby,BIS0207,1,1.0,780
 Bisby,BIS0218,0,1.0,484
 Bisby,BIS0222,0,1.0,484
@@ -954,6 +961,7 @@ Bisby,BIS2202,2,2.0,1267
 Bisby,BIS2209,1,1.0,827
 Bisby,BIS2316,3,3.0,1701
 Bisby,BIS2416,3,3.0,1701
+Bisby,BIS2516,3,3.0,1701
 Bisby,BIS2904,2,2.0,1080
 Bisby,BIS3007,1,1.0,780
 Bisby,BIS3202,2,2.0,1267
@@ -1099,6 +1107,7 @@ VYV North Tower,N-3511,2,2.0,1084
 DVORA 175,fp1,2,2.0,
 DVORA 175,fp2,2,2.0,
 DVORA 175,fp3,2,1.0,
+DVORA 175,fp4,2,1.0,
 235 Grand,fp1,0,1.0,
 235 Grand,fp2,1,1.0,
 235 Grand,fp3,2,2.0,
@@ -1160,6 +1169,7 @@ The Hazel,241,0,1.0,
 The Hazel,302,1,1.0,
 The Hazel,304,0,1.0,
 The Hazel,307,2,2.0,
+The Hazel,308,1,1.0,
 The Hazel,318,1,1.0,
 The Hazel,335,1,1.0,
 The Hazel,341,0,1.0,
@@ -1190,6 +1200,7 @@ Atlas,1106,2,2.0,
 Atlas,1206,2,2.0,
 Atlas,1303,1,1.0,
 Atlas,1306,2,2.0,
+Atlas,1401,1,1.0,
 Atlas,1704,3,2.0,
 Atlas,1707,1,1.0,
 Atlas,1807,1,1.0,
@@ -1208,6 +1219,7 @@ Atlas,2305,1,1.0,
 Birch House,106,1,1.0,
 Birch House,203,0,1.0,
 Birch House,211,2,2.0,
+Birch House,217,0,1.0,
 Birch House,219,1,1.0,
 Birch House,246,2,2.0,
 Birch House,255,2,2.0,
@@ -1223,6 +1235,7 @@ Birch House,474,2,2.0,
 Birch House,516,2,2.0,
 Birch House,551,1,1.0,
 Birch House,555,2,2.0,
+Birch House,575,1,1.0,
 Birch House,PH05,0,1.0,
 Birch House,PH36,0,1.0,
 Birch House,PH46,2,2.0,
@@ -1257,6 +1270,8 @@ The Agnes,530,1,1.0,
 The Agnes,533,2,2.0,
 The Devan,206,3,2.0,
 The Devan,238,1,1.0,
+The Devan,245,0,1.0,
+The Devan,262,0,1.0,
 The Devan,358,2,2.0,
 The Devan,416,1,1.0,
 The Devan,426,0,1.0,

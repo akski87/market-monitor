@@ -1,280 +1,278 @@
 snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_effective_rent,price_basis,concession_text,available_date,data_flag,conc_months,lease_months
-2026-07-24,100 House,1,fp3,1BR,1,1.0,,3070.0,,asking,,,,,
-2026-07-24,100 House,1,fp4,1BR,1,1.0,,3190.0,,asking,,,,,
-2026-07-24,100 House,1,fp7,1BR,1,1.0,,3385.0,,asking,,,,,
-2026-07-24,100 House,1,fp8,1BR,1,1.0,,3345.0,,asking,,,,,
-2026-07-24,100 House,1,fp9,1BR,1,1.0,,3305.0,,asking,,,,,
-2026-07-24,100 House,1,fp10,2BR,2,2.0,,4320.0,,asking,,,,,
-2026-07-24,100 House,1,fp11,2BR,2,2.0,,4260.0,,asking,,,,,
-2026-07-24,100 House,1,fp12,2BR,2,2.0,,4350.0,,asking,,,,,
-2026-07-24,100 House,1,fp13,2BR,2,2.0,,4545.0,,asking,,,,,
-2026-07-24,100 House,1,fp5,2BR,2,2.0,,4290.0,,asking,,,,,
-2026-07-24,100 House,1,fp6,2BR,2,2.0,,4155.0,,asking,,,,,
-2026-07-24,100 House,1,fp1,Studio,0,1.0,,2680.0,,asking,,,,,
-2026-07-24,100 House,1,fp2,Studio,0,1.0,,2885.0,,asking,,,,,
-2026-07-24,134 Baldwin,1,705,1BR,1,1.0,750,3000.0,,asking,,2026-07-24,,,
-2026-07-24,134 Baldwin,1,404,Studio,0,1.0,500,2100.0,,asking,,2026-07-09,,,
-2026-07-24,134 Baldwin,1,414,Studio,0,1.0,660,2399.0,,asking,,2026-07-11,,,
-2026-07-24,134 Baldwin,1,504,Studio,0,1.0,575,2499.0,,asking,,2026-07-01,,,
-2026-07-24,134 Baldwin,1,513,Studio,0,1.0,565,2350.0,,asking,,2026-07-01,,,
-2026-07-24,134 Baldwin,1,713,Studio,0,1.0,565,2350.0,,asking,,2026-07-01,,,
-2026-07-24,134 Baldwin,1,802,Studio,0,1.0,500,2150.0,,asking,,2026-07-17,,,
-2026-07-24,235 Grand,1,fp2,1BR,1,1.0,,3825.0,,asking,,,,,
-2026-07-24,235 Grand,1,fp3,2BR,2,2.0,,5090.0,,asking,,,,,
-2026-07-24,235 Grand,1,fp1,Studio,0,1.0,,2975.0,,asking,,,,,
-2026-07-24,295J,1,fp2,1BR,1,1.0,636,2849.0,,asking,,,,,
-2026-07-24,295J,1,fp3,2BR,2,2.0,979,4018.0,,asking,,,,,
-2026-07-24,295J,1,fp1,Studio,0,1.0,422,2293.0,,asking,,,,,
-2026-07-24,295J,1,fp4,Studio,0,1.0,422,2512.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0217,1BR,1,1.0,752,3269.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0701,1BR,1,1.0,687,3089.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0705,1BR,1,1.0,704,3150.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,1115,1BR,1,1.0,687,3159.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,PH01,1BR,1,1.0,687,3169.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0214,2BR,2,2.0,1156,4309.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0404,2BR,2,2.0,1052,4049.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,0514,2BR,2,2.0,1156,4329.0,,asking,,,,,
-2026-07-24,3 Journal Square,1,1202,Studio,0,1.0,496,2479.0,,asking,,,,,
-2026-07-24,345 Baldwin,1,1008,1BR,1,1.0,620,2975.0,2727.0,both,"$2,727.08 Net Effective Rent",8/30/2026,,1,12
-2026-07-24,351 Marin,1,fp2,1BR,1,1.0,,4080.0,,asking,,,,,
-2026-07-24,351 Marin,1,fp3,2BR,2,2.0,,6150.0,,asking,,,,,
-2026-07-24,351 Marin,1,fp1,Studio,0,1.0,,3435.0,,asking,,,,,
-2026-07-24,413 Summit,1,1010,1BR,1,1.0,,2995.0,2765.0,net+derived_gross,"*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",,,1,13
-2026-07-24,413 Summit,1,409,1BR,1,1.0,,2595.0,2395.0,net+derived_gross,"*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",,,1,13
-2026-07-24,505 Summit,1,3807,1BR,1,1.0,727,4101.0,3539.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4509,1BR,1,1.0,730,4161.0,3592.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4511,1BR,1,1.0,673,4081.0,3522.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4513,1BR,1,1.0,725,3946.0,3404.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4608,1BR,1,1.0,608,4041.0,3487.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4612,1BR,1,1.0,688,3926.0,3386.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4701,1BR,1,1.0,600,4116.0,3553.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4705,1BR,1,1.0,699,3911.0,3373.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4805,1BR,1,1.0,699,3921.0,3382.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4808,1BR,1,1.0,710,4191.0,3618.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5013,1BR,1,1.0,701,4026.0,3474.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5111,1BR,1,1.0,551,3901.0,3364.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,2612,2BR,2,2.0,923,5396.0,4784.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,3213,2BR,2,2.0,924,5621.0,4985.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,3601,2BR,2,2.0,1144,5766.0,5115.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4501,2BR,2,2.0,1141,5821.0,5164.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,0604,Studio,0,1.0,620,3551.0,3131.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,3703,Studio,0,1.0,623,3171.0,2791.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,3802,Studio,0,1.0,638,3566.0,3144.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4402,Studio,0,1.0,635,3556.0,3135.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,4914,Studio,0,1.0,520,3521.0,3104.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5007,Studio,0,1.0,530,3511.0,3095.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5104,Studio,0,1.0,586,3536.0,3118.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5109,Studio,0,1.0,462,3706.0,3270.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5204,Studio,0,1.0,586,3546.0,3126.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,505 Summit,1,5309,Studio,0,1.0,462,3641.0,3212.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
-2026-07-24,55 Jordan,1,1373,1BR,1,1.0,,2500.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
-2026-07-24,55 Jordan,1,1699,2BR,2,1.0,,2875.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
-2026-07-24,55 Jordan,1,1801,2BR,2,2.0,,3100.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
-2026-07-24,55 Jordan,1,2060,Studio,0,1.0,,2050.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
-2026-07-24,55 Jordan,1,4070,Studio,0,1.0,,2200.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
-2026-07-24,829 Garfield,1,fp1,2BR,2,2.0,973,2800.0,,asking,,,,,
-2026-07-24,829 Garfield,1,fp3,2BR,2,2.0,919,3050.0,,asking,,,,,
-2026-07-24,829 Garfield,1,fp2,3BR,3,2.0,1247,3300.0,,asking,,,,,
-2026-07-24,Atlas,1,0305,1BR,1,1.0,,3377.0,,asking,,,,,
-2026-07-24,Atlas,1,0406,1BR,1,1.0,,3422.0,,asking,,,,,
-2026-07-24,Atlas,1,0503,1BR,1,1.0,,4283.0,,asking,,,,,
-2026-07-24,Atlas,1,0505,1BR,1,1.0,,3783.0,,asking,,,,,
-2026-07-24,Atlas,1,1303,1BR,1,1.0,,4383.0,,asking,,,,,
-2026-07-24,Atlas,1,1707,1BR,1,1.0,,3718.0,,asking,,,,,
-2026-07-24,Atlas,1,1807,1BR,1,1.0,,3743.0,,asking,,,,,
-2026-07-24,Atlas,1,2001,1BR,1,1.0,,3437.0,,asking,,,,,
-2026-07-24,Atlas,1,2201,1BR,1,1.0,,3437.0,,asking,,,,,
-2026-07-24,Atlas,1,2203,1BR,1,1.0,,4202.0,,asking,,,,,
-2026-07-24,Atlas,1,2305,1BR,1,1.0,,4483.0,,asking,,,,,
-2026-07-24,Atlas,1,1106,2BR,2,2.0,,4456.0,,asking,,,,,
-2026-07-24,Atlas,1,1206,2BR,2,2.0,,4898.0,,asking,,,,,
-2026-07-24,Atlas,1,1306,2BR,2,2.0,,4933.0,,asking,,,,,
-2026-07-24,Atlas,1,0304,3BR,3,2.0,,5530.0,,asking,,,,,
-2026-07-24,Atlas,1,0904,3BR,3,2.0,,5605.0,,asking,,,,,
-2026-07-24,Atlas,1,1704,3BR,3,2.0,,5715.0,,asking,,,,,
-2026-07-24,Atlas,1,2304,3BR,3,2.0,,6485.0,,asking,,,,,
-2026-07-24,Atlas,1,0808,Studio,0,1.0,,2807.0,,asking,,,,,
-2026-07-24,Birch House,1,219,1BR,1,1.0,,2650.0,,asking,,,,,
-2026-07-24,Birch House,1,351,1BR,1,1.0,,2645.0,,asking,,,,,
-2026-07-24,Birch House,1,433,1BR,1,1.0,,2485.0,,asking,,,,,
-2026-07-24,Birch House,1,435,1BR,1,1.0,,2660.0,,asking,,,,,
-2026-07-24,Birch House,1,551,1BR,1,1.0,,2640.0,,asking,,,,,
-2026-07-24,Birch House,1,PH51,1BR,1,1.0,,2785.0,,asking,,,,,
-2026-07-24,Birch House,1,211,2BR,2,2.0,,3970.0,,asking,,,,,
-2026-07-24,Birch House,1,246,2BR,2,2.0,,4095.0,,asking,,,,,
-2026-07-24,Birch House,1,255,2BR,2,2.0,,3880.0,,asking,,,,,
-2026-07-24,Birch House,1,311,2BR,2,2.0,,3770.0,,asking,,,,,
-2026-07-24,Birch House,1,379,2BR,2,2.0,,3770.0,,asking,,,,,
-2026-07-24,Birch House,1,381,2BR,2,1.0,,3220.0,,asking,,,,,
-2026-07-24,Birch House,1,416,2BR,2,2.0,,3685.0,,asking,,,,,
-2026-07-24,Birch House,1,474,2BR,2,2.0,,3795.0,,asking,,,,,
-2026-07-24,Birch House,1,516,2BR,2,2.0,,3705.0,,asking,,,,,
-2026-07-24,Birch House,1,555,2BR,2,2.0,,3810.0,,asking,,,,,
-2026-07-24,Birch House,1,PH46,2BR,2,2.0,,3720.0,,asking,,,,,
-2026-07-24,Birch House,1,PH60,2BR,2,1.0,,3330.0,,asking,,,,,
-2026-07-24,Birch House,1,203,Studio,0,1.0,,2130.0,,asking,,,,,
-2026-07-24,Birch House,1,336,Studio,0,1.0,,2499.0,,asking,,,,,
-2026-07-24,Birch House,1,PH05,Studio,0,1.0,,2245.0,,asking,,,,,
-2026-07-24,Birch House,1,PH36,Studio,0,1.0,,2423.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0207,1BR,1,1.0,780,4285.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0503,1BR,1,1.0,835,4625.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0507,1BR,1,1.0,780,4375.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0705,1BR,1,1.0,773,4360.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0906,1BR,1,1.0,795,4270.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1206,1BR,1,1.0,795,4300.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1605,1BR,1,1.0,773,4400.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1606,1BR,1,1.0,795,4365.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1607,1BR,1,1.0,780,4465.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1906,1BR,1,1.0,795,4380.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS2209,1BR,1,1.0,827,4645.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0316,2BR,2,2.0,942,6027.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0802,2BR,2,2.0,1267,5977.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0808,2BR,2,2.0,1266,6102.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1008,2BR,2,2.0,1266,6177.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1115,2BR,2,2.0,1292,6837.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1608,2BR,2,2.0,1266,6202.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS2202,2BR,2,2.0,1267,6017.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS2904,2BR,2,2.0,1080,5852.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS3202,2BR,2,2.0,1267,6017.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS3204,2BR,2,2.0,1080,5867.0,,asking,,,,,
-2026-07-24,Bisby,1,BISPH101,2BR,2,2.0,1267,7227.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1116,3BR,3,3.0,1701,8597.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1416,3BR,3,3.0,1701,8607.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1616,3BR,3,3.0,1701,8617.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS1816,3BR,3,3.0,1701,8627.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0218,Studio,0,1.0,484,3299.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0222,Studio,0,1.0,484,3299.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0224,Studio,0,1.0,484,3299.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0320,Studio,0,1.0,484,3304.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0326,Studio,0,1.0,484,3304.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0424,Studio,0,1.0,484,3309.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0426,Studio,0,1.0,484,3309.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0522,Studio,0,1.0,484,3314.0,,asking,,,,,
-2026-07-24,Bisby,1,BIS0528,Studio,0,1.0,484,3314.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp4,1BR,1,1.0,660,2234.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp5,1BR,1,1.0,801,2539.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp6,1BR,1,1.0,696,2264.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp7,2BR,2,2.0,1059,3259.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp1,Studio,0,1.0,506,1938.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp2,Studio,0,1.0,460,2002.0,,asking,,,,,
-2026-07-23,CityLine East,1,fp3,Studio,0,1.0,513,2114.0,,asking,,,,,
-2026-07-24,CityLine West,1,fp1,1BR,1,1.0,670,2310.0,,asking,,,,,
-2026-07-24,CityLine West,1,fp2,1BR,1,1.0,665,2310.0,,asking,,,,,
-2026-07-24,CityLine West,1,fp3,2BR,2,2.0,941,2882.0,,asking,,,,,
-2026-07-24,CityLine West,1,fp4,2BR,2,1.0,986,3128.0,,asking,,,,,
-2026-07-24,DVORA 175,1,fp1,1BR,1,1.0,,3495.0,,asking,,,,,
-2026-07-24,DVORA 175,1,fp2,2BR,2,2.0,,4795.0,,asking,,,,,
-2026-07-24,DVORA 175,1,fp3,2BR,2,1.0,,4145.0,,asking,,,,,
-2026-07-24,Four Twenty Five Summit,1,0519,1BR,1,1.0,719,3545.0,3101.0,both,"$2,296.88 Net Effective Rent",10/3/2026,,,
-2026-07-24,Four Twenty Five Summit,1,2201,2BR,2,2.0,1004,5325.0,4659.0,both,"$2,296.88 Net Effective Rent",,,,
-2026-07-24,Four Twenty Five Summit,1,0222,Studio,0,1.0,529,2625.0,2296.0,both,"$2,296.88 Net Effective Rent",,,,
-2026-07-24,Four Twenty Five Summit,1,0522,Studio,0,1.0,529,2775.0,2428.0,both,"$2,296.88 Net Effective Rent",,,,
-2026-07-24,Four Twenty Five Summit,1,0709,Studio,0,1.0,515,2995.0,2620.0,both,"$2,296.88 Net Effective Rent",9/27/2026,,,
-2026-07-24,Four Twenty Five Summit,1,0822,Studio,0,1.0,529,3055.0,2673.0,both,"$2,296.88 Net Effective Rent",,,,
-2026-07-24,Four Twenty Five Summit,1,1212,Studio,0,1.0,374,2675.0,2340.0,both,"$2,296.88 Net Effective Rent",10/26/2026,,,
-2026-07-24,Four Twenty Five Summit,1,1912,Studio,0,1.0,374,2795.0,2445.0,both,"$2,296.88 Net Effective Rent",10/6/2026,,,
-2026-07-24,Four Twenty Five Summit,1,2307,Studio,0,1.0,383,2845.0,2489.0,both,"$2,296.88 Net Effective Rent",9/26/2026,,,
-2026-07-24,Four Twenty Five Summit,1,2407,Studio,0,1.0,383,2845.0,2489.0,both,"$2,296.88 Net Effective Rent",10/24/2026,,,
-2026-07-24,Haus25,1,fp1,1BR,1,1.0,675,4785.0,,asking,,,,,
-2026-07-24,Haus25,1,fp10,1BR,1,1.0,847,5730.0,,asking,,,,,
-2026-07-24,Haus25,1,fp11,1BR,1,1.0,835,5265.0,,asking,,,,,
-2026-07-24,Haus25,1,fp2,1BR,1,1.0,685,4650.0,,asking,,,,,
-2026-07-24,Haus25,1,fp3,1BR,1,1.0,809,5500.0,,asking,,,,,
-2026-07-24,Haus25,1,fp9,1BR,1,1.0,744,5750.0,,asking,,,,,
-2026-07-24,Haus25,1,fp12,2BR,2,1.0,1003,6825.0,,asking,,,,,
-2026-07-24,Haus25,1,fp13,2BR,2,2.0,1113,7975.0,,asking,,,,,
-2026-07-24,Haus25,1,fp14,2BR,2,2.0,1120,8355.0,,asking,,,,,
-2026-07-24,Haus25,1,fp15,2BR,2,2.0,1133,8595.0,,asking,,,,,
-2026-07-24,Haus25,1,fp16,2BR,2,2.0,1245,7910.0,,asking,,,,,
-2026-07-24,Haus25,1,fp17,2BR,2,2.5,1349,10200.0,,asking,,,,,
-2026-07-24,Haus25,1,fp4,2BR,2,2.0,1166,8485.0,,asking,,,,,
-2026-07-24,Haus25,1,fp5,3BR,3,2.0,1411,12240.0,,asking,,,,,
-2026-07-24,Haus25,1,fp6,Studio,0,1.0,475,3650.0,,asking,,,,,
-2026-07-24,Haus25,1,fp7,Studio,0,1.0,478,3750.0,,asking,,,,,
-2026-07-24,Haus25,1,fp8,Studio,0,1.0,575,4200.0,,asking,,,,,
-2026-07-24,Journal Square Urby,1,208,1BR,1,2.0,,3525.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/04/2026,,,
-2026-07-24,Journal Square Urby,1,212,1BR,1,1.0,,3195.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/06/2026,,,
-2026-07-24,Journal Square Urby,1,2416,1BR,1,1.0,,3495.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/03/2026,,,
-2026-07-24,Journal Square Urby,1,416,1BR,1,1.0,,3305.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/20/2026,,,
-2026-07-24,Journal Square Urby,1,911,1BR,1,1.0,,3250.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/16/2026,,,
-2026-07-24,Journal Square Urby,1,916,1BR,1,1.0,,3425.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/17/2026,,,
-2026-07-24,Journal Square Urby,1,1701,Studio,0,1.0,,2925.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/18/2026,,,
-2026-07-24,Journal Square Urby,1,2204,Studio,0,1.0,,3005.0,,asking,Up to 1 Month Free! Contact us to learn more.,Now,,,
-2026-07-24,Journal Square Urby,1,504,Studio,0,1.0,,2875.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/23/2026,,,
-2026-07-24,Journal Square Urby,1,506,Studio,0,1.0,,2875.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/10/2026,,,
-2026-07-24,Journal Square Urby,1,515,Studio,0,1.0,,3165.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/18/2026,,,
-2026-07-24,Journal Squared,1,1402,1BR,1,1.0,716,3490.0,,asking,Up to 1 mo free on SELECT units (term not stated),11/07/2026,,,
-2026-07-24,Journal Squared,1,2312,1BR,1,1.0,870,4080.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/14/2026,,,
-2026-07-24,Journal Squared,1,2412,1BR,1,1.0,870,4080.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
-2026-07-24,Journal Squared,1,2501,1BR,1,1.0,631,3330.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/07/2026,,,
-2026-07-24,Journal Squared,1,2902,1BR,1,1.0,738,3590.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/07/2026,,,
-2026-07-24,Journal Squared,1,3505,1BR,1,1.0,618,3615.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/18/2026,,,
-2026-07-24,Journal Squared,1,4307,1BR,1,1.0,706,3585.0,,asking,Up to 1 mo free on SELECT units (term not stated),Now,,,
-2026-07-24,Journal Squared,1,4603,1BR,1,1.0,652,3435.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
-2026-07-24,Journal Squared,1,5004,1BR,1,1.0,646,3435.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/13/2026,,,
-2026-07-24,Journal Squared,1,5603,1BR,1,1.0,700,3975.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/11/2026,,,
-2026-07-24,Journal Squared,1,,1BR,1,1.0,692,4195.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/24/2026,,,
-2026-07-24,Journal Squared,1,1202,2BR,2,2.0,914,4775.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/26/2026,,,
-2026-07-24,Journal Squared,1,1812,2BR,2,2.0,1044,4990.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/08/2026,,,
-2026-07-24,Journal Squared,1,2212,2BR,2,2.0,1044,4990.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
-2026-07-24,Journal Squared,1,4202,2BR,2,2.0,1025,4795.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/06/2026,,,
-2026-07-24,Journal Squared,1,4702,2BR,2,2.0,1056,5425.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/25/2026,,,
-2026-07-24,Journal Squared,1,4802,2BR,2,2.0,1025,4810.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
-2026-07-24,Journal Squared,1,4804,2BR,2,2.0,1031,5005.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
-2026-07-24,Journal Squared,1,5804,2BR,2,2.0,1030,5020.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/03/2026,,,
-2026-07-24,Journal Squared,1,6404,2BR,2,2.0,1031,5020.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/16/2026,,,
-2026-07-24,Journal Squared,1,1105,Studio,0,1.0,558,2820.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
-2026-07-24,Journal Squared,1,1105,Studio,0,1.0,498,2990.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/29/2026,,,
-2026-07-24,Journal Squared,1,1212,Studio,0,1.0,511,2970.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/05/2026,,,
-2026-07-24,Journal Squared,1,1401,Studio,0,1.0,488,2930.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/17/2026,,,
-2026-07-24,Journal Squared,1,1414,Studio,0,1.0,479,3160.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
-2026-07-24,Journal Squared,1,1606,Studio,0,1.0,484,3010.0,,asking,Up to 1 mo free on SELECT units (term not stated),Now,,,
-2026-07-24,Journal Squared,1,4611,Studio,0,1.0,573,3160.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
-2026-07-24,Journal Squared,1,5001,Studio,0,1.0,510,3210.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/26/2026,,,
-2026-07-24,Journal Squared,1,6209,Studio,0,1.0,467,2945.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/30/2026,,,
-2026-07-24,MetroVue,1,1006,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),"July 24 th, 2026",,,
-2026-07-24,MetroVue,1,1110,1BR,1,1.0,590,3099.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
-2026-07-24,MetroVue,1,206,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
-2026-07-24,MetroVue,1,209,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
-2026-07-24,MetroVue,1,407,1BR,1,1.0,562,2750.0,,asking,Incentives offered — unquantified ('contact leasing'),"August 15th, 2026",,,
-2026-07-24,MetroVue,1,609,1BR,1,1.0,562,2800.0,,asking,Incentives offered — unquantified ('contact leasing'),"July 15th, 2026",,,
-2026-07-23,Oliver on the Hudson,1,2029,1BR,1,1.0,875,3315.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5037,1BR,1,1.0,1044,4299.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5041,1BR,1,1.0,1044,4199.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5081,1BR,1,1.0,871,3999.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5083,1BR,1,1.0,871,4149.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5085,1BR,1,1.0,871,3999.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,1078,2BR,2,2.0,1075,3549.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,1092,2BR,2,2.0,1028,3360.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,1094,2BR,2,2.0,1075,3499.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,3075,2BR,2,2.0,1082,3514.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,4010,2BR,2,2.0,1082,3624.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,4023,2BR,2,2.0,1103,3599.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,4040,2BR,2,2.0,1049,3655.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,4073,2BR,2,2.0,1117,3799.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,5015,2BR,2,2.0,999,3799.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,1035,3BR,3,2.0,1292,4499.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,2076,3BR,3,2.0,1332,4420.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,2004,Studio,0,1.0,572,2435.0,,asking,,,,,
-2026-07-23,Oliver on the Hudson,1,3098,Studio,0,1.0,572,2385.0,,asking,,,,,
-2026-07-24,One Grove,1,fp1,1BR,1,1.0,786,4310.0,,asking,,,,,
-2026-07-24,One Grove,1,fp2,1BR,1,1.0,657,3894.0,,asking,,,,,
-2026-07-24,One Grove,1,fp5,2BR,2,2.0,1007,5629.0,,asking,,,,,
-2026-07-24,One Grove,1,fp6,3BR,3,2.5,1376,7960.0,,asking,,,,,
-2026-07-24,One Grove,1,fp3,Studio,0,1.0,485,3310.0,,asking,,,,,
-2026-07-24,One Grove,1,fp4,Studio,0,1.0,626,3716.0,,asking,,,,,
-2026-07-23,One Ten,0,fp3,1BR,1,1.0,,3320.0,,asking,,,,,
-2026-07-23,One Ten,0,fp4,1BR,1,1.0,,3445.0,,asking,,,,,
-2026-07-23,One Ten,0,fp5,1BR,1,1.0,,3395.0,,asking,,,,,
-2026-07-23,One Ten,0,fp6,1BR,1,1.0,,3515.0,,asking,,,,,
-2026-07-23,One Ten,0,fp7,1BR,1,1.0,,3405.0,,asking,,,,,
-2026-07-23,One Ten,0,fp1,Studio,0,1.0,,2860.0,,asking,,,,,
-2026-07-23,One Ten,0,fp10,Studio,0,1.0,,2850.0,,asking,,,,,
-2026-07-23,One Ten,0,fp11,Studio,0,1.0,,2825.0,,asking,,,,,
-2026-07-23,One Ten,0,fp12,Studio,0,1.0,,2860.0,,asking,,,,,
-2026-07-23,One Ten,0,fp2,Studio,0,1.0,,2860.0,,asking,,,,,
-2026-07-23,One Ten,0,fp8,Studio,0,1.0,,2830.0,,asking,,,,,
-2026-07-23,One Ten,0,fp9,Studio,0,1.0,,2985.0,,asking,,,,,
+2026-07-25,100 House,1,fp3,1BR,1,1.0,,3070.0,,asking,,,,,
+2026-07-25,100 House,1,fp4,1BR,1,1.0,,3190.0,,asking,,,,,
+2026-07-25,100 House,1,fp7,1BR,1,1.0,,3385.0,,asking,,,,,
+2026-07-25,100 House,1,fp8,1BR,1,1.0,,3345.0,,asking,,,,,
+2026-07-25,100 House,1,fp9,1BR,1,1.0,,3305.0,,asking,,,,,
+2026-07-25,100 House,1,fp10,2BR,2,2.0,,4320.0,,asking,,,,,
+2026-07-25,100 House,1,fp11,2BR,2,2.0,,4260.0,,asking,,,,,
+2026-07-25,100 House,1,fp12,2BR,2,2.0,,4350.0,,asking,,,,,
+2026-07-25,100 House,1,fp13,2BR,2,2.0,,4545.0,,asking,,,,,
+2026-07-25,100 House,1,fp5,2BR,2,2.0,,4290.0,,asking,,,,,
+2026-07-25,100 House,1,fp6,2BR,2,2.0,,4155.0,,asking,,,,,
+2026-07-25,100 House,1,fp1,Studio,0,1.0,,2680.0,,asking,,,,,
+2026-07-25,100 House,1,fp2,Studio,0,1.0,,2885.0,,asking,,,,,
+2026-07-25,134 Baldwin,1,705,1BR,1,1.0,750,3000.0,,asking,,2026-07-24,,,
+2026-07-25,134 Baldwin,1,404,Studio,0,1.0,500,2100.0,,asking,,2026-07-09,,,
+2026-07-25,134 Baldwin,1,414,Studio,0,1.0,660,2399.0,,asking,,2026-07-11,,,
+2026-07-25,134 Baldwin,1,504,Studio,0,1.0,575,2499.0,,asking,,2026-07-01,,,
+2026-07-25,134 Baldwin,1,513,Studio,0,1.0,565,2350.0,,asking,,2026-07-01,,,
+2026-07-25,134 Baldwin,1,713,Studio,0,1.0,565,2350.0,,asking,,2026-07-01,,,
+2026-07-25,134 Baldwin,1,802,Studio,0,1.0,500,2150.0,,asking,,2026-07-17,,,
+2026-07-25,235 Grand,1,fp2,1BR,1,1.0,,3825.0,,asking,,,,,
+2026-07-25,235 Grand,1,fp3,2BR,2,2.0,,5090.0,,asking,,,,,
+2026-07-25,235 Grand,1,fp1,Studio,0,1.0,,2975.0,,asking,,,,,
+2026-07-25,295J,1,fp2,1BR,1,1.0,636,2849.0,,asking,,,,,
+2026-07-25,295J,1,fp3,2BR,2,2.0,979,4018.0,,asking,,,,,
+2026-07-25,295J,1,fp1,Studio,0,1.0,422,2293.0,,asking,,,,,
+2026-07-25,295J,1,fp4,Studio,0,1.0,422,2512.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0217,1BR,1,1.0,752,3269.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0701,1BR,1,1.0,687,3089.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0705,1BR,1,1.0,704,3150.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,1115,1BR,1,1.0,687,3159.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,PH01,1BR,1,1.0,687,3169.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0214,2BR,2,2.0,1156,4309.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0404,2BR,2,2.0,1052,4049.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,0514,2BR,2,2.0,1156,4329.0,,asking,,,,,
+2026-07-25,3 Journal Square,1,1202,Studio,0,1.0,496,2596.0,,asking,,,,,
+2026-07-25,345 Baldwin,1,1008,1BR,1,1.0,620,2975.0,2727.0,both,"$2,727.08 Net Effective Rent",8/30/2026,,1,12
+2026-07-25,351 Marin,1,fp2,1BR,1,1.0,,4080.0,,asking,,,,,
+2026-07-25,351 Marin,1,fp3,2BR,2,2.0,,6150.0,,asking,,,,,
+2026-07-25,351 Marin,1,fp1,Studio,0,1.0,,3435.0,,asking,,,,,
+2026-07-25,413 Summit,1,1010,1BR,1,1.0,,2995.0,2765.0,net+derived_gross,"*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",,,1,13
+2026-07-25,413 Summit,1,409,1BR,1,1.0,,2595.0,2395.0,net+derived_gross,"*The advertised rent is net effective, reflecting one month free on a 13-month lease. Now offering reduced $1,000 security deposit for applicants with 700+ credit scores.",,,1,13
+2026-07-25,505 Summit,1,3211,1BR,1,1.0,698,3836.0,3308.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,3807,1BR,1,1.0,727,4071.0,3513.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4509,1BR,1,1.0,730,4171.0,3601.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4511,1BR,1,1.0,673,4081.0,3522.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4513,1BR,1,1.0,725,4021.0,3469.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4608,1BR,1,1.0,608,4041.0,3487.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4701,1BR,1,1.0,600,4116.0,3553.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4705,1BR,1,1.0,699,3906.0,3369.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4805,1BR,1,1.0,699,3916.0,3378.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4808,1BR,1,1.0,710,4191.0,3618.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5013,1BR,1,1.0,701,4026.0,3474.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5111,1BR,1,1.0,551,3951.0,3408.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,2612,2BR,2,2.0,923,5531.0,4905.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,3213,2BR,2,2.0,924,5631.0,4994.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,3601,2BR,2,2.0,1144,5746.0,5097.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4501,2BR,2,2.0,1141,5821.0,5164.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,0604,Studio,0,1.0,620,3571.0,3149.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,3802,Studio,0,1.0,638,3531.0,3113.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4402,Studio,0,1.0,635,3531.0,3113.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,4914,Studio,0,1.0,520,3571.0,3149.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5007,Studio,0,1.0,530,3436.0,3028.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5104,Studio,0,1.0,586,3536.0,3118.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5109,Studio,0,1.0,462,3706.0,3270.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5204,Studio,0,1.0,586,3546.0,3126.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,505 Summit,1,5309,Studio,0,1.0,462,3641.0,3212.0,both,GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*,,,2.5,24
+2026-07-25,55 Jordan,1,1373,1BR,1,1.0,,2500.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
+2026-07-25,55 Jordan,1,1699,2BR,2,1.0,,2875.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
+2026-07-25,55 Jordan,1,1801,2BR,2,2.0,,3100.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
+2026-07-25,55 Jordan,1,2060,Studio,0,1.0,,2050.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
+2026-07-25,55 Jordan,1,4070,Studio,0,1.0,,2200.0,,asking,Up to 3 mo free + no broker fee (term not stated),,,,
+2026-07-25,829 Garfield,1,fp1,2BR,2,2.0,973,2800.0,,asking,,,,,
+2026-07-25,829 Garfield,1,fp3,2BR,2,2.0,919,3050.0,,asking,,,,,
+2026-07-25,829 Garfield,1,fp2,3BR,3,2.0,1247,3300.0,,asking,,,,,
+2026-07-25,Atlas,1,0305,1BR,1,1.0,,3377.0,,asking,,,,,
+2026-07-25,Atlas,1,0406,1BR,1,1.0,,3422.0,,asking,,,,,
+2026-07-25,Atlas,1,0503,1BR,1,1.0,,4283.0,,asking,,,,,
+2026-07-25,Atlas,1,0505,1BR,1,1.0,,3783.0,,asking,,,,,
+2026-07-25,Atlas,1,1303,1BR,1,1.0,,4383.0,,asking,,,,,
+2026-07-25,Atlas,1,1401,1BR,1,1.0,,3362.0,,asking,,,,,
+2026-07-25,Atlas,1,1707,1BR,1,1.0,,3718.0,,asking,,,,,
+2026-07-25,Atlas,1,1807,1BR,1,1.0,,3743.0,,asking,,,,,
+2026-07-25,Atlas,1,2001,1BR,1,1.0,,3437.0,,asking,,,,,
+2026-07-25,Atlas,1,2201,1BR,1,1.0,,3437.0,,asking,,,,,
+2026-07-25,Atlas,1,2305,1BR,1,1.0,,4483.0,,asking,,,,,
+2026-07-25,Atlas,1,1106,2BR,2,2.0,,4456.0,,asking,,,,,
+2026-07-25,Atlas,1,1206,2BR,2,2.0,,4898.0,,asking,,,,,
+2026-07-25,Atlas,1,1306,2BR,2,2.0,,4933.0,,asking,,,,,
+2026-07-25,Atlas,1,0304,3BR,3,2.0,,5530.0,,asking,,,,,
+2026-07-25,Atlas,1,0904,3BR,3,2.0,,5605.0,,asking,,,,,
+2026-07-25,Atlas,1,1704,3BR,3,2.0,,5715.0,,asking,,,,,
+2026-07-25,Atlas,1,2304,3BR,3,2.0,,6485.0,,asking,,,,,
+2026-07-25,Atlas,1,0808,Studio,0,1.0,,2807.0,,asking,,,,,
+2026-07-25,Birch House,1,219,1BR,1,1.0,,2650.0,,asking,,,,,
+2026-07-25,Birch House,1,351,1BR,1,1.0,,2645.0,,asking,,,,,
+2026-07-25,Birch House,1,433,1BR,1,1.0,,2485.0,,asking,,,,,
+2026-07-25,Birch House,1,435,1BR,1,1.0,,2660.0,,asking,,,,,
+2026-07-25,Birch House,1,551,1BR,1,1.0,,2640.0,,asking,,,,,
+2026-07-25,Birch House,1,575,1BR,1,1.0,,2673.0,,asking,,,,,
+2026-07-25,Birch House,1,PH51,1BR,1,1.0,,2785.0,,asking,,,,,
+2026-07-25,Birch House,1,211,2BR,2,2.0,,3970.0,,asking,,,,,
+2026-07-25,Birch House,1,246,2BR,2,2.0,,4095.0,,asking,,,,,
+2026-07-25,Birch House,1,255,2BR,2,2.0,,3880.0,,asking,,,,,
+2026-07-25,Birch House,1,311,2BR,2,2.0,,3770.0,,asking,,,,,
+2026-07-25,Birch House,1,379,2BR,2,2.0,,3770.0,,asking,,,,,
+2026-07-25,Birch House,1,381,2BR,2,1.0,,3220.0,,asking,,,,,
+2026-07-25,Birch House,1,416,2BR,2,2.0,,3685.0,,asking,,,,,
+2026-07-25,Birch House,1,474,2BR,2,2.0,,3795.0,,asking,,,,,
+2026-07-25,Birch House,1,516,2BR,2,2.0,,3705.0,,asking,,,,,
+2026-07-25,Birch House,1,555,2BR,2,2.0,,3810.0,,asking,,,,,
+2026-07-25,Birch House,1,PH46,2BR,2,2.0,,3720.0,,asking,,,,,
+2026-07-25,Birch House,1,PH60,2BR,2,1.0,,3330.0,,asking,,,,,
+2026-07-25,Birch House,1,203,Studio,0,1.0,,2130.0,,asking,,,,,
+2026-07-25,Birch House,1,217,Studio,0,1.0,,2110.0,,asking,,,,,
+2026-07-25,Birch House,1,336,Studio,0,1.0,,2499.0,,asking,,,,,
+2026-07-25,Birch House,1,PH05,Studio,0,1.0,,2245.0,,asking,,,,,
+2026-07-25,Birch House,1,PH36,Studio,0,1.0,,2423.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0207,1BR,1,1.0,780,4278.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0503,1BR,1,1.0,835,4618.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0507,1BR,1,1.0,780,4368.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0705,1BR,1,1.0,773,4353.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0906,1BR,1,1.0,795,4263.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1206,1BR,1,1.0,795,4293.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1605,1BR,1,1.0,773,4393.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1606,1BR,1,1.0,795,4358.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1607,1BR,1,1.0,780,4458.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1906,1BR,1,1.0,795,4373.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS2209,1BR,1,1.0,827,4638.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS3007,1BR,1,1.0,780,4528.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0316,2BR,2,2.0,942,6033.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0802,2BR,2,2.0,1267,5983.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0808,2BR,2,2.0,1266,6108.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1008,2BR,2,2.0,1266,6183.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1608,2BR,2,2.0,1266,6208.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS2202,2BR,2,2.0,1267,6023.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS2904,2BR,2,2.0,1080,5858.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS3202,2BR,2,2.0,1267,6023.0,,asking,,,,,
+2026-07-25,Bisby,1,BISPH101,2BR,2,2.0,1267,7233.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1116,3BR,3,3.0,1701,8607.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1416,3BR,3,3.0,1701,8617.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1616,3BR,3,3.0,1701,8627.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS1816,3BR,3,3.0,1701,8637.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS2516,3BR,3,3.0,1701,8672.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0218,Studio,0,1.0,484,3299.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0222,Studio,0,1.0,484,3299.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0224,Studio,0,1.0,484,3299.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0320,Studio,0,1.0,484,3304.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0326,Studio,0,1.0,484,3304.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0424,Studio,0,1.0,484,3309.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0426,Studio,0,1.0,484,3309.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0522,Studio,0,1.0,484,3314.0,,asking,,,,,
+2026-07-25,Bisby,1,BIS0528,Studio,0,1.0,484,3314.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp4,1BR,1,1.0,660,2234.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp5,1BR,1,1.0,801,2539.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp6,1BR,1,1.0,696,2264.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp7,2BR,2,2.0,1059,3259.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp1,Studio,0,1.0,506,1938.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp2,Studio,0,1.0,460,2002.0,,asking,,,,,
+2026-07-25,CityLine East,1,fp3,Studio,0,1.0,513,2114.0,,asking,,,,,
+2026-07-25,CityLine West,1,fp1,1BR,1,1.0,670,2310.0,,asking,,,,,
+2026-07-25,CityLine West,1,fp2,1BR,1,1.0,665,2310.0,,asking,,,,,
+2026-07-25,CityLine West,1,fp3,2BR,2,2.0,941,2882.0,,asking,,,,,
+2026-07-25,CityLine West,1,fp4,2BR,2,1.0,986,3128.0,,asking,,,,,
+2026-07-25,DVORA 175,1,fp1,1BR,1,1.0,,3545.0,,asking,,,,,
+2026-07-25,DVORA 175,1,fp2,1BR,1,1.0,,3495.0,,asking,,,,,
+2026-07-25,DVORA 175,1,fp3,2BR,2,2.0,,4795.0,,asking,,,,,
+2026-07-25,DVORA 175,1,fp4,2BR,2,1.0,,4145.0,,asking,,,,,
+2026-07-25,Four Twenty Five Summit,1,0519,1BR,1,1.0,719,3545.0,3101.0,both,"$2,296.88 Net Effective Rent",10/3/2026,,,
+2026-07-25,Four Twenty Five Summit,1,2201,2BR,2,2.0,1004,5325.0,4659.0,both,"$2,296.88 Net Effective Rent",,,,
+2026-07-25,Four Twenty Five Summit,1,0222,Studio,0,1.0,529,2625.0,2296.0,both,"$2,296.88 Net Effective Rent",,,,
+2026-07-25,Four Twenty Five Summit,1,0522,Studio,0,1.0,529,2775.0,2428.0,both,"$2,296.88 Net Effective Rent",,,,
+2026-07-25,Four Twenty Five Summit,1,0709,Studio,0,1.0,515,2995.0,2620.0,both,"$2,296.88 Net Effective Rent",9/27/2026,,,
+2026-07-25,Four Twenty Five Summit,1,0822,Studio,0,1.0,529,3055.0,2673.0,both,"$2,296.88 Net Effective Rent",,,,
+2026-07-25,Four Twenty Five Summit,1,1212,Studio,0,1.0,374,2675.0,2340.0,both,"$2,296.88 Net Effective Rent",10/26/2026,,,
+2026-07-25,Four Twenty Five Summit,1,1912,Studio,0,1.0,374,2795.0,2445.0,both,"$2,296.88 Net Effective Rent",10/6/2026,,,
+2026-07-25,Four Twenty Five Summit,1,2307,Studio,0,1.0,383,2845.0,2489.0,both,"$2,296.88 Net Effective Rent",9/26/2026,,,
+2026-07-25,Four Twenty Five Summit,1,2407,Studio,0,1.0,383,2845.0,2489.0,both,"$2,296.88 Net Effective Rent",10/24/2026,,,
+2026-07-25,Haus25,1,fp1,1BR,1,1.0,675,4785.0,,asking,,,,,
+2026-07-25,Haus25,1,fp10,1BR,1,1.0,847,5730.0,,asking,,,,,
+2026-07-25,Haus25,1,fp11,1BR,1,1.0,835,5265.0,,asking,,,,,
+2026-07-25,Haus25,1,fp2,1BR,1,1.0,685,4650.0,,asking,,,,,
+2026-07-25,Haus25,1,fp3,1BR,1,1.0,809,5500.0,,asking,,,,,
+2026-07-25,Haus25,1,fp9,1BR,1,1.0,744,5750.0,,asking,,,,,
+2026-07-25,Haus25,1,fp12,2BR,2,1.0,1003,6825.0,,asking,,,,,
+2026-07-25,Haus25,1,fp13,2BR,2,2.0,1113,7975.0,,asking,,,,,
+2026-07-25,Haus25,1,fp14,2BR,2,2.0,1120,8355.0,,asking,,,,,
+2026-07-25,Haus25,1,fp15,2BR,2,2.0,1133,8595.0,,asking,,,,,
+2026-07-25,Haus25,1,fp16,2BR,2,2.0,1245,7910.0,,asking,,,,,
+2026-07-25,Haus25,1,fp17,2BR,2,2.5,1349,10200.0,,asking,,,,,
+2026-07-25,Haus25,1,fp4,2BR,2,2.0,1166,8485.0,,asking,,,,,
+2026-07-25,Haus25,1,fp5,3BR,3,2.0,1411,12240.0,,asking,,,,,
+2026-07-25,Haus25,1,fp6,Studio,0,1.0,475,3650.0,,asking,,,,,
+2026-07-25,Haus25,1,fp7,Studio,0,1.0,478,3750.0,,asking,,,,,
+2026-07-25,Haus25,1,fp8,Studio,0,1.0,575,4200.0,,asking,,,,,
+2026-07-25,Journal Square Urby,1,208,1BR,1,2.0,,3525.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/04/2026,,,
+2026-07-25,Journal Square Urby,1,212,1BR,1,1.0,,3195.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/06/2026,,,
+2026-07-25,Journal Square Urby,1,2416,1BR,1,1.0,,3495.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/03/2026,,,
+2026-07-25,Journal Square Urby,1,416,1BR,1,1.0,,3305.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/20/2026,,,
+2026-07-25,Journal Square Urby,1,911,1BR,1,1.0,,3250.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/16/2026,,,
+2026-07-25,Journal Square Urby,1,916,1BR,1,1.0,,3425.0,,asking,Up to 1 Month Free! Contact us to learn more.,09/17/2026,,,
+2026-07-25,Journal Square Urby,1,1701,Studio,0,1.0,,2985.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/18/2026,,,
+2026-07-25,Journal Square Urby,1,1801,Studio,0,1.0,,2985.0,,asking,Up to 1 Month Free! Contact us to learn more.,10/01/2026,,,
+2026-07-25,Journal Square Urby,1,1904,Studio,0,1.0,,2985.0,,asking,Up to 1 Month Free! Contact us to learn more.,08/06/2026,,,
+2026-07-25,Journal Squared,1,1402,1BR,1,1.0,716,3505.0,,asking,Up to 1 mo free on SELECT units (term not stated),11/07/2026,,,
+2026-07-25,Journal Squared,1,2003,1BR,1,1.0,624,3495.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/21/2026,,,
+2026-07-25,Journal Squared,1,2312,1BR,1,1.0,870,4080.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/14/2026,,,
+2026-07-25,Journal Squared,1,2412,1BR,1,1.0,870,4080.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
+2026-07-25,Journal Squared,1,2501,1BR,1,1.0,631,3325.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/07/2026,,,
+2026-07-25,Journal Squared,1,2902,1BR,1,1.0,738,3585.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/07/2026,,,
+2026-07-25,Journal Squared,1,3505,1BR,1,1.0,618,3605.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/18/2026,,,
+2026-07-25,Journal Squared,1,4603,1BR,1,1.0,652,3430.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
+2026-07-25,Journal Squared,1,4907,1BR,1,1.0,706,3720.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/13/2026,,,
+2026-07-25,Journal Squared,1,5004,1BR,1,1.0,646,3430.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/13/2026,,,
+2026-07-25,Journal Squared,1,,1BR,1,1.0,692,4210.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/24/2026,,,
+2026-07-25,Journal Squared,1,1202,2BR,2,2.0,914,4790.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/26/2026,,,
+2026-07-25,Journal Squared,1,1812,2BR,2,2.0,1044,5005.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/08/2026,,,
+2026-07-25,Journal Squared,1,2212,2BR,2,2.0,1044,5005.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
+2026-07-25,Journal Squared,1,4104,2BR,2,2.0,1030,4975.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/26/2026,,,
+2026-07-25,Journal Squared,1,4202,2BR,2,2.0,1025,4780.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/06/2026,,,
+2026-07-25,Journal Squared,1,4702,2BR,2,2.0,1056,5440.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/25/2026,,,
+2026-07-25,Journal Squared,1,4802,2BR,2,2.0,1025,4795.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
+2026-07-25,Journal Squared,1,5502,2BR,2,2.0,1025,4795.0,,asking,Up to 1 mo free on SELECT units (term not stated),07/26/2026,,,
+2026-07-25,Journal Squared,1,6404,2BR,2,2.0,1031,5005.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/16/2026,,,
+2026-07-25,Journal Squared,1,0911,Studio,0,1.0,502,3155.0,,asking,Up to 1 mo free on SELECT units (term not stated),Now,,,
+2026-07-25,Journal Squared,1,1105,Studio,0,1.0,558,2815.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/13/2026,,,
+2026-07-25,Journal Squared,1,1105,Studio,0,1.0,498,2990.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/29/2026,,,
+2026-07-25,Journal Squared,1,1212,Studio,0,1.0,511,2965.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/05/2026,,,
+2026-07-25,Journal Squared,1,1401,Studio,0,1.0,488,2925.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/17/2026,,,
+2026-07-25,Journal Squared,1,1414,Studio,0,1.0,479,3155.0,,asking,Up to 1 mo free on SELECT units (term not stated),08/07/2026,,,
+2026-07-25,Journal Squared,1,1606,Studio,0,1.0,484,3005.0,,asking,Up to 1 mo free on SELECT units (term not stated),Now,,,
+2026-07-25,Journal Squared,1,3709,Studio,0,1.0,467,2910.0,,asking,Up to 1 mo free on SELECT units (term not stated),09/22/2026,,,
+2026-07-25,Journal Squared,1,5001,Studio,0,1.0,510,3210.0,,asking,Up to 1 mo free on SELECT units (term not stated),10/26/2026,,,
+2026-07-25,MetroVue,1,1006,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),"July 24 th, 2026",,,
+2026-07-25,MetroVue,1,1110,1BR,1,1.0,590,3099.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
+2026-07-25,MetroVue,1,206,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
+2026-07-25,MetroVue,1,209,1BR,1,1.0,562,2850.0,,asking,Incentives offered — unquantified ('contact leasing'),Now!,,,
+2026-07-25,MetroVue,1,407,1BR,1,1.0,562,2750.0,,asking,Incentives offered — unquantified ('contact leasing'),"August 15th, 2026",,,
+2026-07-25,MetroVue,1,609,1BR,1,1.0,562,2800.0,,asking,Incentives offered — unquantified ('contact leasing'),"July 15th, 2026",,,
+2026-07-25,Oliver on the Hudson,1,2029,1BR,1,1.0,875,3315.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5037,1BR,1,1.0,1044,4249.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5041,1BR,1,1.0,1044,4149.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5081,1BR,1,1.0,871,3949.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5083,1BR,1,1.0,871,4099.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5085,1BR,1,1.0,871,3949.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,1078,2BR,2,2.0,1075,3549.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,1094,2BR,2,2.0,1075,3499.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,3075,2BR,2,2.0,1082,3514.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,4010,2BR,2,2.0,1082,3624.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,4023,2BR,2,2.0,1103,3599.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,4040,2BR,2,2.0,1049,3655.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,4073,2BR,2,2.0,1117,3799.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,5015,2BR,2,2.0,999,3799.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,1035,3BR,3,2.0,1292,4499.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,2076,3BR,3,2.0,1332,4420.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,2004,Studio,0,1.0,572,2435.0,,asking,,,,,
+2026-07-25,Oliver on the Hudson,1,3098,Studio,0,1.0,572,2385.0,,asking,,,,,
+2026-07-25,One Grove,1,fp1,1BR,1,1.0,786,4310.0,,asking,,,,,
+2026-07-25,One Grove,1,fp2,1BR,1,1.0,657,3894.0,,asking,,,,,
+2026-07-25,One Grove,1,fp4,2BR,2,2.0,1007,5629.0,,asking,,,,,
+2026-07-25,One Grove,1,fp5,3BR,3,2.5,1376,7960.0,,asking,,,,,
+2026-07-25,One Grove,1,fp3,Studio,0,1.0,626,3716.0,,asking,,,,,
+2026-07-25,One Ten,0,fp3,1BR,1,1.0,,3320.0,,asking,,,,,
+2026-07-25,One Ten,0,fp4,1BR,1,1.0,,3445.0,,asking,,,,,
+2026-07-25,One Ten,0,fp5,1BR,1,1.0,,3395.0,,asking,,,,,
+2026-07-25,One Ten,0,fp6,1BR,1,1.0,,3515.0,,asking,,,,,
+2026-07-25,One Ten,0,fp7,1BR,1,1.0,,3405.0,,asking,,,,,
+2026-07-25,One Ten,0,fp1,Studio,0,1.0,,2860.0,,asking,,,,,
+2026-07-25,One Ten,0,fp10,Studio,0,1.0,,2850.0,,asking,,,,,
+2026-07-25,One Ten,0,fp11,Studio,0,1.0,,2825.0,,asking,,,,,
+2026-07-25,One Ten,0,fp12,Studio,0,1.0,,2860.0,,asking,,,,,
+2026-07-25,One Ten,0,fp2,Studio,0,1.0,,2860.0,,asking,,,,,
+2026-07-25,One Ten,0,fp8,Studio,0,1.0,,2830.0,,asking,,,,,
+2026-07-25,One Ten,0,fp9,Studio,0,1.0,,2985.0,,asking,,,,,
 2026-07-24,Orchard,1,2301,1BR,1,1.0,,3700.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
 2026-07-24,Orchard,1,3414,1BR,1,1.0,,2675.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
 2026-07-24,Orchard,1,4093,1BR,1,1.0,,2750.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
@@ -285,331 +283,327 @@ snapshot_date,building,in_market,unit,unit_type,beds,baths,sqft,asking_rent,net_
 2026-07-24,Orchard,1,1225,2BR,2,2.0,,3999.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
 2026-07-24,Orchard,1,2604,2BR,2,1.0,,3175.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
 2026-07-24,Orchard,1,3501,2BR,2,1.0,,3350.0,,asking,1-2 mo free (14-mo) per Apr survey — no concession language on widget,,,,
-2026-07-24,Radio Lofts,1,fp2,1BR,1,1.0,,4080.0,,asking,,,,,
-2026-07-24,Radio Lofts,1,fp3,1BR,1,1.0,,3960.0,,asking,,,,,
-2026-07-24,Radio Lofts,1,fp4,2BR,2,2.0,,5875.0,,asking,,,,,
-2026-07-24,Radio Lofts,1,fp5,2BR,2,2.0,,6440.0,,asking,,,,,
-2026-07-24,Radio Lofts,1,fp6,3BR,3,3.0,,8644.0,,asking,,,,,
-2026-07-24,Radio Lofts,1,fp1,Studio,0,1.0,,3180.0,,asking,,,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,671,2395.0,,asking,,9/30/26,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,725,2460.0,,asking,,9/1/26,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,671,2425.0,,asking,,9/1/26,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,839,2595.0,,asking,,10/1/26,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,725,2420.0,,asking,,,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,711,2495.0,,asking,,8/14/26,,,
-2026-07-24,Rivet,1,,1BR,1,1.0,715,2495.0,,asking,,9/1/26,,,
-2026-07-24,Rivet,1,,Studio,0,1.0,502,1995.0,,asking,,,,,
-2026-07-24,Rivet,1,,Studio,0,1.0,543,2095.0,,asking,,9/6/26,,,
-2026-07-24,Rivet 26,1,,1BR,1,1.0,692,2595.0,,asking,,8/1/26,,,
-2026-07-24,Rivet 26,1,,1BR,1,1.0,605,2395.0,,asking,,8/6/26,,,
-2026-07-24,Rivet 26,1,,1BR,1,1.0,692,2595.0,,asking,,8/25/26,,,
-2026-07-24,Rivet 26,1,,2BR,2,2.0,1290,3750.0,,asking,,9/1/26,,,
-2026-07-24,Rivet 26,1,,2BR,2,2.0,1272,3795.0,,asking,,8/1/26,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,501,2070.0,,asking,,9/1/26,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,501,2050.0,,asking,,,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,501,2050.0,,asking,,9/1/26,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,514,2095.0,,asking,,9/1/26,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,514,2095.0,,asking,,8/3/26,,,
-2026-07-24,Rivet 26,1,,Studio,0,1.0,514,2095.0,,asking,,8/3/26,,,
-2026-07-24,Sable,0,SAB-0402,1BR,1,1.0,752,3865.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-0602,1BR,1,1.0,752,3865.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1003,1BR,1,1.0,736,3880.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2011,1BR,1,1.0,752,4595.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2107,1BR,1,1.0,569,3585.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2405,1BR,1,1.0,612,3785.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2409,1BR,1,1.0,529,3465.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3103,1BR,1,1.0,599,3800.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3205,1BR,1,1.0,612,3785.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3512,1BR,1,1.0,569,4005.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3603,1BR,1,1.0,599,3800.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3701,1BR,1,1.0,569,4020.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3709,1BR,1,1.0,699,4175.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3901,1BR,1,1.0,569,4020.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4802,1BR,1,1.0,612,4445.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5007,1BR,1,1.0,569,3705.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5302,1BR,1,1.0,612,4445.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5411,1BR,1,1.0,612,4145.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5504,1BR,1,1.0,599,3860.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5509,1BR,1,1.0,529,3600.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6205,1BR,1,1.0,612,3945.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6906,1BR,1,1.0,569,3830.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6907,1BR,1,1.0,569,3830.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1005,2BR,2,1.0,1013,5470.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1405,2BR,2,1.0,1013,5530.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1408,2BR,2,1.0,824,5090.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1508,2BR,2,1.0,824,5065.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3505,2BR,2,1.0,824,5170.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3711,2BR,2,1.0,1013,6025.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3811,2BR,2,1.0,1013,6025.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4008,2BR,2,1.0,1013,5725.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4102,2BR,2,1.0,824,5410.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4402,2BR,2,1.0,1013,6055.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4805,2BR,2,1.0,824,5265.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5802,2BR,2,1.0,824,5615.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6505,2BR,2,1.0,1013,5920.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6708,2BR,2,1.0,824,5380.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1112,Studio,0,1.0,413,3285.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-1910,Studio,0,1.0,561,3660.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2001,Studio,0,1.0,413,3465.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-2610,Studio,0,1.0,456,3435.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3001,Studio,0,1.0,413,3525.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-3012,Studio,0,1.0,413,3525.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-4910,Studio,0,1.0,456,3555.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5001,Studio,0,1.0,413,3585.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5101,Studio,0,1.0,413,3545.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-5712,Studio,0,1.0,413,3685.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6007,Studio,0,1.0,413,3435.0,,asking,,,,,
-2026-07-24,Sable,0,SAB-6110,Studio,0,1.0,561,3920.0,,asking,,,,,
-2026-07-24,Sawyer,1,0113,1BR,1,1.0,827,3536.0,,asking,,,,,
-2026-07-24,Sawyer,1,0114,1BR,1,1.0,827,3591.0,,asking,,,,,
-2026-07-24,Sawyer,1,0115,1BR,1,1.0,827,3591.0,,asking,,,,,
-2026-07-24,Sawyer,1,0215,1BR,1,1.0,900,3621.0,,asking,,,,,
-2026-07-24,Sawyer,1,0301,1BR,1,1.0,822,3424.0,,asking,,,,,
-2026-07-24,Sawyer,1,0312,1BR,1,1.0,763,3172.0,,asking,,,,,
-2026-07-24,Sawyer,1,0316,1BR,1,1.0,763,3172.0,,asking,,,,,
-2026-07-24,Sawyer,1,0321,1BR,1,1.0,775,3267.0,,asking,,,,,
-2026-07-24,Sawyer,1,0406,1BR,1,1.0,775,3292.0,,asking,,,,,
-2026-07-24,Sawyer,1,0426,2BR,2,2.0,1119,4269.0,,asking,,,,,
-2026-07-24,The Agnes,1,111,1BR,1,1.0,,2560.0,,asking,,,,,
-2026-07-24,The Agnes,1,113,1BR,1,1.0,,2560.0,,asking,,,,,
-2026-07-24,The Agnes,1,116,1BR,1,1.0,,2650.0,,asking,,,,,
-2026-07-24,The Agnes,1,408,1BR,1,1.0,,2555.0,,asking,,,,,
-2026-07-24,The Agnes,1,444,1BR,1,1.0,,2635.0,,asking,,,,,
-2026-07-24,The Agnes,1,447,1BR,1,1.0,,3005.0,,asking,,,,,
-2026-07-24,The Agnes,1,530,1BR,1,1.0,,2565.0,,asking,,,,,
-2026-07-24,The Agnes,1,221,2BR,2,2.0,,3265.0,,asking,,,,,
-2026-07-24,The Agnes,1,525,2BR,2,2.0,,3320.0,,asking,,,,,
-2026-07-24,The Agnes,1,533,2BR,2,2.0,,3685.0,,asking,,,,,
-2026-07-24,The Agnes,1,120,4BR,4,3.0,,5570.0,,asking,,,,,
-2026-07-24,The Agnes,1,352,Studio,0,1.0,,2340.0,,asking,,,,,
-2026-07-24,The Agnes,1,509,Studio,0,1.0,,2255.0,,asking,,,,,
-2026-07-24,The Agnes,1,519,Studio,0,1.0,,2430.0,,asking,,,,,
-2026-07-24,The Devan,1,238,1BR,1,1.0,,3755.0,,asking,,,,,
-2026-07-24,The Devan,1,416,1BR,1,1.0,,3720.0,,asking,,,,,
-2026-07-24,The Devan,1,543,1BR,1,1.0,,3860.0,,asking,,,,,
-2026-07-24,The Devan,1,624,1BR,1,1.0,,4095.0,,asking,,,,,
-2026-07-24,The Devan,1,650,1BR,1,1.0,,3365.0,,asking,,,,,
-2026-07-24,The Devan,1,652,1BR,1,1.0,,3395.0,,asking,,,,,
-2026-07-24,The Devan,1,660,1BR,1,1.0,,3675.0,,asking,,,,,
-2026-07-24,The Devan,1,358,2BR,2,2.0,,5255.0,,asking,,,,,
-2026-07-24,The Devan,1,442,2BR,2,2.0,,5315.0,,asking,,,,,
-2026-07-24,The Devan,1,515,2BR,2,2.0,,4960.0,,asking,,,,,
-2026-07-24,The Devan,1,426,Studio,0,1.0,,3625.0,,asking,,,,,
-2026-07-24,The Devan,1,726,Studio,0,1.0,,3680.0,,asking,,,,,
-2026-07-24,The Devan,1,847,Studio,0,1.0,,3600.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp1,1BR,1,1.0,664,3295.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp2,1BR,1,1.0,695,3290.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp3,1BR,1,1.0,700,3360.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp6,1BR,1,1.0,735,3380.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp7,1BR,1,1.0,810,3360.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp8,1BR,1,1.0,867,3410.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp9,1BR,1,1.0,825,3485.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp10,2BR,2,2.0,1097,4395.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp11,2BR,2,2.0,1102,4345.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp12,2BR,2,2.0,1241,4140.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp13,2BR,2,2.0,1253,4555.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp14,2BR,2,2.0,1325,4665.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp15,2BR,2,2.0,1140,4480.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp16,2BR,2,2.0,1091,4305.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp4,2BR,2,2.0,1106,4400.0,,asking,,,,,
-2026-07-24,The Enclave,1,fp5,2BR,2,2.0,1113,4300.0,,asking,,,,,
-2026-07-24,The Greyson,1,1103,1BR,1,1.0,,3952.0,3623.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,1112,1BR,1,1.0,,3525.0,3231.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,1118,1BR,1,1.0,657,3802.0,3485.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,1123,1BR,1,1.0,,3509.0,3217.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,2025,1BR,1,1.0,,4000.0,3667.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,2108,2BR,2,2.0,1079,5625.0,5156.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,815,3BR,3,2.0,,5629.0,5160.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,1417,Studio,0,1.0,,3045.0,2791.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,1621,Studio,0,1.0,549,3375.0,3094.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,2422,Studio,0,1.0,,3150.0,2888.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,2624,Studio,0,1.0,470,3190.0,2924.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,513,Studio,0,1.0,,3021.0,2769.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Greyson,1,520,Studio,0,1.0,,3000.0,2750.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
-2026-07-24,The Hazel,1,208,1BR,1,1.0,,3564.0,,asking,,,,,
-2026-07-24,The Hazel,1,302,1BR,1,1.0,,3644.0,,asking,,,,,
-2026-07-24,The Hazel,1,318,1BR,1,1.0,,3272.0,,asking,,,,,
-2026-07-24,The Hazel,1,335,1BR,1,1.0,,3146.0,,asking,,,,,
-2026-07-24,The Hazel,1,345,1BR,1,1.0,,3609.0,,asking,,,,,
-2026-07-24,The Hazel,1,430,1BR,1,1.0,,3338.0,,asking,,,,,
-2026-07-24,The Hazel,1,501,1BR,1,1.0,,3574.0,,asking,,,,,
-2026-07-24,The Hazel,1,502,1BR,1,1.0,,3608.0,,asking,,,,,
-2026-07-24,The Hazel,1,534,1BR,1,1.0,,3889.0,,asking,,,,,
-2026-07-24,The Hazel,1,602,1BR,1,1.0,,3690.0,,asking,,,,,
-2026-07-24,The Hazel,1,630,1BR,1,1.0,,3448.0,,asking,,,,,
-2026-07-24,The Hazel,1,635,1BR,1,1.0,,3276.0,,asking,,,,,
-2026-07-24,The Hazel,1,307,2BR,2,2.0,,5324.0,,asking,,,,,
-2026-07-24,The Hazel,1,419,2BR,2,2.0,,4090.0,,asking,,,,,
-2026-07-24,The Hazel,1,507,2BR,2,2.0,,4467.0,,asking,,,,,
-2026-07-24,The Hazel,1,607,2BR,2,2.0,,4550.0,,asking,,,,,
-2026-07-24,The Hazel,1,241,Studio,0,1.0,,3293.0,,asking,,,,,
-2026-07-24,The Hazel,1,304,Studio,0,1.0,,2545.0,,asking,,,,,
-2026-07-24,The Hazel,1,341,Studio,0,1.0,,3325.0,,asking,,,,,
-2026-07-24,The Hazel,1,421,Studio,0,1.0,,2587.0,,asking,,,,,
-2026-07-24,The Hazel,1,541,Studio,0,1.0,,3369.0,,asking,,,,,
-2026-07-24,The Journal,1,0405,1BR,1,1.0,855,3876.0,3488.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0416,1BR,1,1.0,690,3876.0,3488.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1005,1BR,1,1.0,855,4106.0,3695.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1305N,1BR,1,1.0,733,4050.0,3645.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1310S,1BR,1,1.0,651,3716.0,3344.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1313S,1BR,1,1.0,616,3766.0,3389.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1511N,1BR,1,1.0,733,3880.0,3492.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1602N,1BR,1,1.0,730,3986.0,3587.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1701S,1BR,1,1.0,837,4150.0,3735.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1702S,1BR,1,1.0,730,4026.0,3623.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1705S,1BR,1,1.0,727,4526.0,4073.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1706S,1BR,1,1.0,660,4126.0,3713.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1901N,1BR,1,1.0,843,4026.0,3623.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1909S,1BR,1,1.0,707,3780.0,3402.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2212N,1BR,1,1.0,763,4106.0,3695.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2506S,1BR,1,1.0,660,4196.0,3776.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2605N,1BR,1,1.0,727,4166.0,3749.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2710S,1BR,1,1.0,663,3776.0,3398.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2805N,1BR,1,1.0,727,4196.0,3776.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3412S,1BR,1,1.0,1117,4996.0,4496.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3512S,1BR,1,1.0,763,4186.0,3767.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3601N,1BR,1,1.0,872,4120.0,3708.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3711S,1BR,1,1.0,750,3910.0,3519.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3802N,1BR,1,1.0,730,4126.0,3713.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4001N,1BR,1,1.0,870,4266.0,3839.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4006N,1BR,1,1.0,660,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4110N,1BR,1,1.0,675,3816.0,3434.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4309S,1BR,1,1.0,720,3900.0,3510.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4404N,1BR,1,1.0,722,4296.0,3866.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4406S,1BR,1,1.0,658,4326.0,3893.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4505N,1BR,1,1.0,727,4296.0,3866.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4505S,1BR,1,1.0,727,4986.0,4487.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4802S,1BR,1,1.0,733,4116.0,3704.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4911S,1BR,1,1.0,750,3936.0,3542.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4913N,1BR,1,1.0,617,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5106N,1BR,1,1.0,660,3916.0,3524.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5112S,1BR,1,1.0,762,4206.0,3785.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5309S,1BR,1,1.0,720,3950.0,3555.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5310S,1BR,1,1.0,675,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5405S,1BR,1,1.0,727,5196.0,4676.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5410N,1BR,1,1.0,675,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5602N,1BR,1,1.0,733,4176.0,3758.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5613S,1BR,1,1.0,617,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5702S,1BR,1,1.0,733,4120.0,3708.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5806S,1BR,1,1.0,660,4396.0,3956.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5811S,1BR,1,1.0,758,3956.0,3560.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5906N,1BR,1,1.0,660,3966.0,3569.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5911N,1BR,1,1.0,758,3996.0,3596.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5912S,1BR,1,1.0,762,4236.0,3812.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6009S,1BR,1,1.0,736,3986.0,3587.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6010S,1BR,1,1.0,687,3860.0,3474.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6109N,1BR,1,1.0,736,3926.0,3533.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6201S,1BR,1,1.0,925,4326.0,3893.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6210N,1BR,1,1.0,687,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6309N,1BR,1,1.0,736,4070.0,3663.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1314N,2BR,2,2.0,1096,5840.0,5256.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1514S,2BR,2,2.0,989,5896.0,5306.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1707S,2BR,2,2.0,1032,6396.0,5756.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2914N,2BR,2,2.0,989,5696.0,5126.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3407S,2BR,2,2.0,1034,6696.0,6026.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3514S,2BR,2,2.0,989,6020.0,5418.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3807N,2BR,2,2.0,1032,6250.0,5625.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4607S,2BR,2,2.0,1032,6796.0,6116.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5114S,2BR,2,2.0,989,6126.0,5513.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5207N,2BR,2,2.0,1032,6050.0,5445.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5607N,2BR,2,2.0,1032,6396.0,5756.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5914S,2BR,2,2.0,989,6160.0,5544.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6014N,2BR,2,2.0,989,6150.0,5535.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0206,3BR,3,2.0,1226,7000.0,6300.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0603,3BR,3,2.0,1153,6550.0,5895.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0906,3BR,3,2.0,1374,7500.0,6750.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1003,3BR,3,2.0,1153,7100.0,6390.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0420,Studio,0,1.0,567,3276.0,2948.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0611,Studio,0,1.0,496,3246.0,2921.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0619,Studio,0,1.0,567,3326.0,2993.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,0902,Studio,0,1.0,387,3196.0,2876.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1303N,Studio,0,1.0,474,3330.0,2997.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,1304N,Studio,0,1.0,434,3286.0,2957.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2204N,Studio,0,1.0,430,3286.0,2957.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2315N,Studio,0,1.0,405,3406.0,3065.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2904N,Studio,0,1.0,430,3266.0,2939.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,2908S,Studio,0,1.0,475,3436.0,3092.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3203N,Studio,0,1.0,461,3276.0,2948.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3415S,Studio,0,1.0,375,3346.0,3011.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,3804S,Studio,0,1.0,430,3326.0,2993.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4003N,Studio,0,1.0,461,3376.0,3038.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4108S,Studio,0,1.0,481,3440.0,3096.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4408N,Studio,0,1.0,481,3460.0,3114.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4715S,Studio,0,1.0,410,3396.0,3056.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,4915N,Studio,0,1.0,410,3400.0,3060.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5004N,Studio,0,1.0,430,3330.0,2997.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5004S,Studio,0,1.0,430,3386.0,3047.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5108S,Studio,0,1.0,481,3490.0,3141.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5203S,Studio,0,1.0,459,3440.0,3096.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5604N,Studio,0,1.0,430,3396.0,3056.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,5915S,Studio,0,1.0,385,3406.0,3065.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6008S,Studio,0,1.0,479,3536.0,3182.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6115N,Studio,0,1.0,385,3450.0,3105.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6303N,Studio,0,1.0,459,3630.0,3267.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6304N,Studio,0,1.0,430,3586.0,3227.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,The Journal,1,6308N,Studio,0,1.0,479,3556.0,3200.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
-2026-07-24,VYV North Tower,1,N-0704,1BR,1,1.0,739,3895.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1004,1BR,1,1.0,739,3940.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1904,1BR,1,1.0,739,4030.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2204,1BR,1,1.0,739,4050.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2208,1BR,1,1.0,879,4310.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2501,1BR,1,1.0,763,4020.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2606,1BR,1,1.0,720,4150.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2701,1BR,1,1.0,763,4130.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2806,1BR,1,1.0,720,4160.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3210,1BR,1,1.0,739,4280.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3303,1BR,1,1.0,739,4205.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3401,1BR,1,1.0,763,4215.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1102,2BR,2,2.0,1158,5440.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1409,2BR,2,2.0,1182,5605.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1711,2BR,2,2.0,1084,5185.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1811,2BR,2,2.0,1084,5195.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2109,2BR,2,2.0,1182,5710.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2511,2BR,2,2.0,1084,5225.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2609,2BR,2,2.0,1182,5815.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3109,2BR,2,2.0,1182,5850.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3305,2BR,2,2.0,1084,5770.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3411,2BR,2,2.0,1084,5420.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3511,2BR,2,2.0,1084,5420.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1007,Studio,0,1.0,610,3430.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-1607,Studio,0,1.0,610,3460.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2407,Studio,0,1.0,610,3575.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-2607,Studio,0,1.0,610,3660.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3007,Studio,0,1.0,610,3695.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3213,Studio,0,1.0,610,3570.0,,asking,,,,,
-2026-07-24,VYV North Tower,1,N-3413,Studio,0,1.0,610,3595.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0256,1BR,1,1.0,787,3900.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0451,1BR,1,1.0,841,4050.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0453,1BR,1,1.0,733,3915.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0455,1BR,1,1.0,722,3780.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0655,1BR,1,1.0,722,3790.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0658,1BR,1,1.0,815,3790.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0755,1BR,1,1.0,722,3790.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0758,1BR,1,1.0,815,3790.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0953,1BR,1,1.0,733,3980.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-0955,1BR,1,1.0,703,3775.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1059,1BR,1,1.0,759,3830.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1061,1BR,1,1.0,734,3935.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1155,1BR,1,1.0,703,3785.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1262,1BR,1,1.0,965,4545.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1361,1BR,1,1.0,734,3945.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1655,1BR,1,1.0,703,3815.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1659,1BR,1,1.0,759,3860.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1853,1BR,1,1.0,733,4055.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1858,1BR,1,1.0,769,4030.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-1859,1BR,1,1.0,759,3940.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2061,1BR,1,1.0,734,3935.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2159,1BR,1,1.0,759,3950.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2161,1BR,1,1.0,734,3935.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2953,1BR,1,1.0,733,4230.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3150,1BR,1,1.0,757,3645.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3152,1BR,1,1.0,708,4195.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3255,1BR,1,1.0,703,4000.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3350,1BR,1,1.0,757,3670.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3455,1BR,1,1.0,703,4025.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3558,1BR,1,1.0,769,4155.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2060,2BR,2,2.0,1179,5590.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-2857,2BR,2,2.0,1210,5975.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3460,2BR,2,2.0,1179,5705.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3256,Studio,0,1.0,528,3470.0,,asking,,,,,
-2026-07-24,VYV South Tower,0,S-3556,Studio,0,1.0,528,3495.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp3,1BR,1,1.0,,4100.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp4,1BR,1,1.0,,4165.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp5,1BR,1,1.0,,4330.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp6,1BR,1,1.0,,4275.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp7,1BR,1,2.0,,5710.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp10,2BR,2,2.0,,6615.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp8,2BR,2,2.0,,5875.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp9,2BR,2,2.0,,6440.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp1,Studio,0,1.0,,3105.0,,asking,,,,,
+2026-07-25,Radio Lofts,1,fp2,Studio,0,3.0,,6155.0,,asking,,,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,671,2395.0,,asking,,9/30/26,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,725,2460.0,,asking,,9/1/26,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,671,2425.0,,asking,,9/1/26,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,839,2595.0,,asking,,10/1/26,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,725,2420.0,,asking,,,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,711,2495.0,,asking,,8/14/26,,,
+2026-07-25,Rivet,1,,1BR,1,1.0,715,2495.0,,asking,,9/1/26,,,
+2026-07-25,Rivet,1,,Studio,0,1.0,502,1995.0,,asking,,,,,
+2026-07-25,Rivet,1,,Studio,0,1.0,543,2095.0,,asking,,9/6/26,,,
+2026-07-25,Rivet 26,1,,1BR,1,1.0,692,2595.0,,asking,,8/1/26,,,
+2026-07-25,Rivet 26,1,,1BR,1,1.0,605,2395.0,,asking,,8/6/26,,,
+2026-07-25,Rivet 26,1,,1BR,1,1.0,692,2595.0,,asking,,8/25/26,,,
+2026-07-25,Rivet 26,1,,2BR,2,2.0,1290,3750.0,,asking,,9/1/26,,,
+2026-07-25,Rivet 26,1,,2BR,2,2.0,1272,3795.0,,asking,,8/1/26,,,
+2026-07-25,Rivet 26,1,,Studio,0,1.0,501,2070.0,,asking,,9/1/26,,,
+2026-07-25,Rivet 26,1,,Studio,0,1.0,501,2050.0,,asking,,9/1/26,,,
+2026-07-25,Rivet 26,1,,Studio,0,1.0,514,2095.0,,asking,,9/1/26,,,
+2026-07-25,Rivet 26,1,,Studio,0,1.0,514,2095.0,,asking,,8/3/26,,,
+2026-07-25,Sable,0,SAB-0402,1BR,1,1.0,752,3865.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-0602,1BR,1,1.0,752,3865.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1003,1BR,1,1.0,736,3880.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-2011,1BR,1,1.0,752,4595.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-2405,1BR,1,1.0,612,3785.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-2409,1BR,1,1.0,529,3465.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3103,1BR,1,1.0,599,3800.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3205,1BR,1,1.0,612,3785.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3402,1BR,1,1.0,612,4010.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3512,1BR,1,1.0,569,4005.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3603,1BR,1,1.0,599,3800.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3701,1BR,1,1.0,569,4020.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3901,1BR,1,1.0,569,4020.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-4802,1BR,1,1.0,612,4445.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5007,1BR,1,1.0,569,3705.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5302,1BR,1,1.0,612,4445.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5411,1BR,1,1.0,612,4145.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5504,1BR,1,1.0,599,3860.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5509,1BR,1,1.0,529,3600.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6205,1BR,1,1.0,612,3945.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6906,1BR,1,1.0,569,3830.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6907,1BR,1,1.0,569,3830.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1005,2BR,2,1.0,1013,5470.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1405,2BR,2,1.0,1013,5530.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1408,2BR,2,1.0,824,5090.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1508,2BR,2,1.0,824,5065.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3505,2BR,2,1.0,824,5170.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3711,2BR,2,1.0,1013,6025.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3811,2BR,2,1.0,1013,6025.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-4008,2BR,2,1.0,1013,5725.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-4402,2BR,2,1.0,1013,6055.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-4805,2BR,2,1.0,824,5265.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5802,2BR,2,1.0,824,5615.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6505,2BR,2,1.0,1013,5920.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6708,2BR,2,1.0,824,5380.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-1910,Studio,0,1.0,561,3660.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-2001,Studio,0,1.0,413,3465.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-2610,Studio,0,1.0,456,3435.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3001,Studio,0,1.0,413,3525.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-3012,Studio,0,1.0,413,3525.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-4910,Studio,0,1.0,456,3555.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5001,Studio,0,1.0,413,3585.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5101,Studio,0,1.0,413,3545.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-5712,Studio,0,1.0,413,3685.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6007,Studio,0,1.0,413,3435.0,,asking,,,,,
+2026-07-25,Sable,0,SAB-6110,Studio,0,1.0,561,3920.0,,asking,,,,,
+2026-07-25,Sawyer,1,0113,1BR,1,1.0,827,3536.0,,asking,,,,,
+2026-07-25,Sawyer,1,0114,1BR,1,1.0,827,3591.0,,asking,,,,,
+2026-07-25,Sawyer,1,0115,1BR,1,1.0,827,3591.0,,asking,,,,,
+2026-07-25,Sawyer,1,0215,1BR,1,1.0,900,3621.0,,asking,,,,,
+2026-07-25,Sawyer,1,0301,1BR,1,1.0,822,3424.0,,asking,,,,,
+2026-07-25,Sawyer,1,0312,1BR,1,1.0,763,3172.0,,asking,,,,,
+2026-07-25,Sawyer,1,0316,1BR,1,1.0,763,3172.0,,asking,,,,,
+2026-07-25,Sawyer,1,0321,1BR,1,1.0,775,3267.0,,asking,,,,,
+2026-07-25,Sawyer,1,0406,1BR,1,1.0,775,3292.0,,asking,,,,,
+2026-07-25,Sawyer,1,0426,2BR,2,2.0,1119,4269.0,,asking,,,,,
+2026-07-25,The Agnes,1,111,1BR,1,1.0,,2560.0,,asking,,,,,
+2026-07-25,The Agnes,1,113,1BR,1,1.0,,2560.0,,asking,,,,,
+2026-07-25,The Agnes,1,116,1BR,1,1.0,,2650.0,,asking,,,,,
+2026-07-25,The Agnes,1,408,1BR,1,1.0,,2555.0,,asking,,,,,
+2026-07-25,The Agnes,1,444,1BR,1,1.0,,2635.0,,asking,,,,,
+2026-07-25,The Agnes,1,447,1BR,1,1.0,,3005.0,,asking,,,,,
+2026-07-25,The Agnes,1,221,2BR,2,2.0,,3265.0,,asking,,,,,
+2026-07-25,The Agnes,1,525,2BR,2,2.0,,3320.0,,asking,,,,,
+2026-07-25,The Agnes,1,120,4BR,4,3.0,,5570.0,,asking,,,,,
+2026-07-25,The Agnes,1,352,Studio,0,1.0,,2340.0,,asking,,,,,
+2026-07-25,The Agnes,1,509,Studio,0,1.0,,2255.0,,asking,,,,,
+2026-07-25,The Agnes,1,519,Studio,0,1.0,,2430.0,,asking,,,,,
+2026-07-25,The Devan,1,238,1BR,1,1.0,,3650.0,,asking,,,,,
+2026-07-25,The Devan,1,416,1BR,1,1.0,,3850.0,,asking,,,,,
+2026-07-25,The Devan,1,543,1BR,1,1.0,,3750.0,,asking,,,,,
+2026-07-25,The Devan,1,624,1BR,1,1.0,,4095.0,,asking,,,,,
+2026-07-25,The Devan,1,652,1BR,1,1.0,,3395.0,,asking,,,,,
+2026-07-25,The Devan,1,660,1BR,1,1.0,,3675.0,,asking,,,,,
+2026-07-25,The Devan,1,358,2BR,2,2.0,,4855.0,,asking,,,,,
+2026-07-25,The Devan,1,442,2BR,2,2.0,,5195.0,,asking,,,,,
+2026-07-25,The Devan,1,515,2BR,2,2.0,,4960.0,,asking,,,,,
+2026-07-25,The Devan,1,245,Studio,0,1.0,,3365.0,,asking,,,,,
+2026-07-25,The Devan,1,262,Studio,0,1.0,,3030.0,,asking,,,,,
+2026-07-25,The Devan,1,426,Studio,0,1.0,,3625.0,,asking,,,,,
+2026-07-25,The Devan,1,726,Studio,0,1.0,,3680.0,,asking,,,,,
+2026-07-25,The Devan,1,847,Studio,0,1.0,,3600.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp1,1BR,1,1.0,664,3295.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp2,1BR,1,1.0,695,3290.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp3,1BR,1,1.0,700,3360.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp6,1BR,1,1.0,735,3380.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp7,1BR,1,1.0,810,3360.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp8,1BR,1,1.0,867,3410.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp9,1BR,1,1.0,825,3485.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp10,2BR,2,2.0,1097,4395.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp11,2BR,2,2.0,1102,4345.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp12,2BR,2,2.0,1241,4140.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp13,2BR,2,2.0,1253,4555.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp14,2BR,2,2.0,1325,4665.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp15,2BR,2,2.0,1140,4480.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp16,2BR,2,2.0,1091,4305.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp4,2BR,2,2.0,1106,4400.0,,asking,,,,,
+2026-07-25,The Enclave,1,fp5,2BR,2,2.0,1113,4300.0,,asking,,,,,
+2026-07-25,The Greyson,1,1112,1BR,1,1.0,,3525.0,3231.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,1118,1BR,1,1.0,657,3802.0,3485.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,1123,1BR,1,1.0,,3509.0,3217.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,2025,1BR,1,1.0,,4000.0,3667.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,2603,1BR,1,1.0,,4134.0,3790.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,2108,2BR,2,2.0,1079,5625.0,5156.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,815,3BR,3,2.0,,5629.0,5160.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,1417,Studio,0,1.0,,3045.0,2791.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,1621,Studio,0,1.0,549,3375.0,3094.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,2422,Studio,0,1.0,,3150.0,2888.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,2624,Studio,0,1.0,470,3190.0,2924.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,513,Studio,0,1.0,,3021.0,2769.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Greyson,1,520,Studio,0,1.0,,3000.0,2750.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,24
+2026-07-25,The Hazel,1,208,1BR,1,1.0,,3492.0,,asking,,,,,
+2026-07-25,The Hazel,1,302,1BR,1,1.0,,3644.0,,asking,,,,,
+2026-07-25,The Hazel,1,308,1BR,1,1.0,,3755.0,,asking,,,,,
+2026-07-25,The Hazel,1,318,1BR,1,1.0,,3272.0,,asking,,,,,
+2026-07-25,The Hazel,1,335,1BR,1,1.0,,3146.0,,asking,,,,,
+2026-07-25,The Hazel,1,345,1BR,1,1.0,,3609.0,,asking,,,,,
+2026-07-25,The Hazel,1,430,1BR,1,1.0,,3338.0,,asking,,,,,
+2026-07-25,The Hazel,1,501,1BR,1,1.0,,3574.0,,asking,,,,,
+2026-07-25,The Hazel,1,502,1BR,1,1.0,,3608.0,,asking,,,,,
+2026-07-25,The Hazel,1,534,1BR,1,1.0,,3889.0,,asking,,,,,
+2026-07-25,The Hazel,1,602,1BR,1,1.0,,3690.0,,asking,,,,,
+2026-07-25,The Hazel,1,630,1BR,1,1.0,,3448.0,,asking,,,,,
+2026-07-25,The Hazel,1,635,1BR,1,1.0,,3276.0,,asking,,,,,
+2026-07-25,The Hazel,1,307,2BR,2,2.0,,5358.0,,asking,,,,,
+2026-07-25,The Hazel,1,419,2BR,2,2.0,,4090.0,,asking,,,,,
+2026-07-25,The Hazel,1,507,2BR,2,2.0,,4467.0,,asking,,,,,
+2026-07-25,The Hazel,1,607,2BR,2,2.0,,4550.0,,asking,,,,,
+2026-07-25,The Hazel,1,241,Studio,0,1.0,,3288.0,,asking,,,,,
+2026-07-25,The Hazel,1,304,Studio,0,1.0,,2545.0,,asking,,,,,
+2026-07-25,The Hazel,1,341,Studio,0,1.0,,3321.0,,asking,,,,,
+2026-07-25,The Hazel,1,421,Studio,0,1.0,,2587.0,,asking,,,,,
+2026-07-25,The Hazel,1,541,Studio,0,1.0,,3364.0,,asking,,,,,
+2026-07-25,The Journal,1,0405,1BR,1,1.0,855,3876.0,3488.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0416,1BR,1,1.0,690,3876.0,3488.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1005,1BR,1,1.0,855,4106.0,3695.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1305N,1BR,1,1.0,733,4050.0,3645.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1310S,1BR,1,1.0,651,3716.0,3344.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1313S,1BR,1,1.0,616,3766.0,3389.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1511N,1BR,1,1.0,733,3880.0,3492.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1602N,1BR,1,1.0,730,3986.0,3587.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1701S,1BR,1,1.0,837,4150.0,3735.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1702S,1BR,1,1.0,730,4026.0,3623.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1705S,1BR,1,1.0,727,4526.0,4073.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1706S,1BR,1,1.0,660,4126.0,3713.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1901N,1BR,1,1.0,843,4026.0,3623.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2212N,1BR,1,1.0,763,4106.0,3695.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2506S,1BR,1,1.0,660,4196.0,3776.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2605N,1BR,1,1.0,727,4166.0,3749.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2710S,1BR,1,1.0,663,3776.0,3398.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2805N,1BR,1,1.0,727,4196.0,3776.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3412S,1BR,1,1.0,1117,4996.0,4496.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3512S,1BR,1,1.0,763,4186.0,3767.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3601N,1BR,1,1.0,872,4120.0,3708.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3711S,1BR,1,1.0,750,3910.0,3519.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3802N,1BR,1,1.0,730,4126.0,3713.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4001N,1BR,1,1.0,870,4266.0,3839.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4006N,1BR,1,1.0,660,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4309S,1BR,1,1.0,720,3900.0,3510.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4404N,1BR,1,1.0,722,4296.0,3866.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4406S,1BR,1,1.0,658,4326.0,3893.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4505N,1BR,1,1.0,727,4296.0,3866.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4505S,1BR,1,1.0,727,4986.0,4487.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4802S,1BR,1,1.0,733,4116.0,3704.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4911S,1BR,1,1.0,750,3936.0,3542.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4913N,1BR,1,1.0,617,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5106N,1BR,1,1.0,660,3916.0,3524.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5112S,1BR,1,1.0,762,4206.0,3785.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5309S,1BR,1,1.0,720,3950.0,3555.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5310S,1BR,1,1.0,675,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5405S,1BR,1,1.0,727,5196.0,4676.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5410N,1BR,1,1.0,675,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5602N,1BR,1,1.0,733,4176.0,3758.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5613S,1BR,1,1.0,617,3826.0,3443.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5702S,1BR,1,1.0,733,4120.0,3708.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5806S,1BR,1,1.0,660,4396.0,3956.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5811S,1BR,1,1.0,758,3956.0,3560.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5906N,1BR,1,1.0,660,3966.0,3569.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5911N,1BR,1,1.0,758,3996.0,3596.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5912S,1BR,1,1.0,762,4236.0,3812.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6009S,1BR,1,1.0,736,3986.0,3587.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6010S,1BR,1,1.0,687,3860.0,3474.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6109N,1BR,1,1.0,736,3926.0,3533.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6201S,1BR,1,1.0,925,4326.0,3893.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6210N,1BR,1,1.0,687,3866.0,3479.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6309N,1BR,1,1.0,736,4070.0,3663.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1314N,2BR,2,2.0,1096,5840.0,5256.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1514S,2BR,2,2.0,989,5896.0,5306.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1707S,2BR,2,2.0,1032,6396.0,5756.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2914N,2BR,2,2.0,989,5696.0,5126.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3407S,2BR,2,2.0,1034,6696.0,6026.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3514S,2BR,2,2.0,989,6020.0,5418.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3807N,2BR,2,2.0,1032,6250.0,5625.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4607S,2BR,2,2.0,1032,6796.0,6116.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5114S,2BR,2,2.0,989,6126.0,5513.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5207N,2BR,2,2.0,1032,6050.0,5445.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5607N,2BR,2,2.0,1032,6396.0,5756.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5914S,2BR,2,2.0,989,6160.0,5544.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6014N,2BR,2,2.0,989,6150.0,5535.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0206,3BR,3,2.0,1226,7000.0,6300.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0603,3BR,3,2.0,1153,6550.0,5895.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0906,3BR,3,2.0,1374,7500.0,6750.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1003,3BR,3,2.0,1153,7100.0,6390.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0420,Studio,0,1.0,567,3276.0,2948.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0611,Studio,0,1.0,496,3246.0,2921.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0619,Studio,0,1.0,567,3326.0,2993.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,0902,Studio,0,1.0,387,3196.0,2876.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1303N,Studio,0,1.0,474,3330.0,2997.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,1304N,Studio,0,1.0,434,3286.0,2957.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2204N,Studio,0,1.0,430,3286.0,2957.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2315N,Studio,0,1.0,405,3406.0,3065.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2904N,Studio,0,1.0,430,3266.0,2939.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,2908S,Studio,0,1.0,475,3436.0,3092.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3203N,Studio,0,1.0,461,3276.0,2948.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3415S,Studio,0,1.0,375,3346.0,3011.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,3804S,Studio,0,1.0,430,3326.0,2993.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4003N,Studio,0,1.0,461,3376.0,3038.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4108S,Studio,0,1.0,481,3440.0,3096.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4408N,Studio,0,1.0,481,3460.0,3114.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4715S,Studio,0,1.0,410,3396.0,3056.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,4915N,Studio,0,1.0,410,3400.0,3060.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5004N,Studio,0,1.0,430,3330.0,2997.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5004S,Studio,0,1.0,430,3386.0,3047.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5108S,Studio,0,1.0,481,3490.0,3141.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5203S,Studio,0,1.0,459,3440.0,3096.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5604N,Studio,0,1.0,430,3396.0,3056.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,5915S,Studio,0,1.0,385,3406.0,3065.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6008S,Studio,0,1.0,479,3536.0,3182.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6115N,Studio,0,1.0,385,3450.0,3105.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6303N,Studio,0,1.0,459,3630.0,3267.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6304N,Studio,0,1.0,430,3586.0,3227.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,The Journal,1,6308N,Studio,0,1.0,479,3556.0,3200.0,net+derived_gross,UP TO 2 MONTHS FREE*,,,2,20
+2026-07-25,VYV North Tower,1,N-0704,1BR,1,1.0,739,3895.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1004,1BR,1,1.0,739,3940.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1904,1BR,1,1.0,739,4030.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2204,1BR,1,1.0,739,4050.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2208,1BR,1,1.0,879,4310.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2501,1BR,1,1.0,763,4020.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2606,1BR,1,1.0,720,4150.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2701,1BR,1,1.0,763,4130.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2806,1BR,1,1.0,720,4160.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3210,1BR,1,1.0,739,4280.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3303,1BR,1,1.0,739,4205.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3401,1BR,1,1.0,763,4215.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1102,2BR,2,2.0,1158,5440.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1409,2BR,2,2.0,1182,5605.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1711,2BR,2,2.0,1084,5185.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1811,2BR,2,2.0,1084,5195.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2109,2BR,2,2.0,1182,5710.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2511,2BR,2,2.0,1084,5225.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2609,2BR,2,2.0,1182,5815.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3109,2BR,2,2.0,1182,5850.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3305,2BR,2,2.0,1084,5770.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3411,2BR,2,2.0,1084,5420.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3511,2BR,2,2.0,1084,5420.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1007,Studio,0,1.0,610,3430.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-1607,Studio,0,1.0,610,3460.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2407,Studio,0,1.0,610,3575.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-2607,Studio,0,1.0,610,3660.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3007,Studio,0,1.0,610,3695.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3213,Studio,0,1.0,610,3570.0,,asking,,,,,
+2026-07-25,VYV North Tower,1,N-3413,Studio,0,1.0,610,3595.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0256,1BR,1,1.0,787,3900.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0451,1BR,1,1.0,841,4050.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0453,1BR,1,1.0,733,3915.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0455,1BR,1,1.0,722,3780.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0655,1BR,1,1.0,722,3790.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0658,1BR,1,1.0,815,3790.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0755,1BR,1,1.0,722,3790.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0758,1BR,1,1.0,815,3790.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0953,1BR,1,1.0,733,3980.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-0955,1BR,1,1.0,703,3775.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1059,1BR,1,1.0,759,3830.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1061,1BR,1,1.0,734,3935.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1155,1BR,1,1.0,703,3785.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1262,1BR,1,1.0,965,4545.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1361,1BR,1,1.0,734,3945.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1655,1BR,1,1.0,703,3815.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1659,1BR,1,1.0,759,3860.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1853,1BR,1,1.0,733,4055.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1858,1BR,1,1.0,769,4030.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-1859,1BR,1,1.0,759,3940.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2061,1BR,1,1.0,734,3935.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2159,1BR,1,1.0,759,3950.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2161,1BR,1,1.0,734,3935.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2953,1BR,1,1.0,733,4230.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3150,1BR,1,1.0,757,3645.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3152,1BR,1,1.0,708,4195.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3255,1BR,1,1.0,703,4000.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3350,1BR,1,1.0,757,3670.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3455,1BR,1,1.0,703,4025.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2060,2BR,2,2.0,1179,5590.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-2857,2BR,2,2.0,1210,5975.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3460,2BR,2,2.0,1179,5705.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3256,Studio,0,1.0,528,3470.0,,asking,,,,,
+2026-07-25,VYV South Tower,0,S-3556,Studio,0,1.0,528,3495.0,,asking,,,,,
