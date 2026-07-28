@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T14:07:12+00:00",
+  "generated_at": "2026-07-28T13:30:39+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -587,6 +587,12 @@
           "sqft": 523
         },
         {
+          "unit": "1613",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 487
+        },
+        {
           "unit": "1701",
           "beds": 1,
           "baths": 1.0,
@@ -915,6 +921,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 732
+        },
+        {
+          "unit": "3704",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1066
         },
         {
           "unit": "3705",
@@ -3488,16 +3500,34 @@
           "sqft": null
         },
         {
+          "unit": "0318",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 756
+        },
+        {
           "unit": "0320",
           "beds": 0,
           "baths": 1,
           "sqft": 577
         },
         {
+          "unit": "0415",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 650
+        },
+        {
           "unit": "0419",
           "beds": 1,
           "baths": 1,
           "sqft": 719
+        },
+        {
+          "unit": "0421",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 635
         },
         {
           "unit": "0501",
@@ -4430,6 +4460,12 @@
           "sqft": 470
         },
         {
+          "unit": "1926",
+          "beds": 1,
+          "baths": 1,
+          "sqft": null
+        },
+        {
           "unit": "2001",
           "beds": 0,
           "baths": 1,
@@ -4482,6 +4518,12 @@
           "beds": 2,
           "baths": 2,
           "sqft": 1079
+        },
+        {
+          "unit": "2109",
+          "beds": 1,
+          "baths": 1,
+          "sqft": null
         },
         {
           "unit": "2113",
@@ -4640,6 +4682,12 @@
           "sqft": null
         },
         {
+          "unit": "2717",
+          "beds": 0,
+          "baths": 1,
+          "sqft": null
+        },
+        {
           "unit": "2722",
           "beds": 0,
           "baths": 1,
@@ -4671,6 +4719,12 @@
         },
         {
           "unit": "520",
+          "beds": 0,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "524",
           "beds": 0,
           "baths": 1,
           "sqft": null
@@ -6023,6 +6077,12 @@
           "sqft": 484
         },
         {
+          "unit": "BIS0430",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1146
+        },
+        {
           "unit": "BIS0503",
           "beds": 1,
           "baths": 1.0,
@@ -7021,6 +7081,12 @@
           "sqft": 763
         },
         {
+          "unit": "N-2508",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 879
+        },
+        {
           "unit": "N-2511",
           "beds": 2,
           "baths": 2.0,
@@ -7637,6 +7703,12 @@
           "sqft": null
         },
         {
+          "unit": "543",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "602",
           "beds": 1,
           "baths": 1.0,
@@ -7780,6 +7852,12 @@
         },
         {
           "unit": "2201",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2202",
           "beds": 1,
           "baths": 1.0,
           "sqft": null
@@ -8081,6 +8159,18 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1059
+        },
+        {
+          "unit": "fp8",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 696
+        },
+        {
+          "unit": "fp9",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1059
         }
       ],
       "plans": null,
@@ -8379,6 +8469,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 775
+        },
+        {
+          "unit": "0405",
+          "beds": 1,
+          "baths": 1.5,
+          "sqft": 998
         },
         {
           "unit": "0406",
