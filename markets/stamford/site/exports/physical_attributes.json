@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T14:09:01+00:00",
+  "generated_at": "2026-07-28T13:31:59+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -94,6 +94,12 @@
       "name": "Infinity Harbor Point",
       "total_units": 242,
       "recorded": [
+        {
+          "unit": "A10-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 854
+        },
         {
           "unit": "A4-1",
           "beds": 1,
@@ -525,6 +531,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 830
+        },
+        {
+          "unit": "1110",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
         }
       ],
       "plans": null,
@@ -730,6 +742,12 @@
       "name": "Escape @ Harbor Point",
       "total_units": 435,
       "recorded": [
+        {
+          "unit": "1002",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
         {
           "unit": "1104",
           "beds": 1,
@@ -1395,6 +1413,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1136
+        },
+        {
+          "unit": "805",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 899
         },
         {
           "unit": "808",
