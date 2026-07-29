@@ -272,7 +272,7 @@
 
 <script>
 const DATA = /*DATA_START*/{
-  "generated_at": "2026-07-29T13:31:47+00:00",
+  "generated_at": "2026-07-29T13:50:27+00:00",
   "as_of": "2026-07-29",
   "buildings": [
     {
@@ -444,7 +444,7 @@ const DATA = /*DATA_START*/{
       "address": "850 Pacific St, Stamford, CT 06902",
       "lat": 41.039744,
       "lng": -73.541861,
-      "phys_recorded": 53,
+      "phys_recorded": 54,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -456,7 +456,7 @@ const DATA = /*DATA_START*/{
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 36,
+      "available_now": 37,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -477,7 +477,7 @@ const DATA = /*DATA_START*/{
           "psf_n": 13
         },
         "2BR": {
-          "count": 19,
+          "count": 20,
           "asking_avg": 4588,
           "net_avg": null,
           "sqft_avg": 1243,
@@ -485,9 +485,9 @@ const DATA = /*DATA_START*/{
           "asking_max": 6595,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.5,
+          "asking_psf": 44.51,
           "net_psf": null,
-          "psf_n": 19
+          "psf_n": 20
         },
         "3BR": {
           "count": 2,
@@ -1499,14 +1499,14 @@ const DATA = /*DATA_START*/{
     },
     {
       "date": "2026-07-29",
-      "total_available": 169,
+      "total_available": 170,
       "by_type": {
         "1BR": {
           "asking": 3080.0,
           "net": null
         },
         "2BR": {
-          "asking": 4804.0,
+          "asking": 4801.0,
           "net": null
         },
         "3BR": {
@@ -1519,7 +1519,7 @@ const DATA = /*DATA_START*/{
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3820.0,
+      "all_asking": 3824.0,
       "all_net": null
     }
   ],
@@ -1541,7 +1541,7 @@ const DATA = /*DATA_START*/{
     },
     {
       "t": "2BR",
-      "n": 91,
+      "n": 92,
       "avg_sqft": 1213.0,
       "min_sqft": 899,
       "max_sqft": 2114
@@ -1555,7 +1555,7 @@ const DATA = /*DATA_START*/{
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-29T13:31:47+00:00",
+    "checked_at": "2026-07-29T13:50:27+00:00",
     "errors": [],
     "warnings": [
       "Beacon Harbor Point: no listings captured on 2026-07-29 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
@@ -2095,7 +2095,11 @@ function physCell(b){
     return `<span class="mono" style="font-weight:700;color:var(--gold)">plan SF</span><span class="nm-sub">${b.phys_plans||0} floor plans w/ exact SF · feeds type avgs (per-unit numbers not published)</span>`;
   if(b.phys_source==='none')
     return `<span style="color:var(--ink2)">no SF source</span><span class="nm-sub">floor-plan images only</span>`;
-  if(b.phys_source==='in_feed'){
+  // 'in_feed' = provenance classified; 'unknown' = unclassified (e.g. buildings
+  // wired after the market seed) — still render whatever SF the live feed recorded
+  // rather than hiding it. Zero recorded → honest "not in this feed" note.
+  if(b.phys_source==='in_feed'||b.phys_source==='unknown'){
+    if(!rec) return '<span style="color:var(--ink2)">—</span><span class="nm-sub">SF not published in feed</span>';
     const pct=tot?Math.round(rec/tot*100):null;
     const full = tot && rec>=tot;
     return `<span class="mono" style="font-weight:700;color:${full?'var(--teal)':'var(--ink)'}">${rec.toLocaleString()}<span style="color:var(--ink2);font-weight:400"> / ${tot?tot.toLocaleString():'—'}</span></span>`+

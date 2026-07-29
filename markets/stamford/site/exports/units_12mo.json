@@ -1,6 +1,6 @@
 {
   "as_of": "2026-07-29",
-  "generated_at": "2026-07-29T13:31:47+00:00",
+  "generated_at": "2026-07-29T13:50:28+00:00",
   "window_start": "2025-07-29",
   "units": [
     {
@@ -1344,6 +1344,27 @@
       "conc_months": null,
       "lease_months": null,
       "first_seen": "2026-07-11",
+      "last_seen": "2026-07-29",
+      "active": 1
+    },
+    {
+      "snapshot_date": "2026-07-29",
+      "building": "Allure @ Harbor Point",
+      "in_market": 1,
+      "unit": "1804",
+      "unit_type": "2BR",
+      "beds": 2,
+      "baths": 2.0,
+      "sqft": 1233,
+      "asking_rent": 4595.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": null,
+      "available_date": "10/4/26",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null,
+      "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
       "active": 1
     },
