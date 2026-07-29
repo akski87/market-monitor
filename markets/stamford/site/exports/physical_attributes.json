@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:31:59+00:00",
+  "generated_at": "2026-07-29T13:31:47+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -222,6 +222,12 @@
       "name": "NV @ Harbor Point",
       "total_units": 392,
       "recorded": [
+        {
+          "unit": "1004",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
         {
           "unit": "1008",
           "beds": 2,
@@ -527,6 +533,12 @@
           "sqft": 754
         },
         {
+          "unit": "0977",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 760
+        },
+        {
           "unit": "1007",
           "beds": 1,
           "baths": 1.0,
@@ -550,6 +562,12 @@
       "recorded": [
         {
           "unit": "111",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1042
+        },
+        {
+          "unit": "119",
           "beds": 2,
           "baths": 2.0,
           "sqft": 1042
@@ -616,6 +634,12 @@
         },
         {
           "unit": "448",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 684
+        },
+        {
+          "unit": "531",
           "beds": 1,
           "baths": 1.0,
           "sqft": 684
@@ -851,6 +875,12 @@
           "sqft": 1300
         },
         {
+          "unit": "1962",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
           "unit": "2256",
           "beds": 1,
           "baths": 1.0,
@@ -897,6 +927,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 908
+        },
+        {
+          "unit": "801",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
         },
         {
           "unit": "810",
@@ -1191,6 +1227,12 @@
           "sqft": 1148
         },
         {
+          "unit": "52",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 709
+        },
+        {
           "unit": "561",
           "beds": 2,
           "baths": 2.0,
@@ -1247,6 +1289,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 902
+        },
+        {
+          "unit": "1112",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 792
         },
         {
           "unit": "125",
@@ -1453,6 +1501,12 @@
           "beds": 3,
           "baths": 2.0,
           "sqft": 1390
+        },
+        {
+          "unit": "The Blake-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1167
         },
         {
           "unit": "The Fitchet-1",

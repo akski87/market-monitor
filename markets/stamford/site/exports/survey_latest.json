@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-07-28",
-  "generated_at": "2026-07-28T13:31:59+00:00",
+  "as_of": "2026-07-29",
+  "generated_at": "2026-07-29T13:31:47+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 2,
-      "asking_avg": 2525,
+      "units_available": 3,
+      "asking_avg": 2482,
       "asking_min": 2395.0,
       "asking_max": 2655.0,
       "net_eff_avg": null,
-      "avg_sqft": 499,
-      "asking_psf": 60.72,
+      "avg_sqft": 569,
+      "asking_psf": 52.34,
       "net_eff_psf": null
     },
     {
       "unit_type": "1BR",
       "units_available": 105,
-      "asking_avg": 3132,
+      "asking_avg": 3121,
       "asking_min": 2383.0,
       "asking_max": 4295.0,
       "net_eff_avg": null,
-      "avg_sqft": 799,
-      "asking_psf": 47.04,
+      "avg_sqft": 796,
+      "asking_psf": 47.05,
       "net_eff_psf": null
     },
     {
       "unit_type": "2BR",
-      "units_available": 68,
-      "asking_avg": 4878,
+      "units_available": 71,
+      "asking_avg": 4849,
       "asking_min": 3229.0,
       "asking_max": 8045.0,
       "net_eff_avg": null,
-      "avg_sqft": 1223,
-      "asking_psf": 47.86,
+      "avg_sqft": 1219,
+      "asking_psf": 47.73,
       "net_eff_psf": null
     },
     {
@@ -48,13 +48,13 @@
     },
     {
       "unit_type": "All",
-      "units_available": 178,
-      "asking_avg": 3841,
+      "units_available": 182,
+      "asking_avg": 3832,
       "asking_min": 2383.0,
       "asking_max": 8045.0,
       "net_eff_avg": null,
       "avg_sqft": 968,
-      "asking_psf": 47.62,
+      "asking_psf": 47.5,
       "net_eff_psf": null
     }
   ]
