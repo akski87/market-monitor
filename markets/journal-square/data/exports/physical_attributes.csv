@@ -281,8 +281,9 @@ The Journal,1514S,2,2,989
 The Journal,1515N,0,1.0,405
 The Journal,1602N,1,1.0,730
 The Journal,1608N,0,1.0,468
+The Journal,1608S,0,1.0,468
 The Journal,1611N,1,1.0,733
-The Journal,1611S,1,1.0,
+The Journal,1611S,1,1.0,733
 The Journal,1612N,1,1,763
 The Journal,1701S,1,1,837
 The Journal,1702S,1,1,730
@@ -354,6 +355,7 @@ The Journal,2903N,0,1.0,461
 The Journal,2904N,0,1.0,430
 The Journal,2906N,1,1,660
 The Journal,2908S,0,1,475
+The Journal,2909S,1,1.0,711
 The Journal,2911S,1,1.0,
 The Journal,2914N,2,2,989
 The Journal,3004N,0,1.0,430
@@ -378,6 +380,7 @@ The Journal,3407S,2,2.0,1034
 The Journal,3412S,1,1.0,1117
 The Journal,3415S,0,1.0,375
 The Journal,3501S,1,1,882
+The Journal,3503S,0,1.0,461
 The Journal,3512S,1,1.0,763
 The Journal,3513S,1,1.0,616
 The Journal,3514S,2,2.0,989
@@ -387,6 +390,7 @@ The Journal,3605N,1,1.0,727
 The Journal,3614S,2,2.0,989
 The Journal,3704N,0,1.0,
 The Journal,3708N,0,1.0,478
+The Journal,3709N,1,1.0,723
 The Journal,3711N,1,1,750
 The Journal,3711S,1,1.0,750
 The Journal,3712S,1,1.0,762
@@ -397,7 +401,7 @@ The Journal,3807N,2,2,1032
 The Journal,3808N,0,1.0,
 The Journal,3811S,1,1.0,750
 The Journal,3814N,2,2.0,989
-The Journal,3901N,1,1.0,
+The Journal,3901N,1,1.0,870
 The Journal,3902S,1,1,730
 The Journal,3903N,0,1.0,461
 The Journal,3903S,0,1.0,461
@@ -423,6 +427,7 @@ The Journal,4203S,0,1.0,461
 The Journal,4204N,0,1,430
 The Journal,4208S,0,1.0,481
 The Journal,4209N,1,1,720
+The Journal,4209S,1,1.0,720
 The Journal,4211N,1,1,750
 The Journal,4214N,2,2,989
 The Journal,4215N,0,1.0,410
@@ -434,6 +439,7 @@ The Journal,4402N,1,1.0,763
 The Journal,4404N,1,1.0,722
 The Journal,4406S,1,1.0,658
 The Journal,4408N,0,1.0,481
+The Journal,4501S,1,1.0,870
 The Journal,4502N,1,1.0,733
 The Journal,4505N,1,1.0,727
 The Journal,4505S,1,1.0,727
@@ -445,6 +451,7 @@ The Journal,4608N,0,1.0,481
 The Journal,4612N,1,1,762
 The Journal,4613S,1,1.0,617
 The Journal,4701N,1,1.0,870
+The Journal,4702S,1,1.0,733
 The Journal,4704N,0,1,430
 The Journal,4706S,1,1.0,660
 The Journal,4707N,2,2.0,1032
@@ -454,6 +461,7 @@ The Journal,4715N,0,1.0,410
 The Journal,4715S,0,1.0,410
 The Journal,4802S,1,1.0,733
 The Journal,4804N,0,1,430
+The Journal,4806N,1,1.0,660
 The Journal,4806S,1,1.0,
 The Journal,4813N,1,1.0,617
 The Journal,4813S,1,1.0,617
@@ -462,6 +470,7 @@ The Journal,4815N,0,1,410
 The Journal,4815S,0,1,410
 The Journal,4902S,1,1,733
 The Journal,4903N,0,1.0,459
+The Journal,4904S,0,1.0,430
 The Journal,4906N,1,1,660
 The Journal,4906S,1,1.0,
 The Journal,4907S,2,2.0,1032
@@ -499,6 +508,7 @@ The Journal,5309N,1,1,720
 The Journal,5309S,1,1.0,720
 The Journal,5310S,1,1.0,675
 The Journal,5312N,1,1,763
+The Journal,5315N,0,1.0,410
 The Journal,5401N,1,1.0,870
 The Journal,5404N,0,1.0,430
 The Journal,5405S,1,1.0,727
@@ -519,15 +529,19 @@ The Journal,5613S,1,1.0,617
 The Journal,5615N,0,1.0,385
 The Journal,5702S,1,1.0,733
 The Journal,5703N,0,1.0,459
+The Journal,5708N,0,1.0,479
+The Journal,5713N,1,1.0,617
 The Journal,5713S,1,1.0,617
 The Journal,5714N,2,2.0,989
 The Journal,5802S,1,1.0,733
+The Journal,5804S,0,1.0,430
 The Journal,5806S,1,1,660
 The Journal,5811S,1,1.0,758
 The Journal,5813S,1,1,617
 The Journal,5815N,0,1.0,385
 The Journal,5901N,1,1.0,925
 The Journal,5902S,1,1,733
+The Journal,5903S,0,1.0,459
 The Journal,5904S,0,1.0,430
 The Journal,5906N,1,1.0,660
 The Journal,5906S,1,1.0,660
@@ -543,6 +557,7 @@ The Journal,6007N,2,2.0,1032
 The Journal,6008S,0,1.0,479
 The Journal,6009N,1,1.0,736
 The Journal,6009S,1,1.0,736
+The Journal,6010N,1,1.0,687
 The Journal,6010S,1,1.0,687
 The Journal,6011S,1,1.0,758
 The Journal,6012S,1,1,762
@@ -560,6 +575,8 @@ The Journal,6304N,0,1.0,430
 The Journal,6305S,1,1.0,727
 The Journal,6308N,0,1.0,479
 The Journal,6309N,1,1.0,736
+The Journal,6313S,1,1.0,617
+The Journal,6315S,0,1.0,385
 Four Twenty Five Summit,0204,0,1.0,439
 Four Twenty Five Summit,0211,1,1.0,
 Four Twenty Five Summit,0213,1,1.0,762
@@ -896,16 +913,21 @@ The Greyson,923,1,1,688
 55 Jordan,1373,1,1.0,
 55 Jordan,1699,2,1.0,
 55 Jordan,1801,2,2.0,
+55 Jordan,1881,2,2.0,
 55 Jordan,2060,0,1.0,
 55 Jordan,2077,0,1.0,
+55 Jordan,2291,1,1.0,
 55 Jordan,266,0,1,
 55 Jordan,3055,0,1.0,
+55 Jordan,3286,0,1.0,
 55 Jordan,355,0,1,
 55 Jordan,4070,0,1.0,
 55 Jordan,4199,1,1.0,
 55 Jordan,555,1,1,
 55 Jordan,556,1,1,
+55 Jordan,6672,0,1.0,
 55 Jordan,8100,2,2.0,
+55 Jordan,8919,2,1.0,
 55 Jordan,9090,2,2.0,
 3 Journal Square,0214,2,2.0,1156
 3 Journal Square,0217,1,1,752
@@ -917,6 +939,7 @@ The Greyson,923,1,1,688
 3 Journal Square,0615,1,1,687
 3 Journal Square,0701,1,1,687
 3 Journal Square,0705,1,1.0,704
+3 Journal Square,0812,0,1.0,496
 3 Journal Square,1101,1,1,687
 3 Journal Square,1115,1,1,687
 3 Journal Square,1117,1,1,752
