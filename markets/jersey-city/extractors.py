@@ -437,3 +437,41 @@ def _rc(slug):
     return lambda: _parse_rcm(_cached2("rcm:" + slug, _RCM[slug], _zyte2))
 
 PYFETCH.update({s: _rc(s) for s in _RCM})
+
+# ---- concession reader for the Zyte/PYFETCH feeds --------------------------------
+# The browser-loop buildings get their advertised specials scanned off the served
+# page automatically (engine scrape._conc_scan); the PYFETCH feeds don't, so their
+# concession columns stayed blank. Scan the SAME cached HTML the units came from
+# (no extra fetch). Honest rule: always surface the verbatim offer text; only
+# publish a % when the term is explicit ("N months free on an M-month lease" — either
+# word order). "Up to / select units / term not stated" stays text-only (pct=None).
+def _conc_from_html(h):
+    txt = _re2.sub(r"\s+", " ", _H2.unescape(_re2.sub(r"<[^>]+>", " ", h)))
+    pats = [r'(?:up to\s*)?\d[\d.]*\s*month[s]?\s*(?:of\s*)?free[^.<#$]{0,60}',
+            r'receive up to\s*\d[\d.]*\s*months?[^.<#$]{0,45}',
+            r'\d{1,2}[- ]month\s*lease[:\s]*\d[\d.]*\s*month[s]?\s*free[^.<#$]{0,25}',
+            r'(?:up to\s*)?\d[\d.]*\s*week[s]?\s*free[^.<#$]{0,50}']
+    text = None
+    for p in pats:
+        m = _re2.search(p, txt, _re2.I)
+        if m:
+            text = _re2.split(r'\s*(?:#\d|Restrictions|\$\d)', m.group(0))[0]
+            text = _re2.sub(r"\s+", " ", _re2.sub(r"[^\x20-\x7e]", " ", text)).strip(" :-")[:120]
+            if text:
+                break
+    pct = None
+    q1 = _re2.search(r'([\d.]+)\s*month[s]?\s*free\s*(?:on|with|for)?\s*(?:a\s*)?(\d{1,2})[- ]month\s*lease', txt, _re2.I)
+    q2 = _re2.search(r'(\d{1,2})[- ]month\s*lease[:\s]*([\d.]+)\s*month[s]?\s*free', txt, _re2.I)
+    if q1 and float(q1.group(2)):
+        pct = round(float(q1.group(1)) / float(q1.group(2)), 4)
+    elif q2 and float(q2.group(1)):
+        pct = round(float(q2.group(2)) / float(q2.group(1)), 4)
+    return {"text": text, "pct": pct}
+
+# read from the warm cache the unit fetch just populated — same keys, no re-fetch.
+def _conc_sc(slug):
+    return lambda: _conc_from_html(_cc2.get("scurl:" + _SC2[slug], ""))
+def _conc_rc(slug):
+    return lambda: _conc_from_html(_cc2.get("rcm:" + slug, ""))
+PYCONC = {s: _conc_rc(s) for s in _RCM}
+PYCONC.update({s: _conc_sc(s) for s in _SC2})

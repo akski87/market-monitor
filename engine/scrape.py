@@ -37,6 +37,7 @@ EX        = _MKT.EX
 BASIS     = _MKT.BASIS
 CONC      = getattr(_MKT, "CONC", {k: v.get("conc") for k, v in _MKT.BASIS.items()})
 PYFETCH   = getattr(_MKT, "PYFETCH", {})
+PYCONC    = getattr(_MKT, "PYCONC", {})   # optional {slug: fn()->{"text","pct"}} concession scan for Zyte feeds
 normalize = _MKT.normalize
 
 
@@ -183,7 +184,17 @@ def run(date=None):
             u = [normalize(slug, r) for r in fn()]
             for x in u: x["building"] = name
             all_units += u
-            status[slug] = {"status": "working" if u else "stub_no_data", "units_captured": len(u)}
+            st = {"status": "working" if u else "stub_no_data", "units_captured": len(u)}
+            if u and slug in PYCONC:   # scan the just-fetched page for advertised specials
+                try:
+                    ci = PYCONC[slug]() or {}
+                    if ci.get("text") or ci.get("pct") is not None:
+                        st["concession_text"] = ci.get("text")
+                        st["concession_pct"] = ci.get("pct")
+                        st["concession_source"] = "site" if ci.get("pct") is not None else "site_text"
+                except Exception as ce:
+                    print(f"  {name}: conc scan err {ce}")
+            status[slug] = st
             print(f"  {name}: {len(u)} units (zyte)")
         except Exception as e:
             status[slug] = {"status": "error", "message": str(e)[:200]}
