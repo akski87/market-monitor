@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T13:30:19+00:00",
+  "generated_at": "2026-07-29T13:49:03+00:00",
   "as_of": "2026-07-29",
   "buildings": [
     {
@@ -22,7 +22,7 @@
       "source_url": null,
       "portal_url": null,
       "available_now": 11,
-      "concession_text": null,
+      "concession_text": "1 MONTH FREE ON SELECT APARTMENTS! *Prices and promotions may vary and a",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
@@ -264,7 +264,7 @@
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/295j-apartments/default.aspx",
       "portal_url": null,
       "available_now": 4,
-      "concession_text": null,
+      "concession_text": "1 MONTH FREE when you move into one of our wonderful apartment homes by",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "bergen-lafayette",
@@ -749,8 +749,8 @@
       "source_url": null,
       "portal_url": null,
       "available_now": 3,
-      "concession_text": null,
-      "concession_pct": null,
+      "concession_text": "1 month free 18-month lease: 1",
+      "concession_pct": 0.0769,
       "conc_derived_pct": null,
       "submarket": "bergen-lafayette",
       "as_of": "2026-07-29",
@@ -1622,7 +1622,7 @@
       "source_url": "https://oliveronthehudson.securecafe.com/onlineleasing/oliver-on-the-hudson/availableunits.aspx",
       "portal_url": null,
       "available_now": 17,
-      "concession_text": null,
+      "concession_text": "receive up to 1.5 months on vacant apartments",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "port-liberte",
@@ -1702,7 +1702,7 @@
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/one-grove/default.aspx",
       "portal_url": null,
       "available_now": 4,
-      "concession_text": null,
+      "concession_text": "up to 1 MONTH FREE on base rent for 15+ month lease terms",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
@@ -1904,8 +1904,8 @@
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/radio-lofts-at-hudson-house/default.aspx",
       "portal_url": null,
       "available_now": 8,
-      "concession_text": null,
-      "concession_pct": null,
+      "concession_text": "2 months free on a 14-month lease",
+      "concession_pct": 0.1429,
       "conc_derived_pct": null,
       "submarket": "downtown",
       "as_of": "2026-07-29",
@@ -4435,7 +4435,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-29T13:30:19+00:00",
+    "checked_at": "2026-07-29T13:49:03+00:00",
     "errors": [],
     "warnings": [
       "Orchard: no listings captured on 2026-07-29 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."

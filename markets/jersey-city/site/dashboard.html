@@ -272,7 +272,7 @@
 
 <script>
 const DATA = /*DATA_START*/{
-  "generated_at": "2026-07-29T13:30:19+00:00",
+  "generated_at": "2026-07-29T13:49:03+00:00",
   "as_of": "2026-07-29",
   "buildings": [
     {
@@ -295,7 +295,7 @@ const DATA = /*DATA_START*/{
       "source_url": null,
       "portal_url": null,
       "available_now": 11,
-      "concession_text": null,
+      "concession_text": "1 MONTH FREE ON SELECT APARTMENTS! *Prices and promotions may vary and a",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
@@ -537,7 +537,7 @@ const DATA = /*DATA_START*/{
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/295j-apartments/default.aspx",
       "portal_url": null,
       "available_now": 4,
-      "concession_text": null,
+      "concession_text": "1 MONTH FREE when you move into one of our wonderful apartment homes by",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "bergen-lafayette",
@@ -1022,8 +1022,8 @@ const DATA = /*DATA_START*/{
       "source_url": null,
       "portal_url": null,
       "available_now": 3,
-      "concession_text": null,
-      "concession_pct": null,
+      "concession_text": "1 month free 18-month lease: 1",
+      "concession_pct": 0.0769,
       "conc_derived_pct": null,
       "submarket": "bergen-lafayette",
       "as_of": "2026-07-29",
@@ -1895,7 +1895,7 @@ const DATA = /*DATA_START*/{
       "source_url": "https://oliveronthehudson.securecafe.com/onlineleasing/oliver-on-the-hudson/availableunits.aspx",
       "portal_url": null,
       "available_now": 17,
-      "concession_text": null,
+      "concession_text": "receive up to 1.5 months on vacant apartments",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "port-liberte",
@@ -1975,7 +1975,7 @@ const DATA = /*DATA_START*/{
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/one-grove/default.aspx",
       "portal_url": null,
       "available_now": 4,
-      "concession_text": null,
+      "concession_text": "up to 1 MONTH FREE on base rent for 15+ month lease terms",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "downtown",
@@ -2177,8 +2177,8 @@ const DATA = /*DATA_START*/{
       "source_url": "https://www.rentcafe.com/apartments/nj/jersey-city/radio-lofts-at-hudson-house/default.aspx",
       "portal_url": null,
       "available_now": 8,
-      "concession_text": null,
-      "concession_pct": null,
+      "concession_text": "2 months free on a 14-month lease",
+      "concession_pct": 0.1429,
       "conc_derived_pct": null,
       "submarket": "downtown",
       "as_of": "2026-07-29",
@@ -4708,7 +4708,7 @@ const DATA = /*DATA_START*/{
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-29T13:30:19+00:00",
+    "checked_at": "2026-07-29T13:49:03+00:00",
     "errors": [],
     "warnings": [
       "Orchard: no listings captured on 2026-07-29 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
@@ -5374,7 +5374,11 @@ function physCell(b){
     return `<span class="mono" style="font-weight:700;color:var(--gold)">plan SF</span><span class="nm-sub">${b.phys_plans||0} floor plans w/ exact SF · feeds type avgs (per-unit numbers not published)</span>`;
   if(b.phys_source==='none')
     return `<span style="color:var(--ink2)">no SF source</span><span class="nm-sub">floor-plan images only</span>`;
-  if(b.phys_source==='in_feed'){
+  // 'in_feed' = provenance classified; 'unknown' = unclassified (e.g. buildings
+  // wired after the market seed) — still render whatever SF the live feed recorded
+  // rather than hiding it. Zero recorded → honest "not in this feed" note.
+  if(b.phys_source==='in_feed'||b.phys_source==='unknown'){
+    if(!rec) return '<span style="color:var(--ink2)">—</span><span class="nm-sub">SF not published in feed</span>';
     const pct=tot?Math.round(rec/tot*100):null;
     const full = tot && rec>=tot;
     return `<span class="mono" style="font-weight:700;color:${full?'var(--teal)':'var(--ink)'}">${rec.toLocaleString()}<span style="color:var(--ink2);font-weight:400"> / ${tot?tot.toLocaleString():'—'}</span></span>`+
