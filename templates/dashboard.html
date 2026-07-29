@@ -2278,7 +2278,11 @@ function physCell(b){
     return `<span class="mono" style="font-weight:700;color:var(--gold)">plan SF</span><span class="nm-sub">${b.phys_plans||0} floor plans w/ exact SF · feeds type avgs (per-unit numbers not published)</span>`;
   if(b.phys_source==='none')
     return `<span style="color:var(--ink2)">no SF source</span><span class="nm-sub">floor-plan images only</span>`;
-  if(b.phys_source==='in_feed'){
+  // 'in_feed' = provenance classified; 'unknown' = unclassified (e.g. buildings
+  // wired after the market seed) — still render whatever SF the live feed recorded
+  // rather than hiding it. Zero recorded → honest "not in this feed" note.
+  if(b.phys_source==='in_feed'||b.phys_source==='unknown'){
+    if(!rec) return '<span style="color:var(--ink2)">—</span><span class="nm-sub">SF not published in feed</span>';
     const pct=tot?Math.round(rec/tot*100):null;
     const full = tot && rec>=tot;
     return `<span class="mono" style="font-weight:700;color:${full?'var(--teal)':'var(--ink)'}">${rec.toLocaleString()}<span style="color:var(--ink2);font-weight:400"> / ${tot?tot.toLocaleString():'—'}</span></span>`+
