@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:03:35+00:00",
+  "generated_at": "2026-07-30T13:29:16+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -238,6 +238,12 @@
           "unit": "2307",
           "beds": 1,
           "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "2403",
+          "beds": 0,
+          "baths": 1.0,
           "sqft": null
         },
         {
@@ -779,6 +785,12 @@
           "sqft": 869
         },
         {
+          "unit": "2701",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 496
+        },
+        {
           "unit": "2705",
           "beds": 1,
           "baths": 1,
@@ -1215,6 +1227,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 700
+        },
+        {
+          "unit": "5604",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1066
         },
         {
           "unit": "5701",
@@ -1947,6 +1965,12 @@
           "sqft": 461
         },
         {
+          "unit": "2307N",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1032
+        },
+        {
           "unit": "2309N",
           "beds": 1,
           "baths": 1,
@@ -2431,6 +2455,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 750
+        },
+        {
+          "unit": "3812N",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 762
         },
         {
           "unit": "3814N",
@@ -3854,6 +3884,12 @@
           "sqft": 509
         },
         {
+          "unit": "1613",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 436
+        },
+        {
           "unit": "1704",
           "beds": 0,
           "baths": 1.0,
@@ -4794,6 +4830,18 @@
           "beds": 0,
           "baths": 1,
           "sqft": 415
+        },
+        {
+          "unit": "2817",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "502",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
         },
         {
           "unit": "504",
