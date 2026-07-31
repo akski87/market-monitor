@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T13:25:54+00:00",
-  "as_of": "2026-07-30",
+  "generated_at": "2026-07-31T04:59:37+00:00",
+  "as_of": "2026-07-31",
   "buildings": [
     {
       "id": "park_place_101",
@@ -26,7 +26,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -41,7 +41,104 @@
           "net_psf": null,
           "psf_n": 2
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 1,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-14",
+          "n": 2,
+          "ne": 3125
+        },
+        {
+          "date": "2026-07-15",
+          "n": 2,
+          "ne": 3125
+        },
+        {
+          "date": "2026-07-16",
+          "n": 3,
+          "ne": 2950
+        },
+        {
+          "date": "2026-07-17",
+          "n": 3,
+          "ne": 2950
+        },
+        {
+          "date": "2026-07-18",
+          "n": 3,
+          "ne": 2950
+        },
+        {
+          "date": "2026-07-19",
+          "n": 3,
+          "ne": 2950
+        },
+        {
+          "date": "2026-07-20",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-21",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-22",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-23",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-24",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-25",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-26",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-27",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-28",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-29",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-30",
+          "n": 2,
+          "ne": 2600
+        },
+        {
+          "date": "2026-07-31",
+          "n": 2,
+          "ne": 2600
+        }
+      ]
     },
     {
       "id": "harbor_point_111",
@@ -67,18 +164,18 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 8,
-          "asking_avg": 2765,
+          "asking_avg": 2752,
           "net_avg": null,
           "sqft_avg": 764,
           "asking_min": 2552,
-          "asking_max": 3074,
+          "asking_max": 3024,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 43.46,
+          "asking_psf": 43.27,
           "net_psf": null,
           "psf_n": 8
         },
@@ -95,7 +192,94 @@
           "net_psf": null,
           "psf_n": 3
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 13,
+          "ne": 3031
+        },
+        {
+          "date": "2026-07-14",
+          "n": 13,
+          "ne": 3031
+        },
+        {
+          "date": "2026-07-15",
+          "n": 14,
+          "ne": 2989
+        },
+        {
+          "date": "2026-07-17",
+          "n": 15,
+          "ne": 2977
+        },
+        {
+          "date": "2026-07-18",
+          "n": 15,
+          "ne": 2977
+        },
+        {
+          "date": "2026-07-19",
+          "n": 15,
+          "ne": 2977
+        },
+        {
+          "date": "2026-07-20",
+          "n": 14,
+          "ne": 3003
+        },
+        {
+          "date": "2026-07-21",
+          "n": 13,
+          "ne": 3037
+        },
+        {
+          "date": "2026-07-22",
+          "n": 14,
+          "ne": 3003
+        },
+        {
+          "date": "2026-07-23",
+          "n": 14,
+          "ne": 2990
+        },
+        {
+          "date": "2026-07-25",
+          "n": 15,
+          "ne": 2963
+        },
+        {
+          "date": "2026-07-26",
+          "n": 15,
+          "ne": 2963
+        },
+        {
+          "date": "2026-07-27",
+          "n": 14,
+          "ne": 2984
+        },
+        {
+          "date": "2026-07-28",
+          "n": 13,
+          "ne": 3011
+        },
+        {
+          "date": "2026-07-29",
+          "n": 12,
+          "ne": 3037
+        },
+        {
+          "date": "2026-07-30",
+          "n": 11,
+          "ne": 3078
+        },
+        {
+          "date": "2026-07-31",
+          "n": 11,
+          "ne": 3069
+        }
+      ]
     },
     {
       "id": "towne_121",
@@ -104,7 +288,7 @@
       "address": "119-121 Towne St, Stamford, CT 06902",
       "lat": 41.04488,
       "lng": -73.534696,
-      "phys_recorded": 10,
+      "phys_recorded": 11,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -116,12 +300,12 @@
       "method": "wordpress_html",
       "source_url": "https://www.121towne.com/floorplans/",
       "portal_url": null,
-      "available_now": 5,
+      "available_now": 6,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -137,17 +321,17 @@
           "psf_n": 2
         },
         "2BR": {
-          "count": 2,
-          "asking_avg": 3650,
+          "count": 3,
+          "asking_avg": 3767,
           "net_avg": null,
-          "sqft_avg": 1196,
+          "sqft_avg": 1237,
           "asking_min": 3600,
-          "asking_max": 3700,
+          "asking_max": 4000,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 36.62,
+          "asking_psf": 36.56,
           "net_psf": null,
-          "psf_n": 2
+          "psf_n": 3
         },
         "3BR": {
           "count": 1,
@@ -162,7 +346,104 @@
           "net_psf": null,
           "psf_n": 1
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 4,
+          "ne": 3275
+        },
+        {
+          "date": "2026-07-14",
+          "n": 4,
+          "ne": 3275
+        },
+        {
+          "date": "2026-07-15",
+          "n": 4,
+          "ne": 3275
+        },
+        {
+          "date": "2026-07-16",
+          "n": 4,
+          "ne": 3275
+        },
+        {
+          "date": "2026-07-17",
+          "n": 5,
+          "ne": 3100
+        },
+        {
+          "date": "2026-07-18",
+          "n": 5,
+          "ne": 3100
+        },
+        {
+          "date": "2026-07-19",
+          "n": 5,
+          "ne": 3100
+        },
+        {
+          "date": "2026-07-20",
+          "n": 6,
+          "ne": 2962
+        },
+        {
+          "date": "2026-07-21",
+          "n": 6,
+          "ne": 2962
+        },
+        {
+          "date": "2026-07-22",
+          "n": 6,
+          "ne": 2962
+        },
+        {
+          "date": "2026-07-23",
+          "n": 6,
+          "ne": 2796
+        },
+        {
+          "date": "2026-07-24",
+          "n": 7,
+          "ne": 3154
+        },
+        {
+          "date": "2026-07-25",
+          "n": 6,
+          "ne": 3096
+        },
+        {
+          "date": "2026-07-26",
+          "n": 6,
+          "ne": 3096
+        },
+        {
+          "date": "2026-07-27",
+          "n": 6,
+          "ne": 3096
+        },
+        {
+          "date": "2026-07-28",
+          "n": 5,
+          "ne": 3260
+        },
+        {
+          "date": "2026-07-29",
+          "n": 6,
+          "ne": 3317
+        },
+        {
+          "date": "2026-07-30",
+          "n": 5,
+          "ne": 3500
+        },
+        {
+          "date": "2026-07-31",
+          "n": 6,
+          "ne": 3583
+        }
+      ]
     },
     {
       "id": "allure_hp",
@@ -171,7 +452,7 @@
       "address": "850 Pacific St, Stamford, CT 06902",
       "lat": 41.039744,
       "lng": -73.541861,
-      "phys_recorded": 54,
+      "phys_recorded": 56,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -188,33 +469,33 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
-          "count": 13,
-          "asking_avg": 2995,
+          "count": 15,
+          "asking_avg": 3016,
           "net_avg": null,
-          "sqft_avg": 772,
+          "sqft_avg": 769,
           "asking_min": 2795,
-          "asking_max": 3215,
+          "asking_max": 3315,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 46.78,
+          "asking_psf": 47.31,
           "net_psf": null,
-          "psf_n": 13
+          "psf_n": 15
         },
         "2BR": {
-          "count": 18,
-          "asking_avg": 4635,
+          "count": 16,
+          "asking_avg": 4695,
           "net_avg": null,
-          "sqft_avg": 1256,
-          "asking_min": 3825,
+          "sqft_avg": 1269,
+          "asking_min": 3925,
           "asking_max": 6595,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.52,
+          "asking_psf": 44.65,
           "net_psf": null,
-          "psf_n": 18
+          "psf_n": 16
         },
         "3BR": {
           "count": 2,
@@ -242,7 +523,109 @@
           "net_psf": null,
           "psf_n": 2
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 47,
+          "ne": 3944
+        },
+        {
+          "date": "2026-07-13",
+          "n": 45,
+          "ne": 3966
+        },
+        {
+          "date": "2026-07-14",
+          "n": 42,
+          "ne": 3945
+        },
+        {
+          "date": "2026-07-15",
+          "n": 41,
+          "ne": 3969
+        },
+        {
+          "date": "2026-07-16",
+          "n": 42,
+          "ne": 3977
+        },
+        {
+          "date": "2026-07-17",
+          "n": 42,
+          "ne": 3977
+        },
+        {
+          "date": "2026-07-18",
+          "n": 43,
+          "ne": 4086
+        },
+        {
+          "date": "2026-07-19",
+          "n": 43,
+          "ne": 4086
+        },
+        {
+          "date": "2026-07-20",
+          "n": 43,
+          "ne": 4091
+        },
+        {
+          "date": "2026-07-21",
+          "n": 43,
+          "ne": 4091
+        },
+        {
+          "date": "2026-07-22",
+          "n": 44,
+          "ne": 4051
+        },
+        {
+          "date": "2026-07-23",
+          "n": 44,
+          "ne": 4057
+        },
+        {
+          "date": "2026-07-24",
+          "n": 40,
+          "ne": 4065
+        },
+        {
+          "date": "2026-07-25",
+          "n": 37,
+          "ne": 4072
+        },
+        {
+          "date": "2026-07-26",
+          "n": 37,
+          "ne": 4072
+        },
+        {
+          "date": "2026-07-27",
+          "n": 37,
+          "ne": 4048
+        },
+        {
+          "date": "2026-07-28",
+          "n": 35,
+          "ne": 4086
+        },
+        {
+          "date": "2026-07-29",
+          "n": 37,
+          "ne": 4044
+        },
+        {
+          "date": "2026-07-30",
+          "n": 35,
+          "ne": 4037
+        },
+        {
+          "date": "2026-07-31",
+          "n": 35,
+          "ne": 3980
+        }
+      ]
     },
     {
       "id": "anthem_hp",
@@ -268,7 +651,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 10,
@@ -296,7 +679,109 @@
           "net_psf": null,
           "psf_n": 7
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 17,
+          "ne": 4739
+        },
+        {
+          "date": "2026-07-13",
+          "n": 17,
+          "ne": 4739
+        },
+        {
+          "date": "2026-07-14",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-15",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-16",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-17",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-18",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-19",
+          "n": 16,
+          "ne": 4799
+        },
+        {
+          "date": "2026-07-20",
+          "n": 17,
+          "ne": 4739
+        },
+        {
+          "date": "2026-07-21",
+          "n": 17,
+          "ne": 4739
+        },
+        {
+          "date": "2026-07-22",
+          "n": 18,
+          "ne": 4608
+        },
+        {
+          "date": "2026-07-23",
+          "n": 18,
+          "ne": 4608
+        },
+        {
+          "date": "2026-07-24",
+          "n": 18,
+          "ne": 4608
+        },
+        {
+          "date": "2026-07-25",
+          "n": 18,
+          "ne": 4608
+        },
+        {
+          "date": "2026-07-26",
+          "n": 18,
+          "ne": 4608
+        },
+        {
+          "date": "2026-07-27",
+          "n": 18,
+          "ne": 4489
+        },
+        {
+          "date": "2026-07-28",
+          "n": 18,
+          "ne": 4500
+        },
+        {
+          "date": "2026-07-29",
+          "n": 17,
+          "ne": 4560
+        },
+        {
+          "date": "2026-07-30",
+          "n": 17,
+          "ne": 4550
+        },
+        {
+          "date": "2026-07-31",
+          "n": 17,
+          "ne": 4550
+        }
+      ]
     },
     {
       "id": "beacon_hp",
@@ -363,7 +848,19 @@
           "net_psf": null,
           "psf_n": 1
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 13,
+          "ne": 3999
+        },
+        {
+          "date": "2026-07-13",
+          "n": 13,
+          "ne": 3999
+        }
+      ]
     },
     {
       "id": "escape_hp",
@@ -384,12 +881,12 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 25,
+      "available_now": 24,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 12,
@@ -405,19 +902,121 @@
           "psf_n": 12
         },
         "2BR": {
-          "count": 13,
-          "asking_avg": 6095,
+          "count": 12,
+          "asking_avg": 6074,
           "net_avg": null,
-          "sqft_avg": 1231,
+          "sqft_avg": 1239,
           "asking_min": 5795,
           "asking_max": 6345,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 59.89,
+          "asking_psf": 59.29,
           "net_psf": null,
-          "psf_n": 13
+          "psf_n": 12
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 22,
+          "ne": 4820
+        },
+        {
+          "date": "2026-07-13",
+          "n": 22,
+          "ne": 4753
+        },
+        {
+          "date": "2026-07-14",
+          "n": 21,
+          "ne": 4797
+        },
+        {
+          "date": "2026-07-15",
+          "n": 21,
+          "ne": 4797
+        },
+        {
+          "date": "2026-07-16",
+          "n": 21,
+          "ne": 4797
+        },
+        {
+          "date": "2026-07-17",
+          "n": 22,
+          "ne": 4857
+        },
+        {
+          "date": "2026-07-18",
+          "n": 23,
+          "ne": 4927
+        },
+        {
+          "date": "2026-07-19",
+          "n": 22,
+          "ne": 4972
+        },
+        {
+          "date": "2026-07-20",
+          "n": 22,
+          "ne": 4972
+        },
+        {
+          "date": "2026-07-21",
+          "n": 22,
+          "ne": 4972
+        },
+        {
+          "date": "2026-07-22",
+          "n": 23,
+          "ne": 4916
+        },
+        {
+          "date": "2026-07-23",
+          "n": 23,
+          "ne": 4916
+        },
+        {
+          "date": "2026-07-24",
+          "n": 24,
+          "ne": 4875
+        },
+        {
+          "date": "2026-07-25",
+          "n": 23,
+          "ne": 4916
+        },
+        {
+          "date": "2026-07-26",
+          "n": 23,
+          "ne": 4916
+        },
+        {
+          "date": "2026-07-27",
+          "n": 22,
+          "ne": 4958
+        },
+        {
+          "date": "2026-07-28",
+          "n": 24,
+          "ne": 4968
+        },
+        {
+          "date": "2026-07-29",
+          "n": 25,
+          "ne": 5023
+        },
+        {
+          "date": "2026-07-30",
+          "n": 25,
+          "ne": 5023
+        },
+        {
+          "date": "2026-07-31",
+          "n": 24,
+          "ne": 4968
+        }
+      ]
     },
     {
       "id": "harbor_landing",
@@ -426,7 +1025,7 @@
       "address": "28-30 Southfield Ave, Stamford, CT 06902",
       "lat": 41.039,
       "lng": -73.54792,
-      "phys_recorded": 9,
+      "phys_recorded": 10,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -438,25 +1037,25 @@
       "method": "securecafe_zyte",
       "source_url": "https://hlandingapts.securecafe.com/onlineleasing/harbor-landing-1/availableunits.aspx",
       "portal_url": null,
-      "available_now": 7,
+      "available_now": 8,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
-          "count": 3,
-          "asking_avg": 2548,
+          "count": 4,
+          "asking_avg": 2559,
           "net_avg": null,
           "sqft_avg": 685,
-          "asking_min": 2531,
-          "asking_max": 2576,
+          "asking_min": 2527,
+          "asking_max": 2601,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.63,
+          "asking_psf": 44.82,
           "net_psf": null,
-          "psf_n": 3
+          "psf_n": 4
         },
         "2BR": {
           "count": 4,
@@ -471,7 +1070,94 @@
           "net_psf": null,
           "psf_n": 4
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 6,
+          "ne": 3366
+        },
+        {
+          "date": "2026-07-14",
+          "n": 6,
+          "ne": 3366
+        },
+        {
+          "date": "2026-07-15",
+          "n": 7,
+          "ne": 3262
+        },
+        {
+          "date": "2026-07-16",
+          "n": 8,
+          "ne": 3251
+        },
+        {
+          "date": "2026-07-17",
+          "n": 8,
+          "ne": 3251
+        },
+        {
+          "date": "2026-07-18",
+          "n": 8,
+          "ne": 3251
+        },
+        {
+          "date": "2026-07-19",
+          "n": 8,
+          "ne": 3251
+        },
+        {
+          "date": "2026-07-20",
+          "n": 7,
+          "ne": 3180
+        },
+        {
+          "date": "2026-07-21",
+          "n": 7,
+          "ne": 3180
+        },
+        {
+          "date": "2026-07-22",
+          "n": 7,
+          "ne": 3179
+        },
+        {
+          "date": "2026-07-23",
+          "n": 8,
+          "ne": 3097
+        },
+        {
+          "date": "2026-07-25",
+          "n": 8,
+          "ne": 3095
+        },
+        {
+          "date": "2026-07-26",
+          "n": 8,
+          "ne": 3094
+        },
+        {
+          "date": "2026-07-28",
+          "n": 7,
+          "ne": 3164
+        },
+        {
+          "date": "2026-07-29",
+          "n": 7,
+          "ne": 3163
+        },
+        {
+          "date": "2026-07-30",
+          "n": 7,
+          "ne": 3162
+        },
+        {
+          "date": "2026-07-31",
+          "n": 8,
+          "ne": 3091
+        }
+      ]
     },
     {
       "id": "infinity_hp",
@@ -480,7 +1166,7 @@
       "address": "201 Commons Park S, Stamford, CT 06902",
       "lat": 41.040781,
       "lng": -73.540436,
-      "phys_recorded": 3,
+      "phys_recorded": 4,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -492,25 +1178,25 @@
       "method": "wordpress_html",
       "source_url": "https://www.infinityharborpoint.com/floorplans/",
       "portal_url": null,
-      "available_now": 3,
+      "available_now": 4,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
-          "count": 2,
-          "asking_avg": 2900,
+          "count": 3,
+          "asking_avg": 2867,
           "net_avg": null,
-          "sqft_avg": 830,
+          "sqft_avg": 822,
           "asking_min": 2800,
           "asking_max": 3000,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 41.92,
+          "asking_psf": 41.84,
           "net_psf": null,
-          "psf_n": 2
+          "psf_n": 3
         },
         "2BR": {
           "count": 1,
@@ -525,7 +1211,104 @@
           "net_psf": null,
           "psf_n": 1
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 2,
+          "ne": 3100
+        },
+        {
+          "date": "2026-07-14",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-15",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-16",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-17",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-18",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-19",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-20",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-21",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-22",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-23",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-24",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-25",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-26",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-27",
+          "n": 1,
+          "ne": 3400
+        },
+        {
+          "date": "2026-07-28",
+          "n": 3,
+          "ne": 3067
+        },
+        {
+          "date": "2026-07-29",
+          "n": 3,
+          "ne": 3067
+        },
+        {
+          "date": "2026-07-30",
+          "n": 3,
+          "ne": 3067
+        },
+        {
+          "date": "2026-07-31",
+          "n": 4,
+          "ne": 3000
+        }
+      ]
     },
     {
       "id": "nv_hp",
@@ -551,7 +1334,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 13,
@@ -579,7 +1362,109 @@
           "net_psf": null,
           "psf_n": 8
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 31,
+          "ne": 3134
+        },
+        {
+          "date": "2026-07-13",
+          "n": 31,
+          "ne": 3145
+        },
+        {
+          "date": "2026-07-14",
+          "n": 30,
+          "ne": 3157
+        },
+        {
+          "date": "2026-07-15",
+          "n": 30,
+          "ne": 3157
+        },
+        {
+          "date": "2026-07-16",
+          "n": 29,
+          "ne": 3171
+        },
+        {
+          "date": "2026-07-17",
+          "n": 29,
+          "ne": 3171
+        },
+        {
+          "date": "2026-07-18",
+          "n": 29,
+          "ne": 3171
+        },
+        {
+          "date": "2026-07-19",
+          "n": 26,
+          "ne": 3234
+        },
+        {
+          "date": "2026-07-20",
+          "n": 26,
+          "ne": 3190
+        },
+        {
+          "date": "2026-07-21",
+          "n": 26,
+          "ne": 3190
+        },
+        {
+          "date": "2026-07-22",
+          "n": 24,
+          "ne": 3224
+        },
+        {
+          "date": "2026-07-23",
+          "n": 24,
+          "ne": 3224
+        },
+        {
+          "date": "2026-07-24",
+          "n": 24,
+          "ne": 3224
+        },
+        {
+          "date": "2026-07-25",
+          "n": 24,
+          "ne": 3224
+        },
+        {
+          "date": "2026-07-26",
+          "n": 23,
+          "ne": 3242
+        },
+        {
+          "date": "2026-07-27",
+          "n": 23,
+          "ne": 3242
+        },
+        {
+          "date": "2026-07-28",
+          "n": 21,
+          "ne": 3242
+        },
+        {
+          "date": "2026-07-29",
+          "n": 22,
+          "ne": 3222
+        },
+        {
+          "date": "2026-07-30",
+          "n": 21,
+          "ne": 3250
+        },
+        {
+          "date": "2026-07-31",
+          "n": 21,
+          "ne": 3250
+        }
+      ]
     },
     {
       "id": "opus_hp",
@@ -605,7 +1490,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 9,
@@ -633,7 +1518,109 @@
           "net_psf": null,
           "psf_n": 2
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-11",
+          "n": 11,
+          "ne": 4228
+        },
+        {
+          "date": "2026-07-13",
+          "n": 10,
+          "ne": 4261
+        },
+        {
+          "date": "2026-07-14",
+          "n": 10,
+          "ne": 4261
+        },
+        {
+          "date": "2026-07-15",
+          "n": 10,
+          "ne": 4261
+        },
+        {
+          "date": "2026-07-16",
+          "n": 11,
+          "ne": 4264
+        },
+        {
+          "date": "2026-07-17",
+          "n": 11,
+          "ne": 4264
+        },
+        {
+          "date": "2026-07-18",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-19",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-20",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-21",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-22",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-23",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-24",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-25",
+          "n": 10,
+          "ne": 4309
+        },
+        {
+          "date": "2026-07-26",
+          "n": 9,
+          "ne": 4411
+        },
+        {
+          "date": "2026-07-27",
+          "n": 9,
+          "ne": 4411
+        },
+        {
+          "date": "2026-07-28",
+          "n": 9,
+          "ne": 4411
+        },
+        {
+          "date": "2026-07-29",
+          "n": 10,
+          "ne": 4351
+        },
+        {
+          "date": "2026-07-30",
+          "n": 11,
+          "ne": 4217
+        },
+        {
+          "date": "2026-07-31",
+          "n": 11,
+          "ne": 4217
+        }
+      ]
     },
     {
       "id": "postmark",
@@ -659,35 +1646,132 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 9,
-          "asking_avg": 3146,
+          "asking_avg": 3096,
           "net_avg": null,
           "sqft_avg": 793,
-          "asking_min": 3035,
-          "asking_max": 3287,
+          "asking_min": 2987,
+          "asking_max": 3237,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 47.68,
+          "asking_psf": 46.92,
           "net_psf": null,
           "psf_n": 9
         },
         "2BR": {
           "count": 4,
-          "asking_avg": 4290,
+          "asking_avg": 4288,
           "net_avg": null,
           "sqft_avg": 1162,
-          "asking_min": 4094,
-          "asking_max": 4515,
+          "asking_min": 4093,
+          "asking_max": 4514,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.66,
+          "asking_psf": 44.65,
           "net_psf": null,
           "psf_n": 4
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 16,
+          "ne": 3672
+        },
+        {
+          "date": "2026-07-14",
+          "n": 16,
+          "ne": 3571
+        },
+        {
+          "date": "2026-07-15",
+          "n": 16,
+          "ne": 3573
+        },
+        {
+          "date": "2026-07-16",
+          "n": 16,
+          "ne": 3539
+        },
+        {
+          "date": "2026-07-17",
+          "n": 16,
+          "ne": 3559
+        },
+        {
+          "date": "2026-07-18",
+          "n": 16,
+          "ne": 3495
+        },
+        {
+          "date": "2026-07-19",
+          "n": 15,
+          "ne": 3525
+        },
+        {
+          "date": "2026-07-20",
+          "n": 16,
+          "ne": 3470
+        },
+        {
+          "date": "2026-07-21",
+          "n": 16,
+          "ne": 3470
+        },
+        {
+          "date": "2026-07-22",
+          "n": 16,
+          "ne": 3470
+        },
+        {
+          "date": "2026-07-23",
+          "n": 16,
+          "ne": 3470
+        },
+        {
+          "date": "2026-07-24",
+          "n": 16,
+          "ne": 3470
+        },
+        {
+          "date": "2026-07-25",
+          "n": 15,
+          "ne": 3481
+        },
+        {
+          "date": "2026-07-26",
+          "n": 13,
+          "ne": 3567
+        },
+        {
+          "date": "2026-07-27",
+          "n": 13,
+          "ne": 3567
+        },
+        {
+          "date": "2026-07-28",
+          "n": 14,
+          "ne": 3569
+        },
+        {
+          "date": "2026-07-29",
+          "n": 13,
+          "ne": 3498
+        },
+        {
+          "date": "2026-07-30",
+          "n": 13,
+          "ne": 3498
+        },
+        {
+          "date": "2026-07-31",
+          "n": 13,
+          "ne": 3463
+        }
+      ]
     },
     {
       "id": "the_key",
@@ -713,7 +1797,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
           "count": 5,
@@ -741,7 +1825,99 @@
           "net_psf": null,
           "psf_n": 1
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 7,
+          "ne": 2617
+        },
+        {
+          "date": "2026-07-14",
+          "n": 6,
+          "ne": 2502
+        },
+        {
+          "date": "2026-07-15",
+          "n": 6,
+          "ne": 2427
+        },
+        {
+          "date": "2026-07-16",
+          "n": 7,
+          "ne": 2545
+        },
+        {
+          "date": "2026-07-18",
+          "n": 7,
+          "ne": 2545
+        },
+        {
+          "date": "2026-07-19",
+          "n": 7,
+          "ne": 2545
+        },
+        {
+          "date": "2026-07-20",
+          "n": 7,
+          "ne": 2545
+        },
+        {
+          "date": "2026-07-21",
+          "n": 7,
+          "ne": 2545
+        },
+        {
+          "date": "2026-07-22",
+          "n": 6,
+          "ne": 2574
+        },
+        {
+          "date": "2026-07-23",
+          "n": 6,
+          "ne": 2562
+        },
+        {
+          "date": "2026-07-24",
+          "n": 6,
+          "ne": 2562
+        },
+        {
+          "date": "2026-07-25",
+          "n": 6,
+          "ne": 2562
+        },
+        {
+          "date": "2026-07-26",
+          "n": 5,
+          "ne": 2590
+        },
+        {
+          "date": "2026-07-27",
+          "n": 4,
+          "ne": 2610
+        },
+        {
+          "date": "2026-07-28",
+          "n": 4,
+          "ne": 2610
+        },
+        {
+          "date": "2026-07-29",
+          "n": 4,
+          "ne": 2610
+        },
+        {
+          "date": "2026-07-30",
+          "n": 6,
+          "ne": 2610
+        },
+        {
+          "date": "2026-07-31",
+          "n": 6,
+          "ne": 2610
+        }
+      ]
     },
     {
       "id": "vault",
@@ -762,25 +1938,25 @@
       "method": "securecafe_zyte",
       "source_url": "https://vaultapts.securecafe.com/onlineleasing/the-vault-apartments/availableunits.aspx",
       "portal_url": null,
-      "available_now": 11,
+      "available_now": 10,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
-          "count": 8,
-          "asking_avg": 2600,
+          "count": 7,
+          "asking_avg": 2607,
           "net_avg": null,
-          "sqft_avg": 697,
+          "sqft_avg": 699,
           "asking_min": 2524,
           "asking_max": 2846,
           "net_min": null,
           "net_max": null,
           "asking_psf": 44.8,
           "net_psf": null,
-          "psf_n": 8
+          "psf_n": 7
         },
         "2BR": {
           "count": 3,
@@ -795,7 +1971,99 @@
           "net_psf": null,
           "psf_n": 3
         }
-      }
+      },
+      "history": [
+        {
+          "date": "2026-07-13",
+          "n": 17,
+          "ne": 2657
+        },
+        {
+          "date": "2026-07-14",
+          "n": 13,
+          "ne": 2565
+        },
+        {
+          "date": "2026-07-15",
+          "n": 15,
+          "ne": 2599
+        },
+        {
+          "date": "2026-07-16",
+          "n": 14,
+          "ne": 2616
+        },
+        {
+          "date": "2026-07-17",
+          "n": 14,
+          "ne": 2614
+        },
+        {
+          "date": "2026-07-18",
+          "n": 14,
+          "ne": 2638
+        },
+        {
+          "date": "2026-07-19",
+          "n": 14,
+          "ne": 2638
+        },
+        {
+          "date": "2026-07-20",
+          "n": 13,
+          "ne": 2650
+        },
+        {
+          "date": "2026-07-22",
+          "n": 13,
+          "ne": 2728
+        },
+        {
+          "date": "2026-07-23",
+          "n": 13,
+          "ne": 2720
+        },
+        {
+          "date": "2026-07-24",
+          "n": 13,
+          "ne": 2720
+        },
+        {
+          "date": "2026-07-25",
+          "n": 12,
+          "ne": 2735
+        },
+        {
+          "date": "2026-07-26",
+          "n": 11,
+          "ne": 2775
+        },
+        {
+          "date": "2026-07-27",
+          "n": 11,
+          "ne": 2775
+        },
+        {
+          "date": "2026-07-28",
+          "n": 10,
+          "ne": 2828
+        },
+        {
+          "date": "2026-07-29",
+          "n": 12,
+          "ne": 2848
+        },
+        {
+          "date": "2026-07-30",
+          "n": 11,
+          "ne": 2808
+        },
+        {
+          "date": "2026-07-31",
+          "n": 10,
+          "ne": 2833
+        }
+      ]
     }
   ],
   "market_history": [
@@ -1273,6 +2541,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3825.0,
       "all_net": null
+    },
+    {
+      "date": "2026-07-31",
+      "total_available": 168,
+      "by_type": {
+        "1BR": {
+          "asking": 3084.0,
+          "net": null
+        },
+        "2BR": {
+          "asking": 4817.0,
+          "net": null
+        },
+        "3BR": {
+          "asking": 6030.0,
+          "net": null
+        },
+        "Studio": {
+          "asking": 2525.0,
+          "net": null
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3790.0,
+      "all_net": null
     }
   ],
   "unit_mix": [],
@@ -1286,15 +2579,15 @@
     },
     {
       "t": "1BR",
-      "n": 152,
-      "avg_sqft": 793.0,
+      "n": 156,
+      "avg_sqft": 792.0,
       "min_sqft": 642,
       "max_sqft": 1218
     },
     {
       "t": "2BR",
-      "n": 92,
-      "avg_sqft": 1213.0,
+      "n": 93,
+      "avg_sqft": 1215.0,
       "min_sqft": 899,
       "max_sqft": 2114
     },
@@ -1307,10 +2600,10 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-30T13:25:54+00:00",
+    "checked_at": "2026-07-31T04:59:37+00:00",
     "errors": [],
     "warnings": [
-      "Beacon Harbor Point: no listings captured on 2026-07-30 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "Beacon Harbor Point: no listings captured on 2026-07-31 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T13:25:54+00:00",
+  "generated_at": "2026-07-31T04:59:37+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -102,6 +102,12 @@
         },
         {
           "unit": "A4-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 806
+        },
+        {
+          "unit": "A4-2",
           "beds": 1,
           "baths": 1.0,
           "sqft": 806
@@ -1179,6 +1185,12 @@
           "sqft": 1233
         },
         {
+          "unit": "2154",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
           "unit": "2203",
           "beds": 2,
           "baths": 2.0,
@@ -1237,6 +1249,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 709
+        },
+        {
+          "unit": "554",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 660
         },
         {
           "unit": "561",
@@ -1545,6 +1563,12 @@
           "sqft": 1226
         },
         {
+          "unit": "The Mossman with Den-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1317
+        },
+        {
           "unit": "The Soref with Den-1",
           "beds": 2,
           "baths": 2.0,
@@ -1644,6 +1668,12 @@
         },
         {
           "unit": "454",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 685
+        },
+        {
+          "unit": "G05",
           "beds": 1,
           "baths": 1.0,
           "sqft": 685
