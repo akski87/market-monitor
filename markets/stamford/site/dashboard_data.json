@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T04:59:37+00:00",
+  "generated_at": "2026-07-31T13:31:36+00:00",
   "as_of": "2026-07-31",
   "buildings": [
     {
@@ -1801,27 +1801,27 @@
       "by_type": {
         "1BR": {
           "count": 5,
-          "asking_avg": 2481,
+          "asking_avg": 2492,
           "net_avg": null,
           "sqft_avg": 714,
           "asking_min": 2440,
-          "asking_max": 2564,
+          "asking_max": 2583,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 41.78,
+          "asking_psf": 41.97,
           "net_psf": null,
           "psf_n": 5
         },
         "2BR": {
           "count": 1,
-          "asking_avg": 3254,
+          "asking_avg": 3452,
           "net_avg": null,
           "sqft_avg": 1045,
-          "asking_min": 3254,
-          "asking_max": 3254,
+          "asking_min": 3452,
+          "asking_max": 3452,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 37.37,
+          "asking_psf": 39.64,
           "net_psf": null,
           "psf_n": 1
         }
@@ -1915,7 +1915,7 @@
         {
           "date": "2026-07-31",
           "n": 6,
-          "ne": 2610
+          "ne": 2652
         }
       ]
     },
@@ -1926,7 +1926,7 @@
       "address": "120 Towne St, Stamford, CT 06902",
       "lat": 41.045784,
       "lng": -73.535163,
-      "phys_recorded": 23,
+      "phys_recorded": 24,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -1938,7 +1938,7 @@
       "method": "securecafe_zyte",
       "source_url": "https://vaultapts.securecafe.com/onlineleasing/the-vault-apartments/availableunits.aspx",
       "portal_url": null,
-      "available_now": 10,
+      "available_now": 11,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -1946,17 +1946,17 @@
       "as_of": "2026-07-31",
       "by_type": {
         "1BR": {
-          "count": 7,
-          "asking_avg": 2607,
+          "count": 8,
+          "asking_avg": 2602,
           "net_avg": null,
-          "sqft_avg": 699,
+          "sqft_avg": 697,
           "asking_min": 2524,
           "asking_max": 2846,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.8,
+          "asking_psf": 44.83,
           "net_psf": null,
-          "psf_n": 7
+          "psf_n": 8
         },
         "2BR": {
           "count": 3,
@@ -2060,8 +2060,8 @@
         },
         {
           "date": "2026-07-31",
-          "n": 10,
-          "ne": 2833
+          "n": 11,
+          "ne": 2809
         }
       ]
     }
@@ -2544,14 +2544,14 @@
     },
     {
       "date": "2026-07-31",
-      "total_available": 168,
+      "total_available": 169,
       "by_type": {
         "1BR": {
-          "asking": 3084.0,
+          "asking": 3079.0,
           "net": null
         },
         "2BR": {
-          "asking": 4817.0,
+          "asking": 4820.0,
           "net": null
         },
         "3BR": {
@@ -2564,7 +2564,7 @@
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3790.0,
+      "all_asking": 3784.0,
       "all_net": null
     }
   ],
@@ -2579,8 +2579,8 @@
     },
     {
       "t": "1BR",
-      "n": 156,
-      "avg_sqft": 792.0,
+      "n": 157,
+      "avg_sqft": 791.0,
       "min_sqft": 642,
       "max_sqft": 1218
     },
@@ -2600,7 +2600,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-07-31T04:59:37+00:00",
+    "checked_at": "2026-07-31T13:31:36+00:00",
     "errors": [],
     "warnings": [
       "Beacon Harbor Point: no listings captured on 2026-07-31 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
