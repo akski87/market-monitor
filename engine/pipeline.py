@@ -494,6 +494,17 @@ def export(out_path=EXPORT_PATH):
             phys_plans = len(pb.get("plans", {}))
             phys_source = sf_src.get(b["id"], "unknown")
             g = geo.get(b["id"], {})
+            # per-building daily history for the building-detail chart: available count +
+            # avg net-effective (listed price where net unstated) per snapshot date. Built
+            # straight from listings (a true daily snapshot), windowed to ~12 months.
+            bhist = [{"date": r["d"], "n": r["n"],
+                      "ne": round(r["ne"]) if r["ne"] is not None else None}
+                     for r in c.execute(
+                         f"""SELECT snapshot_date d, COUNT(*) n,
+                                    AVG(COALESCE(net_effective_rent, asking_rent)) ne
+                             FROM listings
+                             WHERE building_id=? AND snapshot_date >= date('now','-365 day'){qclause}
+                             GROUP BY snapshot_date ORDER BY snapshot_date""", (b["id"],))]
             buildings.append({
                 "id": b["id"], "name": b["name"], "units": b["units"],
                 "address": g.get("address"), "lat": g.get("lat"), "lng": g.get("lng"),
@@ -507,7 +518,7 @@ def export(out_path=EXPORT_PATH):
                 "concession_pct": snap["concession_pct"] if snap else None,
                 "conc_derived_pct": conc_dv,
                 "submarket": submkt.get(b["id"]),
-                "as_of": d, "by_type": by_type or None})
+                "as_of": d, "by_type": by_type or None, "history": bhist})
         history = [{"date": r["snapshot_date"], "total_available": r["total_available"],
                     "by_type": json.loads(r["by_type_json"]) if r["by_type_json"] else None,
                     "note": r["note"]}

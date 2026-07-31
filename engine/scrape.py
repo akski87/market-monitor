@@ -182,18 +182,24 @@ def run(date=None):
         name = NAME_BY_SLUG.get(slug, slug)
         try:
             u = [normalize(slug, r) for r in fn()]
-            for x in u: x["building"] = name
+            # scan the just-fetched page (cache is warm now) for advertised specials,
+            # then derive net-effective exactly like the browser loop: fill_rents applies
+            # the % only when the term is explicit — otherwise units stay asking-only.
+            ci = {}
+            if u and slug in PYCONC:
+                try: ci = PYCONC[slug]() or {}
+                except Exception as ce: print(f"  {name}: conc scan err {ce}")
+            for x in u:
+                x["building"] = name
+                fill_rents(x, slug, ci.get("pct"))
+                if ci.get("text") and not x.get("concession_text"):
+                    x["concession_text"] = ci.get("text")
             all_units += u
             st = {"status": "working" if u else "stub_no_data", "units_captured": len(u)}
-            if u and slug in PYCONC:   # scan the just-fetched page for advertised specials
-                try:
-                    ci = PYCONC[slug]() or {}
-                    if ci.get("text") or ci.get("pct") is not None:
-                        st["concession_text"] = ci.get("text")
-                        st["concession_pct"] = ci.get("pct")
-                        st["concession_source"] = "site" if ci.get("pct") is not None else "site_text"
-                except Exception as ce:
-                    print(f"  {name}: conc scan err {ce}")
+            if ci.get("text") or ci.get("pct") is not None:
+                st["concession_text"] = ci.get("text")
+                st["concession_pct"] = ci.get("pct")
+                st["concession_source"] = "site" if ci.get("pct") is not None else "site_text"
             status[slug] = st
             print(f"  {name}: {len(u)} units (zyte)")
         except Exception as e:
