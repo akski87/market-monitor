@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:29:34+00:00",
+  "generated_at": "2026-08-01T12:52:59+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -1125,6 +1125,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 706
+        },
+        {
+          "unit": "4908",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 610
         },
         {
           "unit": "4910",
@@ -6685,10 +6691,22 @@
           "sqft": 1349
         },
         {
+          "unit": "fp19",
+          "beds": 2,
+          "baths": 2.5,
+          "sqft": 1349
+        },
+        {
           "unit": "fp2",
           "beds": 1,
           "baths": 1.0,
           "sqft": 685
+        },
+        {
+          "unit": "fp20",
+          "beds": 2,
+          "baths": 2.5,
+          "sqft": 1324
         },
         {
           "unit": "fp3",
@@ -7991,6 +8009,12 @@
       "total_units": 114,
       "recorded": [
         {
+          "unit": "201",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "206",
           "beds": 0,
           "baths": 1.0,
@@ -8809,6 +8833,18 @@
           "sqft": null
         },
         {
+          "unit": "548",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "564",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "624",
           "beds": 1,
           "baths": 1.0,
@@ -8991,6 +9027,12 @@
           "sqft": 875
         },
         {
+          "unit": "2042",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1049
+        },
+        {
           "unit": "2076",
           "beds": 3,
           "baths": 2.0,
@@ -9043,6 +9085,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 999
+        },
+        {
+          "unit": "5025",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1151
         },
         {
           "unit": "5037",
