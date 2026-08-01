@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:31:36+00:00",
+  "generated_at": "2026-08-01T12:54:28+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -101,6 +101,12 @@
           "sqft": 854
         },
         {
+          "unit": "A2-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 793
+        },
+        {
           "unit": "A4-1",
           "beds": 1,
           "baths": 1.0,
@@ -108,6 +114,12 @@
         },
         {
           "unit": "A4-2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 806
+        },
+        {
+          "unit": "A4-3",
           "beds": 1,
           "baths": 1.0,
           "sqft": 806
@@ -187,6 +199,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1245
+        },
+        {
+          "unit": "0922",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 755
         },
         {
           "unit": "1019",
