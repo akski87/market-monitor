@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:15:29+00:00",
+  "generated_at": "2026-08-04T13:45:43+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -461,6 +461,12 @@
           "sqft": 1365
         },
         {
+          "unit": "0455",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 838
+        },
+        {
           "unit": "0565",
           "beds": 1,
           "baths": 1.0,
@@ -667,6 +673,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 684
+        },
+        {
+          "unit": "541",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
         },
         {
           "unit": "546",
@@ -1227,6 +1239,12 @@
           "sqft": 808
         },
         {
+          "unit": "345",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1350
+        },
+        {
           "unit": "403",
           "beds": 0,
           "baths": 1.0,
@@ -1381,6 +1399,12 @@
           "sqft": 1156
         },
         {
+          "unit": "321",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 791
+        },
+        {
           "unit": "401",
           "beds": 2,
           "baths": 2.0,
@@ -1455,6 +1479,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1364
+        },
+        {
+          "unit": "225",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 741
         },
         {
           "unit": "302",
@@ -1631,6 +1661,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 705
+        },
+        {
+          "unit": "Greenwich-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 981
         },
         {
           "unit": "Henry-1",
