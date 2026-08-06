@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T13:31:07+00:00",
+  "generated_at": "2026-08-06T13:27:12+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -263,6 +263,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 831
+        },
+        {
+          "unit": "2303",
+          "beds": 0,
+          "baths": 1,
+          "sqft": null
         },
         {
           "unit": "2306",
@@ -2565,6 +2571,12 @@
           "sqft": 762
         },
         {
+          "unit": "3813N",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 617
+        },
+        {
           "unit": "3814N",
           "beds": 2,
           "baths": 2,
@@ -3840,6 +3852,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 619
+        },
+        {
+          "unit": "0603",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1022
         },
         {
           "unit": "0606",
@@ -5839,6 +5857,12 @@
           "sqft": 520
         },
         {
+          "unit": "5102",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 417
+        },
+        {
           "unit": "5104",
           "beds": 0,
           "baths": 1,
@@ -6001,6 +6025,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 620
+        },
+        {
+          "unit": "406",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 664
         },
         {
           "unit": "408",
@@ -6261,6 +6291,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 687
+        },
+        {
+          "unit": "1106",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 726
         },
         {
           "unit": "1115",
@@ -6701,6 +6737,12 @@
           "sqft": 1701
         },
         {
+          "unit": "BIS2403",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 835
+        },
+        {
           "unit": "BIS2416",
           "beds": 3,
           "baths": 3.0,
@@ -6753,6 +6795,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1080
+        },
+        {
+          "unit": "BIS3208",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1266
         },
         {
           "unit": "BISPH101",
@@ -7567,6 +7615,12 @@
           "sqft": 763
         },
         {
+          "unit": "N-0702",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1158
+        },
+        {
           "unit": "N-0704",
           "beds": 1,
           "baths": 1.0,
@@ -7625,6 +7679,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1084
+        },
+        {
+          "unit": "N-1713",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 610
         },
         {
           "unit": "N-1811",
@@ -8023,6 +8083,12 @@
           "sqft": 569
         },
         {
+          "unit": "SAB-3601",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 569
+        },
+        {
           "unit": "SAB-3603",
           "beds": 1,
           "baths": 1.0,
@@ -8081,6 +8147,18 @@
           "beds": 2,
           "baths": 1.0,
           "sqft": 1013
+        },
+        {
+          "unit": "SAB-4501",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
+        },
+        {
+          "unit": "SAB-4612",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
         },
         {
           "unit": "SAB-4706",
@@ -8155,6 +8233,12 @@
           "sqft": 599
         },
         {
+          "unit": "SAB-5505",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 824
+        },
+        {
           "unit": "SAB-5509",
           "beds": 1,
           "baths": 1.0,
@@ -8183,6 +8267,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 413
+        },
+        {
+          "unit": "SAB-6011",
+          "beds": 2,
+          "baths": 1.0,
+          "sqft": 1013
         },
         {
           "unit": "SAB-6110",
@@ -8269,6 +8359,12 @@
         {
           "unit": "241",
           "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "245",
+          "beds": 1,
           "baths": 1.0,
           "sqft": null
         },
@@ -8457,6 +8553,12 @@
           "sqft": null
         },
         {
+          "unit": "0708",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "0803",
           "beds": 1,
           "baths": 1.0,
@@ -8536,6 +8638,12 @@
         },
         {
           "unit": "2001",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "2007",
           "beds": 1,
           "baths": 1.0,
           "sqft": null
@@ -8964,6 +9072,12 @@
           "unit": "221",
           "beds": 2,
           "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "341",
+          "beds": 1,
+          "baths": 1.0,
           "sqft": null
         },
         {

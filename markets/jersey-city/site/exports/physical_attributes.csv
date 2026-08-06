@@ -42,6 +42,7 @@ Journal Square Urby,212,1,1,
 Journal Square Urby,2204,0,1,
 Journal Square Urby,2206,0,1,
 Journal Square Urby,2214,2,2.0,831
+Journal Square Urby,2303,0,1,
 Journal Square Urby,2306,0,1.0,442
 Journal Square Urby,2307,1,1,
 Journal Square Urby,2403,0,1,
@@ -422,6 +423,7 @@ The Journal,3807N,2,2,1032
 The Journal,3808N,0,1.0,
 The Journal,3811S,1,1.0,750
 The Journal,3812N,1,1,762
+The Journal,3813N,1,1,617
 The Journal,3814N,2,2,989
 The Journal,3901N,1,1.0,870
 The Journal,3902S,1,1,730
@@ -626,6 +628,7 @@ Four Twenty Five Summit,0519,1,1,719
 Four Twenty Five Summit,0522,0,1,529
 Four Twenty Five Summit,0601,2,2,1129
 Four Twenty Five Summit,0602,1,1.0,619
+Four Twenty Five Summit,0603,2,2,1022
 Four Twenty Five Summit,0606,0,1.0,475
 Four Twenty Five Summit,0709,0,1,515
 Four Twenty Five Summit,0717,0,1.0,
@@ -923,6 +926,7 @@ The Greyson,923,1,1,688
 505 Summit,5012,1,1,730
 505 Summit,5013,1,1,701
 505 Summit,5014,0,1,520
+505 Summit,5102,0,1,417
 505 Summit,5104,0,1,586
 505 Summit,5105,1,1,692
 505 Summit,5109,0,1,462
@@ -947,6 +951,7 @@ The Greyson,923,1,1,688
 345 Baldwin,1303,3,3,1371
 345 Baldwin,303,0,1.0,391
 345 Baldwin,308,1,1.0,620
+345 Baldwin,406,1,1,664
 345 Baldwin,408,1,1,620
 345 Baldwin,502,0,1,391
 345 Baldwin,701,2,2.0,947
@@ -987,6 +992,7 @@ The Greyson,923,1,1,688
 3 Journal Square,0810,1,1,752
 3 Journal Square,0812,0,1,496
 3 Journal Square,1101,1,1,687
+3 Journal Square,1106,1,1,726
 3 Journal Square,1115,1,1,687
 3 Journal Square,1117,1,1,752
 3 Journal Square,1202,0,1,496
@@ -1055,6 +1061,7 @@ Bisby,BIS2006,1,1.0,795
 Bisby,BIS2202,2,2.0,1267
 Bisby,BIS2209,1,1.0,827
 Bisby,BIS2316,3,3.0,1701
+Bisby,BIS2403,1,1.0,835
 Bisby,BIS2416,3,3.0,1701
 Bisby,BIS2502,2,2.0,1267
 Bisby,BIS2516,3,3.0,1701
@@ -1064,6 +1071,7 @@ Bisby,BIS2904,2,2.0,1080
 Bisby,BIS3007,1,1.0,780
 Bisby,BIS3202,2,2.0,1267
 Bisby,BIS3204,2,2.0,1080
+Bisby,BIS3208,2,2.0,1266
 Bisby,BISPH101,2,2.0,1267
 One Grove,fp1,1,1.0,786
 One Grove,fp2,1,1.0,657
@@ -1186,6 +1194,7 @@ VYV South Tower,S-3460,2,2.0,1179
 VYV South Tower,S-3556,0,1.0,528
 VYV South Tower,S-3558,1,1.0,769
 VYV North Tower,N-0601,1,1.0,763
+VYV North Tower,N-0702,2,2.0,1158
 VYV North Tower,N-0704,1,1.0,739
 VYV North Tower,N-1002,2,2.0,1158
 VYV North Tower,N-1004,1,1.0,739
@@ -1196,6 +1205,7 @@ VYV North Tower,N-1409,2,2.0,1182
 VYV North Tower,N-1607,0,1.0,610
 VYV North Tower,N-1710,1,1.0,739
 VYV North Tower,N-1711,2,2.0,1084
+VYV North Tower,N-1713,0,1.0,610
 VYV North Tower,N-1811,2,2.0,1084
 VYV North Tower,N-1904,1,1.0,739
 VYV North Tower,N-2109,2,2.0,1182
@@ -1257,6 +1267,7 @@ Sable,SAB-3205,1,1.0,612
 Sable,SAB-3402,1,1.0,612
 Sable,SAB-3505,2,1.0,824
 Sable,SAB-3512,1,1.0,569
+Sable,SAB-3601,1,1.0,569
 Sable,SAB-3603,1,1.0,599
 Sable,SAB-3701,1,1.0,569
 Sable,SAB-3709,1,1.0,699
@@ -1267,6 +1278,8 @@ Sable,SAB-4008,2,1.0,1013
 Sable,SAB-4102,2,1.0,824
 Sable,SAB-4302,2,1.0,1013
 Sable,SAB-4402,2,1.0,1013
+Sable,SAB-4501,0,1.0,413
+Sable,SAB-4612,0,1.0,413
 Sable,SAB-4706,1,1.0,569
 Sable,SAB-4802,1,1.0,612
 Sable,SAB-4805,2,1.0,824
@@ -1279,11 +1292,13 @@ Sable,SAB-5101,0,1.0,413
 Sable,SAB-5302,1,1.0,612
 Sable,SAB-5411,1,1.0,612
 Sable,SAB-5504,1,1.0,599
+Sable,SAB-5505,2,1.0,824
 Sable,SAB-5509,1,1.0,529
 Sable,SAB-5712,0,1.0,413
 Sable,SAB-5801,1,1.0,569
 Sable,SAB-5802,2,1.0,824
 Sable,SAB-6007,0,1.0,413
+Sable,SAB-6011,2,1.0,1013
 Sable,SAB-6110,0,1.0,561
 Sable,SAB-6205,1,1.0,612
 Sable,SAB-6308,2,1.0,824
@@ -1297,6 +1312,7 @@ The Hazel,206,0,1.0,
 The Hazel,208,1,1.0,
 The Hazel,230,1,1.0,
 The Hazel,241,0,1.0,
+The Hazel,245,1,1.0,
 The Hazel,302,1,1.0,
 The Hazel,304,0,1.0,
 The Hazel,307,2,2.0,
@@ -1326,6 +1342,7 @@ Atlas,0401,1,1.0,
 Atlas,0406,1,1.0,
 Atlas,0503,1,1.0,
 Atlas,0505,1,1.0,
+Atlas,0708,0,1.0,
 Atlas,0803,1,1.0,
 Atlas,0808,0,1.0,
 Atlas,0904,3,2.0,
@@ -1340,6 +1357,7 @@ Atlas,1707,1,1.0,
 Atlas,1807,1,1.0,
 Atlas,1902,1,1.0,
 Atlas,2001,1,1.0,
+Atlas,2007,1,1.0,
 Atlas,2201,1,1.0,
 Atlas,2202,1,1.0,
 Atlas,2203,1,1.0,
@@ -1401,6 +1419,7 @@ The Agnes,116,1,1.0,
 The Agnes,120,4,3.0,
 The Agnes,215,2,2.0,
 The Agnes,221,2,2.0,
+The Agnes,341,1,1.0,
 The Agnes,352,0,1.0,
 The Agnes,408,1,1.0,
 The Agnes,444,1,1.0,
