@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T13:33:39+00:00",
+  "generated_at": "2026-08-06T13:30:10+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -107,6 +107,12 @@
           "sqft": 793
         },
         {
+          "unit": "A2-2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 793
+        },
+        {
           "unit": "A4-1",
           "beds": 1,
           "baths": 1.0,
@@ -189,6 +195,12 @@
           "sqft": 763
         },
         {
+          "unit": "0716",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 810
+        },
+        {
           "unit": "0720",
           "beds": 1,
           "baths": 1.0,
@@ -241,6 +253,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1245
+        },
+        {
+          "unit": "1323",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1216
         }
       ],
       "plans": null,
@@ -350,6 +368,12 @@
         },
         {
           "unit": "1509",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
+          "unit": "1510",
           "beds": 1,
           "baths": 1.0,
           "sqft": 759
@@ -585,6 +609,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 760
+        },
+        {
+          "unit": "1203",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1173
         }
       ],
       "plans": null,
@@ -767,6 +797,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1045
+        },
+        {
+          "unit": "315",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 829
         },
         {
           "unit": "318",
@@ -1041,6 +1077,12 @@
           "sqft": 1425
         },
         {
+          "unit": "1259",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 841
+        },
+        {
           "unit": "126",
           "beds": 2,
           "baths": 3.0,
@@ -1311,6 +1353,12 @@
           "sqft": 709
         },
         {
+          "unit": "553",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 805
+        },
+        {
           "unit": "554",
           "beds": 1,
           "baths": 1.0,
@@ -1541,6 +1589,12 @@
           "sqft": 1914
         },
         {
+          "unit": "409",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1514
+        },
+        {
           "unit": "601",
           "beds": 2,
           "baths": 2.0,
@@ -1623,13 +1677,43 @@
           "sqft": 1167
         },
         {
+          "unit": "The Blake-2",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1167
+        },
+        {
           "unit": "The Fitchet-1",
           "beds": 2,
           "baths": 2.0,
           "sqft": 1029
         },
         {
+          "unit": "The Henry-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
+          "unit": "The Henry-2",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
+          "unit": "The Henry-3",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
           "unit": "The Hobbs-1",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 580
+        },
+        {
+          "unit": "The Hobbs-2",
           "beds": 0,
           "baths": 1.0,
           "sqft": 580
