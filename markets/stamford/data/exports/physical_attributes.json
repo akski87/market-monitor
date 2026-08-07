@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:30:10+00:00",
+  "generated_at": "2026-08-07T12:40:39+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -283,6 +283,12 @@
           "sqft": 1109
         },
         {
+          "unit": "1052",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
+        },
+        {
           "unit": "1059",
           "beds": 1,
           "baths": 1.0,
@@ -461,6 +467,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1151
+        },
+        {
+          "unit": "611",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 969
         },
         {
           "unit": "704",
@@ -643,6 +655,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1029
+        },
+        {
+          "unit": "244",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 787
         },
         {
           "unit": "248",
@@ -1595,6 +1613,12 @@
           "sqft": 1514
         },
         {
+          "unit": "512",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 797
+        },
+        {
           "unit": "601",
           "beds": 2,
           "baths": 2.0,
@@ -1781,6 +1805,36 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 705
+        },
+        {
+          "unit": "Atlantic-3",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        },
+        {
+          "unit": "Atlantic-4",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        },
+        {
+          "unit": "Atlantic-5",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        },
+        {
+          "unit": "Atlantic-6",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        },
+        {
+          "unit": "Canal-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1091
         },
         {
           "unit": "Greenwich-1",

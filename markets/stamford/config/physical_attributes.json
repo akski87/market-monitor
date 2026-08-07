@@ -241,6 +241,16 @@
           "sqft": 759,
           "beds": 1,
           "baths": 1.0
+        },
+        "1052": {
+          "sqft": 1109,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "611": {
+          "sqft": 969,
+          "beds": 1,
+          "baths": 1.0
         }
       }
     },
@@ -902,6 +912,11 @@
           "sqft": 1514,
           "beds": 2,
           "baths": 2.0
+        },
+        "512": {
+          "sqft": 797,
+          "beds": 1,
+          "baths": 1.0
         }
       }
     },
@@ -1047,6 +1062,31 @@
         },
         "Greenwich-1": {
           "sqft": 981,
+          "beds": 2,
+          "baths": 2.0
+        },
+        "Atlantic-3": {
+          "sqft": 705,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "Atlantic-4": {
+          "sqft": 705,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "Atlantic-5": {
+          "sqft": 705,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "Atlantic-6": {
+          "sqft": 705,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "Canal-1": {
+          "sqft": 1091,
           "beds": 2,
           "baths": 2.0
         }
@@ -1290,6 +1330,11 @@
         },
         "541": {
           "sqft": 724,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "244": {
+          "sqft": 787,
           "beds": 1,
           "baths": 1.0
         }
