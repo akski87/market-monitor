@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:33:51+00:00",
+  "generated_at": "2026-08-07T12:44:20+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -869,6 +869,12 @@
           "sqft": 698
         },
         {
+          "unit": "2803",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 538
+        },
+        {
           "unit": "2805",
           "beds": 3,
           "baths": 2.0,
@@ -1119,6 +1125,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 652
+        },
+        {
+          "unit": "4604",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1066
         },
         {
           "unit": "4610",
@@ -2389,6 +2401,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 727
+        },
+        {
+          "unit": "3308N",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 461
         },
         {
           "unit": "3309S",
@@ -3974,6 +3992,12 @@
           "sqft": 652
         },
         {
+          "unit": "1112",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 374
+        },
+        {
           "unit": "1209",
           "beds": 0,
           "baths": 1.0,
@@ -4694,6 +4718,12 @@
           "sqft": null
         },
         {
+          "unit": "1601",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "1621",
           "beds": 0,
           "baths": 1,
@@ -4709,6 +4739,12 @@
           "unit": "1704",
           "beds": 0,
           "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1708",
+          "beds": 2,
+          "baths": 2.0,
           "sqft": null
         },
         {
@@ -6045,6 +6081,12 @@
           "sqft": 391
         },
         {
+          "unit": "603",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 391
+        },
+        {
           "unit": "701",
           "beds": 2,
           "baths": 2.0,
@@ -6396,6 +6438,12 @@
           "unit": "713",
           "beds": 0,
           "baths": 1,
+          "sqft": 565
+        },
+        {
+          "unit": "714",
+          "beds": 0,
+          "baths": 1.0,
           "sqft": 565
         },
         {
