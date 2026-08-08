@@ -1,27 +1,9 @@
 {
-  "as_of": "2026-08-07",
-  "generated_at": "2026-08-07T12:44:20+00:00",
+  "as_of": "2026-08-08",
+  "generated_at": "2026-08-08T12:19:17+00:00",
   "units": [
     {
-      "snapshot_date": "2026-08-07",
-      "building": "134 Baldwin",
-      "in_market": 1,
-      "unit": "705",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 750,
-      "asking_rent": 3000.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": "2026-07-24",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "410",
@@ -39,7 +21,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "414",
@@ -57,7 +39,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "504",
@@ -75,7 +57,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "513",
@@ -93,7 +75,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "607",
@@ -111,7 +93,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "134 Baldwin",
       "in_market": 1,
       "unit": "714",
@@ -129,7 +111,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "0701",
@@ -147,7 +129,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "0705",
@@ -165,7 +147,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "0810",
@@ -183,7 +165,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "1106",
@@ -201,7 +183,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "0812",
@@ -219,7 +201,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "3 Journal Square",
       "in_market": 1,
       "unit": "1202",
@@ -237,25 +219,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "345 Baldwin",
-      "in_market": 1,
-      "unit": "406",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 664,
-      "asking_rent": 3025.0,
-      "net_effective_rent": 2773.0,
-      "price_basis": "asking+derived_net",
-      "concession_text": "1 mo free (12-mo)",
-      "available_date": "10/10/2026",
-      "data_flag": "",
-      "conc_months": 1,
-      "lease_months": 12
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "345 Baldwin",
       "in_market": 1,
       "unit": "603",
@@ -273,7 +237,7 @@
       "lease_months": 12
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "413 Summit",
       "in_market": 1,
       "unit": "1010",
@@ -291,7 +255,7 @@
       "lease_months": 13
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "413 Summit",
       "in_market": 1,
       "unit": "409",
@@ -309,7 +273,7 @@
       "lease_months": 13
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "3909",
@@ -327,7 +291,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "3913",
@@ -345,7 +309,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "4509",
@@ -363,7 +327,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "4511",
@@ -381,7 +345,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "4513",
@@ -399,7 +363,43 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "505 Summit",
+      "in_market": 1,
+      "unit": "4805",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 699,
+      "asking_rent": 3911.0,
+      "net_effective_rent": 3373.0,
+      "price_basis": "both",
+      "concession_text": "GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2.5,
+      "lease_months": 24
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "505 Summit",
+      "in_market": 1,
+      "unit": "4808",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 710,
+      "asking_rent": 4191.0,
+      "net_effective_rent": 3618.0,
+      "price_basis": "both",
+      "concession_text": "GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2.5,
+      "lease_months": 24
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "5012",
@@ -417,7 +417,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "5111",
@@ -435,7 +435,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "2901",
@@ -453,7 +453,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "3601",
@@ -471,7 +471,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "4601",
@@ -489,16 +489,16 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
-      "unit": "5102",
+      "unit": "4606",
       "unit_type": "Studio",
       "beds": 0,
       "baths": 1.0,
-      "sqft": 417,
-      "asking_rent": 3211.0,
-      "net_effective_rent": 2826.0,
+      "sqft": 527,
+      "asking_rent": 3481.0,
+      "net_effective_rent": 3068.0,
       "price_basis": "both",
       "concession_text": "GRAND OPENING: OFFERING UP TO 3 MONTHS FREE*",
       "available_date": null,
@@ -507,7 +507,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "5204",
@@ -525,7 +525,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "5206",
@@ -543,7 +543,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "505 Summit",
       "in_market": 1,
       "unit": "5309",
@@ -561,7 +561,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "55 Jordan",
       "in_market": 1,
       "unit": "2291",
@@ -579,7 +579,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "55 Jordan",
       "in_market": 1,
       "unit": "1881",
@@ -597,7 +597,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "55 Jordan",
       "in_market": 1,
       "unit": "8919",
@@ -615,7 +615,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "55 Jordan",
       "in_market": 1,
       "unit": "3286",
@@ -633,7 +633,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "55 Jordan",
       "in_market": 1,
       "unit": "6672",
@@ -651,7 +651,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0318",
@@ -669,7 +669,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0519",
@@ -687,7 +687,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "1103",
@@ -705,7 +705,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0603",
@@ -723,7 +723,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "2201",
@@ -741,7 +741,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0421",
@@ -759,7 +759,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0522",
@@ -777,25 +777,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
-      "unit": "0709",
+      "unit": "0809",
       "unit_type": "Studio",
       "beds": 0,
       "baths": 1.0,
       "sqft": 515,
-      "asking_rent": 2995.0,
-      "net_effective_rent": 2620.0,
+      "asking_rent": 3065.0,
+      "net_effective_rent": 2681.0,
       "price_basis": "both",
       "concession_text": "$2,253.13 Net Effective Rent",
-      "available_date": "9/27/2026",
+      "available_date": "10/16/2026",
       "data_flag": "",
       "conc_months": null,
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0817",
@@ -813,7 +813,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0821",
@@ -831,7 +831,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "0822",
@@ -849,7 +849,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "1112",
@@ -867,7 +867,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "1912",
@@ -885,7 +885,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "2113",
@@ -903,7 +903,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "2307",
@@ -921,7 +921,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Four Twenty Five Summit",
       "in_market": 1,
       "unit": "2407",
@@ -939,7 +939,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1116",
@@ -957,7 +957,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1216",
@@ -975,7 +975,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "205",
@@ -993,7 +993,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "212",
@@ -1011,7 +1011,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "713",
@@ -1029,7 +1029,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "916",
@@ -1047,7 +1047,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1010",
@@ -1065,7 +1065,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1003",
@@ -1083,7 +1083,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1801",
@@ -1101,7 +1101,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "1904",
@@ -1119,7 +1119,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Square Urby",
+      "in_market": 1,
+      "unit": "2303",
+      "unit_type": "Studio",
+      "beds": 0,
+      "baths": 1.0,
+      "sqft": null,
+      "asking_rent": 2995.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 Month Free! Contact us to learn more.",
+      "available_date": "08/15/2026",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "515",
@@ -1137,7 +1155,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Square Urby",
       "in_market": 1,
       "unit": "715",
@@ -1155,10 +1173,28 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
-      "unit": "1702",
+      "unit": "1102",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 716,
+      "asking_rent": 3390.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "available_date": "Now",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Squared",
+      "in_market": 1,
+      "unit": "1802",
       "unit_type": "1BR",
       "beds": 1,
       "baths": 1.0,
@@ -1167,13 +1203,31 @@
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "09/08/2026",
+      "available_date": "10/05/2026",
       "data_flag": "",
       "conc_months": null,
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Squared",
+      "in_market": 1,
+      "unit": "1901",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 656,
+      "asking_rent": 3425.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "available_date": "10/16/2026",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2003",
@@ -1191,7 +1245,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2312",
@@ -1209,7 +1263,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2412",
@@ -1227,7 +1281,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2501",
@@ -1245,25 +1299,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
-      "unit": "2802",
+      "unit": "2601",
       "unit_type": "1BR",
       "beds": 1,
       "baths": 1.0,
-      "sqft": 698,
-      "asking_rent": 3360.0,
+      "sqft": 777,
+      "asking_rent": 3410.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "Now",
+      "available_date": "08/11/2026",
       "data_flag": "",
       "conc_months": null,
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2803",
@@ -1281,43 +1335,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "3305",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 618,
-      "asking_rent": 3480.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "10/27/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "4907",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 706,
-      "asking_rent": 3730.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "08/13/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "5004",
@@ -1335,7 +1353,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": null,
@@ -1353,7 +1371,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Squared",
+      "in_market": 1,
+      "unit": "1110",
+      "unit_type": "2BR",
+      "beds": 2,
+      "baths": 2.0,
+      "sqft": 934,
+      "asking_rent": 5005.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "available_date": "10/16/2026",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1202",
@@ -1361,7 +1397,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 914,
-      "asking_rent": 5020.0,
+      "asking_rent": 5040.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1371,7 +1407,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2212",
@@ -1379,7 +1415,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1044,
-      "asking_rent": 5235.0,
+      "asking_rent": 5255.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1389,7 +1425,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "3510",
@@ -1407,43 +1443,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "3704",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1066,
-      "asking_rent": 5570.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "10/16/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "4104",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1030,
-      "asking_rent": 5125.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "08/26/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "4604",
@@ -1451,7 +1451,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1066,
-      "asking_rent": 5620.0,
+      "asking_rent": 5640.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1461,7 +1461,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "4702",
@@ -1469,7 +1469,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1025,
-      "asking_rent": 4945.0,
+      "asking_rent": 4965.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1479,7 +1479,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "4802",
@@ -1487,7 +1487,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1025,
-      "asking_rent": 4945.0,
+      "asking_rent": 4965.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1497,7 +1497,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Squared",
+      "in_market": 1,
+      "unit": "5004",
+      "unit_type": "2BR",
+      "beds": 2,
+      "baths": 2.0,
+      "sqft": 1031,
+      "asking_rent": 5060.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "available_date": "Now",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "5502",
@@ -1505,7 +1523,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1025,
-      "asking_rent": 4845.0,
+      "asking_rent": 4865.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1515,7 +1533,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "0911",
@@ -1523,7 +1541,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 502,
-      "asking_rent": 3205.0,
+      "asking_rent": 3200.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1533,7 +1551,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1105",
@@ -1551,7 +1569,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1401",
@@ -1559,7 +1577,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 488,
-      "asking_rent": 3025.0,
+      "asking_rent": 3020.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1569,7 +1587,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1412",
@@ -1577,7 +1595,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 511,
-      "asking_rent": 3100.0,
+      "asking_rent": 3115.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1587,25 +1605,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "Journal Squared",
-      "in_market": 1,
-      "unit": "1613",
-      "unit_type": "Studio",
-      "beds": 0,
-      "baths": 1.0,
-      "sqft": 487,
-      "asking_rent": 2945.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
-      "available_date": "09/26/2026",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "1706",
@@ -1613,7 +1613,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 484,
-      "asking_rent": 3180.0,
+      "asking_rent": 3175.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1623,7 +1623,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2304",
@@ -1631,7 +1631,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 488,
-      "asking_rent": 3090.0,
+      "asking_rent": 3085.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1641,7 +1641,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "Journal Squared",
+      "in_market": 1,
+      "unit": "2306",
+      "unit_type": "Studio",
+      "beds": 0,
+      "baths": 1.0,
+      "sqft": 407,
+      "asking_rent": 2925.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
+      "available_date": "10/26/2026",
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "2901",
@@ -1659,7 +1677,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "Journal Squared",
       "in_market": 1,
       "unit": "3709",
@@ -1667,7 +1685,7 @@
       "beds": 0,
       "baths": 1.0,
       "sqft": 467,
-      "asking_rent": 3045.0,
+      "asking_rent": 3060.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": "Up to 1 mo free on SELECT units (term not stated)",
@@ -1677,7 +1695,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "1006",
@@ -1695,7 +1713,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "1110",
@@ -1713,7 +1731,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "206",
@@ -1731,7 +1749,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "209",
@@ -1749,7 +1767,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "407",
@@ -1767,7 +1785,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "MetroVue",
       "in_market": 1,
       "unit": "609",
@@ -1965,7 +1983,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "1112",
@@ -1983,7 +2001,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "1118",
@@ -2001,7 +2019,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "2023",
@@ -2019,7 +2037,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "2025",
@@ -2037,7 +2055,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "2109",
@@ -2055,7 +2073,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "526",
@@ -2073,7 +2091,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "1708",
@@ -2091,7 +2109,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "502",
@@ -2109,7 +2127,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "815",
@@ -2127,7 +2145,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "1601",
@@ -2145,7 +2163,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "1621",
@@ -2163,7 +2181,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "2422",
@@ -2181,7 +2199,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "2817",
@@ -2199,7 +2217,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "513",
@@ -2217,7 +2235,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "524",
@@ -2235,7 +2253,7 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Greyson",
       "in_market": 1,
       "unit": "620",
@@ -2253,7 +2271,25 @@
       "lease_months": 24
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "0405",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 855,
+      "asking_rent": 3876.0,
+      "net_effective_rent": 3488.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0416",
@@ -2271,7 +2307,43 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "0813",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 696,
+      "asking_rent": 3996.0,
+      "net_effective_rent": 3596.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "0913",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 696,
+      "asking_rent": 3996.0,
+      "net_effective_rent": 3596.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1005",
@@ -2289,7 +2361,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1017",
@@ -2307,7 +2379,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1305N",
@@ -2325,7 +2397,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1313S",
@@ -2343,7 +2415,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1502S",
@@ -2361,7 +2433,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1511N",
@@ -2379,7 +2451,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1605S",
@@ -2397,7 +2469,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1611S",
@@ -2415,7 +2487,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1701S",
@@ -2433,7 +2505,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1706S",
@@ -2451,7 +2523,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "1709S",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 707,
+      "asking_rent": 3770.0,
+      "net_effective_rent": 3393.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1901N",
@@ -2469,7 +2559,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "1912N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 763,
+      "asking_rent": 3996.0,
+      "net_effective_rent": 3596.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2105S",
@@ -2487,7 +2595,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2212N",
@@ -2505,25 +2613,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "2506S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 660,
-      "asking_rent": 4196.0,
-      "net_effective_rent": 3776.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2605N",
@@ -2541,7 +2631,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "2613N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 616,
+      "asking_rent": 3776.0,
+      "net_effective_rent": 3398.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2710S",
@@ -2559,7 +2667,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2805N",
@@ -2577,25 +2685,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "3301S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 851,
-      "asking_rent": 4196.0,
-      "net_effective_rent": 3776.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3412S",
@@ -2613,25 +2703,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "3512S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 763,
-      "asking_rent": 4186.0,
-      "net_effective_rent": 3767.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3601N",
@@ -2649,7 +2721,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3802N",
@@ -2667,25 +2739,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "3812N",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 762,
-      "asking_rent": 3996.0,
-      "net_effective_rent": 3596.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3813N",
@@ -2703,7 +2757,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3910N",
@@ -2721,7 +2775,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3910S",
@@ -2739,7 +2793,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4006N",
@@ -2757,16 +2811,16 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
-      "unit": "4209S",
+      "unit": "4106N",
       "unit_type": "1BR",
       "beds": 1,
       "baths": 1.0,
-      "sqft": 720,
-      "asking_rent": 3896.0,
-      "net_effective_rent": 3506.0,
+      "sqft": 660,
+      "asking_rent": 3866.0,
+      "net_effective_rent": 3479.0,
       "price_basis": "net+derived_gross",
       "concession_text": "UP TO 2 MONTHS FREE*",
       "available_date": null,
@@ -2775,7 +2829,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4404N",
@@ -2793,25 +2847,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "4406S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 658,
-      "asking_rent": 4326.0,
-      "net_effective_rent": 3893.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4501S",
@@ -2829,7 +2865,43 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "4513S",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 617,
+      "asking_rent": 3796.0,
+      "net_effective_rent": 3416.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "4701N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 870,
+      "asking_rent": 4296.0,
+      "net_effective_rent": 3866.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4702S",
@@ -2847,7 +2919,43 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "4712N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 762,
+      "asking_rent": 4096.0,
+      "net_effective_rent": 3686.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "4905N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 727,
+      "asking_rent": 4326.0,
+      "net_effective_rent": 3893.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4911S",
@@ -2865,7 +2973,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "5213N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 617,
+      "asking_rent": 3866.0,
+      "net_effective_rent": 3479.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5309S",
@@ -2883,7 +3009,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5310S",
@@ -2901,7 +3027,43 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "5312N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 763,
+      "asking_rent": 4130.0,
+      "net_effective_rent": 3717.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "5313N",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 617,
+      "asking_rent": 3890.0,
+      "net_effective_rent": 3501.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5405S",
@@ -2919,7 +3081,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "5513S",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 617,
+      "asking_rent": 3826.0,
+      "net_effective_rent": 3443.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5602N",
@@ -2937,7 +3117,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5702S",
@@ -2955,25 +3135,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "5811S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 758,
-      "asking_rent": 3956.0,
-      "net_effective_rent": 3560.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5812S",
@@ -2991,7 +3153,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5906N",
@@ -3009,25 +3171,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "5912S",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 762,
-      "asking_rent": 4236.0,
-      "net_effective_rent": 3812.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6009S",
@@ -3045,7 +3189,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6010S",
@@ -3063,7 +3207,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6109N",
@@ -3081,7 +3225,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6210N",
@@ -3099,7 +3243,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6301S",
@@ -3117,7 +3261,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "6302S",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 733,
+      "asking_rent": 4250.0,
+      "net_effective_rent": 3825.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6309N",
@@ -3135,7 +3297,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6313S",
@@ -3153,7 +3315,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1001",
@@ -3171,7 +3333,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1314N",
@@ -3189,7 +3351,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1707S",
@@ -3207,7 +3369,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2114N",
@@ -3225,7 +3387,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2307N",
@@ -3243,7 +3405,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2914N",
@@ -3261,7 +3423,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3407S",
@@ -3279,7 +3441,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3807N",
@@ -3297,7 +3459,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4607S",
@@ -3315,16 +3477,16 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
-      "unit": "5114S",
+      "unit": "5014S",
       "unit_type": "2BR",
       "beds": 2,
       "baths": 2.0,
       "sqft": 989,
-      "asking_rent": 6126.0,
-      "net_effective_rent": 5513.0,
+      "asking_rent": 6070.0,
+      "net_effective_rent": 5463.0,
       "price_basis": "net+derived_gross",
       "concession_text": "UP TO 2 MONTHS FREE*",
       "available_date": null,
@@ -3333,7 +3495,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5607N",
@@ -3351,7 +3513,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5914S",
@@ -3369,7 +3531,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6014N",
@@ -3387,7 +3549,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0206",
@@ -3405,7 +3567,25 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "0803",
+      "unit_type": "3BR",
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 1153,
+      "asking_rent": 6800.0,
+      "net_effective_rent": 6120.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0906",
@@ -3423,25 +3603,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "0311",
-      "unit_type": "Studio",
-      "beds": 0,
-      "baths": 1.0,
-      "sqft": 515,
-      "asking_rent": 3146.0,
-      "net_effective_rent": 2831.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0420",
@@ -3459,7 +3621,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0611",
@@ -3477,7 +3639,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "0902",
@@ -3495,7 +3657,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "1608S",
@@ -3513,25 +3675,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
-      "building": "The Journal",
-      "in_market": 1,
-      "unit": "1708S",
-      "unit_type": "Studio",
-      "beds": 0,
-      "baths": 1.0,
-      "sqft": 469,
-      "asking_rent": 3396.0,
-      "net_effective_rent": 3056.0,
-      "price_basis": "net+derived_gross",
-      "concession_text": "UP TO 2 MONTHS FREE*",
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": 2,
-      "lease_months": 20
-    },
-    {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2904N",
@@ -3549,7 +3693,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "2908S",
@@ -3567,7 +3711,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3203N",
@@ -3585,7 +3729,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3308N",
@@ -3603,7 +3747,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3315N",
@@ -3621,7 +3765,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3503S",
@@ -3639,7 +3783,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "3704S",
@@ -3657,7 +3801,43 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "3715N",
+      "unit_type": "Studio",
+      "beds": 0,
+      "baths": 1.0,
+      "sqft": 410,
+      "asking_rent": 3350.0,
+      "net_effective_rent": 3015.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
+      "building": "The Journal",
+      "in_market": 1,
+      "unit": "4008S",
+      "unit_type": "Studio",
+      "beds": 0,
+      "baths": 1.0,
+      "sqft": 481,
+      "asking_rent": 3436.0,
+      "net_effective_rent": 3092.0,
+      "price_basis": "net+derived_gross",
+      "concession_text": "UP TO 2 MONTHS FREE*",
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": 2,
+      "lease_months": 20
+    },
+    {
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4408N",
@@ -3675,7 +3855,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4715S",
@@ -3693,7 +3873,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "4904S",
@@ -3711,7 +3891,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5108S",
@@ -3729,7 +3909,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5203S",
@@ -3747,7 +3927,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5315N",
@@ -3765,7 +3945,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5404N",
@@ -3783,7 +3963,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5804S",
@@ -3801,7 +3981,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "5903S",
@@ -3819,7 +3999,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6008S",
@@ -3837,7 +4017,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6108N",
@@ -3855,7 +4035,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6115N",
@@ -3873,7 +4053,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6303N",
@@ -3891,7 +4071,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6304N",
@@ -3909,7 +4089,7 @@
       "lease_months": 20
     },
     {
-      "snapshot_date": "2026-08-07",
+      "snapshot_date": "2026-08-08",
       "building": "The Journal",
       "in_market": 1,
       "unit": "6315S",
