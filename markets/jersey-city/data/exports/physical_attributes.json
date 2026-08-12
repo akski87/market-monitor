@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:36:07+00:00",
+  "generated_at": "2026-08-12T12:38:59+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -15,6 +15,12 @@
         {
           "unit": "1003",
           "beds": 0,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "1008",
+          "beds": 1,
           "baths": 1,
           "sqft": null
         },
@@ -1875,6 +1881,12 @@
           "sqft": 727
         },
         {
+          "unit": "1607S",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1032
+        },
+        {
           "unit": "1608N",
           "beds": 0,
           "baths": 1.0,
@@ -2703,6 +2715,12 @@
           "sqft": 750
         },
         {
+          "unit": "3912S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 762
+        },
+        {
           "unit": "3913N",
           "beds": 1,
           "baths": 1,
@@ -2773,6 +2791,12 @@
           "beds": 0,
           "baths": 1,
           "sqft": 481
+        },
+        {
+          "unit": "4109S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 720
         },
         {
           "unit": "4110N",
@@ -3123,6 +3147,12 @@
           "sqft": 750
         },
         {
+          "unit": "4912S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 762
+        },
+        {
           "unit": "4913N",
           "beds": 1,
           "baths": 1,
@@ -3471,10 +3501,28 @@
           "sqft": 459
         },
         {
+          "unit": "5704S",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 430
+        },
+        {
+          "unit": "5706S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 660
+        },
+        {
           "unit": "5708N",
           "beds": 0,
           "baths": 1,
           "sqft": 479
+        },
+        {
+          "unit": "5711S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 758
         },
         {
           "unit": "5713N",
@@ -3534,6 +3582,12 @@
           "unit": "5815N",
           "beds": 0,
           "baths": 1.0,
+          "sqft": 385
+        },
+        {
+          "unit": "5815S",
+          "beds": 0,
+          "baths": 1,
           "sqft": 385
         },
         {
@@ -6887,6 +6941,12 @@
           "sqft": 1701
         },
         {
+          "unit": "BIS1701",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1267
+        },
+        {
           "unit": "BIS1802",
           "beds": 2,
           "baths": 2.0,
@@ -6993,6 +7053,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1080
+        },
+        {
+          "unit": "BIS2916",
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 1701
         },
         {
           "unit": "BIS3007",
@@ -7300,6 +7366,12 @@
         },
         {
           "unit": "fp15",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "fp16",
           "beds": 2,
           "baths": 2.0,
           "sqft": null
@@ -8723,6 +8795,12 @@
           "sqft": null
         },
         {
+          "unit": "544",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "602",
           "beds": 1,
           "baths": 1.0,
@@ -9066,6 +9144,12 @@
           "unit": "311",
           "beds": 2,
           "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "320",
+          "beds": 0,
+          "baths": 1.0,
           "sqft": null
         },
         {
@@ -9673,6 +9757,12 @@
           "beds": 3,
           "baths": 2.0,
           "sqft": 1292
+        },
+        {
+          "unit": "1050",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 564
         },
         {
           "unit": "1054",
