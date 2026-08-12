@@ -1,6 +1,7 @@
 building,unit,beds,baths,sqft
 Journal Square Urby,1002,2,2,
 Journal Square Urby,1003,0,1.0,
+Journal Square Urby,1008,1,1.0,
 Journal Square Urby,1010,2,2.0,
 Journal Square Urby,1101,0,1.0,
 Journal Square Urby,1115,0,1.0,456
@@ -307,6 +308,7 @@ The Journal,1514S,2,2,989
 The Journal,1515N,0,1.0,405
 The Journal,1602N,1,1.0,730
 The Journal,1605S,1,1.0,727
+The Journal,1607S,2,2.0,1032
 The Journal,1608N,0,1.0,468
 The Journal,1608S,0,1.0,468
 The Journal,1611N,1,1.0,733
@@ -445,6 +447,7 @@ The Journal,3907N,2,2.0,1032
 The Journal,3910N,1,1.0,675
 The Journal,3910S,1,1.0,675
 The Journal,3911N,1,1.0,750
+The Journal,3912S,1,1.0,762
 The Journal,3913N,1,1,617
 The Journal,4001N,1,1.0,870
 The Journal,4003N,0,1.0,461
@@ -457,6 +460,7 @@ The Journal,4106N,1,1.0,660
 The Journal,4107S,2,2.0,1032
 The Journal,4108N,0,1.0,
 The Journal,4108S,0,1.0,481
+The Journal,4109S,1,1.0,720
 The Journal,4110N,1,1.0,675
 The Journal,4111S,1,1.0,750
 The Journal,4203S,0,1.0,461
@@ -515,6 +519,7 @@ The Journal,4906S,1,1.0,
 The Journal,4907S,2,2.0,1032
 The Journal,4908N,0,1.0,481
 The Journal,4911S,1,1.0,750
+The Journal,4912S,1,1.0,762
 The Journal,4913N,1,1.0,617
 The Journal,4913S,1,1.0,
 The Journal,4914N,2,2,989
@@ -573,7 +578,10 @@ The Journal,5613S,1,1.0,617
 The Journal,5615N,0,1.0,385
 The Journal,5702S,1,1.0,733
 The Journal,5703N,0,1.0,459
+The Journal,5704S,0,1.0,430
+The Journal,5706S,1,1.0,660
 The Journal,5708N,0,1.0,479
+The Journal,5711S,1,1.0,758
 The Journal,5713N,1,1.0,617
 The Journal,5713S,1,1.0,617
 The Journal,5714N,2,2.0,989
@@ -584,6 +592,7 @@ The Journal,5811S,1,1.0,758
 The Journal,5812S,1,1.0,762
 The Journal,5813S,1,1,617
 The Journal,5815N,0,1.0,385
+The Journal,5815S,0,1.0,385
 The Journal,5901N,1,1.0,925
 The Journal,5902S,1,1,733
 The Journal,5903S,0,1.0,459
