@@ -158,6 +158,7 @@ Journal Squared,3305,1,1,618
 Journal Squared,3307,2,2,1071
 Journal Squared,3403,1,1,732
 Journal Squared,3404,2,2.0,1031
+Journal Squared,3405,1,1,618
 Journal Squared,3410,2,2,1048
 Journal Squared,3411,0,1.0,573
 Journal Squared,3502,2,2,1056
@@ -186,6 +187,7 @@ Journal Squared,4307,1,1,706
 Journal Squared,4310,2,2,1048
 Journal Squared,4405,1,1,618
 Journal Squared,4411,0,1,573
+Journal Squared,4502,1,1,738
 Journal Squared,4602,2,2,1025
 Journal Squared,4603,1,1,652
 Journal Squared,4604,2,2,1066
@@ -851,6 +853,7 @@ The Greyson,2710,1,1,672
 The Greyson,2712,1,1.0,
 The Greyson,2717,0,1,
 The Greyson,2722,0,1,415
+The Greyson,2803,1,1,
 The Greyson,2817,0,1,
 The Greyson,502,2,2,
 The Greyson,504,0,1,
@@ -869,6 +872,7 @@ The Greyson,901,0,1,
 The Greyson,902,2,2.0,886
 The Greyson,912,1,1,671
 The Greyson,923,1,1,688
+The Greyson,PH19,1,1,
 505 Summit,0201,3,2.0,
 505 Summit,0403,1,1,794
 505 Summit,0504,3,2,1413
@@ -901,6 +905,7 @@ The Greyson,923,1,1,688
 505 Summit,3301,2,2.0,
 505 Summit,3310,1,1,569
 505 Summit,3401,2,2,1144
+505 Summit,3408,1,1,608
 505 Summit,3411,1,1.0,
 505 Summit,3501,2,2,1144
 505 Summit,3502,0,1,638
@@ -932,6 +937,7 @@ The Greyson,923,1,1,688
 505 Summit,4506,0,1,527
 505 Summit,4509,1,1,730
 505 Summit,4511,1,1,673
+505 Summit,4512,1,1,688
 505 Summit,4513,1,1,725
 505 Summit,4601,2,2,1141
 505 Summit,4606,0,1,527
@@ -1028,6 +1034,7 @@ The Greyson,923,1,1,688
 3 Journal Square,0705,1,1,704
 3 Journal Square,0810,1,1,752
 3 Journal Square,0812,0,1,496
+3 Journal Square,0818,0,1,496
 3 Journal Square,1101,1,1,687
 3 Journal Square,1106,1,1,726
 3 Journal Square,1115,1,1,687
@@ -1065,6 +1072,7 @@ Bisby,BIS0224,0,1.0,484
 Bisby,BIS0316,2,2.0,942
 Bisby,BIS0320,0,1.0,484
 Bisby,BIS0326,0,1.0,484
+Bisby,BIS0330,2,2.0,1146
 Bisby,BIS0416,2,2.0,942
 Bisby,BIS0418,0,1.0,484
 Bisby,BIS0424,0,1.0,484
@@ -1076,6 +1084,7 @@ Bisby,BIS0516,2,2.0,942
 Bisby,BIS0522,0,1.0,484
 Bisby,BIS0526,0,1.0,484
 Bisby,BIS0528,0,1.0,484
+Bisby,BIS0603,1,1.0,835
 Bisby,BIS0705,1,1.0,773
 Bisby,BIS0801,2,2.0,1267
 Bisby,BIS0802,2,2.0,1267
@@ -1288,6 +1297,7 @@ DVORA 175,fp3,2,1.0,
 DVORA 175,fp4,2,1.0,
 DVORA 175,fp5,2,2.0,
 DVORA 175,fp6,2,2.0,
+DVORA 175,fp7,2,2.0,
 235 Grand,fp1,0,1.0,
 235 Grand,fp2,1,1.0,
 235 Grand,fp3,2,2.0,
@@ -1311,6 +1321,7 @@ Sable,SAB-2409,1,1.0,529
 Sable,SAB-2605,1,1.0,612
 Sable,SAB-2610,0,1.0,456
 Sable,SAB-2802,1,1.0,612
+Sable,SAB-2810,0,1.0,456
 Sable,SAB-3001,0,1.0,413
 Sable,SAB-3012,0,1.0,413
 Sable,SAB-3103,1,1.0,599
@@ -1331,6 +1342,7 @@ Sable,SAB-4102,2,1.0,824
 Sable,SAB-4302,2,1.0,1013
 Sable,SAB-4402,2,1.0,1013
 Sable,SAB-4501,0,1.0,413
+Sable,SAB-4510,0,1.0,456
 Sable,SAB-4612,0,1.0,413
 Sable,SAB-4706,1,1.0,569
 Sable,SAB-4802,1,1.0,612
@@ -1353,6 +1365,7 @@ Sable,SAB-6007,0,1.0,413
 Sable,SAB-6011,2,1.0,1013
 Sable,SAB-6110,0,1.0,561
 Sable,SAB-6205,1,1.0,612
+Sable,SAB-6301,0,1.0,413
 Sable,SAB-6308,2,1.0,824
 Sable,SAB-6310,0,1.0,456
 Sable,SAB-6505,2,1.0,1013
@@ -1409,6 +1422,7 @@ Atlas,1303,1,1.0,
 Atlas,1304,3,2.0,
 Atlas,1306,2,2.0,
 Atlas,1401,1,1.0,
+Atlas,1507,1,1.0,
 Atlas,1704,3,2.0,
 Atlas,1707,1,1.0,
 Atlas,1807,1,1.0,
@@ -1547,6 +1561,7 @@ Oliver on the Hudson,4012,2,2.0,1082
 Oliver on the Hudson,4023,2,2.0,1103
 Oliver on the Hudson,4040,2,2.0,1049
 Oliver on the Hudson,4073,2,2.0,1117
+Oliver on the Hudson,4090,2,2.0,1082
 Oliver on the Hudson,4101,1,1.0,698
 Oliver on the Hudson,5011,1,1.0,701
 Oliver on the Hudson,5015,2,2.0,999

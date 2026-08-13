@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T12:38:59+00:00",
+  "generated_at": "2026-08-13T12:40:21+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -971,6 +971,12 @@
           "sqft": 1031
         },
         {
+          "unit": "3405",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 618
+        },
+        {
           "unit": "3410",
           "beds": 2,
           "baths": 2,
@@ -1137,6 +1143,12 @@
           "beds": 0,
           "baths": 1,
           "sqft": 573
+        },
+        {
+          "unit": "4502",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 738
         },
         {
           "unit": "4602",
@@ -5222,6 +5234,12 @@
           "sqft": 415
         },
         {
+          "unit": "2803",
+          "beds": 1,
+          "baths": 1,
+          "sqft": null
+        },
+        {
           "unit": "2817",
           "beds": 0,
           "baths": 1,
@@ -5328,6 +5346,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 688
+        },
+        {
+          "unit": "PH19",
+          "beds": 1,
+          "baths": 1,
+          "sqft": null
         }
       ],
       "plans": [
@@ -5707,6 +5731,12 @@
           "sqft": 1144
         },
         {
+          "unit": "3408",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 608
+        },
+        {
           "unit": "3411",
           "beds": 1,
           "baths": 1.0,
@@ -5891,6 +5921,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 673
+        },
+        {
+          "unit": "4512",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 688
         },
         {
           "unit": "4513",
@@ -6509,6 +6545,12 @@
           "sqft": 496
         },
         {
+          "unit": "0818",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 496
+        },
+        {
           "unit": "1101",
           "beds": 1,
           "baths": 1,
@@ -6761,6 +6803,12 @@
           "sqft": 484
         },
         {
+          "unit": "BIS0330",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1146
+        },
+        {
           "unit": "BIS0416",
           "beds": 2,
           "baths": 2.0,
@@ -6825,6 +6873,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 484
+        },
+        {
+          "unit": "BIS0603",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 835
         },
         {
           "unit": "BIS0705",
@@ -8187,6 +8241,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": null
+        },
+        {
+          "unit": "fp7",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
         }
       ],
       "plans": null,
@@ -8347,6 +8407,12 @@
           "sqft": 612
         },
         {
+          "unit": "SAB-2810",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 456
+        },
+        {
           "unit": "SAB-3001",
           "beds": 0,
           "baths": 1.0,
@@ -8465,6 +8531,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 413
+        },
+        {
+          "unit": "SAB-4510",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 456
         },
         {
           "unit": "SAB-4612",
@@ -8597,6 +8669,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 612
+        },
+        {
+          "unit": "SAB-6301",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 413
         },
         {
           "unit": "SAB-6308",
@@ -8950,6 +9028,12 @@
         },
         {
           "unit": "1401",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1507",
           "beds": 1,
           "baths": 1.0,
           "sqft": null
@@ -9871,6 +9955,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1117
+        },
+        {
+          "unit": "4090",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1082
         },
         {
           "unit": "4101",
