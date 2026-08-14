@@ -424,6 +424,7 @@ The Journal,3601N,1,1,872
 The Journal,3601S,1,1.0,
 The Journal,3605N,1,1,727
 The Journal,3614S,2,2,989
+The Journal,3703N,0,1,461
 The Journal,3704N,0,1.0,
 The Journal,3704S,0,1,430
 The Journal,3708N,0,1,478
@@ -796,6 +797,7 @@ The Greyson,1401,0,1,
 The Greyson,1405,1,1,650
 The Greyson,1409,1,1,740
 The Greyson,1412,1,1,
+The Greyson,1413,0,1,
 The Greyson,1417,0,1,
 The Greyson,1601,0,1,
 The Greyson,1621,0,1,549
@@ -827,6 +829,7 @@ The Greyson,2113,0,1.0,
 The Greyson,2120,0,1,
 The Greyson,2122,0,1,415
 The Greyson,2201,0,1,392
+The Greyson,2208,2,2,
 The Greyson,2209,1,1,740
 The Greyson,2213,0,1,470
 The Greyson,2309,1,1,740
@@ -853,6 +856,7 @@ The Greyson,2710,1,1,672
 The Greyson,2712,1,1.0,
 The Greyson,2717,0,1,
 The Greyson,2722,0,1,415
+The Greyson,2801,0,1,
 The Greyson,2803,1,1,
 The Greyson,2817,0,1,
 The Greyson,502,2,2,
@@ -1024,6 +1028,7 @@ The Greyson,PH19,1,1,
 55 Jordan,9090,2,2.0,
 3 Journal Square,0214,2,2,1156
 3 Journal Square,0217,1,1,752
+3 Journal Square,0309,0,1,496
 3 Journal Square,0404,2,2,1052
 3 Journal Square,0417,1,1,752
 3 Journal Square,0514,2,2,1156
@@ -1107,6 +1112,7 @@ Bisby,BIS1616,3,3.0,1701
 Bisby,BIS1701,2,2.0,1267
 Bisby,BIS1802,2,2.0,1267
 Bisby,BIS1804,2,2.0,1080
+Bisby,BIS1805,1,1.0,773
 Bisby,BIS1816,3,3.0,1701
 Bisby,BIS1906,1,1.0,795
 Bisby,BIS2006,1,1.0,795
@@ -1425,6 +1431,7 @@ Atlas,1401,1,1.0,
 Atlas,1507,1,1.0,
 Atlas,1704,3,2.0,
 Atlas,1707,1,1.0,
+Atlas,1801,1,1.0,
 Atlas,1807,1,1.0,
 Atlas,1902,1,1.0,
 Atlas,2001,1,1.0,
@@ -1541,7 +1548,9 @@ Sawyer,0405,1,1.5,998
 Sawyer,0406,1,1.0,775
 Sawyer,0426,2,2.0,1119
 Sawyer,0516,1,1.0,763
+Sawyer,0517,1,1.0,763
 Oliver on the Hudson,1035,3,2.0,1292
+Oliver on the Hudson,1045,2,2.0,1202
 Oliver on the Hudson,1050,0,1.0,564
 Oliver on the Hudson,1054,2,2.0,1075
 Oliver on the Hudson,1078,2,2.0,1075
