@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:03:15+00:00",
+  "generated_at": "2026-08-17T12:08:28+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -711,6 +711,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 827
+        },
+        {
+          "unit": "1811",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 436
         },
         {
           "unit": "1812",
@@ -5138,6 +5144,12 @@
           "sqft": 470
         },
         {
+          "unit": "2219",
+          "beds": 1,
+          "baths": 1,
+          "sqft": null
+        },
+        {
           "unit": "2309",
           "beds": 1,
           "baths": 1,
@@ -9069,6 +9081,12 @@
           "sqft": null
         },
         {
+          "unit": "1105",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "1106",
           "beds": 2,
           "baths": 2.0,
@@ -9249,6 +9267,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 422
+        },
+        {
+          "unit": "fp5",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1068
         }
       ],
       "plans": null,
@@ -9388,6 +9412,12 @@
         },
         {
           "unit": "516",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": null
+        },
+        {
+          "unit": "546",
           "beds": 2,
           "baths": 2.0,
           "sqft": null
@@ -9956,6 +9986,12 @@
       "name": "Oliver on the Hudson",
       "total_units": 401,
       "recorded": [
+        {
+          "unit": "1014",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1075
+        },
         {
           "unit": "1035",
           "beds": 3,
