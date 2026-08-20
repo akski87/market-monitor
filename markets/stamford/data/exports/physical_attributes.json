@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:03:04+00:00",
+  "generated_at": "2026-08-20T12:04:22+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -1079,6 +1079,12 @@
           "sqft": 701
         },
         {
+          "unit": "651",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
+        },
+        {
           "unit": "654",
           "beds": 1,
           "baths": 1.0,
@@ -1107,6 +1113,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 763
+        },
+        {
+          "unit": "857",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 820
         },
         {
           "unit": "902",
@@ -1461,6 +1473,12 @@
           "sqft": 1510
         },
         {
+          "unit": "602",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1311
+        },
+        {
           "unit": "607",
           "beds": 2,
           "baths": 2.0,
@@ -1549,6 +1567,12 @@
           "sqft": 763
         },
         {
+          "unit": "1506",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
           "unit": "224",
           "beds": 1,
           "baths": 1.0,
@@ -1618,6 +1642,12 @@
       "name": "Anthem @ Harbor Point",
       "total_units": 180,
       "recorded": [
+        {
+          "unit": "1101",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1364
+        },
         {
           "unit": "1109",
           "beds": 1,
