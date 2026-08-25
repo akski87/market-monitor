@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T12:03:52+00:00",
+  "generated_at": "2026-08-25T12:05:19+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -1964,6 +1964,12 @@
         },
         {
           "unit": "Atlantic-6",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 705
+        },
+        {
+          "unit": "Atlantic-7",
           "beds": 1,
           "baths": 1.0,
           "sqft": 705
