@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:05:37+00:00",
+  "generated_at": "2026-08-27T21:22:06+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -129,6 +129,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 806
+        },
+        {
+          "unit": "B10-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1142
         },
         {
           "unit": "B9-1",
@@ -335,6 +341,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 759
+        },
+        {
+          "unit": "116",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1310
         },
         {
           "unit": "1254",
@@ -1691,6 +1703,12 @@
           "sqft": 797
         },
         {
+          "unit": "1304",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 911
+        },
+        {
           "unit": "1513",
           "beds": 2,
           "baths": 2.0,
@@ -2003,6 +2021,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1023
+        },
+        {
+          "unit": "Interstate-1",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1324
         }
       ],
       "plans": null,
