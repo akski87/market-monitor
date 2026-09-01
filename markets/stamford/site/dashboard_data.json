@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T18:12:02+00:00",
-  "as_of": "2026-08-31",
+  "generated_at": "2026-09-01T15:35:55+00:00",
+  "as_of": "2026-09-01",
   "buildings": [
     {
       "id": "park_place_101",
@@ -26,7 +26,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
           "count": 7,
@@ -318,6 +318,11 @@
           "date": "2026-08-31",
           "n": 10,
           "ne": 3052
+        },
+        {
+          "date": "2026-09-01",
+          "n": 10,
+          "ne": 3052
         }
       ]
     },
@@ -561,7 +566,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
           "count": 5,
@@ -866,6 +871,11 @@
           "date": "2026-08-31",
           "n": 9,
           "ne": 2917
+        },
+        {
+          "date": "2026-09-01",
+          "n": 9,
+          "ne": 2917
         }
       ]
     },
@@ -876,7 +886,7 @@
       "address": "850 Pacific St, Stamford, CT 06902",
       "lat": 41.039744,
       "lng": -73.541861,
-      "phys_recorded": 66,
+      "phys_recorded": 67,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -888,12 +898,12 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 22,
+      "available_now": 23,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
           "count": 4,
@@ -909,17 +919,17 @@
           "psf_n": 4
         },
         "2BR": {
-          "count": 14,
-          "asking_avg": 4671,
+          "count": 15,
+          "asking_avg": 4673,
           "net_avg": null,
-          "sqft_avg": 1315,
+          "sqft_avg": 1304,
           "asking_min": 4235,
           "asking_max": 5995,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 43.24,
+          "asking_psf": 43.63,
           "net_psf": null,
-          "psf_n": 14
+          "psf_n": 15
         },
         "3BR": {
           "count": 4,
@@ -1190,6 +1200,11 @@
           "date": "2026-08-31",
           "n": 22,
           "ne": 4687
+        },
+        {
+          "date": "2026-09-01",
+          "n": 23,
+          "ne": 4687
         }
       ]
     },
@@ -1217,7 +1232,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
           "count": 5,
@@ -1501,6 +1516,11 @@
           "date": "2026-08-31",
           "n": 14,
           "ne": 4871
+        },
+        {
+          "date": "2026-09-01",
+          "n": 14,
+          "ne": 4871
         }
       ]
     },
@@ -1590,7 +1610,7 @@
       "address": "880 Pacific St, Stamford, CT 06902",
       "lat": 41.039681,
       "lng": -73.542065,
-      "phys_recorded": 38,
+      "phys_recorded": 40,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -1602,38 +1622,38 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 25,
+      "available_now": 28,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
-          "count": 14,
-          "asking_avg": 3486,
+          "count": 16,
+          "asking_avg": 3483,
           "net_avg": null,
-          "sqft_avg": 796,
+          "sqft_avg": 792,
           "asking_min": 3235,
           "asking_max": 3765,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 52.81,
+          "asking_psf": 53.02,
           "net_psf": null,
-          "psf_n": 14
+          "psf_n": 16
         },
         "2BR": {
-          "count": 11,
-          "asking_avg": 5773,
+          "count": 12,
+          "asking_avg": 5833,
           "net_avg": null,
-          "sqft_avg": 1229,
+          "sqft_avg": 1239,
           "asking_min": 5645,
-          "asking_max": 5995,
+          "asking_max": 6495,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 56.83,
+          "asking_psf": 56.91,
           "net_psf": null,
-          "psf_n": 11
+          "psf_n": 12
         }
       },
       "history": [
@@ -1891,6 +1911,11 @@
           "date": "2026-08-31",
           "n": 25,
           "ne": 4492
+        },
+        {
+          "date": "2026-09-01",
+          "n": 28,
+          "ne": 4490
         }
       ]
     },
@@ -2144,7 +2169,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -2423,6 +2448,11 @@
           "date": "2026-08-31",
           "n": 5,
           "ne": 3585
+        },
+        {
+          "date": "2026-09-01",
+          "n": 5,
+          "ne": 3585
         }
       ]
     },
@@ -2433,7 +2463,7 @@
       "address": "100-110 Commons Park N, Stamford, CT 06902",
       "lat": 41.041613,
       "lng": -73.541943,
-      "phys_recorded": 38,
+      "phys_recorded": 39,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -2445,25 +2475,25 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 13,
+      "available_now": 14,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
-          "count": 5,
-          "asking_avg": 2947,
+          "count": 6,
+          "asking_avg": 2975,
           "net_avg": null,
-          "sqft_avg": 801,
+          "sqft_avg": 817,
           "asking_min": 2895,
-          "asking_max": 2995,
+          "asking_max": 3115,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.55,
+          "asking_psf": 44.08,
           "net_psf": null,
-          "psf_n": 5
+          "psf_n": 6
         },
         "2BR": {
           "count": 8,
@@ -2734,6 +2764,11 @@
           "date": "2026-08-31",
           "n": 13,
           "ne": 3664
+        },
+        {
+          "date": "2026-09-01",
+          "n": 14,
+          "ne": 3625
         }
       ]
     },
@@ -2744,7 +2779,7 @@
       "address": "900 Pacific St, Stamford, CT 06902",
       "lat": 41.039688,
       "lng": -73.54204,
-      "phys_recorded": 18,
+      "phys_recorded": 19,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -2756,25 +2791,25 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 7,
+      "available_now": 8,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "by_type": {
         "1BR": {
-          "count": 5,
-          "asking_avg": 3741,
+          "count": 6,
+          "asking_avg": 3817,
           "net_avg": null,
-          "sqft_avg": 901,
+          "sqft_avg": 943,
           "asking_min": 3395,
           "asking_max": 4295,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 50.23,
+          "asking_psf": 49.16,
           "net_psf": null,
-          "psf_n": 5
+          "psf_n": 6
         },
         "2BR": {
           "count": 2,
@@ -3045,6 +3080,11 @@
           "date": "2026-08-31",
           "n": 7,
           "ne": 4424
+        },
+        {
+          "date": "2026-09-01",
+          "n": 8,
+          "ne": 4395
         }
       ]
     },
@@ -4994,6 +5034,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 4161.0,
       "all_net": null
+    },
+    {
+      "date": "2026-09-01",
+      "total_available": 111,
+      "by_type": {
+        "1BR": {
+          "asking": 3160.0,
+          "net": null
+        },
+        "2BR": {
+          "asking": 5031.0,
+          "net": null
+        },
+        "3BR": {
+          "asking": 5842.0,
+          "net": null
+        },
+        "Studio": {
+          "asking": 2275.0,
+          "net": null
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 4165.0,
+      "all_net": null
     }
   ],
   "unit_mix": [],
@@ -5007,14 +5072,14 @@
     },
     {
       "t": "1BR",
-      "n": 198,
-      "avg_sqft": 787.0,
+      "n": 201,
+      "avg_sqft": 789.0,
       "min_sqft": 552,
       "max_sqft": 1218
     },
     {
       "t": "2BR",
-      "n": 116,
+      "n": 118,
       "avg_sqft": 1215.0,
       "min_sqft": 899,
       "max_sqft": 2114
@@ -5028,15 +5093,15 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-08-31T18:12:02+00:00",
+    "checked_at": "2026-09-01T15:35:55+00:00",
     "errors": [],
     "warnings": [
-      "Beacon Harbor Point: no listings captured on 2026-08-31 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Harbor Landing: no listings captured on 2026-08-31 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "111 Harbor Point: no listings captured on 2026-08-31 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Postmark: no listings captured on 2026-08-31 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Key at Yale & Towne: no listings captured on 2026-08-31 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Vault: no listings captured on 2026-08-31 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "Beacon Harbor Point: no listings captured on 2026-09-01 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Harbor Landing: no listings captured on 2026-09-01 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "111 Harbor Point: no listings captured on 2026-09-01 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Postmark: no listings captured on 2026-09-01 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Key at Yale & Towne: no listings captured on 2026-09-01 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Vault: no listings captured on 2026-09-01 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
