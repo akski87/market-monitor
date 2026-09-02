@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:35:12+00:00",
+  "generated_at": "2026-09-02T15:20:40+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -105,6 +105,12 @@
         {
           "unit": "1416",
           "beds": 1,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "1504",
+          "beds": 0,
           "baths": 1,
           "sqft": null
         },
@@ -351,6 +357,12 @@
         {
           "unit": "403",
           "beds": 0,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "409",
+          "beds": 1,
           "baths": 1,
           "sqft": null
         },
@@ -3063,6 +3075,12 @@
           "sqft": 720
         },
         {
+          "unit": "4009S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 720
+        },
+        {
           "unit": "4010N",
           "beds": 1,
           "baths": 1,
@@ -3255,6 +3273,12 @@
           "sqft": 733
         },
         {
+          "unit": "4504N",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 430
+        },
+        {
           "unit": "4505N",
           "beds": 1,
           "baths": 1,
@@ -3283,6 +3307,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 870
+        },
+        {
+          "unit": "4602S",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 733
         },
         {
           "unit": "4606S",
@@ -3531,6 +3561,12 @@
           "sqft": 989
         },
         {
+          "unit": "4914S",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 989
+        },
+        {
           "unit": "4915N",
           "beds": 0,
           "baths": 1,
@@ -3595,6 +3631,12 @@
           "beds": 2,
           "baths": 2,
           "sqft": 989
+        },
+        {
+          "unit": "5103S",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 459
         },
         {
           "unit": "5104N",
@@ -3754,6 +3796,12 @@
         },
         {
           "unit": "5315N",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 410
+        },
+        {
+          "unit": "5315S",
           "beds": 0,
           "baths": 1,
           "sqft": 410
@@ -3955,6 +4003,12 @@
           "beds": 2,
           "baths": 2,
           "sqft": 989
+        },
+        {
+          "unit": "5715S",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 385
         },
         {
           "unit": "5802S",
@@ -4263,7 +4317,19 @@
           "sqft": 459
         },
         {
+          "unit": "6303S",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 459
+        },
+        {
           "unit": "6304N",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 430
+        },
+        {
+          "unit": "6304S",
           "beds": 0,
           "baths": 1,
           "sqft": 430
@@ -4273,6 +4339,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 727
+        },
+        {
+          "unit": "6306N",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 661
         },
         {
           "unit": "6308N",
@@ -4291,6 +4363,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 617
+        },
+        {
+          "unit": "6315N",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 385
         },
         {
           "unit": "6315S",
@@ -6211,6 +6289,12 @@
           "sqft": 625
         },
         {
+          "unit": "2512",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 923
+        },
+        {
           "unit": "2612",
           "beds": 2,
           "baths": 2,
@@ -7217,6 +7301,12 @@
           "sqft": 794
         },
         {
+          "unit": "0601",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 687
+        },
+        {
           "unit": "0609",
           "beds": 0,
           "baths": 1,
@@ -7245,6 +7335,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 704
+        },
+        {
+          "unit": "0801",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 687
         },
         {
           "unit": "0810",
