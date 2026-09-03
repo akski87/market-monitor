@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T15:21:41+00:00",
+  "generated_at": "2026-09-03T15:14:22+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -135,6 +135,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1142
+        },
+        {
+          "unit": "B4-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1090
         },
         {
           "unit": "B9-1",
@@ -1917,6 +1923,18 @@
           "sqft": 724
         },
         {
+          "unit": "The Henry-4",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
+          "unit": "The Henry-5",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
           "unit": "The Hobbs-1",
           "beds": 0,
           "baths": 1.0,
@@ -1924,6 +1942,18 @@
         },
         {
           "unit": "The Hobbs-2",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 580
+        },
+        {
+          "unit": "The Hobbs-3",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 580
+        },
+        {
+          "unit": "The Hobbs-4",
           "beds": 0,
           "baths": 1.0,
           "sqft": 580
@@ -1969,6 +1999,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 683
+        },
+        {
+          "unit": "The Turner-1",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 787
         }
       ],
       "plans": null,

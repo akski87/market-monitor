@@ -1096,6 +1096,11 @@
           "sqft": 1142,
           "beds": 2,
           "baths": 2.0
+        },
+        "B4-1": {
+          "sqft": 1090,
+          "beds": 2,
+          "baths": 2.0
         }
       }
     },
@@ -1179,6 +1184,31 @@
         "The Hobbs-2": {
           "sqft": 580,
           "beds": 0,
+          "baths": 1.0
+        },
+        "The Henry-4": {
+          "sqft": 724,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "The Henry-5": {
+          "sqft": 724,
+          "beds": 1,
+          "baths": 1.0
+        },
+        "The Hobbs-3": {
+          "sqft": 580,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "The Hobbs-4": {
+          "sqft": 580,
+          "beds": 0,
+          "baths": 1.0
+        },
+        "The Turner-1": {
+          "sqft": 787,
+          "beds": 1,
           "baths": 1.0
         }
       }
