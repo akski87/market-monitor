@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:21:39+00:00",
+  "generated_at": "2026-09-09T15:20:12+00:00",
   "timeseries": [
     {
       "date": "2026-06-08",
@@ -1274,6 +1274,20 @@
       "2br_net_eff": 5244.0,
       "3br_asking": 6728.0,
       "3br_net_eff": 6059.0
+    },
+    {
+      "date": "2026-09-09",
+      "total_available": 195,
+      "all_asking": 3805.0,
+      "all_net_eff": 3618.0,
+      "studio_asking": 3128.0,
+      "studio_net_eff": 2935.0,
+      "1br_asking": 3629.0,
+      "1br_net_eff": 3546.0,
+      "2br_asking": 5366.0,
+      "2br_net_eff": 5147.0,
+      "3br_asking": 6728.0,
+      "3br_net_eff": 5770.0
     }
   ]
 }
