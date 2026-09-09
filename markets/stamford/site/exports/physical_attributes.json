@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:22:19+00:00",
+  "generated_at": "2026-09-09T15:20:57+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -2150,6 +2150,12 @@
         },
         {
           "unit": "Canal-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1091
+        },
+        {
+          "unit": "Canal-2",
           "beds": 2,
           "baths": 2.0,
           "sqft": 1091
