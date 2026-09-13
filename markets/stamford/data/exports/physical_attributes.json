@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:26:11+00:00",
+  "generated_at": "2026-09-13T15:06:03+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -1989,6 +1989,12 @@
           "sqft": 1390
         },
         {
+          "unit": "The Banbury-2",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1390
+        },
+        {
           "unit": "The Blake-1",
           "beds": 2,
           "baths": 2.0,
@@ -2032,6 +2038,12 @@
         },
         {
           "unit": "The Henry-5",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 724
+        },
+        {
+          "unit": "The Henry-6",
           "beds": 1,
           "baths": 1.0,
           "sqft": 724
