@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:36:13+00:00",
+  "generated_at": "2026-09-17T15:42:31+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -2113,6 +2113,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1317
+        },
+        {
+          "unit": "The Segal-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1152
         },
         {
           "unit": "The Soref with Den-1",
