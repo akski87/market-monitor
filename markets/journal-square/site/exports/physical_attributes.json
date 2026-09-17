@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:39:31+00:00",
+  "generated_at": "2026-09-17T15:45:28+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -1407,6 +1407,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 646
+        },
+        {
+          "unit": "4705",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 736
         },
         {
           "unit": "4711",
@@ -5612,6 +5618,18 @@
           "sqft": null
         },
         {
+          "unit": "1504",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
+          "unit": "1507",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": null
+        },
+        {
           "unit": "1601",
           "beds": 0,
           "baths": 1.0,
@@ -6156,6 +6174,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 470
+        },
+        {
+          "unit": "PH17",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": null
         },
         {
           "unit": "PH19",
@@ -7438,6 +7462,12 @@
       "name": "3 Journal Square",
       "total_units": 240,
       "recorded": [
+        {
+          "unit": "0201",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 687
+        },
         {
           "unit": "0208",
           "beds": 0,
