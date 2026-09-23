@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-09-22",
-  "generated_at": "2026-09-22T15:49:17+00:00",
+  "as_of": "2026-09-23",
+  "generated_at": "2026-09-23T15:41:40+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 58,
-      "asking_avg": 3195,
+      "units_available": 59,
+      "asking_avg": 3178,
       "asking_min": 2200.0,
       "asking_max": 4096.0,
-      "net_eff_avg": 2986,
-      "avg_sqft": 468,
-      "asking_psf": 81.92,
-      "net_eff_psf": 76.56
+      "net_eff_avg": 2999,
+      "avg_sqft": 465,
+      "asking_psf": 82.01,
+      "net_eff_psf": 77.39
     },
     {
       "unit_type": "1BR",
       "units_available": 82,
-      "asking_avg": 3609,
+      "asking_avg": 3613,
       "asking_min": 2500.0,
       "asking_max": 4576.0,
-      "net_eff_avg": 3530,
-      "avg_sqft": 712,
-      "asking_psf": 60.83,
-      "net_eff_psf": 59.49
+      "net_eff_avg": 3533,
+      "avg_sqft": 710,
+      "asking_psf": 61.06,
+      "net_eff_psf": 59.71
     },
     {
       "unit_type": "2BR",
@@ -30,10 +30,10 @@
       "asking_avg": 5031,
       "asking_min": 3175.0,
       "asking_max": 6250.0,
-      "net_eff_avg": 5186,
+      "net_eff_avg": 5201,
       "avg_sqft": 1028,
       "asking_psf": 58.73,
-      "net_eff_psf": 60.54
+      "net_eff_psf": 60.71
     },
     {
       "unit_type": "3BR",
@@ -41,21 +41,21 @@
       "asking_avg": 5843,
       "asking_min": 3100.0,
       "asking_max": 7500.0,
-      "net_eff_avg": 6059,
+      "net_eff_avg": 6077,
       "avg_sqft": 1261,
       "asking_psf": 55.6,
-      "net_eff_psf": 57.66
+      "net_eff_psf": 57.83
     },
     {
       "unit_type": "All",
-      "units_available": 179,
-      "asking_avg": 3812,
+      "units_available": 180,
+      "asking_avg": 3805,
       "asking_min": 2200.0,
       "asking_max": 7500.0,
-      "net_eff_avg": 3612,
-      "avg_sqft": 693,
-      "asking_psf": 66.01,
-      "net_eff_psf": 62.55
+      "net_eff_avg": 3621,
+      "avg_sqft": 687,
+      "asking_psf": 66.46,
+      "net_eff_psf": 63.25
     }
   ]
 }
