@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:37:16+00:00",
+  "generated_at": "2026-09-24T15:58:00+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -321,6 +321,12 @@
         {
           "unit": "212",
           "beds": 1,
+          "baths": 1,
+          "sqft": null
+        },
+        {
+          "unit": "2201",
+          "beds": 0,
           "baths": 1,
           "sqft": null
         },
@@ -945,6 +951,12 @@
           "beds": 0,
           "baths": 1.0,
           "sqft": 454
+        },
+        {
+          "unit": "2210",
+          "beds": 0,
+          "baths": 1,
+          "sqft": 466
         },
         {
           "unit": "2212",
@@ -1623,6 +1635,12 @@
           "beds": 2,
           "baths": 2,
           "sqft": 1048
+        },
+        {
+          "unit": "5405",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 618
         },
         {
           "unit": "5501",
@@ -6455,6 +6473,12 @@
           "beds": 3,
           "baths": 2.0,
           "sqft": null
+        },
+        {
+          "unit": "0305",
+          "beds": 1,
+          "baths": 1,
+          "sqft": 776
         },
         {
           "unit": "0403",
