@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:12:20+00:00",
+  "generated_at": "2026-10-01T17:33:32+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -511,6 +511,12 @@
           "sqft": 806
         },
         {
+          "unit": "420",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 759
+        },
+        {
           "unit": "425",
           "beds": 1,
           "baths": 1.0,
@@ -959,6 +965,12 @@
           "sqft": 1136
         },
         {
+          "unit": "1058",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
           "unit": "1060",
           "beds": 1,
           "baths": 1.0,
@@ -996,6 +1008,12 @@
         },
         {
           "unit": "1212",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1136
+        },
+        {
+          "unit": "1252",
           "beds": 2,
           "baths": 2.0,
           "sqft": 1136
@@ -1127,6 +1145,12 @@
           "sqft": 817
         },
         {
+          "unit": "2201",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
+        },
+        {
           "unit": "2256",
           "beds": 1,
           "baths": 1.0,
@@ -1149,6 +1173,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1200
+        },
+        {
+          "unit": "554",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 792
         },
         {
           "unit": "559",
@@ -1199,6 +1229,12 @@
           "sqft": 908
         },
         {
+          "unit": "758",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
+        },
+        {
           "unit": "801",
           "beds": 2,
           "baths": 2.0,
@@ -1221,6 +1257,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1136
+        },
+        {
+          "unit": "907",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 820
         }
       ],
       "plans": null,
@@ -1232,6 +1274,12 @@
       "name": "Allure @ Harbor Point",
       "total_units": 435,
       "recorded": [
+        {
+          "unit": "1001",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1510
+        },
         {
           "unit": "1051",
           "beds": 2,
@@ -1527,6 +1575,12 @@
           "sqft": 808
         },
         {
+          "unit": "254",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 1040
+        },
+        {
           "unit": "325",
           "beds": 2,
           "baths": 2.0,
@@ -1783,6 +1837,12 @@
           "sqft": 791
         },
         {
+          "unit": "331",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 788
+        },
+        {
           "unit": "401",
           "beds": 2,
           "baths": 2.0,
@@ -1811,6 +1871,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1136
+        },
+        {
+          "unit": "505",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 817
         },
         {
           "unit": "801",
@@ -2031,6 +2097,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 827
+        },
+        {
+          "unit": "914",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1328
         }
       ],
       "plans": null,
