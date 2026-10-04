@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T15:21:26+00:00",
-  "as_of": "2026-10-03",
+  "generated_at": "2026-10-04T16:06:59+00:00",
+  "as_of": "2026-10-04",
   "buildings": [
     {
       "id": "baldwin_134",
@@ -369,7 +369,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -943,6 +943,11 @@
           "date": "2026-10-03",
           "n": 7,
           "ne": 2678
+        },
+        {
+          "date": "2026-10-04",
+          "n": 7,
+          "ne": 2678
         }
       ]
     },
@@ -1478,7 +1483,7 @@
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -2059,6 +2064,11 @@
           "date": "2026-10-03",
           "n": 2,
           "ne": 2580
+        },
+        {
+          "date": "2026-10-04",
+          "n": 2,
+          "ne": 2580
         }
       ]
     },
@@ -2086,7 +2096,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.1046,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -2721,6 +2731,11 @@
           "date": "2026-10-03",
           "n": 8,
           "ne": 4449
+        },
+        {
+          "date": "2026-10-04",
+          "n": 8,
+          "ne": 4449
         }
       ]
     },
@@ -3225,7 +3240,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0835,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 5,
@@ -3847,6 +3862,11 @@
           "date": "2026-10-03",
           "n": 11,
           "ne": 3233
+        },
+        {
+          "date": "2026-10-04",
+          "n": 11,
+          "ne": 3233
         }
       ]
     },
@@ -3874,7 +3894,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 9,
@@ -4509,6 +4529,11 @@
           "date": "2026-10-03",
           "n": 18,
           "ne": 3763
+        },
+        {
+          "date": "2026-10-04",
+          "n": 18,
+          "ne": 3763
         }
       ]
     },
@@ -4536,15 +4561,15 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 11,
-          "asking_avg": 3583,
+          "asking_avg": 3625,
           "net_avg": null,
-          "sqft_avg": 715,
-          "asking_min": 3145,
-          "asking_max": 4030,
+          "sqft_avg": 723,
+          "asking_min": 3195,
+          "asking_max": 4050,
           "net_min": null,
           "net_max": null,
           "asking_psf": 60.39,
@@ -4553,27 +4578,27 @@
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 5301,
+          "asking_avg": 5293,
           "net_avg": null,
           "sqft_avg": 1015,
           "asking_min": 4960,
-          "asking_max": 5690,
+          "asking_max": 5675,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 62.78,
+          "asking_psf": 62.68,
           "net_psf": null,
           "psf_n": 9
         },
         "Studio": {
           "count": 9,
-          "asking_avg": 3028,
+          "asking_avg": 3023,
           "net_avg": null,
           "sqft_avg": 493,
-          "asking_min": 2850,
-          "asking_max": 3200,
+          "asking_min": 2860,
+          "asking_max": 3210,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 74.56,
+          "asking_psf": 74.45,
           "net_psf": null,
           "psf_n": 9
         }
@@ -5153,6 +5178,11 @@
           "date": "2026-10-03",
           "n": 29,
           "ne": 3944
+        },
+        {
+          "date": "2026-10-04",
+          "n": 29,
+          "ne": 3956
         }
       ]
     },
@@ -5180,7 +5210,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -5776,6 +5806,11 @@
           "date": "2026-10-03",
           "n": 6,
           "ne": 2866
+        },
+        {
+          "date": "2026-10-04",
+          "n": 6,
+          "ne": 2866
         }
       ]
     },
@@ -6059,7 +6094,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0833,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
           "count": 9,
@@ -6694,6 +6729,11 @@
           "date": "2026-10-03",
           "n": 20,
           "ne": 3535
+        },
+        {
+          "date": "2026-10-04",
+          "n": 20,
+          "ne": 3535
         }
       ]
     },
@@ -6716,25 +6756,25 @@
       "method": "dom_read",
       "source_url": "https://www.journaljc.com/availability",
       "portal_url": null,
-      "available_now": 96,
+      "available_now": 94,
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
       "submarket": null,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "by_type": {
         "1BR": {
-          "count": 56,
-          "asking_avg": 4070,
-          "net_avg": 3663,
-          "sqft_avg": 725,
+          "count": 54,
+          "asking_avg": 4071,
+          "net_avg": 3664,
+          "sqft_avg": 723,
           "asking_min": 3770,
           "asking_max": 4576,
           "net_min": 3393,
           "net_max": 4118,
-          "asking_psf": 67.7,
-          "net_psf": 60.93,
-          "psf_n": 56
+          "asking_psf": 67.84,
+          "net_psf": 61.05,
+          "psf_n": 54
         },
         "2BR": {
           "count": 11,
@@ -7356,6 +7396,11 @@
           "date": "2026-10-03",
           "n": 96,
           "ne": 3747
+        },
+        {
+          "date": "2026-10-04",
+          "n": 94,
+          "ne": 3750
         }
       ]
     }
@@ -10260,6 +10305,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3966.0,
       "all_net": 3690.0
+    },
+    {
+      "date": "2026-10-04",
+      "total_available": 195,
+      "by_type": {
+        "1BR": {
+          "asking": 3809.0,
+          "net": 3555.0
+        },
+        "2BR": {
+          "asking": 5444.0,
+          "net": 5216.0
+        },
+        "3BR": {
+          "asking": 6728.0,
+          "net": 5786.0
+        },
+        "Studio": {
+          "asking": 3199.0,
+          "net": 3015.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3967.0,
+      "all_net": 3691.0
     }
   ],
   "unit_mix": [
@@ -10487,13 +10557,13 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-10-03T15:21:26+00:00",
+    "checked_at": "2026-10-04T16:06:59+00:00",
     "errors": [],
     "warnings": [
-      "134 Baldwin: no listings captured on 2026-10-03 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "345 Baldwin: no listings captured on 2026-10-03 (last seen 2026-09-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "55 Jordan: no listings captured on 2026-10-03 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Orchard: no listings captured on 2026-10-03 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "134 Baldwin: no listings captured on 2026-10-04 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "345 Baldwin: no listings captured on 2026-10-04 (last seen 2026-09-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "55 Jordan: no listings captured on 2026-10-04 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Orchard: no listings captured on 2026-10-04 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
