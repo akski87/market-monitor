@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T18:37:21+00:00",
-  "as_of": "2026-10-13",
+  "generated_at": "2026-10-14T16:05:32+00:00",
+  "as_of": "2026-10-14",
   "buildings": [
     {
       "id": "baldwin_134",
@@ -352,7 +352,7 @@
       "address": "2935 John F Kennedy Blvd, Jersey City, NJ",
       "lat": 40.7340143,
       "lng": -74.0640563,
-      "phys_recorded": 38,
+      "phys_recorded": 39,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -364,25 +364,25 @@
       "method": "network_api",
       "source_url": "https://www.threejournalsquare.com/Floor-plans.aspx",
       "portal_url": "https://sightmap.com/embed/d7p1mrk2pkx",
-      "available_now": 7,
+      "available_now": 8,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
-          "count": 1,
-          "asking_avg": 3009,
+          "count": 2,
+          "asking_avg": 3154,
           "net_avg": null,
-          "sqft_avg": 687,
+          "sqft_avg": 720,
           "asking_min": 3009,
-          "asking_max": 3009,
+          "asking_max": 3300,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 52.56,
+          "asking_psf": 52.61,
           "net_psf": null,
-          "psf_n": 1
+          "psf_n": 2
         },
         "Studio": {
           "count": 6,
@@ -993,6 +993,11 @@
           "date": "2026-10-13",
           "n": 7,
           "ne": 2658
+        },
+        {
+          "date": "2026-10-14",
+          "n": 8,
+          "ne": 2738
         }
       ]
     },
@@ -1528,7 +1533,7 @@
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -2159,6 +2164,11 @@
           "date": "2026-10-13",
           "n": 2,
           "ne": 2580
+        },
+        {
+          "date": "2026-10-14",
+          "n": 2,
+          "ne": 2580
         }
       ]
     },
@@ -2181,12 +2191,12 @@
       "method": "dom_read",
       "source_url": "https://www.505summit.com/availability",
       "portal_url": null,
-      "available_now": 8,
+      "available_now": 7,
       "concession_text": "*All rents reflect net effective pricing with 1.5 months free on a 16 month lease. Limited time offer.",
       "concession_pct": 0.0833,
-      "conc_derived_pct": 0.1052,
+      "conc_derived_pct": 0.1046,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -2228,17 +2238,17 @@
           "psf_n": 1
         },
         "Studio": {
-          "count": 3,
-          "asking_avg": 3393,
-          "net_avg": 3024,
-          "sqft_avg": 610,
-          "asking_min": 3121,
+          "count": 2,
+          "asking_avg": 3528,
+          "net_avg": 3147,
+          "sqft_avg": 603,
+          "asking_min": 3501,
           "asking_max": 3556,
-          "net_min": 2778,
+          "net_min": 3122,
           "net_max": 3172,
-          "asking_psf": 66.9,
-          "net_psf": 59.63,
-          "psf_n": 3
+          "asking_psf": 70.29,
+          "net_psf": 62.69,
+          "psf_n": 2
         }
       },
       "history": [
@@ -2871,6 +2881,11 @@
           "date": "2026-10-13",
           "n": 8,
           "ne": 4283
+        },
+        {
+          "date": "2026-10-14",
+          "n": 7,
+          "ne": 4498
         }
       ]
     },
@@ -3375,7 +3390,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0835,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -3392,15 +3407,15 @@
         },
         "2BR": {
           "count": 2,
-          "asking_avg": 5172,
-          "net_avg": 4741,
+          "asking_avg": 5072,
+          "net_avg": 4650,
           "sqft_avg": 1013,
-          "asking_min": 5020,
-          "asking_max": 5325,
-          "net_min": 4601,
-          "net_max": 4881,
-          "asking_psf": 61.29,
-          "net_psf": 56.18,
+          "asking_min": 4920,
+          "asking_max": 5225,
+          "net_min": 4510,
+          "net_max": 4789,
+          "asking_psf": 60.11,
+          "net_psf": 55.1,
           "psf_n": 2
         },
         "Studio": {
@@ -4047,6 +4062,11 @@
           "date": "2026-10-13",
           "n": 12,
           "ne": 3268
+        },
+        {
+          "date": "2026-10-14",
+          "n": 12,
+          "ne": 3252
         }
       ]
     },
@@ -4069,33 +4089,33 @@
       "method": "dom_read",
       "source_url": "https://www.urby.com/location/journal-square/availability",
       "portal_url": null,
-      "available_now": 15,
-      "concession_text": "Up to 2 Months Free! Available for immediate move-ins. Contact us to learn more!",
+      "available_now": 17,
+      "concession_text": "$2,727 */mo * Price includes concessions.",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
-          "count": 5,
-          "asking_avg": 3325,
-          "net_avg": null,
+          "count": 7,
+          "asking_avg": 3289,
+          "net_avg": 2850,
           "sqft_avg": null,
-          "asking_min": 3095,
-          "asking_max": 3495,
-          "net_min": null,
-          "net_max": null,
+          "asking_min": 3045,
+          "asking_max": 3435,
+          "net_min": 2791,
+          "net_max": 2910,
           "asking_psf": null,
           "net_psf": null,
           "psf_n": 0
         },
         "2BR": {
           "count": 5,
-          "asking_avg": 4759,
+          "asking_avg": 4697,
           "net_avg": null,
           "sqft_avg": null,
-          "asking_min": 4545,
-          "asking_max": 4915,
+          "asking_min": 4535,
+          "asking_max": 4825,
           "net_min": null,
           "net_max": null,
           "asking_psf": null,
@@ -4104,26 +4124,26 @@
         },
         "3BR": {
           "count": 1,
-          "asking_avg": 5465,
-          "net_avg": null,
+          "asking_avg": null,
+          "net_avg": 4790,
           "sqft_avg": null,
-          "asking_min": 5465,
-          "asking_max": 5465,
-          "net_min": null,
-          "net_max": null,
+          "asking_min": null,
+          "asking_max": null,
+          "net_min": 4790,
+          "net_max": 4790,
           "asking_psf": null,
           "net_psf": null,
           "psf_n": 0
         },
         "Studio": {
           "count": 4,
-          "asking_avg": 3072,
-          "net_avg": null,
+          "asking_avg": 2995,
+          "net_avg": 2727,
           "sqft_avg": null,
-          "asking_min": 2995,
-          "asking_max": 3185,
-          "net_min": null,
-          "net_max": null,
+          "asking_min": 2945,
+          "asking_max": 3025,
+          "net_min": 2727,
+          "net_max": 2727,
           "asking_psf": null,
           "net_psf": null,
           "psf_n": 0
@@ -4759,6 +4779,11 @@
           "date": "2026-10-13",
           "n": 15,
           "ne": 3878
+        },
+        {
+          "date": "2026-10-14",
+          "n": 17,
+          "ne": 3655
         }
       ]
     },
@@ -4769,7 +4794,7 @@
       "address": "615 Pavonia Ave, Jersey City, NJ",
       "lat": 40.732315,
       "lng": -74.060474,
-      "phys_recorded": 219,
+      "phys_recorded": 220,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -4786,44 +4811,44 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 13,
-          "asking_avg": 3495,
+          "asking_avg": 3530,
           "net_avg": null,
-          "sqft_avg": 667,
+          "sqft_avg": 675,
           "asking_min": 3200,
           "asking_max": 4065,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 63.14,
+          "asking_psf": 63.25,
           "net_psf": null,
           "psf_n": 13
         },
         "2BR": {
           "count": 12,
-          "asking_avg": 5128,
+          "asking_avg": 5116,
           "net_avg": null,
           "sqft_avg": 997,
-          "asking_min": 4855,
-          "asking_max": 5440,
+          "asking_min": 4840,
+          "asking_max": 5425,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 61.81,
+          "asking_psf": 61.66,
           "net_psf": null,
           "psf_n": 12
         },
         "Studio": {
           "count": 12,
-          "asking_avg": 3034,
+          "asking_avg": 3039,
           "net_avg": null,
-          "sqft_avg": 473,
+          "sqft_avg": 478,
           "asking_min": 2810,
-          "asking_max": 3210,
+          "asking_max": 3220,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 77.44,
+          "asking_psf": 76.95,
           "net_psf": null,
           "psf_n": 12
         }
@@ -5453,6 +5478,11 @@
           "date": "2026-10-13",
           "n": 37,
           "ne": 3875
+        },
+        {
+          "date": "2026-10-14",
+          "n": 37,
+          "ne": 3885
         }
       ]
     },
@@ -5480,7 +5510,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -6126,6 +6156,11 @@
           "date": "2026-10-13",
           "n": 6,
           "ne": 2866
+        },
+        {
+          "date": "2026-10-14",
+          "n": 6,
+          "ne": 2866
         }
       ]
     },
@@ -6409,7 +6444,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0833,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
           "count": 8,
@@ -6452,8 +6487,8 @@
         },
         "Studio": {
           "count": 8,
-          "asking_avg": 3248,
-          "net_avg": 2977,
+          "asking_avg": 3235,
+          "net_avg": 2966,
           "sqft_avg": null,
           "asking_min": 3150,
           "asking_max": 3425,
@@ -7094,6 +7129,11 @@
           "date": "2026-10-13",
           "n": 19,
           "ne": 3553
+        },
+        {
+          "date": "2026-10-14",
+          "n": 19,
+          "ne": 3548
         }
       ]
     },
@@ -7104,7 +7144,7 @@
       "address": "36 Journal Square, Jersey City, NJ",
       "lat": 40.731008,
       "lng": -74.062295,
-      "phys_recorded": 496,
+      "phys_recorded": 497,
       "phys_modeled": true,
       "phys_lines": 42,
       "phys_plans": 0,
@@ -7116,25 +7156,25 @@
       "method": "dom_read",
       "source_url": "https://www.journaljc.com/availability",
       "portal_url": null,
-      "available_now": 97,
+      "available_now": 96,
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
       "submarket": null,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "by_type": {
         "1BR": {
-          "count": 54,
-          "asking_avg": 4041,
-          "net_avg": 3637,
+          "count": 52,
+          "asking_avg": 4045,
+          "net_avg": 3640,
           "sqft_avg": 714,
           "asking_min": 3690,
           "asking_max": 4576,
           "net_min": 3321,
           "net_max": 4118,
-          "asking_psf": 68.21,
-          "net_psf": 61.39,
-          "psf_n": 54
+          "asking_psf": 68.25,
+          "net_psf": 61.42,
+          "psf_n": 52
         },
         "2BR": {
           "count": 13,
@@ -7163,17 +7203,17 @@
           "psf_n": 2
         },
         "Studio": {
-          "count": 28,
-          "asking_avg": 3417,
-          "net_avg": 3075,
-          "sqft_avg": 437,
+          "count": 29,
+          "asking_avg": 3402,
+          "net_avg": 3062,
+          "sqft_avg": 439,
           "asking_min": 2990,
           "asking_max": 3656,
           "net_min": 2691,
           "net_max": 3290,
-          "asking_psf": 94.32,
-          "net_psf": 84.88,
-          "psf_n": 28
+          "asking_psf": 93.59,
+          "net_psf": 84.23,
+          "psf_n": 29
         }
       },
       "history": [
@@ -7806,6 +7846,11 @@
           "date": "2026-10-13",
           "n": 97,
           "ne": 3776
+        },
+        {
+          "date": "2026-10-14",
+          "n": 96,
+          "ne": 3769
         }
       ]
     }
@@ -10960,6 +11005,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3963.0,
       "all_net": 3713.0
+    },
+    {
+      "date": "2026-10-14",
+      "total_available": 204,
+      "by_type": {
+        "1BR": {
+          "asking": 3755.0,
+          "net": 3527.0
+        },
+        "2BR": {
+          "asking": 5465.0,
+          "net": 5296.0
+        },
+        "3BR": {
+          "asking": 6759.0,
+          "net": 5842.0
+        },
+        "Studio": {
+          "asking": 3199.0,
+          "net": 3013.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3953.0,
+      "all_net": 3701.0
     }
   ],
   "unit_mix": [
@@ -11159,14 +11229,14 @@
   "avg_unit_sf": [
     {
       "t": "Studio",
-      "n": 390,
+      "n": 391,
       "avg_sqft": 472.0,
       "min_sqft": 374,
       "max_sqft": 660
     },
     {
       "t": "1BR",
-      "n": 537,
+      "n": 539,
       "avg_sqft": 700.0,
       "min_sqft": 523,
       "max_sqft": 1117
@@ -11187,13 +11257,13 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-10-13T18:37:21+00:00",
+    "checked_at": "2026-10-14T16:05:32+00:00",
     "errors": [],
     "warnings": [
-      "134 Baldwin: no listings captured on 2026-10-13 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "345 Baldwin: no listings captured on 2026-10-13 (last seen 2026-09-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "55 Jordan: no listings captured on 2026-10-13 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Orchard: no listings captured on 2026-10-13 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "134 Baldwin: no listings captured on 2026-10-14 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "345 Baldwin: no listings captured on 2026-10-14 (last seen 2026-09-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "55 Jordan: no listings captured on 2026-10-14 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Orchard: no listings captured on 2026-10-14 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
