@@ -1,7 +1,7 @@
 {
   "study": "Journal Square (Jersey City, NJ) Class A multifamily market monitor",
-  "as_of": "2026-10-17",
-  "generated_at": "2026-10-17T14:32:13+00:00",
+  "as_of": "2026-10-18",
+  "generated_at": "2026-10-18T14:55:40+00:00",
   "files": {
     "units_latest": {
       "csv": "exports/units_latest.csv",
@@ -18,13 +18,13 @@
     "timeseries": {
       "csv": "exports/timeseries.csv",
       "json": "exports/timeseries.json",
-      "rows": 130,
+      "rows": 131,
       "desc": "One row per snapshot date for trend-over-time."
     },
     "units_12mo": {
       "csv": "exports/units_12mo.csv",
       "json": "exports/units_12mo.json",
-      "rows": 1578,
+      "rows": 1582,
       "desc": "One row per unique unit observed in the trailing 12 months (latest values, first/last seen, active flag)."
     },
     "unit_mix": {
