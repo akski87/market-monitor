@@ -64,6 +64,7 @@
   .chart-box{position:relative; height:300px}
   .chart-box.tall{height:330px}
   #mapBox .leaflet-container{font-family:'Archivo',sans-serif;background:var(--paper2)}
+  .mutetiles{filter:grayscale(.85) saturate(.6) brightness(1.04) contrast(.92)}  /* mute stock OSM colors to match the page */
   .leaflet-popup-content-wrapper{background:var(--card);color:var(--ink);border-radius:10px;box-shadow:var(--shadow)}
   .leaflet-popup-tip{background:var(--card)}
   .ref-pin{background:transparent;border:0}
@@ -2064,11 +2065,17 @@ function renderKPIs(){
       `<div><span class="num" style="font-size:26px;font-weight:700">$${hiPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▲ ${shortName(hiPsf.b.name)}</div></div>`+
       `<div><span class="num" style="font-size:26px;font-weight:700">$${loPsf.p.toFixed(2)}</span><div class="meta" style="margin:0">▼ ${shortName(loPsf.b.name)}</div></div></div>`
     : `<div class="lab">${psfLab}</div><div class="v num">—</div><div class="meta">no $/SF data yet</div>`;
+  // market-wide average unit size: mean interior SF across available units that publish SF
+  const sfTypes=UNITS.filter(u=>at[u]&&at[u].sf);
+  const avgSfCard={lab:'Avg unit size',
+    v:(at.All&&at.All.sf)?`${Math.round(at.All.sf).toLocaleString()}<span style="font-size:55%;font-weight:600"> SF</span>`:'—',
+    meta:sfTypes.length?sfTypes.map(u=>`${u.replace('BR',' BR')} ${Math.round(at[u].sf).toLocaleString()}`).join(' · '):'mean interior SF, live units'};
   const cards=[
     {lab:'Buildings in market',v:m.length,meta:`of ${curBuildings().length} tracked`},
     {lab:'Units available now',v:avail.toLocaleString(),meta:'across in-market set',hot:true},
     {lab:'Availability rate',v:units?(avail/units*100).toFixed(1)+'%':'—',meta:`${units.toLocaleString()} units`},
     {lab:'Most availability',v:topAvail?topAvail.available_now:'—',meta:topAvail?shortName(topAvail.name):''},
+    avgSfCard,
     rent('Studio','Studio net-eff rent'),
     rent('1BR','1BR net-eff rent'),
     rent('2BR','2BR net-eff rent'),
@@ -2298,8 +2305,10 @@ function buildMap(){
   if(!bs.length){box.innerHTML='<div class="empty" style="padding:20px">No coordinates in the data yet — they arrive with the next workflow run.</div>';return;}
   if(!MAPI){
     MAPI=L.map(box,{scrollWheelZoom:false});
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-      {attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',maxZoom:19}).addTo(MAPI);
+    // Carto's free basemaps now watermark every tile "API KEY REQUIRED" — use stock
+    // OSM tiles (keyless) and mute them via CSS to keep the page's light aesthetic.
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19,className:'mutetiles'}).addTo(MAPI);
     MLAYER=L.layerGroup().addTo(MAPI);
     PINLAYER=L.layerGroup().addTo(MAPI);
     MAPI.fitBounds(bs.map(b=>[b.lat,b.lng]),{padding:[42,42]});
