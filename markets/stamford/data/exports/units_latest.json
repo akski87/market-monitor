@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-19",
-  "generated_at": "2026-10-19T12:53:30+00:00",
+  "generated_at": "2026-10-19T17:50:37+00:00",
   "units": [
     {
       "snapshot_date": "2026-10-19",
@@ -1474,24 +1474,6 @@
       "price_basis": "asking",
       "concession_text": null,
       "available_date": "12/8/26",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-10-19",
-      "building": "Escape @ Harbor Point",
-      "in_market": 1,
-      "unit": "608",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 701,
-      "asking_rent": 3015.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": null,
       "data_flag": "",
       "conc_months": null,
       "lease_months": null

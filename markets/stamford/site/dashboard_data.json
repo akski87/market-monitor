@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:53:30+00:00",
+  "generated_at": "2026-10-19T17:50:37+00:00",
   "as_of": "2026-10-19",
   "buildings": [
     {
@@ -2549,7 +2549,7 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 30,
+      "available_now": 29,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
@@ -2557,17 +2557,17 @@
       "as_of": "2026-10-19",
       "by_type": {
         "1BR": {
-          "count": 19,
-          "asking_avg": 3282,
+          "count": 18,
+          "asking_avg": 3297,
           "net_avg": null,
-          "sqft_avg": 813,
+          "sqft_avg": 820,
           "asking_min": 3015,
           "asking_max": 3865,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 48.96,
+          "asking_psf": 48.81,
           "net_psf": null,
-          "psf_n": 19
+          "psf_n": 18
         },
         "2BR": {
           "count": 11,
@@ -3076,8 +3076,8 @@
         },
         {
           "date": "2026-10-19",
-          "n": 30,
-          "ne": 4023
+          "n": 29,
+          "ne": 4058
         }
       ]
     },
@@ -8079,10 +8079,10 @@
     },
     {
       "date": "2026-10-19",
-      "total_available": 115,
+      "total_available": 114,
       "by_type": {
         "1BR": {
-          "asking": 3221.0,
+          "asking": 3225.0,
           "net": null
         },
         "2BR": {
@@ -8099,7 +8099,7 @@
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 4146.0,
+      "all_asking": 4156.0,
       "all_net": null
     }
   ],
@@ -8135,7 +8135,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-10-19T12:53:30+00:00",
+    "checked_at": "2026-10-19T17:50:37+00:00",
     "errors": [],
     "warnings": [
       "Beacon Harbor Point: no listings captured on 2026-10-19 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
