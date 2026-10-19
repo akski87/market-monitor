@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:52:49+00:00",
+  "generated_at": "2026-10-19T17:49:49+00:00",
   "as_of": "2026-10-19",
   "buildings": [
     {
@@ -7709,14 +7709,14 @@
       "by_type": {
         "1BR": {
           "count": 13,
-          "asking_avg": 3458,
+          "asking_avg": 3424,
           "net_avg": null,
-          "sqft_avg": 670,
+          "sqft_avg": 656,
           "asking_min": 3085,
           "asking_max": 3975,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 62.19,
+          "asking_psf": 63.08,
           "net_psf": null,
           "psf_n": 13
         },
@@ -7735,14 +7735,14 @@
         },
         "Studio": {
           "count": 12,
-          "asking_avg": 2985,
+          "asking_avg": 2995,
           "net_avg": null,
-          "sqft_avg": 472,
+          "sqft_avg": 474,
           "asking_min": 2710,
           "asking_max": 3270,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 76.65,
+          "asking_psf": 76.49,
           "net_psf": null,
           "psf_n": 12
         }
@@ -8391,7 +8391,7 @@
         {
           "date": "2026-10-19",
           "n": 37,
-          "ne": 3838
+          "ne": 3829
         }
       ]
     },
@@ -10251,30 +10251,17 @@
       "as_of": "2026-10-19",
       "by_type": {
         "1BR": {
-          "count": 5,
-          "asking_avg": 2484,
+          "count": 6,
+          "asking_avg": 2461,
           "net_avg": null,
-          "sqft_avg": 751,
+          "sqft_avg": 742,
           "asking_min": 2236,
-          "asking_max": 2695,
+          "asking_max": 2625,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 39.76,
+          "asking_psf": 39.9,
           "net_psf": null,
-          "psf_n": 5
-        },
-        "Studio": {
-          "count": 1,
-          "asking_avg": 1995,
-          "net_avg": null,
-          "sqft_avg": 502,
-          "asking_min": 1995,
-          "asking_max": 1995,
-          "net_min": null,
-          "net_max": null,
-          "asking_psf": 47.69,
-          "net_psf": null,
-          "psf_n": 1
+          "psf_n": 6
         }
       },
       "history": [
@@ -10726,7 +10713,7 @@
         {
           "date": "2026-10-19",
           "n": 6,
-          "ne": 2403
+          "ne": 2461
         }
       ]
     },
@@ -10757,17 +10744,17 @@
       "as_of": "2026-10-19",
       "by_type": {
         "1BR": {
-          "count": 5,
-          "asking_avg": 2635,
+          "count": 6,
+          "asking_avg": 2617,
           "net_avg": null,
-          "sqft_avg": 737,
+          "sqft_avg": 730,
           "asking_min": 2520,
           "asking_max": 2695,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 43.04,
+          "asking_psf": 43.16,
           "net_psf": null,
-          "psf_n": 5
+          "psf_n": 6
         },
         "2BR": {
           "count": 1,
@@ -10783,17 +10770,17 @@
           "psf_n": 1
         },
         "Studio": {
-          "count": 4,
-          "asking_avg": 2145,
+          "count": 3,
+          "asking_avg": 2213,
           "net_avg": null,
-          "sqft_avg": 532,
-          "asking_min": 2095,
-          "asking_max": 2295,
+          "sqft_avg": 538,
+          "asking_min": 2195,
+          "asking_max": 2250,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 48.48,
+          "asking_psf": 49.61,
           "net_psf": null,
-          "psf_n": 4
+          "psf_n": 3
         }
       },
       "history": [
@@ -11245,7 +11232,7 @@
         {
           "date": "2026-10-19",
           "n": 10,
-          "ne": 2545
+          "ne": 2604
         }
       ]
     },
@@ -17852,7 +17839,7 @@
       "total_available": 210,
       "by_type": {
         "1BR": {
-          "asking": 3584.0,
+          "asking": 3556.0,
           "net": 3530.0
         },
         "2BR": {
@@ -17864,12 +17851,12 @@
           "net": 5842.0
         },
         "Studio": {
-          "asking": 3103.0,
+          "asking": 3138.0,
           "net": 3018.0
         }
       },
       "note": "Auto from daily ingest.",
-      "all_asking": 3807.0,
+      "all_asking": 3810.0,
       "all_net": 3704.0
     }
   ],
@@ -18098,7 +18085,7 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-10-19T12:52:49+00:00",
+    "checked_at": "2026-10-19T17:49:49+00:00",
     "errors": [],
     "warnings": [
       "Atlas: no listings captured on 2026-10-19 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
