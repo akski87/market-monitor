@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T17:58:25+00:00",
-  "as_of": "2026-10-26",
+  "generated_at": "2026-10-27T16:55:16+00:00",
+  "as_of": "2026-10-27",
   "buildings": [
     {
       "id": "park_place_101",
@@ -26,7 +26,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -593,6 +593,11 @@
           "date": "2026-10-26",
           "n": 5,
           "ne": 3730
+        },
+        {
+          "date": "2026-10-27",
+          "n": 5,
+          "ne": 3730
         }
       ]
     },
@@ -836,7 +841,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 5,
@@ -1403,6 +1408,11 @@
           "date": "2026-10-26",
           "n": 10,
           "ne": 2692
+        },
+        {
+          "date": "2026-10-27",
+          "n": 10,
+          "ne": 2692
         }
       ]
     },
@@ -1430,7 +1440,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 4,
@@ -1447,27 +1457,27 @@
         },
         "2BR": {
           "count": 12,
-          "asking_avg": 4712,
+          "asking_avg": 4746,
           "net_avg": null,
           "sqft_avg": 1202,
-          "asking_min": 3897,
-          "asking_max": 5372,
+          "asking_min": 3931,
+          "asking_max": 5408,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 47.66,
+          "asking_psf": 48.01,
           "net_psf": null,
           "psf_n": 12
         },
         "3BR": {
           "count": 3,
-          "asking_avg": 5727,
+          "asking_avg": 5717,
           "net_avg": null,
           "sqft_avg": 1510,
-          "asking_min": 5640,
-          "asking_max": 5810,
+          "asking_min": 5630,
+          "asking_max": 5800,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 45.51,
+          "asking_psf": 45.43,
           "net_psf": null,
           "psf_n": 3
         }
@@ -2002,6 +2012,11 @@
           "date": "2026-10-26",
           "n": 19,
           "ne": 4622
+        },
+        {
+          "date": "2026-10-27",
+          "n": 19,
+          "ne": 4642
         }
       ]
     },
@@ -2029,7 +2044,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -2046,14 +2061,14 @@
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 5876,
+          "asking_avg": 5860,
           "net_avg": null,
           "sqft_avg": 1385,
-          "asking_min": 4944,
-          "asking_max": 7470,
+          "asking_min": 4927,
+          "asking_max": 7456,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 50.96,
+          "asking_psf": 50.83,
           "net_psf": null,
           "psf_n": 9
         }
@@ -2588,6 +2603,11 @@
           "date": "2026-10-26",
           "n": 10,
           "ne": 5639
+        },
+        {
+          "date": "2026-10-27",
+          "n": 10,
+          "ne": 5625
         }
       ]
     },
@@ -2689,36 +2709,36 @@
       "method": "appfolio_html",
       "source_url": "https://bltliveworkplay.appfolio.com/listings",
       "portal_url": null,
-      "available_now": 23,
+      "available_now": 22,
       "concession_text": null,
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
-          "count": 14,
-          "asking_avg": 3362,
+          "count": 13,
+          "asking_avg": 3396,
           "net_avg": null,
-          "sqft_avg": 775,
-          "asking_min": 3026,
-          "asking_max": 3748,
+          "sqft_avg": 771,
+          "asking_min": 3039,
+          "asking_max": 3762,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 52.36,
+          "asking_psf": 53.12,
           "net_psf": null,
-          "psf_n": 14
+          "psf_n": 13
         },
         "2BR": {
           "count": 9,
-          "asking_avg": 5211,
+          "asking_avg": 5262,
           "net_avg": null,
           "sqft_avg": 1245,
-          "asking_min": 4577,
-          "asking_max": 5487,
+          "asking_min": 4625,
+          "asking_max": 5535,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 50.72,
+          "asking_psf": 51.21,
           "net_psf": null,
           "psf_n": 9
         }
@@ -3253,6 +3273,11 @@
           "date": "2026-10-26",
           "n": 23,
           "ne": 4085
+        },
+        {
+          "date": "2026-10-27",
+          "n": 22,
+          "ne": 4159
         }
       ]
     },
@@ -3506,7 +3531,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -4060,6 +4085,11 @@
           "date": "2026-10-26",
           "n": 5,
           "ne": 3900
+        },
+        {
+          "date": "2026-10-27",
+          "n": 5,
+          "ne": 3900
         }
       ]
     },
@@ -4087,31 +4117,31 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 9,
-          "asking_avg": 3157,
+          "asking_avg": 3151,
           "net_avg": null,
           "sqft_avg": 859,
-          "asking_min": 2925,
-          "asking_max": 3574,
+          "asking_min": 2919,
+          "asking_max": 3567,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 44.83,
+          "asking_psf": 44.75,
           "net_psf": null,
           "psf_n": 9
         },
         "2BR": {
           "count": 12,
-          "asking_avg": 4082,
+          "asking_avg": 4068,
           "net_avg": null,
           "sqft_avg": 1155,
-          "asking_min": 3757,
-          "asking_max": 4411,
+          "asking_min": 3743,
+          "asking_max": 4396,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 42.52,
+          "asking_psf": 42.37,
           "net_psf": null,
           "psf_n": 12
         }
@@ -4646,6 +4676,11 @@
           "date": "2026-10-26",
           "n": 21,
           "ne": 3686
+        },
+        {
+          "date": "2026-10-27",
+          "n": 21,
+          "ne": 3675
         }
       ]
     },
@@ -4673,31 +4708,31 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "harbor-point",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "by_type": {
         "1BR": {
           "count": 4,
-          "asking_avg": 3578,
+          "asking_avg": 3607,
           "net_avg": null,
           "sqft_avg": 892,
-          "asking_min": 3303,
-          "asking_max": 4035,
+          "asking_min": 3331,
+          "asking_max": 4067,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 48.83,
+          "asking_psf": 49.22,
           "net_psf": null,
           "psf_n": 4
         },
         "2BR": {
           "count": 5,
-          "asking_avg": 6042,
+          "asking_avg": 5954,
           "net_avg": null,
           "sqft_avg": 1266,
-          "asking_min": 5345,
-          "asking_max": 7937,
+          "asking_min": 5258,
+          "asking_max": 7843,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 57.12,
+          "asking_psf": 56.28,
           "net_psf": null,
           "psf_n": 5
         }
@@ -5232,6 +5267,11 @@
           "date": "2026-10-26",
           "n": 9,
           "ne": 4947
+        },
+        {
+          "date": "2026-10-27",
+          "n": 9,
+          "ne": 4911
         }
       ]
     },
@@ -8556,6 +8596,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 4168.0,
       "all_net": null
+    },
+    {
+      "date": "2026-10-27",
+      "total_available": 101,
+      "by_type": {
+        "1BR": {
+          "asking": 3229.0,
+          "net": null
+        },
+        "2BR": {
+          "asking": 4837.0,
+          "net": null
+        },
+        "3BR": {
+          "asking": 5500.0,
+          "net": null
+        },
+        "Studio": {
+          "asking": 2275.0,
+          "net": null
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 4182.0,
+      "all_net": null
     }
   ],
   "unit_mix": [],
@@ -8590,15 +8655,15 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-10-26T17:58:25+00:00",
+    "checked_at": "2026-10-27T16:55:16+00:00",
     "errors": [],
     "warnings": [
-      "Beacon Harbor Point: no listings captured on 2026-10-26 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Harbor Landing: no listings captured on 2026-10-26 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "111 Harbor Point: no listings captured on 2026-10-26 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Postmark: no listings captured on 2026-10-26 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Key at Yale & Towne: no listings captured on 2026-10-26 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Vault: no listings captured on 2026-10-26 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "Beacon Harbor Point: no listings captured on 2026-10-27 (last seen 2026-07-13) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Harbor Landing: no listings captured on 2026-10-27 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "111 Harbor Point: no listings captured on 2026-10-27 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Postmark: no listings captured on 2026-10-27 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Key at Yale & Towne: no listings captured on 2026-10-27 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Vault: no listings captured on 2026-10-27 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
