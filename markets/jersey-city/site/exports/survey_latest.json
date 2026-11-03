@@ -1,61 +1,61 @@
 {
-  "as_of": "2026-11-02",
-  "generated_at": "2026-11-02T20:55:39+00:00",
+  "as_of": "2026-11-03",
+  "generated_at": "2026-11-03T18:42:42+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 119,
-      "asking_avg": 3034,
+      "units_available": 117,
+      "asking_avg": 3043,
       "asking_min": 1733.0,
       "asking_max": 6155.0,
       "net_eff_avg": 3063,
-      "avg_sqft": 489,
-      "asking_psf": 74.45,
-      "net_eff_psf": 75.17
+      "avg_sqft": 490,
+      "asking_psf": 74.52,
+      "net_eff_psf": 75.01
     },
     {
       "unit_type": "1BR",
       "units_available": 236,
-      "asking_avg": 3621,
+      "asking_avg": 3616,
       "asking_min": 2242.0,
       "asking_max": 5940.0,
-      "net_eff_avg": 3600,
-      "avg_sqft": 730,
+      "net_eff_avg": 3585,
+      "avg_sqft": 729,
       "asking_psf": 59.52,
-      "net_eff_psf": 59.18
+      "net_eff_psf": 59.01
     },
     {
       "unit_type": "2BR",
       "units_available": 145,
-      "asking_avg": 5028,
+      "asking_avg": 5032,
       "asking_min": 2765.0,
       "asking_max": 10015.0,
       "net_eff_avg": 5185,
-      "avg_sqft": 1107,
+      "avg_sqft": 1108,
       "asking_psf": 54.5,
-      "net_eff_psf": 56.21
+      "net_eff_psf": 56.16
     },
     {
       "unit_type": "3BR",
       "units_available": 23,
-      "asking_avg": 7013,
+      "asking_avg": 7014,
       "asking_min": 3100.0,
       "asking_max": 12185.0,
       "net_eff_avg": 5851,
       "avg_sqft": 1465,
-      "asking_psf": 57.44,
+      "asking_psf": 57.45,
       "net_eff_psf": 47.93
     },
     {
       "unit_type": "All",
-      "units_available": 523,
-      "asking_avg": 4027,
+      "units_available": 521,
+      "asking_avg": 4031,
       "asking_min": 1733.0,
       "asking_max": 12185.0,
-      "net_eff_avg": 3759,
-      "avg_sqft": 810,
-      "asking_psf": 59.66,
-      "net_eff_psf": 55.69
+      "net_eff_avg": 3752,
+      "avg_sqft": 812,
+      "asking_psf": 59.57,
+      "net_eff_psf": 55.45
     }
   ]
 }
