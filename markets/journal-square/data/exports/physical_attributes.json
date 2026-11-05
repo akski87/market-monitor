@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:59:25+00:00",
+  "generated_at": "2026-11-05T19:14:30+00:00",
   "buildings": [
     {
       "id": "urby",
@@ -681,6 +681,12 @@
           "beds": 1,
           "baths": 1,
           "sqft": 716
+        },
+        {
+          "unit": "1104",
+          "beds": 0,
+          "baths": 1.0,
+          "sqft": 549
         },
         {
           "unit": "1105",
@@ -2090,6 +2096,12 @@
       "name": "The Journal",
       "total_units": 1723,
       "recorded": [
+        {
+          "unit": "0203",
+          "beds": 3,
+          "baths": 2.0,
+          "sqft": 1153
+        },
         {
           "unit": "0204",
           "beds": 0,
