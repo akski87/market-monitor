@@ -1,61 +1,61 @@
 {
-  "as_of": "2026-11-08",
-  "generated_at": "2026-11-08T17:21:41+00:00",
+  "as_of": "2026-11-09",
+  "generated_at": "2026-11-09T21:45:06+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 66,
-      "asking_avg": 3151,
+      "units_available": 65,
+      "asking_avg": 3154,
       "asking_min": 2200.0,
       "asking_max": 3656.0,
-      "net_eff_avg": 3041,
-      "avg_sqft": 478,
-      "asking_psf": 79.1,
-      "net_eff_psf": 76.34
+      "net_eff_avg": 3052,
+      "avg_sqft": 477,
+      "asking_psf": 79.35,
+      "net_eff_psf": 76.78
     },
     {
       "unit_type": "1BR",
-      "units_available": 112,
-      "asking_avg": 3560,
+      "units_available": 113,
+      "asking_avg": 3552,
       "asking_min": 2500.0,
       "asking_max": 4576.0,
-      "net_eff_avg": 3522,
-      "avg_sqft": 692,
-      "asking_psf": 61.73,
-      "net_eff_psf": 61.08
+      "net_eff_avg": 3520,
+      "avg_sqft": 690,
+      "asking_psf": 61.77,
+      "net_eff_psf": 61.22
     },
     {
       "unit_type": "2BR",
-      "units_available": 46,
-      "asking_avg": 5035,
+      "units_available": 45,
+      "asking_avg": 5025,
       "asking_min": 3175.0,
       "asking_max": 6896.0,
-      "net_eff_avg": 5221,
+      "net_eff_avg": 5246,
       "avg_sqft": 1042,
-      "asking_psf": 57.98,
-      "net_eff_psf": 60.13
+      "asking_psf": 57.87,
+      "net_eff_psf": 60.41
     },
     {
       "unit_type": "3BR",
       "units_available": 8,
-      "asking_avg": 6054,
+      "asking_avg": 6058,
       "asking_min": 3100.0,
       "asking_max": 7500.0,
-      "net_eff_avg": 5987,
+      "net_eff_avg": 6011,
       "avg_sqft": 1279,
-      "asking_psf": 56.8,
-      "net_eff_psf": 56.17
+      "asking_psf": 56.84,
+      "net_eff_psf": 56.4
     },
     {
       "unit_type": "All",
-      "units_available": 232,
-      "asking_avg": 3822,
+      "units_available": 231,
+      "asking_avg": 3814,
       "asking_min": 2200.0,
       "asking_max": 7500.0,
-      "net_eff_avg": 3734,
-      "avg_sqft": 720,
-      "asking_psf": 63.7,
-      "net_eff_psf": 62.23
+      "net_eff_avg": 3729,
+      "avg_sqft": 717,
+      "asking_psf": 63.83,
+      "net_eff_psf": 62.41
     }
   ]
 }
