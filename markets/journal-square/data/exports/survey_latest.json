@@ -1,61 +1,61 @@
 {
-  "as_of": "2026-11-09",
-  "generated_at": "2026-11-09T21:45:06+00:00",
+  "as_of": "2026-11-10",
+  "generated_at": "2026-11-10T18:56:44+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 65,
-      "asking_avg": 3154,
+      "units_available": 64,
+      "asking_avg": 3160,
       "asking_min": 2200.0,
       "asking_max": 3656.0,
       "net_eff_avg": 3052,
-      "avg_sqft": 477,
-      "asking_psf": 79.35,
-      "net_eff_psf": 76.78
+      "avg_sqft": 478,
+      "asking_psf": 79.33,
+      "net_eff_psf": 76.62
     },
     {
       "unit_type": "1BR",
       "units_available": 113,
-      "asking_avg": 3552,
+      "asking_avg": 3550,
       "asking_min": 2500.0,
       "asking_max": 4576.0,
       "net_eff_avg": 3520,
-      "avg_sqft": 690,
-      "asking_psf": 61.77,
-      "net_eff_psf": 61.22
+      "avg_sqft": 689,
+      "asking_psf": 61.83,
+      "net_eff_psf": 61.31
     },
     {
       "unit_type": "2BR",
       "units_available": 45,
-      "asking_avg": 5025,
+      "asking_avg": 5030,
       "asking_min": 3175.0,
       "asking_max": 6896.0,
       "net_eff_avg": 5246,
-      "avg_sqft": 1042,
-      "asking_psf": 57.87,
-      "net_eff_psf": 60.41
+      "avg_sqft": 1045,
+      "asking_psf": 57.76,
+      "net_eff_psf": 60.24
     },
     {
       "unit_type": "3BR",
       "units_available": 8,
-      "asking_avg": 6058,
+      "asking_avg": 6061,
       "asking_min": 3100.0,
       "asking_max": 7500.0,
       "net_eff_avg": 6011,
       "avg_sqft": 1279,
-      "asking_psf": 56.84,
+      "asking_psf": 56.87,
       "net_eff_psf": 56.4
     },
     {
       "unit_type": "All",
-      "units_available": 231,
-      "asking_avg": 3814,
+      "units_available": 230,
+      "asking_avg": 3818,
       "asking_min": 2200.0,
       "asking_max": 7500.0,
       "net_eff_avg": 3729,
-      "avg_sqft": 717,
-      "asking_psf": 63.83,
-      "net_eff_psf": 62.41
+      "avg_sqft": 718,
+      "asking_psf": 63.81,
+      "net_eff_psf": 62.32
     }
   ]
 }
