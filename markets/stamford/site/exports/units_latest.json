@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-11-11",
-  "generated_at": "2026-11-11T18:56:11+00:00",
+  "as_of": "2026-11-12",
+  "generated_at": "2026-11-12T19:11:26+00:00",
   "units": [
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-1",
@@ -21,7 +21,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-2",
@@ -39,7 +39,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-3",
@@ -57,7 +57,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Atlantic-4",
@@ -75,7 +75,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Belden-1",
@@ -93,7 +93,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Canal-1",
@@ -111,7 +111,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Henry-1",
@@ -129,7 +129,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "101 Park Place",
       "in_market": 1,
       "unit": "Interstate-1",
@@ -273,7 +273,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Henry-1",
@@ -291,7 +291,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Henry-2",
@@ -309,7 +309,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Henry-3",
@@ -327,7 +327,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Henry-4",
@@ -345,7 +345,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
+      "building": "121 Towne",
+      "in_market": 1,
+      "unit": "The Henry-5",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 724,
+      "asking_rent": 2500.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": null,
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Lockwood-1",
@@ -363,7 +381,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Tess-1",
@@ -381,7 +399,25 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
+      "building": "121 Towne",
+      "in_market": 1,
+      "unit": "The Tess-2",
+      "unit_type": "1BR",
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 683,
+      "asking_rent": 2400.0,
+      "net_effective_rent": null,
+      "price_basis": "asking",
+      "concession_text": null,
+      "available_date": null,
+      "data_flag": "",
+      "conc_months": null,
+      "lease_months": null
+    },
+    {
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Blake-1",
@@ -399,7 +435,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Blake-2",
@@ -417,7 +453,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Sargent-1",
@@ -435,7 +471,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Soref with Den-1",
@@ -453,7 +489,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Hobbs-1",
@@ -471,7 +507,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Hobbs-2",
@@ -489,7 +525,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Hobbs-3",
@@ -507,7 +543,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "121 Towne",
       "in_market": 1,
       "unit": "The Hobbs-4",
@@ -525,7 +561,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1253",
@@ -533,7 +569,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 805,
-      "asking_rent": 3177.0,
+      "asking_rent": 3176.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -543,7 +579,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "254",
@@ -551,7 +587,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 1040,
-      "asking_rent": 4135.0,
+      "asking_rent": 4134.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -561,7 +597,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "321",
@@ -579,7 +615,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "348",
@@ -597,7 +633,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "426",
@@ -615,7 +651,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "753",
@@ -623,7 +659,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 805,
-      "asking_rent": 2952.0,
+      "asking_rent": 2951.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -633,7 +669,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1008",
@@ -641,7 +677,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 5006.0,
+      "asking_rent": 4990.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -651,7 +687,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1107",
@@ -659,7 +695,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 4355.0,
+      "asking_rent": 4339.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -669,7 +705,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "121",
@@ -687,7 +723,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1252",
@@ -695,7 +731,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 4550.0,
+      "asking_rent": 4534.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -705,7 +741,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1508",
@@ -713,7 +749,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 5180.0,
+      "asking_rent": 5164.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -723,7 +759,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1652",
@@ -731,7 +767,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 4720.0,
+      "asking_rent": 4704.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -741,7 +777,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1904",
@@ -749,7 +785,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1233,
-      "asking_rent": 4820.0,
+      "asking_rent": 4803.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -759,7 +795,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2204",
@@ -767,7 +803,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1233,
-      "asking_rent": 5300.0,
+      "asking_rent": 5283.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -777,7 +813,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "325",
@@ -785,7 +821,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 998,
-      "asking_rent": 4904.0,
+      "asking_rent": 4884.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -795,25 +831,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
-      "building": "Allure @ Harbor Point",
-      "in_market": 1,
-      "unit": "346",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1311,
-      "asking_rent": 3828.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": "12/6/26",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "425",
@@ -821,7 +839,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 998,
-      "asking_rent": 4344.0,
+      "asking_rent": 4324.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -831,7 +849,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "503",
@@ -839,7 +857,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1233,
-      "asking_rent": 3860.0,
+      "asking_rent": 3843.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -849,7 +867,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "508",
@@ -857,7 +875,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1148,
-      "asking_rent": 4440.0,
+      "asking_rent": 4424.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -867,7 +885,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "804",
@@ -875,7 +893,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1233,
-      "asking_rent": 4380.0,
+      "asking_rent": 4363.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -885,7 +903,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "903",
@@ -893,7 +911,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1233,
-      "asking_rent": 3880.0,
+      "asking_rent": 3863.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -903,7 +921,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "1401",
@@ -911,7 +929,7 @@
       "beds": 3,
       "baths": 2.0,
       "sqft": 1510,
-      "asking_rent": 6108.0,
+      "asking_rent": 6106.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -921,7 +939,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "2201",
@@ -929,7 +947,7 @@
       "beds": 3,
       "baths": 2.0,
       "sqft": 1510,
-      "asking_rent": 6683.0,
+      "asking_rent": 6681.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -939,7 +957,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "901",
@@ -947,7 +965,7 @@
       "beds": 3,
       "baths": 2.0,
       "sqft": 1510,
-      "asking_rent": 5908.0,
+      "asking_rent": 5906.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -957,7 +975,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Allure @ Harbor Point",
       "in_market": 1,
       "unit": "303",
@@ -975,7 +993,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1010",
@@ -993,7 +1011,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "213",
@@ -1011,7 +1029,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "509",
@@ -1029,7 +1047,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "1101",
@@ -1037,7 +1055,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1364,
-      "asking_rent": 4881.0,
+      "asking_rent": 4899.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1047,7 +1065,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "409",
@@ -1055,7 +1073,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1514,
-      "asking_rent": 5336.0,
+      "asking_rent": 5352.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1065,7 +1083,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "501",
@@ -1073,7 +1091,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1364,
-      "asking_rent": 5428.0,
+      "asking_rent": 5446.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1083,7 +1101,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "601",
@@ -1091,7 +1109,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1364,
-      "asking_rent": 4631.0,
+      "asking_rent": 4649.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1101,7 +1119,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "613",
@@ -1109,7 +1127,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1421,
-      "asking_rent": 5659.0,
+      "asking_rent": 5673.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1119,7 +1137,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "701",
@@ -1127,7 +1145,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1364,
-      "asking_rent": 4681.0,
+      "asking_rent": 4699.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1137,7 +1155,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "813",
@@ -1145,7 +1163,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1421,
-      "asking_rent": 7213.0,
+      "asking_rent": 7227.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1155,7 +1173,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "901",
@@ -1163,7 +1181,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1364,
-      "asking_rent": 4781.0,
+      "asking_rent": 4799.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1173,7 +1191,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Anthem @ Harbor Point",
       "in_market": 1,
       "unit": "914",
@@ -1181,7 +1199,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1328,
-      "asking_rent": 6124.0,
+      "asking_rent": 6141.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1425,25 +1443,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
-      "building": "Escape @ Harbor Point",
-      "in_market": 1,
-      "unit": "1155",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 817,
-      "asking_rent": 3044.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1407",
@@ -1451,7 +1451,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 820,
-      "asking_rent": 3331.0,
+      "asking_rent": 3317.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1461,25 +1461,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
-      "building": "Escape @ Harbor Point",
-      "in_market": 1,
-      "unit": "1556",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 746,
-      "asking_rent": 3545.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1806",
@@ -1487,7 +1469,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 746,
-      "asking_rent": 3610.0,
+      "asking_rent": 3597.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1497,7 +1479,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1960",
@@ -1505,7 +1487,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 763,
-      "asking_rent": 3610.0,
+      "asking_rent": 3597.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1515,7 +1497,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "2056",
@@ -1523,7 +1505,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 746,
-      "asking_rent": 3720.0,
+      "asking_rent": 3707.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1533,7 +1515,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "2108",
@@ -1541,7 +1523,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 701,
-      "asking_rent": 3635.0,
+      "asking_rent": 3621.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1551,7 +1533,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "2157",
@@ -1559,7 +1541,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 684,
-      "asking_rent": 2916.0,
+      "asking_rent": 2903.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1569,7 +1551,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "404",
@@ -1577,7 +1559,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 1156,
-      "asking_rent": 3919.0,
+      "asking_rent": 3904.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1587,7 +1569,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "554",
@@ -1595,7 +1577,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 792,
-      "asking_rent": 3157.0,
+      "asking_rent": 3144.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1605,7 +1587,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "608",
@@ -1613,7 +1595,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 701,
-      "asking_rent": 3020.0,
+      "asking_rent": 3006.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1623,7 +1605,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "654",
@@ -1631,7 +1613,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 792,
-      "asking_rent": 2972.0,
+      "asking_rent": 2959.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1641,7 +1623,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "857",
@@ -1649,7 +1631,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 820,
-      "asking_rent": 2979.0,
+      "asking_rent": 2965.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1659,7 +1641,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "906",
@@ -1667,7 +1649,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 746,
-      "asking_rent": 3330.0,
+      "asking_rent": 3317.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1677,7 +1659,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1062",
@@ -1685,7 +1667,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 6072.0,
+      "asking_rent": 6080.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1695,7 +1677,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "156",
@@ -1703,7 +1685,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1457,
-      "asking_rent": 4892.0,
+      "asking_rent": 4902.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1713,7 +1695,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1659",
@@ -1721,7 +1703,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1347,
-      "asking_rent": 5935.0,
+      "asking_rent": 5944.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1731,7 +1713,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1801",
@@ -1739,7 +1721,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1300,
-      "asking_rent": 5428.0,
+      "asking_rent": 5436.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1749,7 +1731,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "1901",
@@ -1757,7 +1739,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1300,
-      "asking_rent": 5208.0,
+      "asking_rent": 5216.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1767,7 +1749,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "2201",
@@ -1775,7 +1757,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1300,
-      "asking_rent": 5493.0,
+      "asking_rent": 5501.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1785,7 +1767,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "501",
@@ -1793,7 +1775,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1300,
-      "asking_rent": 5008.0,
+      "asking_rent": 5016.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1803,7 +1785,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "602",
@@ -1811,7 +1793,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 5255.0,
+      "asking_rent": 5263.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1821,7 +1803,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "702",
@@ -1829,7 +1811,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 5280.0,
+      "asking_rent": 5288.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -1839,7 +1821,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Escape @ Harbor Point",
       "in_market": 1,
       "unit": "902",
@@ -1847,7 +1829,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 5435.0,
+      "asking_rent": 5443.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2019,7 +2001,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "A1-1",
@@ -2037,7 +2019,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "A2-1",
@@ -2055,7 +2037,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "A5-1",
@@ -2073,7 +2055,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "A5-2",
@@ -2091,7 +2073,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "B1-1",
@@ -2109,7 +2091,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "B1-2",
@@ -2127,7 +2109,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "B10-1",
@@ -2145,7 +2127,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Infinity Harbor Point",
       "in_market": 1,
       "unit": "B2-1",
@@ -2163,7 +2145,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1357",
@@ -2171,7 +2153,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 896,
-      "asking_rent": 2923.0,
+      "asking_rent": 2917.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2181,7 +2163,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1510",
@@ -2189,7 +2171,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 759,
-      "asking_rent": 2953.0,
+      "asking_rent": 2947.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2199,7 +2181,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1610",
@@ -2207,7 +2189,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 759,
-      "asking_rent": 2813.0,
+      "asking_rent": 2807.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2217,7 +2199,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1662",
@@ -2225,7 +2207,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 896,
-      "asking_rent": 2993.0,
+      "asking_rent": 2987.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2235,7 +2217,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "253",
@@ -2243,7 +2225,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 759,
-      "asking_rent": 3128.0,
+      "asking_rent": 3122.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2253,7 +2235,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "317",
@@ -2261,17 +2243,17 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 1081,
-      "asking_rent": 3450.0,
+      "asking_rent": 3444.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
-      "available_date": "11/12/26",
+      "available_date": null,
       "data_flag": "",
       "conc_months": null,
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "354",
@@ -2279,7 +2261,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 759,
-      "asking_rent": 2888.0,
+      "asking_rent": 2882.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2289,7 +2271,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "420",
@@ -2297,7 +2279,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 759,
-      "asking_rent": 2982.0,
+      "asking_rent": 2976.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2307,25 +2289,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
-      "building": "NV @ Harbor Point",
-      "in_market": 1,
-      "unit": "651",
-      "unit_type": "1BR",
-      "beds": 1,
-      "baths": 1.0,
-      "sqft": 1146,
-      "asking_rent": 3294.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": "1/8/27",
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "721",
@@ -2333,7 +2297,7 @@
       "beds": 1,
       "baths": 1.0,
       "sqft": 812,
-      "asking_rent": 2878.0,
+      "asking_rent": 2872.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2343,7 +2307,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1052",
@@ -2351,7 +2315,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3830.0,
+      "asking_rent": 3817.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2361,7 +2325,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "106",
@@ -2369,7 +2333,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1310,
-      "asking_rent": 4169.0,
+      "asking_rent": 4154.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2379,7 +2343,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1061",
@@ -2387,7 +2351,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3755.0,
+      "asking_rent": 3742.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2397,7 +2361,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "107",
@@ -2405,7 +2369,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1310,
-      "asking_rent": 4169.0,
+      "asking_rent": 4154.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2415,7 +2379,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "115",
@@ -2423,7 +2387,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1310,
-      "asking_rent": 4119.0,
+      "asking_rent": 4104.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2433,7 +2397,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "116",
@@ -2441,7 +2405,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1310,
-      "asking_rent": 4119.0,
+      "asking_rent": 4104.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2451,7 +2415,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1261",
@@ -2459,7 +2423,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3795.0,
+      "asking_rent": 3782.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2469,7 +2433,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1361",
@@ -2477,7 +2441,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3815.0,
+      "asking_rent": 3802.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2487,7 +2451,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1458",
@@ -2495,7 +2459,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3559.0,
+      "asking_rent": 3546.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2505,25 +2469,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
-      "building": "NV @ Harbor Point",
-      "in_market": 1,
-      "unit": "1508",
-      "unit_type": "2BR",
-      "beds": 2,
-      "baths": 2.0,
-      "sqft": 1109,
-      "asking_rent": 3955.0,
-      "net_effective_rent": null,
-      "price_basis": "asking",
-      "concession_text": null,
-      "available_date": null,
-      "data_flag": "",
-      "conc_months": null,
-      "lease_months": null
-    },
-    {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "1552",
@@ -2531,7 +2477,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 4030.0,
+      "asking_rent": 4017.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2541,7 +2487,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "303",
@@ -2549,7 +2495,7 @@
       "beds": 2,
       "baths": 1.0,
       "sqft": 1055,
-      "asking_rent": 3603.0,
+      "asking_rent": 3590.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2559,7 +2505,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "NV @ Harbor Point",
       "in_market": 1,
       "unit": "305",
@@ -2567,7 +2513,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1109,
-      "asking_rent": 3690.0,
+      "asking_rent": 3677.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2577,7 +2523,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "107",
@@ -2595,7 +2541,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "223",
@@ -2613,7 +2559,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "321",
@@ -2631,7 +2577,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "331",
@@ -2649,7 +2595,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "1114",
@@ -2657,7 +2603,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1460,
-      "asking_rent": 7716.0,
+      "asking_rent": 7681.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2667,7 +2613,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "502",
@@ -2675,7 +2621,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 5140.0,
+      "asking_rent": 5107.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2685,7 +2631,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "514",
@@ -2693,7 +2639,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1460,
-      "asking_rent": 7018.0,
+      "asking_rent": 6983.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2703,7 +2649,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "801",
@@ -2711,7 +2657,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1300,
-      "asking_rent": 5377.0,
+      "asking_rent": 5345.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
@@ -2721,7 +2667,7 @@
       "lease_months": null
     },
     {
-      "snapshot_date": "2026-11-11",
+      "snapshot_date": "2026-11-12",
       "building": "Opus @ Harbor Point",
       "in_market": 1,
       "unit": "802",
@@ -2729,7 +2675,7 @@
       "beds": 2,
       "baths": 2.0,
       "sqft": 1136,
-      "asking_rent": 5515.0,
+      "asking_rent": 5482.0,
       "net_effective_rent": null,
       "price_basis": "asking",
       "concession_text": null,
