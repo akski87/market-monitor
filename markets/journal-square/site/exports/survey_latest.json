@@ -1,61 +1,61 @@
 {
-  "as_of": "2026-11-11",
-  "generated_at": "2026-11-11T18:59:38+00:00",
+  "as_of": "2026-11-12",
+  "generated_at": "2026-11-12T19:14:36+00:00",
   "survey": [
     {
       "unit_type": "Studio",
       "units_available": 62,
-      "asking_avg": 3150,
+      "asking_avg": 3147,
       "asking_min": 2200.0,
       "asking_max": 3656.0,
-      "net_eff_avg": 3049,
-      "avg_sqft": 479,
-      "asking_psf": 78.91,
-      "net_eff_psf": 76.38
+      "net_eff_avg": 3036,
+      "avg_sqft": 481,
+      "asking_psf": 78.51,
+      "net_eff_psf": 75.74
     },
     {
       "unit_type": "1BR",
-      "units_available": 116,
-      "asking_avg": 3558,
+      "units_available": 115,
+      "asking_avg": 3538,
       "asking_min": 2500.0,
       "asking_max": 4576.0,
-      "net_eff_avg": 3514,
-      "avg_sqft": 691,
-      "asking_psf": 61.79,
-      "net_eff_psf": 61.02
+      "net_eff_avg": 3501,
+      "avg_sqft": 690,
+      "asking_psf": 61.53,
+      "net_eff_psf": 60.89
     },
     {
       "unit_type": "2BR",
       "units_available": 45,
-      "asking_avg": 5005,
+      "asking_avg": 5015,
       "asking_min": 3175.0,
       "asking_max": 6896.0,
       "net_eff_avg": 5226,
       "avg_sqft": 1042,
-      "asking_psf": 57.64,
+      "asking_psf": 57.75,
       "net_eff_psf": 60.18
     },
     {
       "unit_type": "3BR",
       "units_available": 7,
-      "asking_avg": 5944,
+      "asking_avg": 5948,
       "asking_min": 3100.0,
       "asking_max": 7500.0,
       "net_eff_avg": 5961,
       "avg_sqft": 1304,
-      "asking_psf": 54.7,
+      "asking_psf": 54.74,
       "net_eff_psf": 54.86
     },
     {
       "unit_type": "All",
-      "units_available": 230,
-      "asking_avg": 3804,
+      "units_available": 229,
+      "asking_avg": 3796,
       "asking_min": 2200.0,
       "asking_max": 7500.0,
-      "net_eff_avg": 3710,
+      "net_eff_avg": 3695,
       "avg_sqft": 719,
-      "asking_psf": 63.49,
-      "net_eff_psf": 61.92
+      "asking_psf": 63.35,
+      "net_eff_psf": 61.67
     }
   ]
 }
