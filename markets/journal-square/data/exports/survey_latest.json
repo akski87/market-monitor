@@ -1,61 +1,61 @@
 {
-  "as_of": "2026-11-13",
-  "generated_at": "2026-11-13T18:52:51+00:00",
+  "as_of": "2026-11-14",
+  "generated_at": "2026-11-14T17:25:04+00:00",
   "survey": [
     {
       "unit_type": "Studio",
-      "units_available": 63,
-      "asking_avg": 3155,
+      "units_available": 62,
+      "asking_avg": 3151,
       "asking_min": 2200.0,
       "asking_max": 3656.0,
       "net_eff_avg": 3037,
-      "avg_sqft": 482,
-      "asking_psf": 78.55,
-      "net_eff_psf": 75.61
+      "avg_sqft": 481,
+      "asking_psf": 78.61,
+      "net_eff_psf": 75.77
     },
     {
       "unit_type": "1BR",
       "units_available": 115,
-      "asking_avg": 3538,
+      "asking_avg": 3539,
       "asking_min": 2500.0,
       "asking_max": 4576.0,
       "net_eff_avg": 3502,
-      "avg_sqft": 690,
-      "asking_psf": 61.53,
-      "net_eff_psf": 60.9
+      "avg_sqft": 689,
+      "asking_psf": 61.64,
+      "net_eff_psf": 60.99
     },
     {
       "unit_type": "2BR",
       "units_available": 46,
-      "asking_avg": 5008,
+      "asking_avg": 5019,
       "asking_min": 3175.0,
       "asking_max": 6896.0,
       "net_eff_avg": 5196,
-      "avg_sqft": 1040,
-      "asking_psf": 57.78,
-      "net_eff_psf": 59.95
+      "avg_sqft": 1043,
+      "asking_psf": 57.74,
+      "net_eff_psf": 59.78
     },
     {
       "unit_type": "3BR",
       "units_available": 7,
-      "asking_avg": 5951,
+      "asking_avg": 5954,
       "asking_min": 3100.0,
       "asking_max": 7500.0,
       "net_eff_avg": 5961,
       "avg_sqft": 1304,
-      "asking_psf": 54.76,
+      "asking_psf": 54.79,
       "net_eff_psf": 54.86
     },
     {
       "unit_type": "All",
-      "units_available": 231,
-      "asking_avg": 3800,
+      "units_available": 230,
+      "asking_avg": 3804,
       "asking_min": 2200.0,
       "asking_max": 7500.0,
       "net_eff_avg": 3698,
-      "avg_sqft": 720,
-      "asking_psf": 63.33,
-      "net_eff_psf": 61.63
+      "avg_sqft": 719,
+      "asking_psf": 63.49,
+      "net_eff_psf": 61.72
     }
   ]
 }

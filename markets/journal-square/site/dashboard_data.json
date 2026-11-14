@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T18:52:51+00:00",
-  "as_of": "2026-11-13",
+  "generated_at": "2026-11-14T17:25:04+00:00",
+  "as_of": "2026-11-14",
   "buildings": [
     {
       "id": "baldwin_134",
@@ -369,7 +369,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 9,
@@ -1161,6 +1161,11 @@
           "date": "2026-11-13",
           "n": 15,
           "ne": 3400
+        },
+        {
+          "date": "2026-11-14",
+          "n": 15,
+          "ne": 3400
         }
       ]
     },
@@ -1188,7 +1193,7 @@
       "concession_pct": 0.0556,
       "conc_derived_pct": 0.0557,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "2BR": {
           "count": 1,
@@ -1719,6 +1724,11 @@
           "date": "2026-11-13",
           "n": 1,
           "ne": 3933
+        },
+        {
+          "date": "2026-11-14",
+          "n": 1,
+          "ne": 3933
         }
       ]
     },
@@ -1746,7 +1756,7 @@
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 2,
@@ -2532,6 +2542,11 @@
           "date": "2026-11-13",
           "n": 2,
           "ne": 2580
+        },
+        {
+          "date": "2026-11-14",
+          "n": 2,
+          "ne": 2580
         }
       ]
     },
@@ -2559,7 +2574,7 @@
       "concession_pct": 0.1042,
       "conc_derived_pct": 0.0924,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 1,
@@ -3399,6 +3414,11 @@
           "date": "2026-11-13",
           "n": 10,
           "ne": 3924
+        },
+        {
+          "date": "2026-11-14",
+          "n": 10,
+          "ne": 3924
         }
       ]
     },
@@ -3903,7 +3923,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0835,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 7,
@@ -4730,6 +4750,11 @@
           "date": "2026-11-13",
           "n": 10,
           "ne": 3358
+        },
+        {
+          "date": "2026-11-14",
+          "n": 10,
+          "ne": 3358
         }
       ]
     },
@@ -4752,20 +4777,20 @@
       "method": "dom_read",
       "source_url": "https://www.urby.com/location/journal-square/availability",
       "portal_url": null,
-      "available_now": 15,
+      "available_now": 14,
       "concession_text": "Up to 2 Months Free! Available for immediate move-ins. Contact us to learn more!",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 7,
-          "asking_avg": 3269,
+          "asking_avg": 3285,
           "net_avg": null,
           "sqft_avg": null,
           "asking_min": 3175,
-          "asking_max": 3405,
+          "asking_max": 3485,
           "net_min": null,
           "net_max": null,
           "asking_psf": null,
@@ -4786,11 +4811,11 @@
           "psf_n": 0
         },
         "Studio": {
-          "count": 4,
-          "asking_avg": 3038,
+          "count": 3,
+          "asking_avg": 3048,
           "net_avg": null,
           "sqft_avg": null,
-          "asking_min": 3005,
+          "asking_min": 3025,
           "asking_max": 3075,
           "net_min": null,
           "net_max": null,
@@ -5584,6 +5609,11 @@
           "date": "2026-11-13",
           "n": 15,
           "ne": 3575
+        },
+        {
+          "date": "2026-11-14",
+          "n": 14,
+          "ne": 3624
         }
       ]
     },
@@ -5594,7 +5624,7 @@
       "address": "615 Pavonia Ave, Jersey City, NJ",
       "lat": 40.732315,
       "lng": -74.060474,
-      "phys_recorded": 252,
+      "phys_recorded": 253,
       "phys_modeled": false,
       "phys_lines": 0,
       "phys_plans": 0,
@@ -5611,57 +5641,57 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 15,
           "asking_avg": 3424,
           "net_avg": null,
-          "sqft_avg": 685,
-          "asking_min": 3065,
-          "asking_max": 3820,
+          "sqft_avg": 680,
+          "asking_min": 2985,
+          "asking_max": 3855,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 60.74,
+          "asking_psf": 60.97,
           "net_psf": null,
           "psf_n": 15
         },
         "2BR": {
           "count": 12,
-          "asking_avg": 4896,
+          "asking_avg": 4940,
           "net_avg": null,
-          "sqft_avg": 1010,
+          "sqft_avg": 1017,
           "asking_min": 4380,
           "asking_max": 5215,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 58.15,
+          "asking_psf": 58.29,
           "net_psf": null,
           "psf_n": 12
         },
         "3BR": {
           "count": 2,
-          "asking_avg": 6110,
+          "asking_avg": 6120,
           "net_avg": null,
           "sqft_avg": 1290,
           "asking_min": 5550,
-          "asking_max": 6670,
+          "asking_max": 6690,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 56.9,
+          "asking_psf": 56.98,
           "net_psf": null,
           "psf_n": 2
         },
         "Studio": {
           "count": 12,
-          "asking_avg": 2938,
+          "asking_avg": 2906,
           "net_avg": null,
-          "sqft_avg": 505,
-          "asking_min": 2760,
-          "asking_max": 3115,
+          "sqft_avg": 499,
+          "asking_min": 2750,
+          "asking_max": 3165,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 70.66,
+          "asking_psf": 70.75,
           "net_psf": null,
           "psf_n": 12
         }
@@ -6446,6 +6476,11 @@
           "date": "2026-11-13",
           "n": 41,
           "ne": 3844
+        },
+        {
+          "date": "2026-11-14",
+          "n": 41,
+          "ne": 3848
         }
       ]
     },
@@ -7548,7 +7583,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0832,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 10,
@@ -8388,6 +8423,11 @@
           "date": "2026-11-13",
           "n": 21,
           "ne": 3485
+        },
+        {
+          "date": "2026-11-14",
+          "n": 21,
+          "ne": 3485
         }
       ]
     },
@@ -8415,7 +8455,7 @@
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
       "submarket": null,
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-14",
       "by_type": {
         "1BR": {
           "count": 44,
@@ -9253,6 +9293,11 @@
         },
         {
           "date": "2026-11-13",
+          "n": 84,
+          "ne": 3789
+        },
+        {
+          "date": "2026-11-14",
           "n": 84,
           "ne": 3789
         }
@@ -13184,6 +13229,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3947.0,
       "all_net": 3698.0
+    },
+    {
+      "date": "2026-11-14",
+      "total_available": 198,
+      "by_type": {
+        "1BR": {
+          "asking": 3686.0,
+          "net": 3502.0
+        },
+        "2BR": {
+          "asking": 5254.0,
+          "net": 5196.0
+        },
+        "3BR": {
+          "asking": 6429.0,
+          "net": 5961.0
+        },
+        "Studio": {
+          "asking": 3223.0,
+          "net": 3037.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3953.0,
+      "all_net": 3698.0
     }
   ],
   "unit_mix": [
@@ -13397,8 +13467,8 @@
     },
     {
       "t": "2BR",
-      "n": 169,
-      "avg_sqft": 1024.0,
+      "n": 170,
+      "avg_sqft": 1025.0,
       "min_sqft": 805,
       "max_sqft": 1415
     },
@@ -13411,13 +13481,13 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-11-13T18:52:51+00:00",
+    "checked_at": "2026-11-14T17:25:04+00:00",
     "errors": [],
     "warnings": [
-      "134 Baldwin: no listings captured on 2026-11-13 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "55 Jordan: no listings captured on 2026-11-13 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "MetroVue: no listings captured on 2026-11-13 (last seen 2026-11-06) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Orchard: no listings captured on 2026-11-13 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "134 Baldwin: no listings captured on 2026-11-14 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "55 Jordan: no listings captured on 2026-11-14 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "MetroVue: no listings captured on 2026-11-14 (last seen 2026-11-06) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Orchard: no listings captured on 2026-11-14 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
