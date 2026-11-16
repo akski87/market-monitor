@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:02:44+00:00",
+  "generated_at": "2026-11-16T21:17:33+00:00",
   "buildings": [
     {
       "id": "beacon_hp",
@@ -437,6 +437,12 @@
           "beds": 1,
           "baths": 1.0,
           "sqft": 896
+        },
+        {
+          "unit": "1358",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1109
         },
         {
           "unit": "1361",
@@ -1109,6 +1115,12 @@
           "sqft": 902
         },
         {
+          "unit": "1308",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 701
+        },
+        {
           "unit": "1405",
           "beds": 1,
           "baths": 1.0,
@@ -1185,6 +1197,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1347
+        },
+        {
+          "unit": "1760",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 763
         },
         {
           "unit": "1801",
@@ -1659,6 +1677,12 @@
           "sqft": 805
         },
         {
+          "unit": "1858",
+          "beds": 1,
+          "baths": 1.0,
+          "sqft": 766
+        },
+        {
           "unit": "1904",
           "beds": 2,
           "baths": 2.0,
@@ -2009,6 +2033,12 @@
           "beds": 2,
           "baths": 2.0,
           "sqft": 1460
+        },
+        {
+          "unit": "1201",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1300
         },
         {
           "unit": "1210",
@@ -2536,6 +2566,12 @@
         },
         {
           "unit": "The Sargent-1",
+          "beds": 2,
+          "baths": 2.0,
+          "sqft": 1110
+        },
+        {
+          "unit": "The Sargent-2",
           "beds": 2,
           "baths": 2.0,
           "sqft": 1110
