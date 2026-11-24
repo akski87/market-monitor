@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T22:57:47+00:00",
-  "as_of": "2026-11-23",
+  "generated_at": "2026-11-24T21:34:04+00:00",
+  "as_of": "2026-11-24",
   "buildings": [
     {
       "id": "house_100",
@@ -1098,7 +1098,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 8,
@@ -1925,6 +1925,11 @@
           "date": "2026-11-23",
           "n": 13,
           "ne": 3481
+        },
+        {
+          "date": "2026-11-24",
+          "n": 13,
+          "ne": 3481
         }
       ]
     },
@@ -1952,7 +1957,7 @@
       "concession_pct": 0.0556,
       "conc_derived_pct": 0.0557,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "2BR": {
           "count": 1,
@@ -2533,6 +2538,11 @@
           "date": "2026-11-23",
           "n": 1,
           "ne": 3933
+        },
+        {
+          "date": "2026-11-24",
+          "n": 1,
+          "ne": 3933
         }
       ]
     },
@@ -2769,7 +2779,7 @@
       "concession_pct": 0.0769,
       "conc_derived_pct": 0.0769,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 3,
@@ -3626,6 +3636,11 @@
           "date": "2026-11-23",
           "n": 13,
           "ne": 2800
+        },
+        {
+          "date": "2026-11-24",
+          "n": 13,
+          "ne": 2800
         }
       ]
     },
@@ -3676,12 +3691,12 @@
       "method": "dom_read",
       "source_url": "https://www.505summit.com/availability",
       "portal_url": null,
-      "available_now": 17,
+      "available_now": 15,
       "concession_text": "*All rents reflect net effective pricing with 1.5 months free on a 16 month lease. Limited time offer.",
       "concession_pct": 0.1042,
       "conc_derived_pct": 0.0925,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 4,
@@ -3711,29 +3726,29 @@
         },
         "3BR": {
           "count": 1,
-          "asking_avg": 6236,
-          "net_avg": 5657,
+          "asking_avg": 6146,
+          "net_avg": 5575,
           "sqft_avg": 1413,
-          "asking_min": 6236,
-          "asking_max": 6236,
-          "net_min": 5657,
-          "net_max": 5657,
-          "asking_psf": 52.96,
-          "net_psf": 48.04,
+          "asking_min": 6146,
+          "asking_max": 6146,
+          "net_min": 5575,
+          "net_max": 5575,
+          "asking_psf": 52.2,
+          "net_psf": 47.35,
           "psf_n": 1
         },
         "Studio": {
-          "count": 5,
-          "asking_avg": 3317,
-          "net_avg": 3011,
-          "sqft_avg": 580,
-          "asking_min": 3221,
-          "asking_max": 3421,
-          "net_min": 2924,
-          "net_max": 3106,
-          "asking_psf": 68.78,
-          "net_psf": 62.44,
-          "psf_n": 5
+          "count": 3,
+          "asking_avg": 3314,
+          "net_avg": 3009,
+          "sqft_avg": 587,
+          "asking_min": 3251,
+          "asking_max": 3381,
+          "net_min": 2952,
+          "net_max": 3069,
+          "asking_psf": 67.94,
+          "net_psf": 61.68,
+          "psf_n": 3
         }
       },
       "history": [
@@ -4561,6 +4576,11 @@
           "date": "2026-11-23",
           "n": 17,
           "ne": 4160
+        },
+        {
+          "date": "2026-11-24",
+          "n": 15,
+          "ne": 4307
         }
       ]
     },
@@ -6645,7 +6665,7 @@
       "concession_pct": 0.0833,
       "conc_derived_pct": 0.0835,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -7512,6 +7532,11 @@
           "date": "2026-11-23",
           "n": 9,
           "ne": 3410
+        },
+        {
+          "date": "2026-11-24",
+          "n": 9,
+          "ne": 3410
         }
       ]
     },
@@ -7789,46 +7814,46 @@
       "method": "dom_read",
       "source_url": "https://www.urby.com/location/journal-square/availability",
       "portal_url": null,
-      "available_now": 14,
-      "concession_text": "Up to 2 Months Free! Available for immediate move-ins. Contact us to learn more!",
+      "available_now": 17,
+      "concession_text": "$2,745 */mo * Price includes concessions.",
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
-          "count": 7,
-          "asking_avg": 3277,
-          "net_avg": null,
+          "count": 9,
+          "asking_avg": 3294,
+          "net_avg": 2745,
           "sqft_avg": null,
-          "asking_min": 3180,
-          "asking_max": 3475,
-          "net_min": null,
-          "net_max": null,
+          "asking_min": 3135,
+          "asking_max": 3495,
+          "net_min": 2745,
+          "net_max": 2745,
           "asking_psf": null,
           "net_psf": null,
           "psf_n": 0
         },
         "2BR": {
           "count": 4,
-          "asking_avg": 4688,
-          "net_avg": null,
+          "asking_avg": 4435,
+          "net_avg": 4200,
           "sqft_avg": null,
           "asking_min": 4435,
-          "asking_max": 4938,
-          "net_min": null,
-          "net_max": null,
+          "asking_max": 4435,
+          "net_min": 4148,
+          "net_max": 4258,
           "asking_psf": null,
           "net_psf": null,
           "psf_n": 0
         },
         "Studio": {
-          "count": 3,
-          "asking_avg": 3068,
+          "count": 4,
+          "asking_avg": 2978,
           "net_avg": null,
           "sqft_avg": null,
-          "asking_min": 3035,
-          "asking_max": 3125,
+          "asking_min": 2945,
+          "asking_max": 2995,
           "net_min": null,
           "net_max": null,
           "asking_psf": null,
@@ -8661,6 +8686,11 @@
           "date": "2026-11-23",
           "n": 14,
           "ne": 3635
+        },
+        {
+          "date": "2026-11-24",
+          "n": 17,
+          "ne": 3382
         }
       ]
     },
@@ -8688,31 +8718,31 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 14,
-          "asking_avg": 3432,
+          "asking_avg": 3423,
           "net_avg": null,
           "sqft_avg": 662,
-          "asking_min": 3065,
+          "asking_min": 3055,
           "asking_max": 3815,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 62.73,
+          "asking_psf": 62.57,
           "net_psf": null,
           "psf_n": 14
         },
         "2BR": {
           "count": 12,
-          "asking_avg": 5029,
+          "asking_avg": 5032,
           "net_avg": null,
           "sqft_avg": 1036,
           "asking_min": 4785,
           "asking_max": 5245,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 58.24,
+          "asking_psf": 58.27,
           "net_psf": null,
           "psf_n": 12
         },
@@ -8731,14 +8761,14 @@
         },
         "Studio": {
           "count": 12,
-          "asking_avg": 2911,
+          "asking_avg": 2908,
           "net_avg": null,
           "sqft_avg": 516,
-          "asking_min": 2715,
-          "asking_max": 3145,
+          "asking_min": 2710,
+          "asking_max": 3155,
           "net_min": null,
           "net_max": null,
-          "asking_psf": 68.45,
+          "asking_psf": 68.36,
           "net_psf": null,
           "psf_n": 12
         }
@@ -9563,6 +9593,11 @@
           "date": "2026-11-23",
           "n": 40,
           "ne": 3892
+        },
+        {
+          "date": "2026-11-24",
+          "n": 40,
+          "ne": 3888
         }
       ]
     },
@@ -11535,7 +11570,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "west-side",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 6,
@@ -12202,6 +12237,11 @@
           "date": "2026-11-23",
           "n": 9,
           "ne": 2473
+        },
+        {
+          "date": "2026-11-24",
+          "n": 9,
+          "ne": 2473
         }
       ]
     },
@@ -12229,7 +12269,7 @@
       "concession_pct": null,
       "conc_derived_pct": null,
       "submarket": "west-side",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 7,
@@ -12894,6 +12934,11 @@
         },
         {
           "date": "2026-11-23",
+          "n": 15,
+          "ne": 2663
+        },
+        {
+          "date": "2026-11-24",
           "n": 15,
           "ne": 2663
         }
@@ -13988,12 +14033,12 @@
       "method": "dom_read",
       "source_url": "https://www.thegreyson.com/availability",
       "portal_url": null,
-      "available_now": 19,
+      "available_now": 17,
       "concession_text": "OFFERING UP TO 3 MONTHS FREE*",
       "concession_pct": 0.0909,
       "conc_derived_pct": 0.0909,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
           "count": 8,
@@ -14035,13 +14080,13 @@
           "psf_n": 0
         },
         "Studio": {
-          "count": 8,
-          "asking_avg": 3235,
-          "net_avg": 2941,
+          "count": 6,
+          "asking_avg": 3280,
+          "net_avg": 2982,
           "sqft_avg": null,
-          "asking_min": 3050,
+          "asking_min": 3150,
           "asking_max": 3425,
-          "net_min": 2773,
+          "net_min": 2864,
           "net_max": 3114,
           "asking_psf": null,
           "net_psf": null,
@@ -14873,6 +14918,11 @@
           "date": "2026-11-23",
           "n": 19,
           "ne": 3461
+        },
+        {
+          "date": "2026-11-24",
+          "n": 17,
+          "ne": 3537
         }
       ]
     },
@@ -15165,25 +15215,25 @@
       "method": "dom_read",
       "source_url": "https://www.journaljc.com/availability",
       "portal_url": null,
-      "available_now": 79,
+      "available_now": 76,
       "concession_text": "UP TO 2 MONTHS FREE*",
       "concession_pct": 0.1,
       "conc_derived_pct": 0.1001,
       "submarket": "journal-square",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "by_type": {
         "1BR": {
-          "count": 43,
-          "asking_avg": 4021,
-          "net_avg": 3619,
-          "sqft_avg": 714,
+          "count": 40,
+          "asking_avg": 4029,
+          "net_avg": 3626,
+          "sqft_avg": 713,
           "asking_min": 3616,
           "asking_max": 4576,
           "net_min": 3254,
           "net_max": 4118,
-          "asking_psf": 67.83,
-          "net_psf": 61.04,
-          "psf_n": 43
+          "asking_psf": 68.08,
+          "net_psf": 61.27,
+          "psf_n": 40
         },
         "2BR": {
           "count": 9,
@@ -16050,6 +16100,11 @@
           "date": "2026-11-23",
           "n": 79,
           "ne": 3734
+        },
+        {
+          "date": "2026-11-24",
+          "n": 76,
+          "ne": 3742
         }
       ]
     },
@@ -20746,6 +20801,31 @@
       "note": "Auto from daily ingest.",
       "all_asking": 3796.0,
       "all_net": 3641.0
+    },
+    {
+      "date": "2026-11-24",
+      "total_available": 225,
+      "by_type": {
+        "1BR": {
+          "asking": 3550.0,
+          "net": 3489.0
+        },
+        "2BR": {
+          "asking": 5153.0,
+          "net": 5026.0
+        },
+        "3BR": {
+          "asking": 6382.0,
+          "net": 5864.0
+        },
+        "Studio": {
+          "asking": 3049.0,
+          "net": 2940.0
+        }
+      },
+      "note": "Auto from daily ingest.",
+      "all_asking": 3786.0,
+      "all_net": 3664.0
     }
   ],
   "unit_mix": [
@@ -20973,34 +21053,34 @@
     }
   ],
   "data_quality": {
-    "checked_at": "2026-11-23T22:57:47+00:00",
+    "checked_at": "2026-11-24T21:34:04+00:00",
     "errors": [],
     "warnings": [
-      "Atlas: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "134 Baldwin: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Birch House: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Bisby: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "CityLine East: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "CityLine West: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "DVORA 175: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "829 Garfield: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "235 Grand: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Haus25: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Hazel: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "100 House: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "295J: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "55 Jordan: no listings captured on 2026-11-23 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "351 Marin: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "MetroVue: no listings captured on 2026-11-23 (last seen 2026-11-06) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Oliver on the Hudson: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "One Grove: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Orchard: no listings captured on 2026-11-23 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Radio Lofts: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "Sawyer: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Agnes: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Devan: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "The Enclave: no listings captured on 2026-11-23 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
-      "VYV North Tower: no listings captured on 2026-11-23 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
+      "Atlas: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "134 Baldwin: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Birch House: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Bisby: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "CityLine East: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "CityLine West: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "DVORA 175: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "829 Garfield: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "235 Grand: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Haus25: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Hazel: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "100 House: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "295J: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "55 Jordan: no listings captured on 2026-11-24 (last seen 2026-09-01) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "351 Marin: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "MetroVue: no listings captured on 2026-11-24 (last seen 2026-11-06) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Oliver on the Hudson: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "One Grove: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Orchard: no listings captured on 2026-11-24 (last seen 2026-07-24) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Radio Lofts: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "Sawyer: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Agnes: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Devan: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "The Enclave: no listings captured on 2026-11-24 (last seen 2026-08-17) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log).",
+      "VYV North Tower: no listings captured on 2026-11-24 (last seen 2026-08-18) \u2014 excluded from current averages; site may have been unreachable or empty (check the Actions log)."
     ],
     "quarantined_units": 0,
     "policy": "Units failing hard invariants (net > asking, implausible rents) are excluded from every average and listed as errors."
